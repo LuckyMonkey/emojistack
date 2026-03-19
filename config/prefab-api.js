@@ -2,7 +2,7 @@
   global.EmojiStackPrefabConfig = Object.assign(
     {
       endpoint:
-        "https://script.google.com/macros/s/AKfycby4-s-MgiYH_81BP6BxUCWnvnYSHVtR0XaCpMcY9JzQPdwouzwz_ACkJsTTTbiEot700A/exec",
+        "https://script.google.com/macros/s/AKfycbyZT5iLlvcM0p_t5_e7hUpsXPh3hjZzllEJ10azSF6h7735Ku2LWuDx3nJBXM6iWy4fBQ/exec",
       useRemoteOnly: true,
       cacheTtlMs: 1000 * 60 * 60 * 12,
       saveRetryDelayMs: 900,

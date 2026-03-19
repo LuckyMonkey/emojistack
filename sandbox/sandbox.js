@@ -61,9 +61,10 @@
     prefabName: ""
   };
 
-  let baseDefaults = loadJson(STORAGE_BASE_DEFAULTS, {});
-  let subDefaults = loadJson(STORAGE_SUB_DEFAULTS, {});
+  let baseDefaults = sanitizeDefaultMap(loadJson(STORAGE_BASE_DEFAULTS, {}));
+  let subDefaults = sanitizeDefaultMap(loadJson(STORAGE_SUB_DEFAULTS, {}));
   let catalogPrefabs = [];
+  let catalogLoaded = false;
   let state = { ...defaults };
   let source = "custom";
   let dragPointerId = null;
@@ -81,6 +82,38 @@
   function persistDefaults() {
     localStorage.setItem(STORAGE_BASE_DEFAULTS, JSON.stringify(baseDefaults));
     localStorage.setItem(STORAGE_SUB_DEFAULTS, JSON.stringify(subDefaults));
+  }
+
+  function sanitizeDefaultEntry(entry) {
+    if (!entry || typeof entry !== "object") {
+      return null;
+    }
+
+    if (!positionById[entry.position]) {
+      return null;
+    }
+
+    return {
+      position: entry.position,
+      x: Number.isFinite(Number(entry.x)) ? Number(entry.x) : positionById[entry.position].x,
+      y: Number.isFinite(Number(entry.y)) ? Number(entry.y) : positionById[entry.position].y,
+      unit: entry.unit === "em" ? "em" : "%",
+      sizeMode: SIZE_MAP[entry.sizeMode] ? entry.sizeMode : inferSizeMode(entry.subSize),
+      subSize: Number.isFinite(Number(entry.subSize)) ? Number(entry.subSize) : SIZE_MAP.medium,
+      opacity: Number.isFinite(Number(entry.opacity)) ? Number(entry.opacity) : 1,
+      rotate: typeof entry.rotate === "string" ? entry.rotate : "0deg"
+    };
+  }
+
+  function sanitizeDefaultMap(source) {
+    const output = {};
+    Object.entries(source || {}).forEach(([key, value]) => {
+      const sanitized = sanitizeDefaultEntry(value);
+      if (sanitized) {
+        output[key] = sanitized;
+      }
+    });
+    return output;
   }
 
   function titleize(value) {
@@ -118,11 +151,23 @@
   }
 
   function currentBaseDefault() {
-    return baseDefaults[state.base] || null;
+    const value = sanitizeDefaultEntry(baseDefaults[state.base]);
+    if (!value) {
+      delete baseDefaults[state.base];
+      return null;
+    }
+    baseDefaults[state.base] = value;
+    return value;
   }
 
   function currentSubDefault() {
-    return subDefaults[state.overlay] || null;
+    const value = sanitizeDefaultEntry(subDefaults[state.overlay]);
+    if (!value) {
+      delete subDefaults[state.overlay];
+      return null;
+    }
+    subDefaults[state.overlay] = value;
+    return value;
   }
 
   function applySavedDefault() {
@@ -293,7 +338,11 @@
 
     const placeholder = document.createElement("option");
     placeholder.value = "";
-    placeholder.textContent = items.length ? "Pick a prefab to edit" : "No prefabs found";
+    placeholder.textContent = items.length
+      ? "Pick a prefab to edit"
+      : catalogLoaded
+        ? "No prefabs found"
+        : "Loading prefabs...";
     placeholder.selected = source === "custom" || !state.prefabName;
     el.prefabJump.appendChild(placeholder);
 
@@ -415,10 +464,12 @@
   async function loadCatalog(options = {}) {
     if (!store) {
       catalogPrefabs = window.EmojiStack?.prefabs || [];
+      catalogLoaded = true;
       return;
     }
 
     catalogPrefabs = await store.loadPrefabs(options);
+    catalogLoaded = true;
   }
 
   async function savePrefab() {
