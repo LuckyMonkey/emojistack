@@ -114,6 +114,27 @@
     state.sizeMode = preset.sizeMode || inferSizeMode(preset.subSize);
   }
 
+  function ensureValidState() {
+    if (!emojiByAlias[state.base] && emojis[0]) {
+      state.base = emojis[0].alias;
+    }
+
+    if (!emojiByAlias[state.overlay]) {
+      const fallback = emojis.find((entry) => entry.alias !== state.base) || emojis[0];
+      if (fallback) {
+        state.overlay = fallback.alias;
+      }
+    }
+
+    if (!positionById[state.position]) {
+      state.position = "s-44";
+    }
+
+    if (!SIZE_MAP[state.sizeMode]) {
+      state.sizeMode = "medium";
+    }
+  }
+
   function currentDefinition() {
     const base = emojiByAlias[state.base];
     const overlay = emojiByAlias[state.overlay];
@@ -291,6 +312,7 @@
   }
 
   function redraw() {
+    ensureValidState();
     persist();
     syncRuntimeDefaults();
     syncUi();
@@ -467,7 +489,12 @@
 
   bind();
   syncRuntimeDefaults();
-  redraw();
+  const initialPrefab = starters.find((entry) => entry.name === defaults.prefabName);
+  if (initialPrefab) {
+    loadPrefab(initialPrefab, "starter", false);
+  } else {
+    redraw();
+  }
 
   function formatCoord(value, unit) {
     if ((unit || "em") === "%") {
