@@ -33,7 +33,7 @@ function testGeneratedFiles() {
   assert(aliasCss.includes('.e-strawberry { --es-token: "🍓"; }'), "Missing alias selector");
   assert((positionsCss.match(/\.s-/g) || []).length === 46, "Expected 46 position CSS rules");
   assert((prefabCss.match(/\.p-/g) || []).length >= 40, "Expected prefab CSS rules");
-  assert(/\.🍼🍓\s*\{/.test(prefabCss), "Missing pair shorthand selector");
+  assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");
 }
 
 function findPrefab(name) {

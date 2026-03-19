@@ -271,7 +271,7 @@ button {
   display: grid;
   place-items: center;
   gap: 10px;
-  min-height: 180px;
+  min-height: 260px;
   padding: 18px;
   border-radius: 22px;
   border: 1px solid var(--line);
@@ -280,7 +280,8 @@ button {
 
 .position-swatch i,
 .prefab-tile i {
-  font-size: 96px;
+  font-size: clamp(150px, 14vw, 220px);
+  --es-overlay-shadow: 0 0 0.08em rgb(255 255 255 / 0.95), 0 0 0.14em rgb(0 0 0 / 0.22);
 }
 
 .position-swatch strong,
