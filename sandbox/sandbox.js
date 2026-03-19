@@ -32,7 +32,6 @@
     base: document.getElementById("base-select"),
     overlay: document.getElementById("overlay-select"),
     positionNote: document.getElementById("position-note"),
-    sizeMode: document.getElementById("picker-mode-toggle"),
     positionGrid: document.getElementById("position-grid"),
     makeBaseDefault: document.getElementById("make-base-default"),
     makeSubDefault: document.getElementById("make-sub-default"),
@@ -46,7 +45,7 @@
     base: "bottle",
     overlay: "strawberry",
     position: "s-44",
-    sizeMode: "large",
+    sizeMode: "medium",
     prefabName: ""
   };
 
@@ -114,7 +113,6 @@
       return;
     }
     state.position = preset.position;
-    state.sizeMode = preset.sizeMode || inferSizeMode(preset.subSize);
   }
 
   function ensureValidState() {
@@ -142,12 +140,34 @@
     const base = emojiByAlias[state.base];
     const overlay = emojiByAlias[state.overlay];
     const position = positionById[state.position];
+    const prefab = selectedPrefab();
+
+    if (prefab) {
+      return {
+        name: prefab.name,
+        base,
+        overlay,
+        position,
+        x: typeof prefab.x === "number" ? prefab.x : position.x,
+        y: typeof prefab.y === "number" ? prefab.y : position.y,
+        unit: prefab.xUnit || prefab.unit || position.unit || "%",
+        subSize: prefab.subSize || SIZE_MAP[state.sizeMode],
+        rotate: prefab.rotate || "0deg",
+        opacity: prefab.opacity || 1
+      };
+    }
+
     return {
       name: sanitizeName(state.prefabName || `${state.base}-${state.overlay}`),
       base,
       overlay,
       position,
-      subSize: SIZE_MAP[state.sizeMode]
+      x: position.x,
+      y: position.y,
+      unit: position.unit || "%",
+      subSize: SIZE_MAP.medium,
+      rotate: "0deg",
+      opacity: 1
     };
   }
 
@@ -163,13 +183,13 @@
       positionLabel: def.position.label,
       baseEmoji: def.base.emoji,
       overlayEmoji: def.overlay.emoji,
-      x: def.position.x,
-      y: def.position.y,
-      unit: def.position.unit || "%",
-      sizeMode: state.sizeMode,
+      x: def.x,
+      y: def.y,
+      unit: def.unit,
+      sizeMode: inferSizeMode(def.subSize),
       subSize: def.subSize,
-      opacity: 1,
-      rotate: "0deg"
+      opacity: def.opacity,
+      rotate: def.rotate
     };
   }
 
@@ -193,7 +213,7 @@
 
     const base = emojiByAlias[state.base];
     const overlay = emojiByAlias[state.overlay];
-    return `es ${base.emoji}${overlay.emoji} es-${state.sizeMode.charAt(0)} ${state.position}`;
+    return `es ${base.emoji}${overlay.emoji} ${state.position}`;
   }
 
   function setStatus(text) {
@@ -289,6 +309,7 @@
   function setCustomState() {
     source = "custom";
     state.prefabName = "";
+    state.sizeMode = "medium";
   }
 
   function positionCellText(positionId) {
@@ -330,22 +351,22 @@
     icon.style.setProperty("--es-sub", JSON.stringify(def.overlay.emoji));
     icon.style.setProperty("--es-base-ox", `${def.base.ox || 0}em`);
     icon.style.setProperty("--es-base-oy", `${def.base.oy || 0}em`);
-    icon.style.setProperty("--es-x", formatCoord(def.position.x, def.position.unit));
-    icon.style.setProperty("--es-y", formatCoord(def.position.y, def.position.unit));
+    icon.style.setProperty("--es-x", formatCoord(def.x, def.unit));
+    icon.style.setProperty("--es-y", formatCoord(def.y, def.unit));
     icon.style.setProperty("--es-sub-size", `${def.subSize}`);
     icon.style.setProperty("--es-sub-ox", `${def.overlay.ox || 0}em`);
     icon.style.setProperty("--es-sub-oy", `${def.overlay.oy || 0}em`);
+    icon.style.setProperty("--es-rotate", def.rotate);
+    icon.style.setProperty("--es-opacity", `${def.opacity}`);
 
     const prefab = selectedPrefab();
     el.previewTitle.textContent = prefab ? `p-${prefab.name}` : `${def.base.label} + ${def.overlay.label}`;
     el.previewSubtitle.textContent = prefab
-      ? `${prefab.label || titleize(prefab.name)} · ${def.position.label} · ${titleize(state.sizeMode)}`
-      : `${def.position.label} · ${titleize(state.sizeMode)}`;
+      ? `${prefab.label || titleize(prefab.name)} · ${def.position.label}`
+      : `${def.position.label}`;
     el.positionNote.textContent = def.position.label;
-    el.previewHero.title = state.sizeMode === "large"
-      ? "Use the grid to place the top emoji"
-      : "Drag the top emoji to place it";
-    el.previewHero.classList.toggle("is-static", state.sizeMode === "large");
+    el.previewHero.title = "Drag the top emoji to place it";
+    el.previewHero.classList.remove("is-static");
   }
 
   function syncUi() {
@@ -354,14 +375,10 @@
     renderPrefabJump();
     renderGrid();
 
-    el.sizeMode.querySelectorAll("button").forEach((button) => {
-      button.classList.toggle("active", button.dataset.sizeMode === state.sizeMode);
-    });
-
     const baseDefault = currentBaseDefault();
     const subDefault = currentSubDefault();
-    el.baseDefaultNote.textContent = baseDefault ? `Base default: ${positionById[baseDefault.position].label} · ${titleize(baseDefault.sizeMode || inferSizeMode(baseDefault.subSize))}` : "No base default.";
-    el.subDefaultNote.textContent = subDefault ? `Sub default: ${positionById[subDefault.position].label} · ${titleize(subDefault.sizeMode || inferSizeMode(subDefault.subSize))}` : "No sub default.";
+    el.baseDefaultNote.textContent = baseDefault ? `Base default: ${positionById[baseDefault.position].label}` : "No base default.";
+    el.subDefaultNote.textContent = subDefault ? `Sub default: ${positionById[subDefault.position].label}` : "No sub default.";
     el.clearBaseDefault.disabled = !baseDefault;
     el.clearSubDefault.disabled = !subDefault;
     el.remove.disabled = source !== "local";
@@ -449,23 +466,12 @@
       if (!button || button.disabled) {
         return;
       }
+      setCustomState();
       state.position = button.dataset.position;
       redraw();
     });
 
-    el.sizeMode.addEventListener("click", (event) => {
-      const button = event.target.closest("button[data-size-mode]");
-      if (!button) {
-        return;
-      }
-      state.sizeMode = button.dataset.sizeMode;
-      redraw();
-    });
-
     el.previewHero.addEventListener("pointerdown", (event) => {
-      if (state.sizeMode === "large") {
-        return;
-      }
       const position = positionById[state.position];
       const rect = el.previewMain.getBoundingClientRect();
       const centerX = rect.left + rect.width / 2;
@@ -486,6 +492,7 @@
       }
       const next = nearestPosition(event.clientX, event.clientY);
       if (next.id !== state.position) {
+        setCustomState();
         state.position = next.id;
         redraw();
       }
