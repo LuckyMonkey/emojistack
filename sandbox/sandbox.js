@@ -333,8 +333,13 @@
   function setPreview() {
     const def = currentDefinition();
     const icon = elements.previewMain;
+    const maxByHeight = Math.max(160, Math.floor(window.innerHeight * 0.46));
+    const maxByWidth = window.innerWidth > 1220
+      ? Math.max(220, Math.floor(window.innerWidth * 0.28))
+      : Math.max(220, Math.floor(window.innerWidth * 0.62));
+    const appliedSize = Math.min(def.iconSize, maxByHeight, maxByWidth);
     icon.className = "es";
-    icon.style.fontSize = `${def.iconSize}px`;
+    icon.style.fontSize = `${appliedSize}px`;
     icon.style.setProperty("--es-base", JSON.stringify(def.base.emoji));
     icon.style.setProperty("--es-sub", JSON.stringify(def.overlay.emoji));
     icon.style.setProperty("--es-x", `${def.position.x}em`);
@@ -718,6 +723,8 @@
       dragPointerId = null;
       elements.previewHero.classList.remove("is-dragging");
     });
+
+    window.addEventListener("resize", redraw);
   }
 
   bindEvents();

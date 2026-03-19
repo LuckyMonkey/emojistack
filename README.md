@@ -4,6 +4,8 @@ Tiny CSS-first emoji stacking with literal emoji classes, safe aliases, and pref
 
 EmojiStack lets you render one emoji as a base, place another emoji on top of it, and control the overlay position with a small set of stack classes. The core renderer is CSS. The runtime stays small and focused on shorthand parsing and refresh hooks.
 
+Live demo: https://luckymonkey.github.io/emojistack/
+
 ## Why This Exists
 
 Sometimes the right icon is not a single icon. Sometimes it is a bottle with a strawberry on it, a laptop on fire, or a folder with a skull stamped onto it. EmojiStack exists for that very specific, slightly unreasonable, but actually useful case.
@@ -285,7 +287,9 @@ Generated outputs:
 
 ## Demo
 
-Open [`demo/index.html`](./demo/index.html) or run `npm run dev` and visit `/demo/`.
+Live demo: https://luckymonkey.github.io/emojistack/
+
+Local demo: open [`demo/index.html`](./demo/index.html) or run `npm run dev`.
 
 The demo includes:
 
