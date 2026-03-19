@@ -9,67 +9,90 @@
     <link rel="stylesheet" href="./sandbox.css">
   </head>
   <body>
-    <nav class="floating-nav" aria-label="Site">
-      <a class="ghost-link" href="../">Home</a>
-      <a class="ghost-link" href="../demo/">Demo</a>
-      <a class="ghost-link" href="../prefabs/">All Prefabs</a>
-      <a class="ghost-link" href="https://github.com/LuckyMonkey/emojistack" target="_blank" rel="noreferrer">GitHub</a>
-    </nav>
+    <a class="home-link" href="../" title="Return to home" aria-label="Return to home">⌂</a>
+
     <div class="shell">
-      <header class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">EmojiStack Sandbox</p>
-          <h1>Build a stack, tune the placement, and export the exact classes.</h1>
-          <p class="lede">
-            Pick a base emoji, pick a second emoji, click the placement board, and export literal
-            emoji classes, alias syntax, or a prefab class. The preview is oversized so you can tune
-            alignment visually instead of guessing.
-          </p>
-        </div>
-      </header>
-
       <main class="workspace">
-        <section class="panel controls-panel">
-          <div class="panel-head">
-            <h2>Builder</h2>
-            <button id="reset-button" class="quiet-button" type="button">Reset</button>
+        <section class="panel picker-panel">
+          <div class="picker-head">
+            <input id="prefab-search" type="search" placeholder="Search prefabs" title="Search starter and local prefabs">
+            <select id="prefab-jump" title="Pick a prefab to load"></select>
+            <button id="duplicate-prefab" class="quiet-button" type="button" title="Duplicate the current prefab">Duplicate</button>
+            <button id="save-prefab" type="button" title="Save this prefab locally">Save</button>
+            <button id="delete-prefab" class="quiet-button" type="button" title="Delete the current local prefab">Delete</button>
+            <button id="theme-toggle" class="quiet-button" type="button" title="Switch the preview backdrop">Backdrop</button>
+            <button id="reset-button" class="quiet-button" type="button" title="Reset the current editor state">Reset</button>
           </div>
+          <p id="status-line" class="status-line">Pick a prefab or build one.</p>
+        </section>
 
-          <div class="field">
-            <label>Output mode</label>
-            <div class="mode-toggle" id="mode-toggle">
-              <label><input type="radio" name="mode" value="cursed" checked> Literal</label>
-              <label><input type="radio" name="mode" value="alias"> Alias</label>
-              <label><input type="radio" name="mode" value="prefab"> Prefab</label>
+        <section class="panel preview-panel">
+          <div id="preview-stage" class="preview-stage preview-light">
+            <div id="preview-hero" class="preview-hero" title="Drag the top emoji to place it">
+              <i id="preview-main" class="es" title="Drag to place the top emoji"></i>
+              <div class="preview-caption">
+                <strong id="preview-title">Current stack</strong>
+                <span id="preview-subtitle">Drag to place.</span>
+              </div>
             </div>
           </div>
+        </section>
 
-          <div class="field two-up">
-            <div>
-              <label for="base-select">Base emoji</label>
+        <section class="panel controls-panel">
+          <div class="controls-grid">
+            <div class="field">
+              <label for="base-select">Base</label>
               <select id="base-select"></select>
             </div>
-            <div>
-              <label for="overlay-select">Second emoji</label>
+
+            <div class="field">
+              <label for="overlay-select">Top</label>
               <select id="overlay-select"></select>
             </div>
+
+            <div class="field">
+              <label>Output</label>
+              <div class="mode-toggle" id="mode-toggle">
+                <label title="Literal emoji classes"><input type="radio" name="mode" value="cursed" checked> Literal</label>
+                <label title="Alias classes"><input type="radio" name="mode" value="alias"> Alias</label>
+                <label title="Prefab class"><input type="radio" name="mode" value="prefab"> Prefab</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="label-row">
+                <label for="position-select">Placement</label>
+                <span id="position-note" class="chip">Direct center</span>
+              </div>
+              <select id="position-select"></select>
+            </div>
+
+            <div class="field">
+              <label>Grid</label>
+              <div class="picker-toggle" id="picker-mode-toggle">
+                <button type="button" data-picker-mode="direct" title="Direct overlay">1×1</button>
+                <button type="button" data-picker-mode="macro" title="3 by 3 grid">3×3</button>
+                <button type="button" data-picker-mode="micro" title="6 by 6 grid">6×6</button>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Stack size</label>
+              <div id="size-mode-note" class="chip">Direct overlay</div>
+            </div>
+
+            <div class="field">
+              <label for="icon-size">Preview size <span id="icon-size-value"></span></label>
+              <input id="icon-size" type="range" min="180" max="420" step="4" value="300">
+            </div>
+
+            <div class="field">
+              <label for="prefab-name">Prefab name</label>
+              <input id="prefab-name" type="text" placeholder="strawberry-milk-remix">
+            </div>
           </div>
 
           <div class="field">
-            <div class="label-row">
-              <label for="position-select">Placement class</label>
-              <span id="position-note" class="chip">Direct center</span>
-            </div>
-            <select id="position-select"></select>
-          </div>
-
-          <div class="field">
-            <label>Click-to-place board</label>
-            <div class="picker-toggle" id="picker-mode-toggle">
-              <button type="button" data-picker-mode="direct">1×1</button>
-              <button type="button" data-picker-mode="macro">3×3</button>
-              <button type="button" data-picker-mode="micro">6×6</button>
-            </div>
             <div class="picker-shell">
               <div id="position-direct" class="position-board"></div>
               <div id="position-macro" class="position-board"></div>
@@ -77,132 +100,69 @@
             </div>
           </div>
 
-          <div class="field two-up">
-            <div>
-              <label for="overlay-size">Overlay size <span id="overlay-size-value"></span></label>
-              <input id="overlay-size" type="range" min="0.26" max="0.92" step="0.01" value="0.5">
-            </div>
-            <div>
-              <label for="icon-size">Preview size <span id="icon-size-value"></span></label>
-              <input id="icon-size" type="range" min="180" max="420" step="4" value="300">
-            </div>
+          <div class="button-row compact-row">
+            <button id="make-base-default" type="button" title="Save this placement as the default for the base emoji">Default this base</button>
+            <button id="make-sub-default" type="button" title="Save this placement as the default for the sub emoji">Default this sub</button>
+            <button id="clear-base-default" class="quiet-button" type="button" title="Remove the saved base default">Clear base</button>
+            <button id="clear-sub-default" class="quiet-button" type="button" title="Remove the saved sub default">Clear sub</button>
           </div>
-
-          <div class="field">
-            <label for="prefab-name">Prefab name</label>
-            <input id="prefab-name" type="text" placeholder="strawberry-milk-remix">
-          </div>
-
-          <div class="button-row">
-            <button id="save-prefab" type="button">Save prefab locally</button>
-            <button id="duplicate-prefab" class="quiet-button" type="button">Duplicate current</button>
-            <button id="theme-toggle" class="quiet-button" type="button">Switch backdrop</button>
-          </div>
+          <div id="base-default-note" class="inline-note">No base default saved for this emoji.</div>
+          <div id="sub-default-note" class="inline-note">No sub default saved for this emoji.</div>
         </section>
 
-        <section class="panel preview-panel">
-          <div class="panel-head">
-            <h2>Giant preview</h2>
-            <p id="status-line" class="status-line">Pair shorthand active.</p>
-          </div>
-
-          <div id="preview-stage" class="preview-stage preview-light">
-            <div class="preview-hero">
-              <i id="preview-main" class="es"></i>
-              <div class="preview-caption">
-                <strong id="preview-title">Current stack</strong>
-                <span id="preview-subtitle">Large enough to spot bad alignment.</span>
-              </div>
-            </div>
-
-            <div class="compare-row">
-              <article class="compare-card" data-preview="cursed">
-                <span>Literal</span>
-                <i id="preview-cursed" class="es"></i>
-              </article>
-              <article class="compare-card" data-preview="alias">
-                <span>Alias</span>
-                <i id="preview-alias" class="es"></i>
-              </article>
-              <article class="compare-card" data-preview="prefab">
-                <span>Prefab</span>
-                <i id="preview-prefab" class="es"></i>
-              </article>
-            </div>
-          </div>
-
+        <section class="panel snippets-panel">
           <div class="snippet-grid">
             <article class="snippet-card">
               <div class="snippet-head">
                 <h3>Literal HTML</h3>
-                <button data-copy-target="cursed-html" type="button">Copy</button>
+                <button data-copy-target="cursed-html" type="button" title="Copy literal HTML">Copy</button>
               </div>
               <pre id="cursed-html"></pre>
             </article>
             <article class="snippet-card">
               <div class="snippet-head">
                 <h3>Alias HTML</h3>
-                <button data-copy-target="alias-html" type="button">Copy</button>
+                <button data-copy-target="alias-html" type="button" title="Copy alias HTML">Copy</button>
               </div>
               <pre id="alias-html"></pre>
             </article>
             <article class="snippet-card">
               <div class="snippet-head">
                 <h3>Prefab HTML</h3>
-                <button data-copy-target="prefab-html" type="button">Copy</button>
+                <button data-copy-target="prefab-html" type="button" title="Copy prefab HTML">Copy</button>
               </div>
               <pre id="prefab-html"></pre>
             </article>
             <article class="snippet-card">
               <div class="snippet-head">
                 <h3>Prefab CSS</h3>
-                <button data-copy-target="prefab-css" type="button">Copy</button>
+                <button data-copy-target="prefab-css" type="button" title="Copy prefab CSS">Copy</button>
               </div>
               <pre id="prefab-css"></pre>
             </article>
             <article class="snippet-card span-two">
               <div class="snippet-head">
                 <h3>Current prefab JSON</h3>
-                <button data-copy-target="prefab-json" type="button">Copy</button>
+                <button data-copy-target="prefab-json" type="button" title="Copy prefab JSON">Copy</button>
               </div>
               <pre id="prefab-json"></pre>
             </article>
           </div>
         </section>
 
-        <section class="panel prefab-panel">
-          <div class="panel-head">
-            <h2>Prefab library</h2>
-            <input id="prefab-filter" type="search" placeholder="Filter prefabs">
-          </div>
-
-          <div class="library-columns">
-            <div>
-              <h3>Starter prefabs</h3>
-              <div id="starter-prefabs" class="prefab-list"></div>
-            </div>
-            <div>
-              <h3>Local prefabs</h3>
-              <div id="local-prefabs" class="prefab-list"></div>
-            </div>
-          </div>
-        </section>
-
-        <section class="panel io-panel">
-          <div class="panel-head">
-            <h2>Import / export</h2>
-            <div class="button-row">
-              <button id="export-json" type="button">Export local JSON</button>
-              <button id="import-json" class="quiet-button" type="button">Import JSON</button>
-            </div>
+        <details class="panel io-panel">
+          <summary>Import / export</summary>
+          <div class="io-actions">
+            <button id="export-json" type="button">Export local JSON</button>
+            <button id="import-json" class="quiet-button" type="button">Import JSON</button>
           </div>
           <label class="sr-only" for="io-textarea">Prefab JSON</label>
-          <textarea id="io-textarea" rows="10" placeholder='[{"name":"my-stack","base":"bottle","overlay":"strawberry","position":"s-center","subSize":0.5}]'></textarea>
-        </section>
+          <textarea id="io-textarea" rows="10" placeholder='[{"name":"my-stack","base":"bottle","overlay":"strawberry","position":"s-center"}]'></textarea>
+        </details>
       </main>
     </div>
 
     <script src="../dist/emojistack.js"></script>
     <script src="./sandbox.js"></script>
   </body>
-  </html>
+</html>

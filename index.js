@@ -1,8 +1,15 @@
 (function () {
   const readmeContent = document.getElementById("readme-content");
   const showcaseRoot = document.getElementById("random-showcases");
+  const rouletteIcon = document.getElementById("roulette-icon");
+  const rouletteNote = document.getElementById("roulette-note");
+  const rouletteStage = document.getElementById("roulette-stage");
+  const rouletteCopy = document.getElementById("roulette-copy");
   const prefabs = (window.EmojiStack && window.EmojiStack.prefabs) || [];
   const tones = ["peach", "mint", "butter", "sky", "rose", "lavender"];
+  let rouletteTimer = null;
+  let rouletteActive = false;
+  let rouletteCurrent = null;
 
   function escapeHtml(value) {
     return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
@@ -10,12 +17,13 @@
 
   function renderReadme(md) {
     const lines = md.split(/\r?\n/);
-    const stopHeadings = new Set(["## Install", "## Development", "## File Structure"]);
+    const stopHeadings = new Set(["## Usage", "## Install", "## Development", "## File Structure"]);
     const chunks = [];
     let inList = false;
     let inCode = false;
     let codeLines = [];
     let paragraph = [];
+    let paragraphCount = 0;
 
     function closeList() {
       if (inList) {
@@ -36,6 +44,7 @@
       if (paragraph.length) {
         chunks.push(`<p>${escapeHtml(paragraph.join(" "))}</p>`);
         paragraph = [];
+        paragraphCount += 1;
       }
     }
 
@@ -73,6 +82,9 @@
       }
 
       if (line.startsWith("## ")) {
+        if (paragraphCount >= 3) {
+          break;
+        }
         closeParagraph();
         closeList();
         chunks.push(`<h3>${escapeHtml(line.slice(3))}</h3>`);
@@ -112,6 +124,62 @@
     return `<i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i>`;
   }
 
+  function prefabSnippet(prefab) {
+    return `<i class="es p-${prefab.name}"></i>`;
+  }
+
+  function pickRandomPrefab() {
+    return prefabs[Math.floor(Math.random() * prefabs.length)];
+  }
+
+  function renderRoulette(prefab) {
+    if (!prefab || !rouletteIcon) {
+      return;
+    }
+
+    rouletteCurrent = prefab;
+    rouletteIcon.className = `es p-${prefab.name}`;
+    rouletteIcon.title = prefab.label || prefab.name;
+    rouletteStage.title = `${prefab.label || prefab.name} · click to stop and copy`;
+    rouletteNote.textContent = rouletteActive
+      ? "Click the spinner to stop on one and copy it."
+      : "Copied. Click again to spin.";
+    rouletteCopy.textContent = prefabSnippet(prefab);
+    rouletteCopy.dataset.copy = prefabSnippet(prefab);
+    rouletteCopy.title = `${prefab.label || prefab.name} · click to copy`;
+
+    if (window.EmojiStack) {
+      window.EmojiStack.refresh(rouletteIcon);
+    }
+  }
+
+  function startRoulette() {
+    if (!rouletteIcon || !rouletteStage || prefabs.length === 0 || rouletteActive) {
+      return;
+    }
+
+    rouletteActive = true;
+    rouletteStage.classList.add("is-spinning");
+    rouletteTimer = window.setInterval(() => {
+      renderRoulette(pickRandomPrefab());
+    }, 120);
+  }
+
+  async function stopRouletteAndCopy() {
+    if (!rouletteActive) {
+      startRoulette();
+      return;
+    }
+
+    rouletteActive = false;
+    window.clearInterval(rouletteTimer);
+    rouletteTimer = null;
+    rouletteStage.classList.remove("is-spinning");
+    const selected = pickRandomPrefab();
+    renderRoulette(selected);
+    await copyText(prefabSnippet(selected), rouletteCopy);
+  }
+
   function renderShowcases() {
     if (!showcaseRoot) {
       return;
@@ -129,10 +197,8 @@
         `<article class="showcase-card" data-tone="${tone}">` +
         `<div class="showcase-inner">` +
         `<span class="showcase-kicker">${escapeHtml(prefab.category || "prefab")}</span>` +
-        `<h2 class="showcase-title">${escapeHtml(prefab.label || prefab.name)}</h2>` +
-        `<p class="showcase-note">${escapeHtml((prefab.positionLabel || prefab.position) + " placement with pair-token syntax.")}</p>` +
-        `<div class="showcase-icon"><i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i></div>` +
-        `<code class="showcase-code" data-copy="${snippet.replace(/"/g, "&quot;")}">${escapeHtml(snippet)}</code>` +
+        `<div class="showcase-icon"><i class="${prefab.baseEmoji}${prefab.overlayEmoji}" title="${escapeHtml(prefab.label || prefab.name)}"></i></div>` +
+        `<code class="showcase-code" title="Click to copy" data-copy="${snippet.replace(/"/g, "&quot;")}">${escapeHtml(snippet)}</code>` +
         `</div>` +
         `</article>`;
       showcaseRoot.appendChild(section);
@@ -158,11 +224,21 @@
 
   document.addEventListener("click", (event) => {
     const code = event.target.closest(".showcase-code[data-copy]");
-    if (!code) {
+    const rouletteCode = event.target.closest(".roulette-copy[data-copy]");
+
+    if (code) {
+      copyText(code.dataset.copy, code);
       return;
     }
-    copyText(code.dataset.copy, code);
+
+    if (rouletteCode) {
+      copyText(rouletteCode.dataset.copy, rouletteCode);
+    }
   });
+
+  if (rouletteStage) {
+    rouletteStage.addEventListener("click", stopRouletteAndCopy);
+  }
 
   fetch("./README.md")
     .then((response) => response.text())
@@ -172,4 +248,8 @@
     });
 
   renderShowcases();
+  if (prefabs.length) {
+    renderRoulette(prefabs[0]);
+    startRoulette();
+  }
 })();

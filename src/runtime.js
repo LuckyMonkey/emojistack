@@ -1,6 +1,7 @@
 (function (global) {
   const data = global.EmojiStackData || { emojis: [], aliasToEmoji: {} };
   const prefabs = global.EmojiStackPrefabs || [];
+  const emojiToAlias = Object.fromEntries((data.emojis || []).map((entry) => [entry.emoji, entry.alias]));
   const literalEmojiList = (data.emojis || [])
     .map((entry) => entry.emoji)
     .sort((left, right) => right.length - left.length);
@@ -8,6 +9,8 @@
     prefabs.map((prefab) => [`${prefab.baseEmoji}${prefab.overlayEmoji}`, prefab])
   );
   const AUTO_PREFAB_KEYS = ["--es-x", "--es-y", "--es-sub-size", "--es-opacity", "--es-rotate"];
+  const baseDefaults = global.EmojiStackBaseDefaults || {};
+  const subDefaults = global.EmojiStackSubDefaults || {};
 
   function getClassTokens(node) {
     const value = node.getAttribute("class") || "";
@@ -75,6 +78,37 @@
     node.dataset.esAutoPrefab = "1";
   }
 
+  function applyBaseDefault(node, baseEmoji) {
+    const alias = emojiToAlias[baseEmoji];
+    const preset = alias ? baseDefaults[alias] : null;
+    if (!preset) {
+      return;
+    }
+
+    node.style.setProperty("--es-x", `${preset.x}em`);
+    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-sub-size", `${preset.subSize}`);
+    node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
+    node.style.setProperty("--es-rotate", preset.rotate || "0deg");
+    node.dataset.esAutoPrefab = "1";
+  }
+
+  function applySubDefault(node, subEmoji) {
+    const alias = emojiToAlias[subEmoji];
+    const preset = alias ? subDefaults[alias] : null;
+    if (!preset) {
+      return false;
+    }
+
+    node.style.setProperty("--es-x", `${preset.x}em`);
+    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-sub-size", `${preset.subSize}`);
+    node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
+    node.style.setProperty("--es-rotate", preset.rotate || "0deg");
+    node.dataset.esAutoPrefab = "1";
+    return true;
+  }
+
   function apply(node) {
     if (!node || !node.classList || !node.classList.contains("es")) {
       return;
@@ -127,6 +161,15 @@
 
     if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && pairKey && prefabByPair.has(pairKey)) {
       applyAutoPrefab(node, prefabByPair.get(pairKey));
+      return;
+    }
+
+    if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && sub && applySubDefault(node, sub)) {
+      return;
+    }
+
+    if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && base) {
+      applyBaseDefault(node, base);
     }
   }
 
@@ -162,6 +205,18 @@
   api.refresh = refresh;
   api.resolveToken = resolveToken;
   api.resolvePairToken = resolvePairToken;
+  api.baseDefaults = baseDefaults;
+  api.subDefaults = subDefaults;
+  api.setBaseDefaults = function setBaseDefaults(nextDefaults) {
+    Object.keys(baseDefaults).forEach((key) => delete baseDefaults[key]);
+    Object.assign(baseDefaults, nextDefaults || {});
+    return api;
+  };
+  api.setSubDefaults = function setSubDefaults(nextDefaults) {
+    Object.keys(subDefaults).forEach((key) => delete subDefaults[key]);
+    Object.assign(subDefaults, nextDefaults || {});
+    return api;
+  };
   api.data = data;
   api.emojis = data.emojis || [];
   api.prefabs = prefabs;

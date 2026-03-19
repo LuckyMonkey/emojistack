@@ -9,23 +9,31 @@
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <nav class="floating-nav" aria-label="Site">
-      <a href="./demo/">Demo</a>
-      <a href="./sandbox/">Sandbox</a>
-      <a href="./prefabs/">All Prefabs</a>
-      <a href="https://github.com/LuckyMonkey/emojistack" target="_blank" rel="noreferrer">GitHub</a>
-    </nav>
     <main class="page">
       <section class="snap-section intro-section">
-        <header class="topbar">
-          <p class="brand">EmojiStack</p>
-        </header>
+        <div class="intro-grid">
+          <article class="readme-panel">
+            <h1>Layer emoji into usable little icons.</h1>
+            <div id="readme-content" class="readme-content"></div>
+          </article>
 
-        <article class="readme-panel">
-          <p class="eyebrow">Overview</p>
-          <h1>EmojiStack is a tiny CSS-first library for layered emoji icons.</h1>
-          <div id="readme-content" class="readme-content"></div>
-        </article>
+          <aside class="roulette-panel">
+            <div id="roulette-stage" class="roulette-stage" title="Click to stop and copy">
+              <i id="roulette-icon" class="es p-strawberry-milk" title="Click to stop and copy"></i>
+            </div>
+            <div class="roulette-meta">
+              <span id="roulette-note">Click the spinner to stop on one and copy it.</span>
+            </div>
+            <div class="snippet-block">
+              <code id="roulette-copy" class="roulette-copy" title="Click to copy" data-copy="&lt;i class=&quot;es p-strawberry-milk&quot;&gt;&lt;/i&gt;">&lt;i class="es p-strawberry-milk"&gt;&lt;/i&gt;</code>
+            </div>
+            <div class="cta-row">
+              <a class="cta-button" href="./sandbox/">Go to Sandbox</a>
+              <a class="cta-button" href="./prefabs/">Go to Prefabs</a>
+              <a class="cta-button" href="https://github.com/LuckyMonkey/emojistack" target="_blank" rel="noreferrer">Go to GitHub</a>
+            </div>
+          </aside>
+        </div>
       </section>
 
       <div id="random-showcases"></div>

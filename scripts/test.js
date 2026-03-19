@@ -31,7 +31,9 @@ function testGeneratedFiles() {
 
   assert(literalCss.includes('.🍓 { --es-token: "🍓"; }'), "Missing literal emoji selector");
   assert(aliasCss.includes('.e-strawberry { --es-token: "🍓"; }'), "Missing alias selector");
-  assert((positionsCss.match(/\.s-/g) || []).length === 46, "Expected 46 position CSS rules");
+  positions.forEach((entry) => {
+    assert(positionsCss.includes(`.${entry.id}`), `Missing position selector ${entry.id}`);
+  });
   assert((prefabCss.match(/\.p-/g) || []).length >= 40, "Expected prefab CSS rules");
   assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");
 }

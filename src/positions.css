@@ -1,5 +1,53 @@
 /* direct center */
-.s-center { --es-x: 0em; --es-y: 0em; }
+.s-center { --es-x: 0em; --es-y: 0em; --es-sub-size: 0.92; }
+
+/* size tiers */
+.s-tl,
+.s-tc,
+.s-tr,
+.s-ml,
+.s-mc,
+.s-mr,
+.s-bl,
+.s-bc,
+.s-br { --es-sub-size: 0.58; }
+
+.s-tl-nw,
+.s-tl-ne,
+.s-tl-sw,
+.s-tl-se,
+.s-tc-nw,
+.s-tc-ne,
+.s-tc-sw,
+.s-tc-se,
+.s-tr-nw,
+.s-tr-ne,
+.s-tr-sw,
+.s-tr-se,
+.s-ml-nw,
+.s-ml-ne,
+.s-ml-sw,
+.s-ml-se,
+.s-mc-nw,
+.s-mc-ne,
+.s-mc-sw,
+.s-mc-se,
+.s-mr-nw,
+.s-mr-ne,
+.s-mr-sw,
+.s-mr-se,
+.s-bl-nw,
+.s-bl-ne,
+.s-bl-sw,
+.s-bl-se,
+.s-bc-nw,
+.s-bc-ne,
+.s-bc-sw,
+.s-bc-se,
+.s-br-nw,
+.s-br-ne,
+.s-br-sw,
+.s-br-se { --es-sub-size: 0.36; }
 
 /* macro grid */
 .s-tl { --es-x: -0.34em; --es-y: -0.34em; }

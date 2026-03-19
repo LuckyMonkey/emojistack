@@ -6,13 +6,17 @@
     "emoji": "🍓",
     "alias": "strawberry",
     "label": "Strawberry",
-    "category": "fruit"
+    "category": "fruit",
+    "ox": -0.01,
+    "oy": 0.01
   },
   {
     "emoji": "🍼",
     "alias": "bottle",
     "label": "Baby Bottle",
-    "category": "drinks"
+    "category": "drinks",
+    "ox": -0.03,
+    "oy": 0.03
   },
   {
     "emoji": "🥛",
@@ -24,31 +28,41 @@
     "emoji": "☕",
     "alias": "coffee",
     "label": "Hot Coffee",
-    "category": "drinks"
+    "category": "drinks",
+    "ox": -0.01,
+    "oy": 0.03
   },
   {
     "emoji": "💀",
     "alias": "skull",
     "label": "Skull",
-    "category": "cursed"
+    "category": "cursed",
+    "ox": 0,
+    "oy": -0.01
   },
   {
     "emoji": "🔥",
     "alias": "fire",
     "label": "Fire",
-    "category": "symbols"
+    "category": "symbols",
+    "ox": 0,
+    "oy": -0.03
   },
   {
     "emoji": "💻",
     "alias": "laptop",
     "label": "Laptop",
-    "category": "tech"
+    "category": "tech",
+    "ox": 0,
+    "oy": 0.03
   },
   {
     "emoji": "📦",
     "alias": "box",
     "label": "Package Box",
-    "category": "storage"
+    "category": "storage",
+    "ox": 0,
+    "oy": 0.03
   },
   {
     "emoji": "🍝",
@@ -66,13 +80,17 @@
     "emoji": "😇",
     "alias": "angel",
     "label": "Smiling Face with Halo",
-    "category": "creatures"
+    "category": "creatures",
+    "ox": 0,
+    "oy": -0.05
   },
   {
     "emoji": "🐱",
     "alias": "cat",
     "label": "Cat Face",
-    "category": "creatures"
+    "category": "creatures",
+    "ox": 0,
+    "oy": 0.01
   },
   {
     "emoji": "🧠",
@@ -102,7 +120,9 @@
     "emoji": "☣️",
     "alias": "biohazard",
     "label": "Biohazard",
-    "category": "symbols"
+    "category": "symbols",
+    "ox": -0.01,
+    "oy": 0.01
   },
   {
     "emoji": "🧴",
@@ -120,31 +140,41 @@
     "emoji": "🫙",
     "alias": "jar",
     "label": "Jar",
-    "category": "containers"
+    "category": "containers",
+    "ox": 0,
+    "oy": 0.03
   },
   {
     "emoji": "📁",
     "alias": "folder",
     "label": "File Folder",
-    "category": "office"
+    "category": "office",
+    "ox": 0.01,
+    "oy": 0.03
   },
   {
     "emoji": "💾",
     "alias": "floppy-disk",
     "label": "Floppy Disk",
-    "category": "tech"
+    "category": "tech",
+    "ox": 0,
+    "oy": 0.02
   },
   {
     "emoji": "🔌",
     "alias": "plug",
     "label": "Electric Plug",
-    "category": "tech"
+    "category": "tech",
+    "ox": 0.02,
+    "oy": 0.01
   },
   {
     "emoji": "📱",
     "alias": "phone",
     "label": "Mobile Phone",
-    "category": "tech"
+    "category": "tech",
+    "ox": 0,
+    "oy": 0.03
   },
   {
     "emoji": "🧪",
@@ -228,13 +258,17 @@
     "emoji": "⚠️",
     "alias": "warning",
     "label": "Warning",
-    "category": "symbols"
+    "category": "symbols",
+    "ox": 0,
+    "oy": -0.01
   },
   {
     "emoji": "✨",
     "alias": "sparkles",
     "label": "Sparkles",
-    "category": "symbols"
+    "category": "symbols",
+    "ox": -0.02,
+    "oy": -0.03
   },
   {
     "emoji": "💣",
@@ -276,7 +310,9 @@
     "emoji": "👑",
     "alias": "crown",
     "label": "Crown",
-    "category": "objects"
+    "category": "objects",
+    "ox": 0,
+    "oy": -0.04
   },
   {
     "emoji": "🔒",
@@ -294,7 +330,9 @@
     "emoji": "📷",
     "alias": "camera",
     "label": "Camera",
-    "category": "tech"
+    "category": "tech",
+    "ox": 0,
+    "oy": 0.03
   },
   {
     "emoji": "🎧",
@@ -312,7 +350,9 @@
     "emoji": "🗃️",
     "alias": "card-box",
     "label": "Card File Box",
-    "category": "storage"
+    "category": "storage",
+    "ox": 0.01,
+    "oy": 0.04
   },
   {
     "emoji": "🪫",
@@ -378,7 +418,9 @@
     "emoji": "📺",
     "alias": "tv",
     "label": "Television",
-    "category": "tech"
+    "category": "tech",
+    "ox": 0,
+    "oy": 0.03
   },
   {
     "emoji": "🖨️",
@@ -402,13 +444,17 @@
     "emoji": "👻",
     "alias": "ghost",
     "label": "Ghost",
-    "category": "cursed"
+    "category": "cursed",
+    "ox": 0,
+    "oy": 0.01
   },
   {
     "emoji": "📂",
     "alias": "folder-open",
     "label": "Open Folder",
-    "category": "office"
+    "category": "office",
+    "ox": 0.01,
+    "oy": 0.03
   },
   {
     "emoji": "🧾",
@@ -438,7 +484,9 @@
     "emoji": "🔑",
     "alias": "key",
     "label": "Key",
-    "category": "objects"
+    "category": "objects",
+    "ox": 0.03,
+    "oy": 0.01
   },
   {
     "emoji": "🛡️",
@@ -650,28 +698,28 @@
   {
     "id": "s-tl",
     "label": "Top Left",
-    "x": -0.34,
-    "y": -0.34,
+    "x": -0.4,
+    "y": -0.4,
     "kind": "macro"
   },
   {
     "id": "s-tc",
     "label": "Top Center",
     "x": 0,
-    "y": -0.34,
+    "y": -0.4,
     "kind": "macro"
   },
   {
     "id": "s-tr",
     "label": "Top Right",
-    "x": 0.34,
-    "y": -0.34,
+    "x": 0.4,
+    "y": -0.4,
     "kind": "macro"
   },
   {
     "id": "s-ml",
     "label": "Middle Left",
-    "x": -0.34,
+    "x": -0.4,
     "y": 0,
     "kind": "macro"
   },
@@ -685,281 +733,281 @@
   {
     "id": "s-mr",
     "label": "Middle Right",
-    "x": 0.34,
+    "x": 0.4,
     "y": 0,
     "kind": "macro"
   },
   {
     "id": "s-bl",
     "label": "Bottom Left",
-    "x": -0.34,
-    "y": 0.34,
+    "x": -0.4,
+    "y": 0.4,
     "kind": "macro"
   },
   {
     "id": "s-bc",
     "label": "Bottom Center",
     "x": 0,
-    "y": 0.34,
+    "y": 0.4,
     "kind": "macro"
   },
   {
     "id": "s-br",
     "label": "Bottom Right",
-    "x": 0.34,
-    "y": 0.34,
+    "x": 0.4,
+    "y": 0.4,
     "kind": "macro"
   },
   {
     "id": "s-tl-nw",
     "label": "Top Left NW",
-    "x": -0.45,
-    "y": -0.45,
+    "x": -0.56,
+    "y": -0.56,
     "kind": "micro"
   },
   {
     "id": "s-tl-ne",
     "label": "Top Left NE",
-    "x": -0.23,
-    "y": -0.45,
+    "x": -0.24,
+    "y": -0.56,
     "kind": "micro"
   },
   {
     "id": "s-tl-sw",
     "label": "Top Left SW",
-    "x": -0.45,
-    "y": -0.23,
+    "x": -0.56,
+    "y": -0.24,
     "kind": "micro"
   },
   {
     "id": "s-tl-se",
     "label": "Top Left SE",
-    "x": -0.23,
-    "y": -0.23,
+    "x": -0.24,
+    "y": -0.24,
     "kind": "micro"
   },
   {
     "id": "s-tc-nw",
     "label": "Top Center NW",
-    "x": -0.11,
-    "y": -0.45,
+    "x": -0.16,
+    "y": -0.56,
     "kind": "micro"
   },
   {
     "id": "s-tc-ne",
     "label": "Top Center NE",
-    "x": 0.11,
-    "y": -0.45,
+    "x": 0.16,
+    "y": -0.56,
     "kind": "micro"
   },
   {
     "id": "s-tc-sw",
     "label": "Top Center SW",
-    "x": -0.11,
-    "y": -0.23,
+    "x": -0.16,
+    "y": -0.24,
     "kind": "micro"
   },
   {
     "id": "s-tc-se",
     "label": "Top Center SE",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "kind": "micro"
   },
   {
     "id": "s-tr-nw",
     "label": "Top Right NW",
-    "x": 0.23,
-    "y": -0.45,
+    "x": 0.24,
+    "y": -0.56,
     "kind": "micro"
   },
   {
     "id": "s-tr-ne",
     "label": "Top Right NE",
-    "x": 0.45,
-    "y": -0.45,
+    "x": 0.56,
+    "y": -0.56,
     "kind": "micro"
   },
   {
     "id": "s-tr-sw",
     "label": "Top Right SW",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "kind": "micro"
   },
   {
     "id": "s-tr-se",
     "label": "Top Right SE",
-    "x": 0.45,
-    "y": -0.23,
+    "x": 0.56,
+    "y": -0.24,
     "kind": "micro"
   },
   {
     "id": "s-ml-nw",
     "label": "Middle Left NW",
-    "x": -0.45,
-    "y": -0.11,
+    "x": -0.56,
+    "y": -0.16,
     "kind": "micro"
   },
   {
     "id": "s-ml-ne",
     "label": "Middle Left NE",
-    "x": -0.23,
-    "y": -0.11,
+    "x": -0.24,
+    "y": -0.16,
     "kind": "micro"
   },
   {
     "id": "s-ml-sw",
     "label": "Middle Left SW",
-    "x": -0.45,
-    "y": 0.11,
+    "x": -0.56,
+    "y": 0.16,
     "kind": "micro"
   },
   {
     "id": "s-ml-se",
     "label": "Middle Left SE",
-    "x": -0.23,
-    "y": 0.11,
+    "x": -0.24,
+    "y": 0.16,
     "kind": "micro"
   },
   {
     "id": "s-mc-nw",
     "label": "Middle Center NW",
-    "x": -0.11,
-    "y": -0.11,
+    "x": -0.16,
+    "y": -0.16,
     "kind": "micro"
   },
   {
     "id": "s-mc-ne",
     "label": "Middle Center NE",
-    "x": 0.11,
-    "y": -0.11,
+    "x": 0.16,
+    "y": -0.16,
     "kind": "micro"
   },
   {
     "id": "s-mc-sw",
     "label": "Middle Center SW",
-    "x": -0.11,
-    "y": 0.11,
+    "x": -0.16,
+    "y": 0.16,
     "kind": "micro"
   },
   {
     "id": "s-mc-se",
     "label": "Middle Center SE",
-    "x": 0.11,
-    "y": 0.11,
+    "x": 0.16,
+    "y": 0.16,
     "kind": "micro"
   },
   {
     "id": "s-mr-nw",
     "label": "Middle Right NW",
-    "x": 0.23,
-    "y": -0.11,
+    "x": 0.24,
+    "y": -0.16,
     "kind": "micro"
   },
   {
     "id": "s-mr-ne",
     "label": "Middle Right NE",
-    "x": 0.45,
-    "y": -0.11,
+    "x": 0.56,
+    "y": -0.16,
     "kind": "micro"
   },
   {
     "id": "s-mr-sw",
     "label": "Middle Right SW",
-    "x": 0.23,
-    "y": 0.11,
+    "x": 0.24,
+    "y": 0.16,
     "kind": "micro"
   },
   {
     "id": "s-mr-se",
     "label": "Middle Right SE",
-    "x": 0.45,
-    "y": 0.11,
+    "x": 0.56,
+    "y": 0.16,
     "kind": "micro"
   },
   {
     "id": "s-bl-nw",
     "label": "Bottom Left NW",
-    "x": -0.45,
-    "y": 0.23,
+    "x": -0.56,
+    "y": 0.24,
     "kind": "micro"
   },
   {
     "id": "s-bl-ne",
     "label": "Bottom Left NE",
-    "x": -0.23,
-    "y": 0.23,
+    "x": -0.24,
+    "y": 0.24,
     "kind": "micro"
   },
   {
     "id": "s-bl-sw",
     "label": "Bottom Left SW",
-    "x": -0.45,
-    "y": 0.45,
+    "x": -0.56,
+    "y": 0.56,
     "kind": "micro"
   },
   {
     "id": "s-bl-se",
     "label": "Bottom Left SE",
-    "x": -0.23,
-    "y": 0.45,
+    "x": -0.24,
+    "y": 0.56,
     "kind": "micro"
   },
   {
     "id": "s-bc-nw",
     "label": "Bottom Center NW",
-    "x": -0.11,
-    "y": 0.23,
+    "x": -0.16,
+    "y": 0.24,
     "kind": "micro"
   },
   {
     "id": "s-bc-ne",
     "label": "Bottom Center NE",
-    "x": 0.11,
-    "y": 0.23,
+    "x": 0.16,
+    "y": 0.24,
     "kind": "micro"
   },
   {
     "id": "s-bc-sw",
     "label": "Bottom Center SW",
-    "x": -0.11,
-    "y": 0.45,
+    "x": -0.16,
+    "y": 0.56,
     "kind": "micro"
   },
   {
     "id": "s-bc-se",
     "label": "Bottom Center SE",
-    "x": 0.11,
-    "y": 0.45,
+    "x": 0.16,
+    "y": 0.56,
     "kind": "micro"
   },
   {
     "id": "s-br-nw",
     "label": "Bottom Right NW",
-    "x": 0.23,
-    "y": 0.23,
+    "x": 0.24,
+    "y": 0.24,
     "kind": "micro"
   },
   {
     "id": "s-br-ne",
     "label": "Bottom Right NE",
-    "x": 0.45,
-    "y": 0.23,
+    "x": 0.56,
+    "y": 0.24,
     "kind": "micro"
   },
   {
     "id": "s-br-sw",
     "label": "Bottom Right SW",
-    "x": 0.23,
-    "y": 0.45,
+    "x": 0.24,
+    "y": 0.56,
     "kind": "micro"
   },
   {
     "id": "s-br-se",
     "label": "Bottom Right SE",
-    "x": 0.45,
-    "y": 0.45,
+    "x": 0.56,
+    "y": 0.56,
     "kind": "micro"
   }
 ],
@@ -1332,8 +1380,8 @@
     "rotate": "-16deg",
     "baseEmoji": "🍜",
     "overlayEmoji": "🌶️",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -1403,8 +1451,8 @@
     "rotate": "-12deg",
     "baseEmoji": "🍔",
     "overlayEmoji": "💣",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -1473,8 +1521,8 @@
     "subSize": 0.42,
     "baseEmoji": "🐸",
     "overlayEmoji": "👑",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -1501,8 +1549,8 @@
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🧊",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -1529,8 +1577,8 @@
     "subSize": 0.48,
     "baseEmoji": "🛒",
     "overlayEmoji": "🔥",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -1643,8 +1691,8 @@
     "subSize": 0.44,
     "baseEmoji": "📷",
     "overlayEmoji": "💣",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -1741,8 +1789,8 @@
     "subSize": 0.42,
     "baseEmoji": "☕",
     "overlayEmoji": "🌙",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -1755,8 +1803,8 @@
     "subSize": 0.44,
     "baseEmoji": "🍔",
     "overlayEmoji": "☀️",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -1783,8 +1831,8 @@
     "subSize": 0.42,
     "baseEmoji": "🔬",
     "overlayEmoji": "💊",
-    "x": 0.23,
-    "y": 0.23,
+    "x": 0.24,
+    "y": 0.24,
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -1825,8 +1873,8 @@
     "subSize": 0.4,
     "baseEmoji": "🍔",
     "overlayEmoji": "👑",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -1923,8 +1971,8 @@
     "subSize": 0.44,
     "baseEmoji": "🎮",
     "overlayEmoji": "🔥",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -1937,8 +1985,8 @@
     "subSize": 0.4,
     "baseEmoji": "📚",
     "overlayEmoji": "💣",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -1994,8 +2042,8 @@
     "rotate": "-12deg",
     "baseEmoji": "📅",
     "overlayEmoji": "💣",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -2008,8 +2056,8 @@
     "subSize": 0.36,
     "baseEmoji": "🐀",
     "overlayEmoji": "🧀",
-    "x": 0.23,
-    "y": 0.23,
+    "x": 0.24,
+    "y": 0.24,
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -2023,8 +2071,8 @@
     "rotate": "-12deg",
     "baseEmoji": "🎧",
     "overlayEmoji": "🔥",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -2122,8 +2170,8 @@
     "subSize": 0.4,
     "baseEmoji": "💉",
     "overlayEmoji": "💀",
-    "x": 0.23,
-    "y": 0.23,
+    "x": 0.24,
+    "y": 0.24,
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -2334,6 +2382,7 @@
 (function (global) {
   const data = global.EmojiStackData || { emojis: [], aliasToEmoji: {} };
   const prefabs = global.EmojiStackPrefabs || [];
+  const emojiToAlias = Object.fromEntries((data.emojis || []).map((entry) => [entry.emoji, entry.alias]));
   const literalEmojiList = (data.emojis || [])
     .map((entry) => entry.emoji)
     .sort((left, right) => right.length - left.length);
@@ -2341,6 +2390,8 @@
     prefabs.map((prefab) => [`${prefab.baseEmoji}${prefab.overlayEmoji}`, prefab])
   );
   const AUTO_PREFAB_KEYS = ["--es-x", "--es-y", "--es-sub-size", "--es-opacity", "--es-rotate"];
+  const baseDefaults = global.EmojiStackBaseDefaults || {};
+  const subDefaults = global.EmojiStackSubDefaults || {};
 
   function getClassTokens(node) {
     const value = node.getAttribute("class") || "";
@@ -2408,6 +2459,37 @@
     node.dataset.esAutoPrefab = "1";
   }
 
+  function applyBaseDefault(node, baseEmoji) {
+    const alias = emojiToAlias[baseEmoji];
+    const preset = alias ? baseDefaults[alias] : null;
+    if (!preset) {
+      return;
+    }
+
+    node.style.setProperty("--es-x", `${preset.x}em`);
+    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-sub-size", `${preset.subSize}`);
+    node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
+    node.style.setProperty("--es-rotate", preset.rotate || "0deg");
+    node.dataset.esAutoPrefab = "1";
+  }
+
+  function applySubDefault(node, subEmoji) {
+    const alias = emojiToAlias[subEmoji];
+    const preset = alias ? subDefaults[alias] : null;
+    if (!preset) {
+      return false;
+    }
+
+    node.style.setProperty("--es-x", `${preset.x}em`);
+    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-sub-size", `${preset.subSize}`);
+    node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
+    node.style.setProperty("--es-rotate", preset.rotate || "0deg");
+    node.dataset.esAutoPrefab = "1";
+    return true;
+  }
+
   function apply(node) {
     if (!node || !node.classList || !node.classList.contains("es")) {
       return;
@@ -2460,6 +2542,15 @@
 
     if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && pairKey && prefabByPair.has(pairKey)) {
       applyAutoPrefab(node, prefabByPair.get(pairKey));
+      return;
+    }
+
+    if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && sub && applySubDefault(node, sub)) {
+      return;
+    }
+
+    if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && base) {
+      applyBaseDefault(node, base);
     }
   }
 
@@ -2495,6 +2586,18 @@
   api.refresh = refresh;
   api.resolveToken = resolveToken;
   api.resolvePairToken = resolvePairToken;
+  api.baseDefaults = baseDefaults;
+  api.subDefaults = subDefaults;
+  api.setBaseDefaults = function setBaseDefaults(nextDefaults) {
+    Object.keys(baseDefaults).forEach((key) => delete baseDefaults[key]);
+    Object.assign(baseDefaults, nextDefaults || {});
+    return api;
+  };
+  api.setSubDefaults = function setSubDefaults(nextDefaults) {
+    Object.keys(subDefaults).forEach((key) => delete subDefaults[key]);
+    Object.assign(subDefaults, nextDefaults || {});
+    return api;
+  };
   api.data = data;
   api.emojis = data.emojis || [];
   api.prefabs = prefabs;

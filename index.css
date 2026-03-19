@@ -36,32 +36,10 @@ input {
   font: inherit;
 }
 
-.floating-nav {
-  position: fixed;
-  top: 18px;
-  right: 18px;
-  z-index: 20;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.floating-nav a {
-  display: inline-block;
-  padding: 0.74rem 1rem;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  background: rgb(255 255 255 / 0.82);
-  color: inherit;
-  text-decoration: none;
-  backdrop-filter: blur(8px);
-}
-
 .page {
   width: min(1380px, calc(100vw - 28px));
   margin: 0 auto;
-  padding: 84px 0 34px;
+  padding: 26px 0 34px;
 }
 
 .snap-section {
@@ -70,35 +48,10 @@ input {
   scroll-snap-stop: always;
 }
 
-.topbar,
-.readme-panel {
+.readme-panel,
+.roulette-panel {
   border-radius: 30px;
   border: 1px solid var(--line);
-}
-
-.topbar {
-  display: flex;
-  justify-content: space-between;
-  gap: 18px;
-  align-items: center;
-  padding: 16px 22px;
-  margin-bottom: 18px;
-  background: linear-gradient(135deg, rgb(255 255 255 / 0.84), rgb(255 241 232 / 0.92));
-}
-
-.brand,
-.eyebrow {
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: 0.76rem;
-  color: #8f3957;
-}
-
-.topbar nav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
 }
 
 .readme-panel {
@@ -112,26 +65,33 @@ input {
     linear-gradient(135deg, var(--peach), var(--butter));
 }
 
+.intro-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 18px;
+}
+
 .readme-panel h1 {
   margin: 10px 0 12px;
-  max-width: 10ch;
-  font-size: clamp(2.8rem, 6vw, 5.8rem);
+  max-width: 9ch;
+  font-size: clamp(2.5rem, 5.4vw, 4.8rem);
   line-height: 0.92;
 }
 
 .readme-content h2 {
   margin: 0 0 10px;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .readme-content h3 {
-  margin: 18px 0 6px;
-  font-size: 1.1rem;
+  margin: 14px 0 6px;
+  font-size: 1rem;
 }
 
 .readme-content p,
 .readme-content li {
   color: var(--muted);
+  line-height: 1.45;
 }
 
 .readme-content ul {
@@ -148,6 +108,72 @@ input {
   border-radius: 16px;
   border: 1px solid var(--line);
   background: rgb(255 255 255 / 0.8);
+}
+
+.roulette-panel {
+  padding: 26px;
+  display: grid;
+  align-content: start;
+  gap: 18px;
+  background:
+    linear-gradient(135deg, rgb(255 255 255 / 0.84), rgb(240 249 255 / 0.92)),
+    linear-gradient(135deg, var(--sky), var(--mint));
+}
+
+.roulette-stage {
+  min-height: 320px;
+  display: grid;
+  place-items: center;
+  border-radius: 28px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.5);
+  cursor: pointer;
+}
+
+.roulette-stage .es {
+  font-size: clamp(180px, 22vw, 320px);
+}
+
+.roulette-meta {
+  display: grid;
+  gap: 6px;
+}
+
+.roulette-meta span {
+  color: var(--muted);
+}
+
+.snippet-block {
+  display: grid;
+  gap: 8px;
+}
+
+.cta-row {
+  display: grid;
+  gap: 10px;
+}
+
+.cta-button {
+  display: block;
+  padding: 1.18rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid rgb(52 118 58 / 0.22);
+  background: linear-gradient(180deg, #d8ffb9, #9ff28e);
+  color: #133514;
+  text-decoration: none;
+  font-size: 1.08rem;
+  text-align: center;
+}
+
+.roulette-copy {
+  display: inline-block;
+  padding: 1rem 1.05rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.78);
+  font-family: "IBM Plex Mono", "Cascadia Mono", monospace;
+  font-size: 0.92rem;
+  cursor: pointer;
 }
 
 #random-showcases {
@@ -185,7 +211,7 @@ input {
   width: min(100%, 980px);
   display: grid;
   justify-items: center;
-  gap: 18px;
+  gap: 14px;
 }
 
 .showcase-kicker {
@@ -197,15 +223,15 @@ input {
 
 .showcase-title {
   margin: 0;
-  font-size: clamp(2.8rem, 8vw, 6.8rem);
+  font-size: clamp(2.2rem, 7vw, 5.2rem);
   line-height: 0.9;
 }
 
 .showcase-note {
   margin: 0;
-  max-width: 44rem;
+  max-width: 34rem;
   color: var(--muted);
-  font-size: 1.04rem;
+  font-size: 0.96rem;
 }
 
 .showcase-icon {
@@ -229,14 +255,8 @@ input {
 }
 
 @media (max-width: 980px) {
-  .topbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .floating-nav {
-    left: 18px;
-    right: 18px;
+  .intro-grid {
+    grid-template-columns: 1fr;
   }
 }
 

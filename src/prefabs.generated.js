@@ -141,8 +141,8 @@
     "rotate": "-16deg",
     "baseEmoji": "🍜",
     "overlayEmoji": "🌶️",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -212,8 +212,8 @@
     "rotate": "-12deg",
     "baseEmoji": "🍔",
     "overlayEmoji": "💣",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -282,8 +282,8 @@
     "subSize": 0.42,
     "baseEmoji": "🐸",
     "overlayEmoji": "👑",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -310,8 +310,8 @@
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🧊",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -338,8 +338,8 @@
     "subSize": 0.48,
     "baseEmoji": "🛒",
     "overlayEmoji": "🔥",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -452,8 +452,8 @@
     "subSize": 0.44,
     "baseEmoji": "📷",
     "overlayEmoji": "💣",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -550,8 +550,8 @@
     "subSize": 0.42,
     "baseEmoji": "☕",
     "overlayEmoji": "🌙",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -564,8 +564,8 @@
     "subSize": 0.44,
     "baseEmoji": "🍔",
     "overlayEmoji": "☀️",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -592,8 +592,8 @@
     "subSize": 0.42,
     "baseEmoji": "🔬",
     "overlayEmoji": "💊",
-    "x": 0.23,
-    "y": 0.23,
+    "x": 0.24,
+    "y": 0.24,
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -634,8 +634,8 @@
     "subSize": 0.4,
     "baseEmoji": "🍔",
     "overlayEmoji": "👑",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -732,8 +732,8 @@
     "subSize": 0.44,
     "baseEmoji": "🎮",
     "overlayEmoji": "🔥",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -746,8 +746,8 @@
     "subSize": 0.4,
     "baseEmoji": "📚",
     "overlayEmoji": "💣",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -803,8 +803,8 @@
     "rotate": "-12deg",
     "baseEmoji": "📅",
     "overlayEmoji": "💣",
-    "x": 0.11,
-    "y": -0.23,
+    "x": 0.16,
+    "y": -0.24,
     "positionLabel": "Top Center SE"
   },
   {
@@ -817,8 +817,8 @@
     "subSize": 0.36,
     "baseEmoji": "🐀",
     "overlayEmoji": "🧀",
-    "x": 0.23,
-    "y": 0.23,
+    "x": 0.24,
+    "y": 0.24,
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -832,8 +832,8 @@
     "rotate": "-12deg",
     "baseEmoji": "🎧",
     "overlayEmoji": "🔥",
-    "x": 0.23,
-    "y": -0.23,
+    "x": 0.24,
+    "y": -0.24,
     "positionLabel": "Top Right SW"
   },
   {
@@ -931,8 +931,8 @@
     "subSize": 0.4,
     "baseEmoji": "💉",
     "overlayEmoji": "💀",
-    "x": 0.23,
-    "y": 0.23,
+    "x": 0.24,
+    "y": 0.24,
     "positionLabel": "Bottom Right NW"
   },
   {
