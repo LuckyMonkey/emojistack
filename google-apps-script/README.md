@@ -36,3 +36,5 @@ Notes:
 - `doPost` upserts by `name`.
 - There is no delete route.
 - The script enforces a global daily submission cap with `DAILY_SUBMISSION_LIMIT`.
+- The script validates alias names, 7x7 grid positions, numeric bounds, and rotate/unit values before writing.
+- The frontend saves with a simple text payload to avoid CORS preflight issues from GitHub Pages.

@@ -39,6 +39,7 @@
     previewSubtitle: document.getElementById("preview-subtitle"),
     copyClass: document.getElementById("copy-class"),
     classOutput: document.getElementById("class-output"),
+    prefabName: document.getElementById("prefab-name"),
     base: document.getElementById("base-select"),
     overlay: document.getElementById("overlay-select"),
     positionNote: document.getElementById("position-note"),
@@ -101,6 +102,15 @@
 
   function sanitizeName(value) {
     return store ? store.sanitizeName(value) : String(value || "").toLowerCase();
+  }
+
+  function defaultPrefabName() {
+    return sanitizeName(`${state.base}-${state.overlay}`);
+  }
+
+  function saveName() {
+    const typedName = sanitizeName(el.prefabName?.value || "");
+    return typedName || defaultPrefabName();
   }
 
   function inferSizeMode(subSize) {
@@ -174,7 +184,7 @@
     }
 
     return {
-      name: sanitizeName(state.prefabName || `${state.base}-${state.overlay}`),
+      name: saveName(),
       base,
       overlay,
       position,
@@ -366,6 +376,7 @@
     populateEmojiSelect(el.overlay, state.overlay);
     renderPrefabJump();
     renderGrid();
+    el.prefabName.placeholder = defaultPrefabName();
 
     el.sizeMode.querySelectorAll("button").forEach((button) => {
       button.classList.toggle("active", button.dataset.sizeMode === state.sizeMode);
@@ -395,6 +406,7 @@
     state.position = positionById[prefab.position] ? prefab.position : "s-44";
     state.sizeMode = prefab.sizeMode || inferSizeMode(prefab.subSize || SIZE_MAP.medium);
     state.prefabName = prefab.name;
+    el.prefabName.value = prefab.name;
     source = "remote";
     setStatus(`Loaded ${prefab.label}.`);
     redraw();
@@ -421,6 +433,7 @@
       await loadCatalog({ force: true });
       source = "remote";
       state.prefabName = record.name;
+      el.prefabName.value = record.name;
       setStatus(`Saved ${record.name} to the sheet.`);
       redraw();
     } catch (error) {
@@ -437,12 +450,14 @@
         return;
       }
       setCustomState();
+      el.prefabName.value = "";
       redraw();
     });
 
     el.base.addEventListener("change", (event) => {
       state.base = event.target.value;
       setCustomState();
+      el.prefabName.value = "";
       applySavedDefault();
       redraw();
     });
@@ -450,7 +465,14 @@
     el.overlay.addEventListener("change", (event) => {
       state.overlay = event.target.value;
       setCustomState();
+      el.prefabName.value = "";
       applySavedDefault();
+      redraw();
+    });
+
+    el.prefabName.addEventListener("input", () => {
+      state.prefabName = sanitizeName(el.prefabName.value);
+      source = state.prefabName ? "custom" : source;
       redraw();
     });
 
@@ -557,9 +579,10 @@
 
     el.save.addEventListener("click", savePrefab);
     el.duplicate.addEventListener("click", () => {
-      const name = sanitizeName(state.prefabName || `${state.base}-${state.overlay}`);
+      const name = saveName();
       setCustomState();
       state.prefabName = `${name}-copy`;
+      el.prefabName.value = state.prefabName;
       setStatus("Duplicated into the editor.");
       redraw();
     });
@@ -567,6 +590,7 @@
     el.reset.addEventListener("click", () => {
       state = { ...defaults };
       source = "custom";
+      el.prefabName.value = "";
       setStatus("Reset.");
       redraw();
     });

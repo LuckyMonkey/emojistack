@@ -158,6 +158,10 @@ input:hover {
   gap: 12px;
 }
 
+.span-two {
+  grid-column: 1 / -1;
+}
+
 .field {
   display: grid;
   gap: 8px;

@@ -28,6 +28,9 @@ function testGeneratedFiles() {
   const aliasCss = read("src/aliases.generated.css");
   const positionsCss = read("src/positions.css");
   const prefabCss = read("src/prefabs.css");
+  const sandboxHtml = read("sandbox/index.html");
+  const sandboxJs = read("sandbox/sandbox.js");
+  const storeJs = read("shared/prefab-store.js");
 
   assert(literalCss.includes('.🍓 { --es-token: "🍓"; }'), "Missing literal emoji selector");
   assert(aliasCss.includes('.e-strawberry { --es-token: "🍓"; }'), "Missing alias selector");
@@ -40,6 +43,10 @@ function testGeneratedFiles() {
   assert(!positionsCss.includes(".s-tl"), "Old split placement selectors should be gone");
   assert((prefabCss.match(/\.p-/g) || []).length >= 40, "Expected prefab CSS rules");
   assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");
+  assert(sandboxHtml.includes('id="prefab-name"'), "Missing sandbox prefab name input");
+  assert(sandboxJs.includes("defaultPrefabName"), "Missing sandbox default prefab naming");
+  assert(storeJs.includes("text/plain;charset=utf-8"), "Prefab store should use simple POST content type");
+  assert(storeJs.includes("localStorage"), "Prefab store should cache prefabs locally");
 }
 
 function testPositionGeometry() {

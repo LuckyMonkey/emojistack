@@ -14,6 +14,8 @@
     medium: 0.58,
     large: 0.82
   };
+  const CACHE_KEY = `emojistack:prefabs:${config.endpoint || "built-in"}`;
+  const CACHE_TTL_MS = Number(config.cacheTtlMs) > 0 ? Number(config.cacheTtlMs) : 1000 * 60 * 60 * 12;
 
   let prefabs = builtIns.slice();
   let loadPromise = null;
@@ -127,6 +129,47 @@
     return prefabs.slice();
   }
 
+  function readCache() {
+    if (typeof localStorage === "undefined") {
+      return null;
+    }
+
+    try {
+      const raw = localStorage.getItem(CACHE_KEY);
+      if (!raw) {
+        return null;
+      }
+
+      const parsed = JSON.parse(raw);
+      if (!parsed || !Array.isArray(parsed.prefabs) || !Number.isFinite(parsed.cachedAt)) {
+        return null;
+      }
+
+      if ((Date.now() - parsed.cachedAt) > CACHE_TTL_MS) {
+        return null;
+      }
+
+      return parsed.prefabs;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function writeCache(list) {
+    if (typeof localStorage === "undefined") {
+      return;
+    }
+
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify({
+        cachedAt: Date.now(),
+        prefabs: list
+      }));
+    } catch (error) {
+      // Ignore quota/storage failures and keep the live in-memory list.
+    }
+  }
+
   function describeEndpointFailure(response, bodyText) {
     const location = response?.url || "";
     const contentType = response?.headers?.get?.("content-type") || "";
@@ -201,9 +244,14 @@
 
   async function loadPrefabs(options = {}) {
     const force = Boolean(options.force);
+    const cached = !force ? readCache() : null;
 
     if (!force && loadPromise) {
       return loadPromise;
+    }
+
+    if (cached) {
+      return assignPrefabs(cached);
     }
 
     if (!config.endpoint) {
@@ -213,9 +261,14 @@
     loadPromise = fetchJson(config.endpoint)
       .then((payload) => {
         const rows = Array.isArray(payload) ? payload : payload.prefabs || [];
+        writeCache(rows);
         return assignPrefabs(rows);
       })
       .catch((error) => {
+        const fallbackCache = readCache();
+        if (fallbackCache) {
+          return assignPrefabs(fallbackCache);
+        }
         if (!config.useRemoteOnly) {
           return assignPrefabs(builtIns);
         }
@@ -251,7 +304,7 @@
     const response = await fetchJson(config.endpoint, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "text/plain;charset=utf-8"
       },
       body: JSON.stringify(payload)
     });
