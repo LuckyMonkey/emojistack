@@ -310,17 +310,45 @@
     });
   }
 
-  async function refreshUntilVisible(name) {
+  function sameValue(left, right) {
+    return String(left ?? "") === String(right ?? "");
+  }
+
+  function sameNumber(left, right) {
+    return Math.abs(Number(left || 0) - Number(right || 0)) < 0.0001;
+  }
+
+  function prefabMatches(payload, candidate) {
+    if (!candidate) {
+      return false;
+    }
+
+    return (
+      sameValue(candidate.name, payload.name) &&
+      sameValue(candidate.base, payload.base) &&
+      sameValue(candidate.overlay, payload.overlay) &&
+      sameValue(candidate.position, payload.position) &&
+      sameValue(candidate.sizeMode, payload.sizeMode) &&
+      sameValue(candidate.unit || candidate.xUnit, payload.unit) &&
+      sameValue(candidate.rotate, payload.rotate) &&
+      sameNumber(candidate.x, payload.x) &&
+      sameNumber(candidate.y, payload.y) &&
+      sameNumber(candidate.subSize, payload.subSize) &&
+      sameNumber(candidate.opacity, payload.opacity)
+    );
+  }
+
+  async function refreshUntilSaved(payload) {
     for (let attempt = 0; attempt < SAVE_RETRY_COUNT; attempt += 1) {
       const list = await loadPrefabs({ force: true });
-      const hit = list.find((entry) => entry.name === name);
+      const hit = list.find((entry) => prefabMatches(payload, entry));
       if (hit) {
         return hit;
       }
       await delay(SAVE_RETRY_DELAY_MS);
     }
 
-    throw new Error("The prefab save request was sent, but the updated sheet row did not appear yet.");
+    throw new Error("The prefab save request was sent, but the updated row did not come back from the sheet yet.");
   }
 
   function buildSaveUrl(payload) {
@@ -373,7 +401,7 @@
     iframe.src = buildSaveUrl(payload);
     await completion;
 
-    const saved = await refreshUntilVisible(payload.name);
+    const saved = await refreshUntilSaved(payload);
     return {
       ok: true,
       prefab: saved,
@@ -393,7 +421,7 @@
       // Even if the browser cannot read the POST response, the write may still land.
     }
 
-    const saved = await refreshUntilVisible(payload.name);
+    const saved = await refreshUntilSaved(payload);
     return {
       ok: true,
       prefab: saved,

@@ -489,14 +489,15 @@
     setStatus("Saving to the Google sheet...");
     try {
       const response = await store.savePrefab(record);
-      await loadCatalog({ force: true });
+      catalogPrefabs = store.getPrefabs();
+      catalogLoaded = true;
       source = "remote";
-      state.prefabName = record.name;
-      el.prefabName.value = record.name;
+      state.prefabName = response?.prefab?.name || record.name;
+      el.prefabName.value = state.prefabName;
       if (response?.transport === "query-iframe") {
-        setStatus(`Saved ${record.name} to the sheet.`);
+        setStatus(`Saved ${state.prefabName} to the sheet.`);
       } else {
-        setStatus(`Saved ${record.name} to the sheet. Browser navigation save failed, so the editor used the POST fallback.`);
+        setStatus(`Saved ${state.prefabName} to the sheet. Browser navigation save failed, so the editor used the POST fallback.`);
       }
       redraw();
     } catch (error) {
