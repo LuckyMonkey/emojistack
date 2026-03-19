@@ -228,8 +228,8 @@ button {
   min-height: 52vh;
 }
 
-.showcase-icon .es {
-  font-size: clamp(220px, 28vw, 420px);
+.showcase-icon i {
+  font-size: clamp(320px, 40vw, 620px);
   --es-overlay-shadow: 0 0 0.08em rgb(255 255 255 / 0.95), 0 0 0.16em rgb(0 0 0 / 0.24);
 }
 

@@ -57,7 +57,6 @@ input {
   border-radius: 28px;
   border: 1px solid var(--line);
   background: rgb(255 252 247 / 0.86);
-  box-shadow: 0 22px 60px rgb(83 53 28 / 0.08);
 }
 
 .masthead {
@@ -138,8 +137,8 @@ button {
   text-align: center;
 }
 
-.prefab-card .es {
-  font-size: 108px;
+.prefab-card i {
+  font-size: clamp(140px, 12vw, 220px);
 }
 
 .prefab-card strong {

@@ -214,8 +214,8 @@ input {
   place-items: center;
 }
 
-.showcase-icon .es {
-  font-size: clamp(220px, 34vw, 520px);
+.showcase-icon i {
+  font-size: clamp(320px, 42vw, 680px);
 }
 
 .showcase-code {
