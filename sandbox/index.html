@@ -20,14 +20,13 @@
             <button id="duplicate-prefab" class="quiet-button" type="button" title="Duplicate the current prefab">Duplicate</button>
             <button id="save-prefab" type="button" title="Save this prefab locally">Save</button>
             <button id="delete-prefab" class="quiet-button" type="button" title="Delete the current local prefab">Delete</button>
-            <button id="theme-toggle" class="quiet-button" type="button" title="Switch the preview backdrop">Backdrop</button>
             <button id="reset-button" class="quiet-button" type="button" title="Reset the current editor state">Reset</button>
           </div>
           <p id="status-line" class="status-line">Pick a prefab or build one.</p>
         </section>
 
         <section class="panel preview-panel">
-          <div id="preview-stage" class="preview-stage preview-light">
+          <div id="preview-stage" class="preview-stage">
             <div id="preview-hero" class="preview-hero" title="Drag the top emoji to place it">
               <i id="preview-main" class="es" title="Drag to place the top emoji"></i>
               <div class="preview-caption">
@@ -39,7 +38,7 @@
         </section>
 
         <section class="panel controls-panel">
-          <div class="controls-grid">
+          <div class="controls-grid compact">
             <div class="field">
               <label for="base-select">Base</label>
               <select id="base-select"></select>
@@ -50,40 +49,16 @@
               <select id="overlay-select"></select>
             </div>
 
-            <div class="field">
-              <label>Output</label>
-              <div class="mode-toggle" id="mode-toggle">
-                <label title="Literal emoji classes"><input type="radio" name="mode" value="cursed" checked> Literal</label>
-                <label title="Alias classes"><input type="radio" name="mode" value="alias"> Alias</label>
-                <label title="Prefab class"><input type="radio" name="mode" value="prefab"> Prefab</label>
-              </div>
-            </div>
-
-            <div class="field">
+            <div class="field span-two">
               <div class="label-row">
-                <label for="position-select">Placement</label>
+                <label>Size</label>
                 <span id="position-note" class="chip">Direct center</span>
               </div>
-              <select id="position-select"></select>
-            </div>
-
-            <div class="field">
-              <label>Grid</label>
               <div class="picker-toggle" id="picker-mode-toggle">
-                <button type="button" data-picker-mode="direct" title="Direct overlay">1×1</button>
-                <button type="button" data-picker-mode="macro" title="3 by 3 grid">3×3</button>
-                <button type="button" data-picker-mode="micro" title="6 by 6 grid">6×6</button>
+                <button type="button" data-picker-mode="micro" title="Small">S</button>
+                <button type="button" data-picker-mode="macro" title="Medium">M</button>
+                <button type="button" data-picker-mode="direct" title="Large">L</button>
               </div>
-            </div>
-
-            <div class="field">
-              <label for="icon-size">Preview size <span id="icon-size-value"></span></label>
-              <input id="icon-size" type="range" min="180" max="420" step="4" value="300">
-            </div>
-
-            <div class="field">
-              <label for="prefab-name">Prefab name</label>
-              <input id="prefab-name" type="text" placeholder="strawberry-milk-remix">
             </div>
           </div>
 
@@ -104,56 +79,6 @@
           <div id="base-default-note" class="inline-note">No base default saved for this emoji.</div>
           <div id="sub-default-note" class="inline-note">No sub default saved for this emoji.</div>
         </section>
-
-        <section class="panel snippets-panel">
-          <div class="snippet-grid">
-            <article class="snippet-card">
-              <div class="snippet-head">
-                <h3>Literal HTML</h3>
-                <button data-copy-target="cursed-html" type="button" title="Copy literal HTML">Copy</button>
-              </div>
-              <pre id="cursed-html"></pre>
-            </article>
-            <article class="snippet-card">
-              <div class="snippet-head">
-                <h3>Alias HTML</h3>
-                <button data-copy-target="alias-html" type="button" title="Copy alias HTML">Copy</button>
-              </div>
-              <pre id="alias-html"></pre>
-            </article>
-            <article class="snippet-card">
-              <div class="snippet-head">
-                <h3>Prefab HTML</h3>
-                <button data-copy-target="prefab-html" type="button" title="Copy prefab HTML">Copy</button>
-              </div>
-              <pre id="prefab-html"></pre>
-            </article>
-            <article class="snippet-card">
-              <div class="snippet-head">
-                <h3>Prefab CSS</h3>
-                <button data-copy-target="prefab-css" type="button" title="Copy prefab CSS">Copy</button>
-              </div>
-              <pre id="prefab-css"></pre>
-            </article>
-            <article class="snippet-card span-two">
-              <div class="snippet-head">
-                <h3>Current prefab JSON</h3>
-                <button data-copy-target="prefab-json" type="button" title="Copy prefab JSON">Copy</button>
-              </div>
-              <pre id="prefab-json"></pre>
-            </article>
-          </div>
-        </section>
-
-        <details class="panel io-panel">
-          <summary>Import / export</summary>
-          <div class="io-actions">
-            <button id="export-json" type="button">Export local JSON</button>
-            <button id="import-json" class="quiet-button" type="button">Import JSON</button>
-          </div>
-          <label class="sr-only" for="io-textarea">Prefab JSON</label>
-          <textarea id="io-textarea" rows="10" placeholder='[{"name":"my-stack","base":"bottle","overlay":"strawberry","position":"s-center"}]'></textarea>
-        </details>
       </main>
     </div>
 

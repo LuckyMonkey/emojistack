@@ -6,6 +6,8 @@ EmojiStack lets you render one emoji as a base, place another emoji on top of it
 
 Live demo: https://luckymonkey.github.io/emojistack/
 
+Third-party notice: Emoji names and group metadata are generated from [`unicode-emoji-json`](https://github.com/muan/unicode-emoji-json) by Mu-An Chiou. See [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md).
+
 ## Why This Exists
 
 Sometimes the right icon is not a single icon. Sometimes it is a bottle with a strawberry on it, a laptop on fire, or a folder with a skull stamped onto it. EmojiStack exists for that very specific, slightly unreasonable, but actually useful case.

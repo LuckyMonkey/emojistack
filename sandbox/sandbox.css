@@ -9,12 +9,6 @@
   --butter: #f8e8a7;
   --sky: #c7def9;
   --berry: #d77abb;
-  --checker-light:
-    linear-gradient(45deg, rgb(0 0 0 / 0.04) 25%, transparent 25%, transparent 75%, rgb(0 0 0 / 0.04) 75%),
-    linear-gradient(45deg, rgb(0 0 0 / 0.04) 25%, transparent 25%, transparent 75%, rgb(0 0 0 / 0.04) 75%);
-  --checker-dark:
-    linear-gradient(45deg, rgb(255 255 255 / 0.06) 25%, transparent 25%, transparent 75%, rgb(255 255 255 / 0.06) 75%),
-    linear-gradient(45deg, rgb(255 255 255 / 0.06) 25%, transparent 25%, transparent 75%, rgb(255 255 255 / 0.06) 75%);
   color-scheme: light;
   font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
@@ -110,7 +104,7 @@ button {
 
 .picker-head {
   display: grid;
-  grid-template-columns: minmax(180px, 1fr) minmax(240px, 1.1fr) repeat(5, auto);
+  grid-template-columns: minmax(180px, 1fr) minmax(240px, 1.1fr) repeat(4, auto);
   gap: 8px;
   align-items: center;
 }
@@ -216,6 +210,7 @@ textarea {
 }
 
 #position-micro {
+  position: relative;
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
@@ -234,6 +229,29 @@ textarea {
   font-size: 0.68rem;
 }
 
+.position-center-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.96);
+  font-family: "IBM Plex Mono", "Cascadia Mono", monospace;
+  font-size: 0.72rem;
+  line-height: 1;
+  z-index: 2;
+}
+
+.position-center-dot.active {
+  background: linear-gradient(135deg, var(--berry), #ffb1b5);
+  border-color: transparent;
+}
+
 .button-row > * {
   flex: 1 1 150px;
 }
@@ -247,18 +265,9 @@ textarea {
 .preview-stage {
   padding: 12px;
   border-radius: 24px;
-  background-size: 24px 24px;
-  background-position: 0 0, 12px 12px;
-}
-
-.preview-light {
-  background-color: #fff7f0;
-  background-image: var(--checker-light);
-}
-
-.preview-dark {
-  background-color: #18130e;
-  background-image: var(--checker-dark);
+  background:
+    radial-gradient(circle at top left, rgb(255 255 255 / 0.72), transparent 24%),
+    linear-gradient(180deg, #fff7f0, #f9efe2);
 }
 
 .preview-hero {
@@ -272,18 +281,17 @@ textarea {
   cursor: grab;
 }
 
-.preview-dark .preview-hero {
-  background: linear-gradient(135deg, rgb(38 31 24 / 0.72), rgb(20 16 13 / 0.82));
-}
-
 .preview-hero.is-dragging {
   cursor: grabbing;
+}
+
+.preview-hero.is-static {
+  cursor: default;
 }
 
 .preview-hero i {
   max-width: 100%;
   font-size: min(52vh, 30vw);
-  --es-overlay-shadow: 0 0 0.08em rgb(255 255 255 / 0.95), 0 0 0.16em rgb(0 0 0 / 0.35);
 }
 
 .preview-caption {

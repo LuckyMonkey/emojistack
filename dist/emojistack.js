@@ -5,686 +5,1110 @@
   {
     "emoji": "🍓",
     "alias": "strawberry",
-    "label": "Strawberry",
-    "category": "fruit",
     "ox": -0.01,
-    "oy": 0.01
+    "oy": 0.01,
+    "label": "Strawberry",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "strawberry",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍼",
     "alias": "bottle",
-    "label": "Baby Bottle",
-    "category": "drinks",
     "ox": -0.03,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Baby Bottle",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "baby bottle",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🥛",
     "alias": "milk",
-    "label": "Glass of Milk",
-    "category": "drinks"
+    "label": "Glass Of Milk",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "glass of milk",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
   },
   {
     "emoji": "☕",
     "alias": "coffee",
-    "label": "Hot Coffee",
-    "category": "drinks",
     "ox": -0.01,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Hot Beverage",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "hot beverage",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💀",
     "alias": "skull",
-    "label": "Skull",
-    "category": "cursed",
     "ox": 0,
-    "oy": -0.01
+    "oy": -0.01,
+    "label": "Skull",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "skull",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🔥",
     "alias": "fire",
-    "label": "Fire",
-    "category": "symbols",
     "ox": 0,
-    "oy": -0.03
+    "oy": -0.03,
+    "label": "Fire",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "fire",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💻",
     "alias": "laptop",
-    "label": "Laptop",
-    "category": "tech",
     "ox": 0,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Laptop",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "laptop",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📦",
     "alias": "box",
-    "label": "Package Box",
-    "category": "storage",
     "ox": 0,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Package",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "package",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍝",
     "alias": "spaghetti",
     "label": "Spaghetti",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "spaghetti",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🗂️",
     "alias": "dividers",
-    "label": "Card Dividers",
-    "category": "office"
+    "label": "Card Index Dividers",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "card index dividers",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "😇",
     "alias": "angel",
-    "label": "Smiling Face with Halo",
-    "category": "creatures",
     "ox": 0,
-    "oy": -0.05
+    "oy": -0.05,
+    "label": "Smiling Face With Halo",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with halo",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🐱",
     "alias": "cat",
-    "label": "Cat Face",
-    "category": "creatures",
     "ox": 0,
-    "oy": 0.01
+    "oy": 0.01,
+    "label": "Cat Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cat face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🧠",
     "alias": "brain",
     "label": "Brain",
-    "category": "cursed"
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "brain",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
   },
   {
     "emoji": "🔋",
     "alias": "battery",
     "label": "Battery",
-    "category": "tech"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "battery",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍜",
     "alias": "ramen",
     "label": "Steaming Bowl",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "steaming bowl",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🌶️",
     "alias": "pepper",
     "label": "Hot Pepper",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "hot pepper",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "☣️",
     "alias": "biohazard",
-    "label": "Biohazard",
-    "category": "symbols",
     "ox": -0.01,
-    "oy": 0.01
+    "oy": 0.01,
+    "label": "Biohazard",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "biohazard",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🧴",
     "alias": "lotion",
     "label": "Lotion Bottle",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "lotion bottle",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🧃",
     "alias": "juice-box",
     "label": "Beverage Box",
-    "category": "drinks"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "beverage box",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
   },
   {
     "emoji": "🫙",
     "alias": "jar",
-    "label": "Jar",
-    "category": "containers",
     "ox": 0,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Jar",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "jar",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
   },
   {
     "emoji": "📁",
     "alias": "folder",
-    "label": "File Folder",
-    "category": "office",
     "ox": 0.01,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "File Folder",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "file folder",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💾",
     "alias": "floppy-disk",
-    "label": "Floppy Disk",
-    "category": "tech",
     "ox": 0,
-    "oy": 0.02
+    "oy": 0.02,
+    "label": "Floppy Disk",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "floppy disk",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🔌",
     "alias": "plug",
-    "label": "Electric Plug",
-    "category": "tech",
     "ox": 0.02,
-    "oy": 0.01
+    "oy": 0.01,
+    "label": "Electric Plug",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "electric plug",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📱",
     "alias": "phone",
-    "label": "Mobile Phone",
-    "category": "tech",
     "ox": 0,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Mobile Phone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "mobile phone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🧪",
     "alias": "test-tube",
     "label": "Test Tube",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "test tube",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🍋",
     "alias": "lemon",
     "label": "Lemon",
-    "category": "fruit"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "lemon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🍎",
     "alias": "apple",
     "label": "Red Apple",
-    "category": "fruit"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "red apple",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍒",
     "alias": "cherries",
     "label": "Cherries",
-    "category": "fruit"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cherries",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍔",
     "alias": "burger",
     "label": "Hamburger",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "hamburger",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍟",
     "alias": "fries",
     "label": "French Fries",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "french fries",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍕",
     "alias": "pizza",
     "label": "Pizza",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pizza",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🌮",
     "alias": "taco",
     "label": "Taco",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "taco",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🍣",
     "alias": "sushi",
     "label": "Sushi",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "sushi",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🧋",
     "alias": "bubble-tea",
     "label": "Bubble Tea",
-    "category": "drinks"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bubble tea",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
   },
   {
     "emoji": "🥤",
     "alias": "soda",
-    "label": "Cup with Straw",
-    "category": "drinks"
+    "label": "Cup With Straw",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cup with straw",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
   },
   {
     "emoji": "🧊",
     "alias": "ice",
-    "label": "Ice Cube",
-    "category": "objects"
+    "label": "Ice",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "ice",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
   },
   {
     "emoji": "❤️",
     "alias": "heart",
     "label": "Red Heart",
-    "category": "symbols"
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "red heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "⚠️",
     "alias": "warning",
-    "label": "Warning",
-    "category": "symbols",
     "ox": 0,
-    "oy": -0.01
+    "oy": -0.01,
+    "label": "Warning",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "warning",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "✨",
     "alias": "sparkles",
-    "label": "Sparkles",
-    "category": "symbols",
     "ox": -0.02,
-    "oy": -0.03
+    "oy": -0.03,
+    "label": "Sparkles",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "sparkles",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💣",
     "alias": "bomb",
     "label": "Bomb",
-    "category": "cursed"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bomb",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "👁️",
     "alias": "eye",
     "label": "Eye",
-    "category": "cursed"
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "eye",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "🦴",
     "alias": "bone",
     "label": "Bone",
-    "category": "creatures"
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "bone",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🐸",
     "alias": "frog",
     "label": "Frog",
-    "category": "creatures"
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "frog",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🐀",
     "alias": "rat",
     "label": "Rat",
-    "category": "creatures"
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rat",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🐍",
     "alias": "snake",
     "label": "Snake",
-    "category": "creatures"
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "snake",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "👑",
     "alias": "crown",
-    "label": "Crown",
-    "category": "objects",
     "ox": 0,
-    "oy": -0.04
+    "oy": -0.04,
+    "label": "Crown",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "crown",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🔒",
     "alias": "lock",
     "label": "Locked",
-    "category": "symbols"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "locked",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🔓",
     "alias": "unlock",
     "label": "Unlocked",
-    "category": "symbols"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "unlocked",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📷",
     "alias": "camera",
-    "label": "Camera",
-    "category": "tech",
     "ox": 0,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Camera",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "camera",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🎧",
     "alias": "headphones",
-    "label": "Headphones",
-    "category": "tech"
+    "label": "Headphone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "headphone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📚",
     "alias": "books",
     "label": "Books",
-    "category": "office"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "books",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🗃️",
     "alias": "card-box",
-    "label": "Card File Box",
-    "category": "storage",
     "ox": 0.01,
-    "oy": 0.04
+    "oy": 0.04,
+    "label": "Card File Box",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "card file box",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "🪫",
     "alias": "battery-low",
     "label": "Low Battery",
-    "category": "tech"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "low battery",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
   },
   {
     "emoji": "🔦",
     "alias": "flashlight",
     "label": "Flashlight",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "flashlight",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🧼",
     "alias": "soap",
     "label": "Soap",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "soap",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🪵",
     "alias": "wood",
     "label": "Wood",
-    "category": "objects"
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "wood",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
   },
   {
     "emoji": "🛒",
     "alias": "cart",
     "label": "Shopping Cart",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "shopping cart",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
   },
   {
     "emoji": "🧺",
     "alias": "basket",
     "label": "Basket",
-    "category": "containers"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "basket",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🪣",
     "alias": "bucket",
     "label": "Bucket",
-    "category": "containers"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bucket",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
   },
   {
     "emoji": "🧰",
     "alias": "toolbox",
     "label": "Toolbox",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "toolbox",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🧲",
     "alias": "magnet",
     "label": "Magnet",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "magnet",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🎮",
     "alias": "gamepad",
     "label": "Video Game",
-    "category": "tech"
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "video game",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📺",
     "alias": "tv",
-    "label": "Television",
-    "category": "tech",
     "ox": 0,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Television",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "television",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🖨️",
     "alias": "printer",
     "label": "Printer",
-    "category": "tech"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "printer",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "💿",
     "alias": "optical-disk",
     "label": "Optical Disk",
-    "category": "tech"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "optical disk",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🧬",
     "alias": "dna",
-    "label": "DNA",
-    "category": "objects"
+    "label": "Dna",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "dna",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "👻",
     "alias": "ghost",
-    "label": "Ghost",
-    "category": "cursed",
     "ox": 0,
-    "oy": 0.01
+    "oy": 0.01,
+    "label": "Ghost",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "ghost",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📂",
     "alias": "folder-open",
-    "label": "Open Folder",
-    "category": "office",
     "ox": 0.01,
-    "oy": 0.03
+    "oy": 0.03,
+    "label": "Open File Folder",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "open file folder",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🧾",
     "alias": "receipt",
     "label": "Receipt",
-    "category": "office"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "receipt",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "📅",
     "alias": "calendar",
     "label": "Calendar",
-    "category": "office"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "calendar",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📝",
     "alias": "memo",
     "label": "Memo",
-    "category": "office"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "memo",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📌",
     "alias": "pushpin",
     "label": "Pushpin",
-    "category": "office"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pushpin",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🔑",
     "alias": "key",
-    "label": "Key",
-    "category": "objects",
     "ox": 0.03,
-    "oy": 0.01
+    "oy": 0.01,
+    "label": "Key",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "key",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🛡️",
     "alias": "shield",
     "label": "Shield",
-    "category": "symbols"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "shield",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "🛰️",
     "alias": "satellite",
     "label": "Satellite",
-    "category": "tech"
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "satellite",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "🤖",
     "alias": "robot",
     "label": "Robot",
-    "category": "tech"
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "robot",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "👽",
     "alias": "alien",
     "label": "Alien",
-    "category": "creatures"
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "alien",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "☁️",
     "alias": "cloud",
     "label": "Cloud",
-    "category": "symbols"
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cloud",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "⚡",
     "alias": "lightning",
-    "label": "Lightning",
-    "category": "symbols"
+    "label": "High Voltage",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "high voltage",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💧",
     "alias": "droplet",
     "label": "Droplet",
-    "category": "symbols"
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "droplet",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💩",
     "alias": "poop",
-    "label": "Pile of Poo",
-    "category": "cursed"
+    "label": "Pile Of Poo",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "pile of poo",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💊",
     "alias": "pill",
     "label": "Pill",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pill",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "💉",
     "alias": "syringe",
     "label": "Syringe",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "syringe",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🔬",
     "alias": "microscope",
     "label": "Microscope",
-    "category": "tech"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "microscope",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🧫",
     "alias": "petri-dish",
     "label": "Petri Dish",
-    "category": "objects"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "petri dish",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "✂️",
     "alias": "scissors",
     "label": "Scissors",
-    "category": "office"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "scissors",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📎",
     "alias": "paperclip",
     "label": "Paperclip",
-    "category": "office"
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "paperclip",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "📫",
     "alias": "mailbox",
-    "label": "Mailbox",
-    "category": "objects"
+    "label": "Closed Mailbox With Raised Flag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "closed mailbox with raised flag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍪",
     "alias": "cookie",
     "label": "Cookie",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cookie",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍩",
     "alias": "doughnut",
     "label": "Doughnut",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "doughnut",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🧀",
     "alias": "cheese",
     "label": "Cheese Wedge",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cheese wedge",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🥚",
     "alias": "egg",
     "label": "Egg",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "egg",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
   },
   {
     "emoji": "🍄",
     "alias": "mushroom",
     "label": "Mushroom",
-    "category": "food"
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "mushroom",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍌",
     "alias": "banana",
     "label": "Banana",
-    "category": "fruit"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "banana",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍐",
     "alias": "pear",
     "label": "Pear",
-    "category": "fruit"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pear",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "🍉",
     "alias": "watermelon",
     "label": "Watermelon",
-    "category": "fruit"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "watermelon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🥑",
     "alias": "avocado",
     "label": "Avocado",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "avocado",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
   },
   {
     "emoji": "🥕",
     "alias": "carrot",
     "label": "Carrot",
-    "category": "food"
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "carrot",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
   },
   {
     "emoji": "🍵",
     "alias": "tea",
-    "label": "Tea",
-    "category": "drinks"
+    "label": "Teacup Without Handle",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "teacup without handle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍺",
     "alias": "beer",
-    "label": "Beer",
-    "category": "drinks"
+    "label": "Beer Mug",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "beer mug",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🍷",
     "alias": "wine",
-    "label": "Wine",
-    "category": "drinks"
+    "label": "Wine Glass",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "wine glass",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🏅",
     "alias": "medal",
-    "label": "Medal",
-    "category": "symbols"
+    "label": "Sports Medal",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "sports medal",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
   },
   {
     "emoji": "⭐",
     "alias": "star",
     "label": "Star",
-    "category": "symbols"
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "star",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🌙",
     "alias": "moon",
-    "label": "Moon",
-    "category": "symbols"
+    "label": "Crescent Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "crescent moon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "☀️",
     "alias": "sun",
     "label": "Sun",
-    "category": "symbols"
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sun",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "⏳",
     "alias": "hourglass",
-    "label": "Hourglass",
-    "category": "objects"
+    "label": "Hourglass Not Done",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hourglass not done",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   }
 ],
     positions: [
@@ -693,34 +1117,39 @@
     "label": "Direct Center",
     "x": 0,
     "y": 0,
+    "unit": "%",
     "kind": "direct"
   },
   {
     "id": "s-tl",
     "label": "Top Left",
-    "x": -0.4,
-    "y": -0.4,
+    "x": -0.333333,
+    "y": -0.333333,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-tc",
     "label": "Top Center",
     "x": 0,
-    "y": -0.4,
+    "y": -0.333333,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-tr",
     "label": "Top Right",
-    "x": 0.4,
-    "y": -0.4,
+    "x": 0.333333,
+    "y": -0.333333,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-ml",
     "label": "Middle Left",
-    "x": -0.4,
+    "x": -0.333333,
     "y": 0,
+    "unit": "%",
     "kind": "macro"
   },
   {
@@ -728,286 +1157,327 @@
     "label": "Middle Center",
     "x": 0,
     "y": 0,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-mr",
     "label": "Middle Right",
-    "x": 0.4,
+    "x": 0.333333,
     "y": 0,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-bl",
     "label": "Bottom Left",
-    "x": -0.4,
-    "y": 0.4,
+    "x": -0.333333,
+    "y": 0.333333,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-bc",
     "label": "Bottom Center",
     "x": 0,
-    "y": 0.4,
+    "y": 0.333333,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-br",
     "label": "Bottom Right",
-    "x": 0.4,
-    "y": 0.4,
+    "x": 0.333333,
+    "y": 0.333333,
+    "unit": "%",
     "kind": "macro"
   },
   {
     "id": "s-tl-nw",
     "label": "Top Left NW",
-    "x": -0.56,
-    "y": -0.56,
+    "x": -0.42,
+    "y": -0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tl-ne",
     "label": "Top Left NE",
-    "x": -0.24,
-    "y": -0.56,
+    "x": -0.25,
+    "y": -0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tl-sw",
     "label": "Top Left SW",
-    "x": -0.56,
-    "y": -0.24,
+    "x": -0.42,
+    "y": -0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tl-se",
     "label": "Top Left SE",
-    "x": -0.24,
-    "y": -0.24,
+    "x": -0.25,
+    "y": -0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tc-nw",
     "label": "Top Center NW",
-    "x": -0.16,
-    "y": -0.56,
+    "x": -0.08,
+    "y": -0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tc-ne",
     "label": "Top Center NE",
-    "x": 0.16,
-    "y": -0.56,
+    "x": 0.08,
+    "y": -0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tc-sw",
     "label": "Top Center SW",
-    "x": -0.16,
-    "y": -0.24,
+    "x": -0.08,
+    "y": -0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tc-se",
     "label": "Top Center SE",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tr-nw",
     "label": "Top Right NW",
-    "x": 0.24,
-    "y": -0.56,
+    "x": 0.25,
+    "y": -0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tr-ne",
     "label": "Top Right NE",
-    "x": 0.56,
-    "y": -0.56,
+    "x": 0.42,
+    "y": -0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tr-sw",
     "label": "Top Right SW",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-tr-se",
     "label": "Top Right SE",
-    "x": 0.56,
-    "y": -0.24,
+    "x": 0.42,
+    "y": -0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-ml-nw",
     "label": "Middle Left NW",
-    "x": -0.56,
-    "y": -0.16,
+    "x": -0.42,
+    "y": -0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-ml-ne",
     "label": "Middle Left NE",
-    "x": -0.24,
-    "y": -0.16,
+    "x": -0.25,
+    "y": -0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-ml-sw",
     "label": "Middle Left SW",
-    "x": -0.56,
-    "y": 0.16,
+    "x": -0.42,
+    "y": 0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-ml-se",
     "label": "Middle Left SE",
-    "x": -0.24,
-    "y": 0.16,
+    "x": -0.25,
+    "y": 0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mc-nw",
     "label": "Middle Center NW",
-    "x": -0.16,
-    "y": -0.16,
+    "x": -0.08,
+    "y": -0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mc-ne",
     "label": "Middle Center NE",
-    "x": 0.16,
-    "y": -0.16,
+    "x": 0.08,
+    "y": -0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mc-sw",
     "label": "Middle Center SW",
-    "x": -0.16,
-    "y": 0.16,
+    "x": -0.08,
+    "y": 0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mc-se",
     "label": "Middle Center SE",
-    "x": 0.16,
-    "y": 0.16,
+    "x": 0.08,
+    "y": 0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mr-nw",
     "label": "Middle Right NW",
-    "x": 0.24,
-    "y": -0.16,
+    "x": 0.25,
+    "y": -0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mr-ne",
     "label": "Middle Right NE",
-    "x": 0.56,
-    "y": -0.16,
+    "x": 0.42,
+    "y": -0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mr-sw",
     "label": "Middle Right SW",
-    "x": 0.24,
-    "y": 0.16,
+    "x": 0.25,
+    "y": 0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-mr-se",
     "label": "Middle Right SE",
-    "x": 0.56,
-    "y": 0.16,
+    "x": 0.42,
+    "y": 0.08,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bl-nw",
     "label": "Bottom Left NW",
-    "x": -0.56,
-    "y": 0.24,
+    "x": -0.42,
+    "y": 0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bl-ne",
     "label": "Bottom Left NE",
-    "x": -0.24,
-    "y": 0.24,
+    "x": -0.25,
+    "y": 0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bl-sw",
     "label": "Bottom Left SW",
-    "x": -0.56,
-    "y": 0.56,
+    "x": -0.42,
+    "y": 0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bl-se",
     "label": "Bottom Left SE",
-    "x": -0.24,
-    "y": 0.56,
+    "x": -0.25,
+    "y": 0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bc-nw",
     "label": "Bottom Center NW",
-    "x": -0.16,
-    "y": 0.24,
+    "x": -0.08,
+    "y": 0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bc-ne",
     "label": "Bottom Center NE",
-    "x": 0.16,
-    "y": 0.24,
+    "x": 0.08,
+    "y": 0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bc-sw",
     "label": "Bottom Center SW",
-    "x": -0.16,
-    "y": 0.56,
+    "x": -0.08,
+    "y": 0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-bc-se",
     "label": "Bottom Center SE",
-    "x": 0.16,
-    "y": 0.56,
+    "x": 0.08,
+    "y": 0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-br-nw",
     "label": "Bottom Right NW",
-    "x": 0.24,
-    "y": 0.24,
+    "x": 0.25,
+    "y": 0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-br-ne",
     "label": "Bottom Right NE",
-    "x": 0.56,
-    "y": 0.24,
+    "x": 0.42,
+    "y": 0.25,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-br-sw",
     "label": "Bottom Right SW",
-    "x": 0.24,
-    "y": 0.56,
+    "x": 0.25,
+    "y": 0.42,
+    "unit": "%",
     "kind": "micro"
   },
   {
     "id": "s-br-se",
     "label": "Bottom Right SE",
-    "x": 0.56,
-    "y": 0.56,
+    "x": 0.42,
+    "y": 0.42,
+    "unit": "%",
     "kind": "micro"
   }
 ],
@@ -1252,6 +1722,8 @@
     "subSize": 0.37,
     "baseEmoji": "🍼",
     "overlayEmoji": "🍓",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1266,6 +1738,8 @@
     "subSize": 0.41,
     "baseEmoji": "🍼",
     "overlayEmoji": "☣️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1280,6 +1754,8 @@
     "subSize": 0.38,
     "baseEmoji": "☕",
     "overlayEmoji": "💀",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1295,6 +1771,8 @@
     "rotate": "-10deg",
     "baseEmoji": "💻",
     "overlayEmoji": "🔥",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1310,6 +1788,8 @@
     "rotate": "-12deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🔌",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -1325,6 +1805,8 @@
     "rotate": "-8deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🍝",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -1339,6 +1821,8 @@
     "subSize": 0.42,
     "baseEmoji": "📁",
     "overlayEmoji": "💀",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1353,6 +1837,8 @@
     "subSize": 0.92,
     "baseEmoji": "😇",
     "overlayEmoji": "🐱",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1367,6 +1853,8 @@
     "subSize": 0.48,
     "baseEmoji": "🔋",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1380,8 +1868,10 @@
     "rotate": "-16deg",
     "baseEmoji": "🍜",
     "overlayEmoji": "🌶️",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1396,6 +1886,8 @@
     "subSize": 0.46,
     "baseEmoji": "🫙",
     "overlayEmoji": "☣️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1410,6 +1902,8 @@
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🍒",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1424,6 +1918,8 @@
     "subSize": 0.44,
     "baseEmoji": "💾",
     "overlayEmoji": "🗃️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1438,6 +1934,8 @@
     "overlayEmoji": "👁️",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1451,8 +1949,10 @@
     "rotate": "-12deg",
     "baseEmoji": "🍔",
     "overlayEmoji": "💣",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -1467,6 +1967,8 @@
     "subSize": 0.36,
     "baseEmoji": "📱",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -1481,6 +1983,8 @@
     "subSize": 0.34,
     "baseEmoji": "📁",
     "overlayEmoji": "⚠️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1495,6 +1999,8 @@
     "subSize": 0.42,
     "baseEmoji": "📺",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1509,6 +2015,8 @@
     "subSize": 0.5,
     "baseEmoji": "🪣",
     "overlayEmoji": "🐀",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1521,8 +2029,10 @@
     "subSize": 0.42,
     "baseEmoji": "🐸",
     "overlayEmoji": "👑",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -1537,6 +2047,8 @@
     "subSize": 0.46,
     "baseEmoji": "🧃",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1549,8 +2061,10 @@
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🧊",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1565,6 +2079,8 @@
     "subSize": 0.46,
     "baseEmoji": "🍵",
     "overlayEmoji": "🍋",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1577,8 +2093,10 @@
     "subSize": 0.48,
     "baseEmoji": "🛒",
     "overlayEmoji": "🔥",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -1593,6 +2111,8 @@
     "overlayEmoji": "🦴",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1608,6 +2128,8 @@
     "overlayEmoji": "🐍",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1622,6 +2144,8 @@
     "overlayEmoji": "🤖",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1636,6 +2160,8 @@
     "overlayEmoji": "👽",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1651,6 +2177,8 @@
     "rotate": "-18deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🧲",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -1665,6 +2193,8 @@
     "subSize": 0.38,
     "baseEmoji": "📁",
     "overlayEmoji": "🔒",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1679,6 +2209,8 @@
     "overlayEmoji": "🔓",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1691,8 +2223,10 @@
     "subSize": 0.44,
     "baseEmoji": "📷",
     "overlayEmoji": "💣",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1707,6 +2241,8 @@
     "overlayEmoji": "❤️",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1721,6 +2257,8 @@
     "subSize": 0.46,
     "baseEmoji": "🖨️",
     "overlayEmoji": "⚠️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1735,6 +2273,8 @@
     "subSize": 0.38,
     "baseEmoji": "🧬",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -1749,6 +2289,8 @@
     "subSize": 0.38,
     "baseEmoji": "📺",
     "overlayEmoji": "🪫",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1763,6 +2305,8 @@
     "overlayEmoji": "🧼",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1777,6 +2321,8 @@
     "overlayEmoji": "🪵",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1789,8 +2335,10 @@
     "subSize": 0.42,
     "baseEmoji": "☕",
     "overlayEmoji": "🌙",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1803,8 +2351,10 @@
     "subSize": 0.44,
     "baseEmoji": "🍔",
     "overlayEmoji": "☀️",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -1819,6 +2369,8 @@
     "subSize": 0.46,
     "baseEmoji": "🫙",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1831,8 +2383,10 @@
     "subSize": 0.42,
     "baseEmoji": "🔬",
     "overlayEmoji": "💊",
-    "x": 0.24,
-    "y": 0.24,
+    "x": 0.25,
+    "y": 0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -1847,6 +2401,8 @@
     "overlayEmoji": "💀",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1861,6 +2417,8 @@
     "subSize": 0.38,
     "baseEmoji": "📂",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1873,8 +2431,10 @@
     "subSize": 0.4,
     "baseEmoji": "🍔",
     "overlayEmoji": "👑",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -1889,6 +2449,8 @@
     "overlayEmoji": "🐸",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1903,6 +2465,8 @@
     "subSize": 0.36,
     "baseEmoji": "📦",
     "overlayEmoji": "💩",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -1917,6 +2481,8 @@
     "subSize": 0.38,
     "baseEmoji": "📷",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -1931,6 +2497,8 @@
     "overlayEmoji": "❤️",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1945,6 +2513,8 @@
     "overlayEmoji": "⚡",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1959,6 +2529,8 @@
     "overlayEmoji": "🧊",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -1971,8 +2543,10 @@
     "subSize": 0.44,
     "baseEmoji": "🎮",
     "overlayEmoji": "🔥",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1985,8 +2559,10 @@
     "subSize": 0.4,
     "baseEmoji": "📚",
     "overlayEmoji": "💣",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -2001,6 +2577,8 @@
     "subSize": 0.46,
     "baseEmoji": "🖨️",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2015,6 +2593,8 @@
     "subSize": 0.48,
     "baseEmoji": "📱",
     "overlayEmoji": "🛡️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2029,6 +2609,8 @@
     "subSize": 0.4,
     "baseEmoji": "📺",
     "overlayEmoji": "🤖",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2042,8 +2624,10 @@
     "rotate": "-12deg",
     "baseEmoji": "📅",
     "overlayEmoji": "💣",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -2056,8 +2640,10 @@
     "subSize": 0.36,
     "baseEmoji": "🐀",
     "overlayEmoji": "🧀",
-    "x": 0.24,
-    "y": 0.24,
+    "x": 0.25,
+    "y": 0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -2071,8 +2657,10 @@
     "rotate": "-12deg",
     "baseEmoji": "🎧",
     "overlayEmoji": "🔥",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -2087,6 +2675,8 @@
     "subSize": 0.44,
     "baseEmoji": "🖨️",
     "overlayEmoji": "🧬",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2101,6 +2691,8 @@
     "subSize": 0.42,
     "baseEmoji": "💾",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2115,6 +2707,8 @@
     "subSize": 0.38,
     "baseEmoji": "📫",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -2129,6 +2723,8 @@
     "subSize": 0.42,
     "baseEmoji": "🛰️",
     "overlayEmoji": "👁️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2144,6 +2740,8 @@
     "rotate": "-12deg",
     "baseEmoji": "🧰",
     "overlayEmoji": "🧲",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2158,6 +2756,8 @@
     "subSize": 0.4,
     "baseEmoji": "☕",
     "overlayEmoji": "❤️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2170,8 +2770,10 @@
     "subSize": 0.4,
     "baseEmoji": "💉",
     "overlayEmoji": "💀",
-    "x": 0.24,
-    "y": 0.24,
+    "x": 0.25,
+    "y": 0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -2186,6 +2788,8 @@
     "subSize": 0.42,
     "baseEmoji": "🧴",
     "overlayEmoji": "☣️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2200,6 +2804,8 @@
     "subSize": 0.42,
     "baseEmoji": "🧋",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2214,6 +2820,8 @@
     "subSize": 0.32,
     "baseEmoji": "📁",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -2229,6 +2837,8 @@
     "rotate": "-12deg",
     "baseEmoji": "📁",
     "overlayEmoji": "🔥",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -2243,6 +2853,8 @@
     "subSize": 0.34,
     "baseEmoji": "📦",
     "overlayEmoji": "⚠️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -2257,6 +2869,8 @@
     "subSize": 0.36,
     "baseEmoji": "📦",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -2271,6 +2885,8 @@
     "subSize": 0.38,
     "baseEmoji": "🍼",
     "overlayEmoji": "⭐",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2285,6 +2901,8 @@
     "subSize": 0.38,
     "baseEmoji": "🍼",
     "overlayEmoji": "❤️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2299,6 +2917,8 @@
     "subSize": 0.32,
     "baseEmoji": "💻",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -2313,6 +2933,8 @@
     "subSize": 0.38,
     "baseEmoji": "📺",
     "overlayEmoji": "👽",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2327,6 +2949,8 @@
     "subSize": 0.34,
     "baseEmoji": "📁",
     "overlayEmoji": "🔑",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -2341,6 +2965,8 @@
     "subSize": 0.31,
     "baseEmoji": "📦",
     "overlayEmoji": "👑",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -2355,6 +2981,8 @@
     "subSize": 0.4,
     "baseEmoji": "🍼",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -2369,6 +2997,8 @@
     "subSize": 0.36,
     "baseEmoji": "🪣",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   }
 ];
@@ -2452,8 +3082,8 @@
   }
 
   function applyAutoPrefab(node, prefab) {
-    node.style.setProperty("--es-x", `${prefab.x}em`);
-    node.style.setProperty("--es-y", `${prefab.y}em`);
+    node.style.setProperty("--es-x", formatCoord(prefab.x, prefab.xUnit));
+    node.style.setProperty("--es-y", formatCoord(prefab.y, prefab.yUnit));
     node.style.setProperty("--es-sub-size", `${prefab.subSize}`);
     node.style.setProperty("--es-opacity", `${prefab.opacity || 1}`);
     node.style.setProperty("--es-rotate", prefab.rotate || "0deg");
@@ -2467,8 +3097,8 @@
       return;
     }
 
-    node.style.setProperty("--es-x", `${preset.x}em`);
-    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-x", formatCoord(preset.x, preset.unit));
+    node.style.setProperty("--es-y", formatCoord(preset.y, preset.unit));
     node.style.setProperty("--es-sub-size", `${preset.subSize}`);
     node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
     node.style.setProperty("--es-rotate", preset.rotate || "0deg");
@@ -2482,8 +3112,8 @@
       return false;
     }
 
-    node.style.setProperty("--es-x", `${preset.x}em`);
-    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-x", formatCoord(preset.x, preset.unit));
+    node.style.setProperty("--es-y", formatCoord(preset.y, preset.unit));
     node.style.setProperty("--es-sub-size", `${preset.subSize}`);
     node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
     node.style.setProperty("--es-rotate", preset.rotate || "0deg");
@@ -2528,7 +3158,12 @@
 
     if (base) {
       node.style.setProperty("--es-base", JSON.stringify(base));
+      node.style.setProperty("--es-base-ox", `${emojiMeta[base]?.ox || 0}em`);
+      node.style.setProperty("--es-base-oy", `${emojiMeta[base]?.oy || 0}em`);
       node.dataset.esBase = base;
+    } else {
+      node.style.removeProperty("--es-base-ox");
+      node.style.removeProperty("--es-base-oy");
     }
 
     if (sub) {
@@ -2557,6 +3192,13 @@
     if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && base) {
       applyBaseDefault(node, base);
     }
+  }
+
+  function formatCoord(value, unit) {
+    if ((unit || "em") === "%") {
+      return `${Number(value) * 100}%`;
+    }
+    return `${value}em`;
   }
 
   function queryTargets(root) {

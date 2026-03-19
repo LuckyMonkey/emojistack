@@ -11,6 +11,7 @@
     "sandbox",
     "demo",
     "README.md",
+    "THIRD_PARTY_NOTICES.md",
     "LICENSE",
     "index.html"
   ],
@@ -40,10 +41,13 @@
     "cursed"
   ],
   "scripts": {
-    "generate": "node scripts/generate-emojis.js && node scripts/generate-prefabs.js",
+    "generate": "node scripts/generate-emojis.js && node scripts/generate-positions.js && node scripts/generate-prefabs.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "dev": "node scripts/build.js && node scripts/serve.js --root . --port 4173",
     "preview": "node scripts/build.js && node scripts/serve.js --root . --port 4174"
+  },
+  "dependencies": {
+    "unicode-emoji-json": "^0.8.0"
   }
 }

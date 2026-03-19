@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const generateEmojis = require("./generate-emojis");
+const generatePositions = require("./generate-positions");
 const generatePrefabs = require("./generate-prefabs");
 
 const ROOT = path.resolve(__dirname, "..");
@@ -26,6 +27,7 @@ function ensureDist() {
 
 function build() {
   generateEmojis();
+  generatePositions();
   generatePrefabs();
   ensureDist();
 

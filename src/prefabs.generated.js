@@ -13,6 +13,8 @@
     "subSize": 0.37,
     "baseEmoji": "🍼",
     "overlayEmoji": "🍓",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -27,6 +29,8 @@
     "subSize": 0.41,
     "baseEmoji": "🍼",
     "overlayEmoji": "☣️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -41,6 +45,8 @@
     "subSize": 0.38,
     "baseEmoji": "☕",
     "overlayEmoji": "💀",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -56,6 +62,8 @@
     "rotate": "-10deg",
     "baseEmoji": "💻",
     "overlayEmoji": "🔥",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -71,6 +79,8 @@
     "rotate": "-12deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🔌",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -86,6 +96,8 @@
     "rotate": "-8deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🍝",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -100,6 +112,8 @@
     "subSize": 0.42,
     "baseEmoji": "📁",
     "overlayEmoji": "💀",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -114,6 +128,8 @@
     "subSize": 0.92,
     "baseEmoji": "😇",
     "overlayEmoji": "🐱",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -128,6 +144,8 @@
     "subSize": 0.48,
     "baseEmoji": "🔋",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -141,8 +159,10 @@
     "rotate": "-16deg",
     "baseEmoji": "🍜",
     "overlayEmoji": "🌶️",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -157,6 +177,8 @@
     "subSize": 0.46,
     "baseEmoji": "🫙",
     "overlayEmoji": "☣️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -171,6 +193,8 @@
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🍒",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -185,6 +209,8 @@
     "subSize": 0.44,
     "baseEmoji": "💾",
     "overlayEmoji": "🗃️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -199,6 +225,8 @@
     "overlayEmoji": "👁️",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -212,8 +240,10 @@
     "rotate": "-12deg",
     "baseEmoji": "🍔",
     "overlayEmoji": "💣",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -228,6 +258,8 @@
     "subSize": 0.36,
     "baseEmoji": "📱",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -242,6 +274,8 @@
     "subSize": 0.34,
     "baseEmoji": "📁",
     "overlayEmoji": "⚠️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -256,6 +290,8 @@
     "subSize": 0.42,
     "baseEmoji": "📺",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -270,6 +306,8 @@
     "subSize": 0.5,
     "baseEmoji": "🪣",
     "overlayEmoji": "🐀",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -282,8 +320,10 @@
     "subSize": 0.42,
     "baseEmoji": "🐸",
     "overlayEmoji": "👑",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -298,6 +338,8 @@
     "subSize": 0.46,
     "baseEmoji": "🧃",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -310,8 +352,10 @@
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🧊",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -326,6 +370,8 @@
     "subSize": 0.46,
     "baseEmoji": "🍵",
     "overlayEmoji": "🍋",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -338,8 +384,10 @@
     "subSize": 0.48,
     "baseEmoji": "🛒",
     "overlayEmoji": "🔥",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -354,6 +402,8 @@
     "overlayEmoji": "🦴",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -369,6 +419,8 @@
     "overlayEmoji": "🐍",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -383,6 +435,8 @@
     "overlayEmoji": "🤖",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -397,6 +451,8 @@
     "overlayEmoji": "👽",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -412,6 +468,8 @@
     "rotate": "-18deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🧲",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -426,6 +484,8 @@
     "subSize": 0.38,
     "baseEmoji": "📁",
     "overlayEmoji": "🔒",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -440,6 +500,8 @@
     "overlayEmoji": "🔓",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -452,8 +514,10 @@
     "subSize": 0.44,
     "baseEmoji": "📷",
     "overlayEmoji": "💣",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -468,6 +532,8 @@
     "overlayEmoji": "❤️",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -482,6 +548,8 @@
     "subSize": 0.46,
     "baseEmoji": "🖨️",
     "overlayEmoji": "⚠️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -496,6 +564,8 @@
     "subSize": 0.38,
     "baseEmoji": "🧬",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -510,6 +580,8 @@
     "subSize": 0.38,
     "baseEmoji": "📺",
     "overlayEmoji": "🪫",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -524,6 +596,8 @@
     "overlayEmoji": "🧼",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -538,6 +612,8 @@
     "overlayEmoji": "🪵",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -550,8 +626,10 @@
     "subSize": 0.42,
     "baseEmoji": "☕",
     "overlayEmoji": "🌙",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -564,8 +642,10 @@
     "subSize": 0.44,
     "baseEmoji": "🍔",
     "overlayEmoji": "☀️",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -580,6 +660,8 @@
     "subSize": 0.46,
     "baseEmoji": "🫙",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -592,8 +674,10 @@
     "subSize": 0.42,
     "baseEmoji": "🔬",
     "overlayEmoji": "💊",
-    "x": 0.24,
-    "y": 0.24,
+    "x": 0.25,
+    "y": 0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -608,6 +692,8 @@
     "overlayEmoji": "💀",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -622,6 +708,8 @@
     "subSize": 0.38,
     "baseEmoji": "📂",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -634,8 +722,10 @@
     "subSize": 0.4,
     "baseEmoji": "🍔",
     "overlayEmoji": "👑",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -650,6 +740,8 @@
     "overlayEmoji": "🐸",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -664,6 +756,8 @@
     "subSize": 0.36,
     "baseEmoji": "📦",
     "overlayEmoji": "💩",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -678,6 +772,8 @@
     "subSize": 0.38,
     "baseEmoji": "📷",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -692,6 +788,8 @@
     "overlayEmoji": "❤️",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -706,6 +804,8 @@
     "overlayEmoji": "⚡",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -720,6 +820,8 @@
     "overlayEmoji": "🧊",
     "x": 0,
     "y": 0,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Direct Center"
   },
   {
@@ -732,8 +834,10 @@
     "subSize": 0.44,
     "baseEmoji": "🎮",
     "overlayEmoji": "🔥",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -746,8 +850,10 @@
     "subSize": 0.4,
     "baseEmoji": "📚",
     "overlayEmoji": "💣",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -762,6 +868,8 @@
     "subSize": 0.46,
     "baseEmoji": "🖨️",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -776,6 +884,8 @@
     "subSize": 0.48,
     "baseEmoji": "📱",
     "overlayEmoji": "🛡️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -790,6 +900,8 @@
     "subSize": 0.4,
     "baseEmoji": "📺",
     "overlayEmoji": "🤖",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -803,8 +915,10 @@
     "rotate": "-12deg",
     "baseEmoji": "📅",
     "overlayEmoji": "💣",
-    "x": 0.16,
-    "y": -0.24,
+    "x": 0.08,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Center SE"
   },
   {
@@ -817,8 +931,10 @@
     "subSize": 0.36,
     "baseEmoji": "🐀",
     "overlayEmoji": "🧀",
-    "x": 0.24,
-    "y": 0.24,
+    "x": 0.25,
+    "y": 0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -832,8 +948,10 @@
     "rotate": "-12deg",
     "baseEmoji": "🎧",
     "overlayEmoji": "🔥",
-    "x": 0.24,
-    "y": -0.24,
+    "x": 0.25,
+    "y": -0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Top Right SW"
   },
   {
@@ -848,6 +966,8 @@
     "subSize": 0.44,
     "baseEmoji": "🖨️",
     "overlayEmoji": "🧬",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -862,6 +982,8 @@
     "subSize": 0.42,
     "baseEmoji": "💾",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -876,6 +998,8 @@
     "subSize": 0.38,
     "baseEmoji": "📫",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -890,6 +1014,8 @@
     "subSize": 0.42,
     "baseEmoji": "🛰️",
     "overlayEmoji": "👁️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -905,6 +1031,8 @@
     "rotate": "-12deg",
     "baseEmoji": "🧰",
     "overlayEmoji": "🧲",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -919,6 +1047,8 @@
     "subSize": 0.4,
     "baseEmoji": "☕",
     "overlayEmoji": "❤️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -931,8 +1061,10 @@
     "subSize": 0.4,
     "baseEmoji": "💉",
     "overlayEmoji": "💀",
-    "x": 0.24,
-    "y": 0.24,
+    "x": 0.25,
+    "y": 0.25,
+    "xUnit": "%",
+    "yUnit": "%",
     "positionLabel": "Bottom Right NW"
   },
   {
@@ -947,6 +1079,8 @@
     "subSize": 0.42,
     "baseEmoji": "🧴",
     "overlayEmoji": "☣️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -961,6 +1095,8 @@
     "subSize": 0.42,
     "baseEmoji": "🧋",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -975,6 +1111,8 @@
     "subSize": 0.32,
     "baseEmoji": "📁",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -990,6 +1128,8 @@
     "rotate": "-12deg",
     "baseEmoji": "📁",
     "overlayEmoji": "🔥",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1004,6 +1144,8 @@
     "subSize": 0.34,
     "baseEmoji": "📦",
     "overlayEmoji": "⚠️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -1018,6 +1160,8 @@
     "subSize": 0.36,
     "baseEmoji": "📦",
     "overlayEmoji": "👻",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -1032,6 +1176,8 @@
     "subSize": 0.38,
     "baseEmoji": "🍼",
     "overlayEmoji": "⭐",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1046,6 +1192,8 @@
     "subSize": 0.38,
     "baseEmoji": "🍼",
     "overlayEmoji": "❤️",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1060,6 +1208,8 @@
     "subSize": 0.32,
     "baseEmoji": "💻",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   },
   {
@@ -1074,6 +1224,8 @@
     "subSize": 0.38,
     "baseEmoji": "📺",
     "overlayEmoji": "👽",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1088,6 +1240,8 @@
     "subSize": 0.34,
     "baseEmoji": "📁",
     "overlayEmoji": "🔑",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Right SW"
   },
   {
@@ -1102,6 +1256,8 @@
     "subSize": 0.31,
     "baseEmoji": "📦",
     "overlayEmoji": "👑",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Middle Right SE"
   },
   {
@@ -1116,6 +1272,8 @@
     "subSize": 0.4,
     "baseEmoji": "🍼",
     "overlayEmoji": "🧠",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Direct Center"
   },
   {
@@ -1130,6 +1288,8 @@
     "subSize": 0.36,
     "baseEmoji": "🪣",
     "overlayEmoji": "✨",
+    "xUnit": "em",
+    "yUnit": "em",
     "positionLabel": "Top Left SE"
   }
 ];

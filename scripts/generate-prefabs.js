@@ -8,6 +8,7 @@ const ROOT = path.resolve(__dirname, "..");
 const SRC = path.join(ROOT, "src");
 
 const emojiByAlias = Object.fromEntries(emojis.map((entry) => [entry.alias, entry.emoji]));
+const emojiMetaByEmoji = Object.fromEntries(emojis.map((entry) => [entry.emoji, entry]));
 const positionById = Object.fromEntries(positions.map((entry) => [entry.id, entry]));
 
 function writeFile(name, contents) {
@@ -40,6 +41,8 @@ function toCatalog(prefab) {
     overlayEmoji: emojiByAlias[prefab.overlay],
     x: typeof prefab.x === "number" ? prefab.x : position.x,
     y: typeof prefab.y === "number" ? prefab.y : position.y,
+    xUnit: typeof prefab.x === "number" ? "em" : (position.unit || "em"),
+    yUnit: typeof prefab.y === "number" ? "em" : (position.unit || "em"),
     positionLabel: position.label
   };
 }
@@ -47,6 +50,14 @@ function toCatalog(prefab) {
 function formatEm(value) {
   const normalized = Number(value).toFixed(2).replace(/\.?0+$/, "");
   return `${normalized}em`;
+}
+
+function formatCoord(value, unit) {
+  if ((unit || "em") === "%") {
+    const normalized = (Number(value) * 100).toFixed(2).replace(/\.?0+$/, "");
+    return `${normalized}%`;
+  }
+  return formatEm(value);
 }
 
 function generatePrefabCatalog(list) {
@@ -72,13 +83,15 @@ function generatePrefabs() {
   css.push(pairSelectors.join(",\n") + " {");
   css.push('  --es-base: "";');
   css.push('  --es-sub: "";');
-  css.push("  --es-x: 0em;");
-  css.push("  --es-y: 0em;");
+  css.push("  --es-base-ox: 0em;");
+  css.push("  --es-base-oy: 0em;");
+  css.push("  --es-x: 0%;");
+  css.push("  --es-y: 0%;");
   css.push("  --es-sub-size: 0.56;");
+  css.push("  --es-sub-ox: 0em;");
+  css.push("  --es-sub-oy: 0em;");
   css.push("  --es-rotate: 0deg;");
   css.push("  --es-opacity: 1;");
-  css.push("  --es-base-shadow: none;");
-  css.push("  --es-overlay-shadow: 0 0 0.08em rgb(0 0 0 / 0.28);");
   css.push("  --es-overlay-filter: none;");
   css.push("  --es-shift-z: 0;");
   css.push("  display: inline-block;");
@@ -95,41 +108,46 @@ function generatePrefabs() {
 
   css.push(pairSelectors.map((selector) => `${selector}::before,\n${selector}::after`).join(",\n") + " {");
   css.push("  position: absolute;");
-  css.push("  inset: 0;");
-  css.push("  display: grid;");
-  css.push("  place-items: center;");
+  css.push("  display: block;");
+  css.push("  width: max-content;");
+  css.push("  height: max-content;");
   css.push("  line-height: 1;");
+  css.push("  text-align: center;");
   css.push("  pointer-events: none;");
   css.push("  user-select: none;");
   css.push("}");
 
   css.push(pairSelectors.map((selector) => `${selector}::before`).join(",\n") + " {");
   css.push("  content: var(--es-base);");
-  css.push("  text-shadow: var(--es-base-shadow);");
+  css.push("  left: 50%;");
+  css.push("  top: 50%;");
+  css.push("  transform: translate(calc(-50% - var(--es-base-ox)), calc(-50% - var(--es-base-oy)));");
   css.push("}");
 
   css.push(pairSelectors.map((selector) => `${selector}::after`).join(",\n") + " {");
   css.push("  content: var(--es-sub);");
-  css.push("  inset: auto;");
-  css.push("  left: 50%;");
-  css.push("  top: 50%;");
-  css.push("  width: 1em;");
-  css.push("  height: 1em;");
+  css.push("  left: calc(50% + var(--es-x));");
+  css.push("  top: calc(50% + var(--es-y));");
   css.push("  font-size: calc(1em * var(--es-sub-size));");
   css.push("  opacity: var(--es-opacity);");
-  css.push("  text-shadow: var(--es-overlay-shadow);");
   css.push("  filter: var(--es-overlay-filter);");
-  css.push("  transform: translate(calc(-50% + var(--es-x)), calc(-50% + var(--es-y))) rotate(var(--es-rotate)) translateZ(var(--es-shift-z));");
+  css.push("  transform: translate(calc(-50% - var(--es-base-ox) - var(--es-sub-ox)), calc(-50% - var(--es-base-oy) - var(--es-sub-oy))) rotate(var(--es-rotate)) translateZ(var(--es-shift-z));");
   css.push("  transform-origin: center;");
   css.push("}");
 
   for (const prefab of catalog) {
+    const baseMeta = emojiMetaByEmoji[prefab.baseEmoji] || {};
+    const subMeta = emojiMetaByEmoji[prefab.overlayEmoji] || {};
     css.push(`.p-${prefab.name} {`);
     css.push(`  --es-base: ${quote(prefab.baseEmoji)};`);
     css.push(`  --es-sub: ${quote(prefab.overlayEmoji)};`);
-    css.push(`  --es-x: ${formatEm(prefab.x)};`);
-    css.push(`  --es-y: ${formatEm(prefab.y)};`);
+    css.push(`  --es-base-ox: ${formatEm(baseMeta.ox || 0)};`);
+    css.push(`  --es-base-oy: ${formatEm(baseMeta.oy || 0)};`);
+    css.push(`  --es-x: ${formatCoord(prefab.x, prefab.xUnit)};`);
+    css.push(`  --es-y: ${formatCoord(prefab.y, prefab.yUnit)};`);
     css.push(`  --es-sub-size: ${prefab.subSize};`);
+    css.push(`  --es-sub-ox: ${formatEm(subMeta.ox || 0)};`);
+    css.push(`  --es-sub-oy: ${formatEm(subMeta.oy || 0)};`);
     css.push(`  --es-opacity: ${prefab.opacity || 1};`);
     css.push(`  --es-rotate: ${prefab.rotate || "0deg"};`);
     css.push("}");
@@ -137,9 +155,13 @@ function generatePrefabs() {
     css.push(`[class~=${quote(`${prefab.baseEmoji}${prefab.overlayEmoji}`)}] {`);
     css.push(`  --es-base: ${quote(prefab.baseEmoji)};`);
     css.push(`  --es-sub: ${quote(prefab.overlayEmoji)};`);
-    css.push(`  --es-x: ${formatEm(prefab.x)};`);
-    css.push(`  --es-y: ${formatEm(prefab.y)};`);
+    css.push(`  --es-base-ox: ${formatEm(baseMeta.ox || 0)};`);
+    css.push(`  --es-base-oy: ${formatEm(baseMeta.oy || 0)};`);
+    css.push(`  --es-x: ${formatCoord(prefab.x, prefab.xUnit)};`);
+    css.push(`  --es-y: ${formatCoord(prefab.y, prefab.yUnit)};`);
     css.push(`  --es-sub-size: ${prefab.subSize};`);
+    css.push(`  --es-sub-ox: ${formatEm(subMeta.ox || 0)};`);
+    css.push(`  --es-sub-oy: ${formatEm(subMeta.oy || 0)};`);
     css.push(`  --es-opacity: ${prefab.opacity || 1};`);
     css.push(`  --es-rotate: ${prefab.rotate || "0deg"};`);
     css.push("}");

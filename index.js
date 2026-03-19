@@ -196,7 +196,6 @@
       section.innerHTML =
         `<article class="showcase-card" data-tone="${tone}">` +
         `<div class="showcase-inner">` +
-        `<span class="showcase-kicker">${escapeHtml(prefab.category || "prefab")}</span>` +
         `<div class="showcase-icon"><i class="${prefab.baseEmoji}${prefab.overlayEmoji}" title="${escapeHtml(prefab.label || prefab.name)}"></i></div>` +
         `<code class="showcase-code" title="Click to copy" data-copy="${snippet.replace(/"/g, "&quot;")}">${escapeHtml(snippet)}</code>` +
         `</div>` +

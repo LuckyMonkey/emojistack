@@ -1,39 +1,32 @@
 (function () {
-  const STORAGE_STATE = "emojistack:sandbox-state";
   const STORAGE_PREFABS = "emojistack:local-prefabs";
   const STORAGE_BASE_DEFAULTS = "emojistack:base-defaults";
   const STORAGE_SUB_DEFAULTS = "emojistack:sub-defaults";
 
-  const emojiData = window.EmojiStack?.data?.emojis || [];
+  const emojis = window.EmojiStack?.data?.emojis || [];
   const positions = window.EmojiStack?.data?.positions || [];
-  const starterPrefabs = window.EmojiStack?.prefabs || [];
+  const starters = window.EmojiStack?.prefabs || [];
 
-  const emojiByAlias = Object.fromEntries(emojiData.map((entry) => [entry.alias, entry]));
+  const emojiByAlias = Object.fromEntries(emojis.map((entry) => [entry.alias, entry]));
   const positionById = Object.fromEntries(positions.map((entry) => [entry.id, entry]));
 
-  const elements = {
+  const el = {
     prefabSearch: document.getElementById("prefab-search"),
     prefabJump: document.getElementById("prefab-jump"),
-    savePrefab: document.getElementById("save-prefab"),
-    deletePrefab: document.getElementById("delete-prefab"),
-    duplicatePrefab: document.getElementById("duplicate-prefab"),
-    themeToggle: document.getElementById("theme-toggle"),
-    resetButton: document.getElementById("reset-button"),
-    statusLine: document.getElementById("status-line"),
+    duplicate: document.getElementById("duplicate-prefab"),
+    save: document.getElementById("save-prefab"),
+    remove: document.getElementById("delete-prefab"),
+    reset: document.getElementById("reset-button"),
+    status: document.getElementById("status-line"),
     previewStage: document.getElementById("preview-stage"),
     previewHero: document.getElementById("preview-hero"),
     previewMain: document.getElementById("preview-main"),
     previewTitle: document.getElementById("preview-title"),
     previewSubtitle: document.getElementById("preview-subtitle"),
-    baseSelect: document.getElementById("base-select"),
-    overlaySelect: document.getElementById("overlay-select"),
-    modeToggle: document.getElementById("mode-toggle"),
-    positionSelect: document.getElementById("position-select"),
+    base: document.getElementById("base-select"),
+    overlay: document.getElementById("overlay-select"),
     positionNote: document.getElementById("position-note"),
-    pickerModeToggle: document.getElementById("picker-mode-toggle"),
-    iconSize: document.getElementById("icon-size"),
-    iconSizeValue: document.getElementById("icon-size-value"),
-    prefabName: document.getElementById("prefab-name"),
+    pickerMode: document.getElementById("picker-mode-toggle"),
     directBoard: document.getElementById("position-direct"),
     macroBoard: document.getElementById("position-macro"),
     microBoard: document.getElementById("position-micro"),
@@ -42,50 +35,35 @@
     clearBaseDefault: document.getElementById("clear-base-default"),
     clearSubDefault: document.getElementById("clear-sub-default"),
     baseDefaultNote: document.getElementById("base-default-note"),
-    subDefaultNote: document.getElementById("sub-default-note"),
-    cursedHtml: document.getElementById("cursed-html"),
-    aliasHtml: document.getElementById("alias-html"),
-    prefabHtml: document.getElementById("prefab-html"),
-    prefabCss: document.getElementById("prefab-css"),
-    prefabJson: document.getElementById("prefab-json"),
-    exportJson: document.getElementById("export-json"),
-    importJson: document.getElementById("import-json"),
-    ioTextarea: document.getElementById("io-textarea")
+    subDefaultNote: document.getElementById("sub-default-note")
   };
 
   const defaults = {
-    mode: "prefab",
     base: "bottle",
     overlay: "strawberry",
     position: "s-center",
     pickerMode: "direct",
-    iconSize: 300,
-    prefabName: "strawberry-milk",
-    theme: "light"
+    prefabName: "strawberry-milk"
   };
 
-  let state = loadJson(STORAGE_STATE, defaults);
   let localPrefabs = loadJson(STORAGE_PREFABS, []);
   let baseDefaults = loadJson(STORAGE_BASE_DEFAULTS, {});
   let subDefaults = loadJson(STORAGE_SUB_DEFAULTS, {});
-  let editingSource = "starter";
+  let state = { ...defaults };
+  let source = "starter";
   let dragPointerId = null;
-  let dragOffset = { x: 0, y: 0 };
+  let dragAnchor = { x: 0, y: 0 };
 
   function loadJson(key, fallback) {
     try {
-      const parsed = JSON.parse(localStorage.getItem(key) || "null");
-      if (parsed === null) {
-        return Array.isArray(fallback) ? fallback.slice() : { ...fallback };
-      }
-      return parsed;
+      const value = JSON.parse(localStorage.getItem(key) || "null");
+      return value === null ? structuredClone(fallback) : value;
     } catch (error) {
-      return Array.isArray(fallback) ? fallback.slice() : { ...fallback };
+      return structuredClone(fallback);
     }
   }
 
   function persist() {
-    localStorage.setItem(STORAGE_STATE, JSON.stringify(state));
     localStorage.setItem(STORAGE_PREFABS, JSON.stringify(localPrefabs));
     localStorage.setItem(STORAGE_BASE_DEFAULTS, JSON.stringify(baseDefaults));
     localStorage.setItem(STORAGE_SUB_DEFAULTS, JSON.stringify(subDefaults));
@@ -107,22 +85,21 @@
     return cleaned || "custom-stack";
   }
 
-  function guessPickerMode(positionId) {
+  function pickerModeFor(positionId) {
     if (positionId === "s-center") {
       return "direct";
     }
     return /^s-[a-z]{2}$/.test(positionId) ? "macro" : "micro";
   }
 
-  function subSizeForPosition(positionId) {
-    const mode = guessPickerMode(positionId);
+  function subSizeFor(mode) {
     if (mode === "direct") {
-      return 0.92;
+      return 0.82;
     }
     if (mode === "macro") {
       return 0.58;
     }
-    return 0.36;
+    return 0.32;
   }
 
   function currentBaseDefault() {
@@ -133,23 +110,13 @@
     return subDefaults[state.overlay] || null;
   }
 
-  function currentDefaultPreset() {
-    return currentSubDefault() || currentBaseDefault();
-  }
-
-  function currentUsesDefaultPreset() {
-    const preset = currentDefaultPreset();
-    return Boolean(preset && preset.position === state.position);
-  }
-
   function applySavedDefault() {
-    const preset = currentDefaultPreset();
+    const preset = currentSubDefault() || currentBaseDefault();
     if (!preset || !positionById[preset.position]) {
-      return false;
+      return;
     }
     state.position = preset.position;
-    state.pickerMode = guessPickerMode(preset.position);
-    return true;
+    state.pickerMode = preset.gridMode || pickerModeFor(state.position);
   }
 
   function currentDefinition() {
@@ -157,16 +124,15 @@
     const overlay = emojiByAlias[state.overlay];
     const position = positionById[state.position];
     return {
-      name: sanitizeName(state.prefabName),
+      name: sanitizeName(state.prefabName || `${state.base}-${state.overlay}`),
       base,
       overlay,
       position,
-      subSize: subSizeForPosition(state.position),
-      iconSize: Number(state.iconSize)
+      subSize: subSizeFor(state.pickerMode)
     };
   }
 
-  function currentPrefabRecord() {
+  function currentRecord() {
     const def = currentDefinition();
     return {
       name: def.name,
@@ -180,553 +146,385 @@
       overlayEmoji: def.overlay.emoji,
       x: def.position.x,
       y: def.position.y,
+      unit: def.position.unit || "%",
+      gridMode: state.pickerMode,
       subSize: def.subSize,
       opacity: 1,
       rotate: "0deg"
     };
   }
 
-  function prefabKey(prefab, source) {
-    return `${source}:${prefab.name}`;
-  }
-
-  function findPrefabByKey(key) {
-    const [source, name] = String(key || "").split(":");
-    const list = source === "local" ? localPrefabs : starterPrefabs;
-    const prefab = list.find((entry) => entry.name === name);
-    return prefab ? { prefab, source } : null;
+  function setStatus(text) {
+    el.status.textContent = text;
   }
 
   function syncRuntimeDefaults() {
     if (window.EmojiStack?.setBaseDefaults) {
       window.EmojiStack.setBaseDefaults(baseDefaults);
-    } else {
-      window.EmojiStackBaseDefaults = { ...baseDefaults };
     }
-
     if (window.EmojiStack?.setSubDefaults) {
       window.EmojiStack.setSubDefaults(subDefaults);
-    } else {
-      window.EmojiStackSubDefaults = { ...subDefaults };
     }
   }
 
-  function renderEmojiSelect(select, selectedAlias) {
-    const grouped = emojiData.reduce((acc, entry) => {
-      acc[entry.category] ||= [];
-      acc[entry.category].push(entry);
-      return acc;
-    }, {});
-
-    select.innerHTML = "";
-    Object.keys(grouped).sort().forEach((category) => {
-      const optgroup = document.createElement("optgroup");
-      optgroup.label = titleize(category);
-      grouped[category].forEach((entry) => {
+  function populateEmojiSelect(node, selected) {
+    node.innerHTML = "";
+    emojis
+      .slice()
+      .sort((left, right) => String(left.label).localeCompare(String(right.label)))
+      .forEach((item) => {
         const option = document.createElement("option");
-        option.value = entry.alias;
-        option.textContent = `${entry.emoji} ${entry.label}`;
-        option.selected = entry.alias === selectedAlias;
-        optgroup.appendChild(option);
+        option.value = item.alias;
+        option.textContent = `${item.emoji} ${item.label}`;
+        option.selected = item.alias === selected;
+        node.appendChild(option);
       });
-      select.appendChild(optgroup);
+  }
+
+  function filteredPrefabs() {
+    const query = el.prefabSearch.value.trim().toLowerCase();
+    return starters
+      .map((prefab) => ({ prefab, source: "starter" }))
+      .concat(localPrefabs.map((prefab) => ({ prefab, source: "local" })))
+      .filter(({ prefab, source: kind }) => {
+        if (!query) {
+          return true;
+        }
+        const text = `${prefab.name} ${prefab.label || ""} ${prefab.base} ${prefab.overlay} ${kind}`.toLowerCase();
+        return text.includes(query);
+      });
+  }
+
+  function renderPrefabJump() {
+    const items = filteredPrefabs();
+    el.prefabJump.innerHTML = "";
+
+    if (!items.length) {
+      el.prefabJump.innerHTML = '<option value="">No prefab match</option>';
+      return;
+    }
+
+    ["starter", "local"].forEach((kind) => {
+      const matches = items.filter((item) => item.source === kind);
+      if (!matches.length) {
+        return;
+      }
+      const group = document.createElement("optgroup");
+      group.label = kind === "starter" ? "Starter prefabs" : "Local prefabs";
+      matches.forEach(({ prefab }) => {
+        const option = document.createElement("option");
+        option.value = `${kind}:${prefab.name}`;
+        option.textContent = `${prefab.label || titleize(prefab.name)} · ${prefab.name}`;
+        option.selected = prefab.name === sanitizeName(state.prefabName) && source === kind;
+        group.appendChild(option);
+      });
+      el.prefabJump.appendChild(group);
     });
   }
 
-  function renderPositionSelect() {
-    elements.positionSelect.innerHTML = positions
-      .map((entry) => `<option value="${entry.id}">${entry.id} · ${entry.label}</option>`)
-      .join("");
-    elements.positionSelect.value = state.position;
-    elements.positionNote.textContent = positionById[state.position].label;
-  }
-
-  function boardEntries(mode) {
+  function boardItems(mode) {
     if (mode === "direct") {
-      return [["s-center", "center"]];
+      return [{ id: "s-center", text: "center" }];
+    }
+    if (mode === "micro") {
+      const macroRows = ["t", "m", "b"];
+      const macroCols = ["l", "c", "r"];
+      const quadRows = [["nw", "ne"], ["sw", "se"]];
+      const items = [];
+
+      macroRows.forEach((macroRow) => {
+        quadRows.forEach((pair) => {
+          macroCols.forEach((macroCol) => {
+            pair.forEach((quad) => {
+              const id = `s-${macroRow}${macroCol}-${quad}`;
+              items.push({ id, text: id.replace("s-", "") });
+            });
+          });
+        });
+      });
+
+      return items;
     }
     return positions
-      .filter((entry) => guessPickerMode(entry.id) === mode)
-      .map((entry) => [entry.id, entry.id.replace("s-", "")]);
+      .filter((item) => pickerModeFor(item.id) === mode)
+      .map((item) => ({ id: item.id, text: item.id.replace("s-", "") }));
   }
 
   function renderBoard(node, mode) {
-    node.innerHTML = boardEntries(mode)
-      .map(([id, label]) => (
-        `<button type="button" class="position-cell${id === state.position ? " active" : ""}" data-position="${id}" title="${positionById[id].label}">${label}</button>`
-      ))
-      .join("");
+    const isMicro = mode === "micro";
     node.hidden = state.pickerMode !== mode;
+    node.innerHTML = boardItems(mode)
+      .map((item) => `<button type="button" class="position-cell${item.id === state.position ? " active" : ""}" data-position="${item.id}" title="${positionById[item.id].label}">${item.text}</button>`)
+      .join("");
+
+    if (isMicro) {
+      node.insertAdjacentHTML(
+        "beforeend",
+        `<button type="button" class="position-center-dot${state.position === "s-center" ? " active" : ""}" data-position="s-center" title="Center">C</button>`
+      );
+    }
   }
 
   function renderBoards() {
-    renderBoard(elements.directBoard, "direct");
-    renderBoard(elements.macroBoard, "macro");
-    renderBoard(elements.microBoard, "micro");
-    elements.pickerModeToggle.querySelectorAll("button").forEach((button) => {
+    renderBoard(el.directBoard, "direct");
+    renderBoard(el.macroBoard, "macro");
+    renderBoard(el.microBoard, "micro");
+    el.pickerMode.querySelectorAll("button").forEach((button) => {
       button.classList.toggle("active", button.dataset.pickerMode === state.pickerMode);
     });
   }
 
-  function filteredPrefabs() {
-    const query = elements.prefabSearch.value.trim().toLowerCase();
-    const withSource = starterPrefabs
-      .map((prefab) => ({ prefab, source: "starter" }))
-      .concat(localPrefabs.map((prefab) => ({ prefab, source: "local" })));
-
-    return withSource.filter(({ prefab, source }) => {
-      if (!query) {
-        return true;
-      }
-      const text = `${prefab.name} ${prefab.label || ""} ${prefab.base} ${prefab.overlay} ${prefab.category || ""} ${source}`.toLowerCase();
-      return text.includes(query);
-    });
-  }
-
-  function renderPrefabPicker() {
-    const items = filteredPrefabs();
-    const currentName = sanitizeName(state.prefabName);
-    elements.prefabJump.innerHTML = "";
-
-    if (!items.length) {
-      elements.prefabJump.innerHTML = '<option value="">No prefab match</option>';
-      return;
-    }
-
-    const groups = {
-      starter: items.filter((entry) => entry.source === "starter"),
-      local: items.filter((entry) => entry.source === "local")
-    };
-
-    ["starter", "local"].forEach((source) => {
-      if (!groups[source].length) {
-        return;
-      }
-      const optgroup = document.createElement("optgroup");
-      optgroup.label = source === "starter" ? "Starter prefabs" : "Local prefabs";
-      groups[source].forEach(({ prefab }) => {
-        const option = document.createElement("option");
-        option.value = prefabKey(prefab, source);
-        option.textContent = `${prefab.label || titleize(prefab.name)} · ${prefab.name}`;
-        option.selected = currentName === prefab.name && editingSource === source;
-        optgroup.appendChild(option);
-      });
-      elements.prefabJump.appendChild(optgroup);
-    });
-
-    if (!elements.prefabJump.value) {
-      elements.prefabJump.selectedIndex = 0;
-    }
-  }
-
-  function setPreview() {
+  function applyPreview() {
     const def = currentDefinition();
-    const icon = elements.previewMain;
-    const maxByHeight = Math.max(160, Math.floor(window.innerHeight * 0.46));
-    const maxByWidth = window.innerWidth > 1220
-      ? Math.max(220, Math.floor(window.innerWidth * 0.28))
-      : Math.max(220, Math.floor(window.innerWidth * 0.62));
-    const appliedSize = Math.min(def.iconSize, maxByHeight, maxByWidth);
+    const icon = el.previewMain;
+    const heightSize = Math.max(180, Math.floor(window.innerHeight * 0.44));
+    const widthSize = window.innerWidth > 1220
+      ? Math.max(220, Math.floor(window.innerWidth * 0.27))
+      : Math.max(220, Math.floor(window.innerWidth * 0.6));
+    const size = Math.min(320, heightSize, widthSize);
+
     icon.className = "es";
-    icon.style.fontSize = `${appliedSize}px`;
+    icon.style.fontSize = `${size}px`;
     icon.style.setProperty("--es-base", JSON.stringify(def.base.emoji));
     icon.style.setProperty("--es-sub", JSON.stringify(def.overlay.emoji));
-    icon.style.setProperty("--es-x", `${def.position.x}em`);
-    icon.style.setProperty("--es-y", `${def.position.y}em`);
+    icon.style.setProperty("--es-base-ox", `${def.base.ox || 0}em`);
+    icon.style.setProperty("--es-base-oy", `${def.base.oy || 0}em`);
+    icon.style.setProperty("--es-x", formatCoord(def.position.x, def.position.unit));
+    icon.style.setProperty("--es-y", formatCoord(def.position.y, def.position.unit));
     icon.style.setProperty("--es-sub-size", `${def.subSize}`);
     icon.style.setProperty("--es-sub-ox", `${def.overlay.ox || 0}em`);
     icon.style.setProperty("--es-sub-oy", `${def.overlay.oy || 0}em`);
 
-    elements.previewTitle.textContent = `${def.base.label} + ${def.overlay.label}`;
-    elements.previewSubtitle.textContent = def.position.label;
-    elements.previewHero.title = `${def.base.label} + ${def.overlay.label} · drag to place`;
-
-    elements.previewStage.classList.toggle("preview-dark", state.theme === "dark");
-    elements.previewStage.classList.toggle("preview-light", state.theme !== "dark");
+    el.previewTitle.textContent = `${def.base.label} + ${def.overlay.label}`;
+    el.previewSubtitle.textContent = def.position.label;
+    el.positionNote.textContent = def.position.label;
+    el.previewHero.title = state.pickerMode === "direct"
+      ? "Large size stays centered"
+      : "Drag the top emoji to place it";
+    el.previewHero.classList.toggle("is-static", state.pickerMode === "direct");
   }
 
-  function literalClassString(def) {
-    const tokens = ["es", def.base.emoji, def.overlay.emoji];
-    if (!currentUsesDefaultPreset()) {
-      tokens.push(def.position.id);
-    }
-    return tokens.join(" ");
-  }
-
-  function aliasClassString(def) {
-    const tokens = ["es", `e-${def.base.alias}`, `e-${def.overlay.alias}`];
-    if (!currentUsesDefaultPreset()) {
-      tokens.push(def.position.id);
-    }
-    return tokens.join(" ");
-  }
-
-  function updateSnippets() {
-    const def = currentDefinition();
-    const prefab = currentPrefabRecord();
-    const prefabClass = `p-${prefab.name}`;
-    const saved = starterPrefabs.some((entry) => entry.name === prefab.name) || localPrefabs.some((entry) => entry.name === prefab.name);
-
-    elements.cursedHtml.textContent = `<i class="${literalClassString(def)}"></i>`;
-    elements.aliasHtml.textContent = `<i class="${aliasClassString(def)}"></i>`;
-    elements.prefabHtml.textContent = saved
-      ? `<i class="es ${prefabClass}"></i>`
-      : `Save first, then use:\n<i class="es ${prefabClass}"></i>`;
-    elements.prefabCss.textContent =
-      `.${prefabClass} {\n` +
-      `  --es-base: ${JSON.stringify(prefab.baseEmoji)};\n` +
-      `  --es-sub: ${JSON.stringify(prefab.overlayEmoji)};\n` +
-      `  --es-x: ${prefab.x}em;\n` +
-      `  --es-y: ${prefab.y}em;\n` +
-      `  --es-sub-size: ${prefab.subSize};\n` +
-      `}`;
-    elements.prefabJson.textContent = JSON.stringify(prefab, null, 2);
-  }
-
-  function syncControls() {
-    renderEmojiSelect(elements.baseSelect, state.base);
-    renderEmojiSelect(elements.overlaySelect, state.overlay);
-    renderPositionSelect();
+  function syncUi() {
+    populateEmojiSelect(el.base, state.base);
+    populateEmojiSelect(el.overlay, state.overlay);
+    renderPrefabJump();
     renderBoards();
-    renderPrefabPicker();
-
-    elements.iconSize.value = state.iconSize;
-    elements.iconSizeValue.textContent = `${state.iconSize}px`;
-    elements.prefabName.value = state.prefabName;
-    elements.themeToggle.textContent = state.theme === "dark" ? "Light" : "Dark";
-    elements.savePrefab.textContent = editingSource === "local" ? "Save" : "Save";
-    elements.deletePrefab.disabled = editingSource !== "local";
 
     const baseDefault = currentBaseDefault();
     const subDefault = currentSubDefault();
-    elements.baseDefaultNote.textContent = baseDefault
-      ? `Base default: ${positionById[baseDefault.position].label}`
-      : "No base default.";
-    elements.subDefaultNote.textContent = subDefault
-      ? `Sub default: ${positionById[subDefault.position].label}`
-      : "No sub default.";
-    elements.clearBaseDefault.disabled = !baseDefault;
-    elements.clearSubDefault.disabled = !subDefault;
-
-    elements.modeToggle.querySelectorAll("input").forEach((input) => {
-      input.checked = input.value === state.mode;
-    });
+    el.baseDefaultNote.textContent = baseDefault ? `Base default: ${positionById[baseDefault.position].label}` : "No base default.";
+    el.subDefaultNote.textContent = subDefault ? `Sub default: ${positionById[subDefault.position].label}` : "No sub default.";
+    el.clearBaseDefault.disabled = !baseDefault;
+    el.clearSubDefault.disabled = !subDefault;
+    el.remove.disabled = source !== "local";
   }
 
   function redraw() {
     persist();
     syncRuntimeDefaults();
-    syncControls();
-    setPreview();
-    updateSnippets();
+    syncUi();
+    applyPreview();
   }
 
-  function setStatus(message) {
-    elements.statusLine.textContent = message;
-  }
-
-  function loadPrefab(prefab, source, duplicate) {
+  function loadPrefab(prefab, kind, duplicate) {
     state.base = prefab.base;
     state.overlay = prefab.overlay;
     state.position = prefab.position;
-    state.pickerMode = guessPickerMode(prefab.position);
+    state.pickerMode = prefab.gridMode || pickerModeFor(prefab.position);
     state.prefabName = duplicate ? `${prefab.name}-copy` : prefab.name;
-    editingSource = duplicate ? "custom" : source;
-    setStatus(duplicate ? "Prefab duplicated." : `Loaded ${prefab.label || titleize(prefab.name)}.`);
+    source = duplicate ? "custom" : kind;
+    setStatus(duplicate ? "Duplicated." : `Loaded ${prefab.label || titleize(prefab.name)}.`);
     redraw();
   }
 
-  function saveCurrentPrefab() {
-    const prefab = currentPrefabRecord();
-    const index = localPrefabs.findIndex((entry) => entry.name === prefab.name);
+  function savePrefab() {
+    const record = currentRecord();
+    const index = localPrefabs.findIndex((entry) => entry.name === record.name);
     if (index >= 0) {
-      localPrefabs.splice(index, 1, prefab);
+      localPrefabs.splice(index, 1, record);
     } else {
-      localPrefabs.unshift(prefab);
+      localPrefabs.unshift(record);
     }
-    editingSource = "local";
-    setStatus(`Saved ${prefab.name}.`);
+    source = "local";
+    state.prefabName = record.name;
+    setStatus(`Saved ${record.name}.`);
     redraw();
   }
 
-  function deleteCurrentPrefab() {
+  function removePrefab() {
     const name = sanitizeName(state.prefabName);
     const index = localPrefabs.findIndex((entry) => entry.name === name);
     if (index < 0) {
       return;
     }
     localPrefabs.splice(index, 1);
-    editingSource = starterPrefabs.some((entry) => entry.name === name) ? "starter" : "custom";
+    source = "starter";
     setStatus(`Deleted ${name}.`);
     redraw();
   }
 
-  function makeDefaultRecord() {
-    const def = currentDefinition();
-    return {
-      position: def.position.id,
-      x: def.position.x,
-      y: def.position.y,
-      subSize: def.subSize,
-      opacity: 1,
-      rotate: "0deg"
-    };
-  }
-
-  function copyText(value) {
-    return navigator.clipboard.writeText(value)
-      .then(() => setStatus("Copied."))
-      .catch(() => setStatus("Clipboard blocked."));
-  }
-
-  function exportLocalJson() {
-    const value = JSON.stringify(localPrefabs, null, 2);
-    elements.ioTextarea.value = value;
-    copyText(value);
-  }
-
-  function importLocalJson() {
-    let parsed;
-    try {
-      parsed = JSON.parse(elements.ioTextarea.value);
-    } catch (error) {
-      setStatus("Import failed.");
-      return;
-    }
-
-    const entries = Array.isArray(parsed) ? parsed : [parsed];
-    entries.forEach((entry) => {
-      if (!entry?.name || !emojiByAlias[entry.base] || !emojiByAlias[entry.overlay] || !positionById[entry.position]) {
-        return;
-      }
-
-      const normalized = {
-        name: sanitizeName(entry.name),
-        label: entry.label || titleize(entry.name),
-        category: entry.category || "custom",
-        base: entry.base,
-        overlay: entry.overlay,
-        position: entry.position,
-        positionLabel: positionById[entry.position].label,
-        baseEmoji: emojiByAlias[entry.base].emoji,
-        overlayEmoji: emojiByAlias[entry.overlay].emoji,
-        x: positionById[entry.position].x,
-        y: positionById[entry.position].y,
-        subSize: subSizeForPosition(entry.position),
-        opacity: 1,
-        rotate: "0deg"
-      };
-
-      const index = localPrefabs.findIndex((item) => item.name === normalized.name);
-      if (index >= 0) {
-        localPrefabs.splice(index, 1, normalized);
-      } else {
-        localPrefabs.unshift(normalized);
-      }
-    });
-
-    setStatus("Imported local prefabs.");
-    redraw();
-  }
-
-  function candidatePositions() {
-    return positions.filter((entry) => guessPickerMode(entry.id) === state.pickerMode);
-  }
-
-  function dragToPosition(clientX, clientY) {
-    const rect = elements.previewMain.getBoundingClientRect();
+  function nearestPosition(clientX, clientY) {
+    const rect = el.previewMain.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
     const scale = rect.width || 1;
-    const dx = ((clientX - centerX) / scale) - dragOffset.x;
-    const dy = ((clientY - centerY) / scale) - dragOffset.y;
+    const dx = ((clientX - centerX) / scale) - dragAnchor.x;
+    const dy = ((clientY - centerY) / scale) - dragAnchor.y;
 
-    let next = candidatePositions()[0];
-    let bestDistance = Infinity;
-
-    candidatePositions().forEach((entry) => {
-      const distance = ((entry.x - dx) ** 2) + ((entry.y - dy) ** 2);
-      if (distance < bestDistance) {
-        bestDistance = distance;
-        next = entry;
-      }
-    });
-
-    if (next && next.id !== state.position) {
-      state.position = next.id;
-      redraw();
-    }
+    return positions
+      .filter((item) => pickerModeFor(item.id) === state.pickerMode)
+      .reduce((best, item) => {
+        const distance = ((item.x - dx) ** 2) + ((item.y - dy) ** 2);
+        return distance < best.distance ? { distance, item } : best;
+      }, { distance: Infinity, item: positionById[state.position] }).item;
   }
 
-  function bindEvents() {
-    elements.prefabSearch.addEventListener("input", renderPrefabPicker);
-    elements.prefabJump.addEventListener("change", (event) => {
-      const selected = findPrefabByKey(event.target.value);
-      if (selected) {
-        loadPrefab(selected.prefab, selected.source, false);
+  function bind() {
+    el.prefabSearch.addEventListener("input", renderPrefabJump);
+    el.prefabJump.addEventListener("change", (event) => {
+      const [kind, name] = String(event.target.value).split(":");
+      const list = kind === "local" ? localPrefabs : starters;
+      const prefab = list.find((entry) => entry.name === name);
+      if (prefab) {
+        loadPrefab(prefab, kind, false);
       }
     });
 
-    elements.baseSelect.addEventListener("change", (event) => {
+    el.base.addEventListener("change", (event) => {
       state.base = event.target.value;
+      state.prefabName = `${state.base}-${state.overlay}`;
       applySavedDefault();
+      source = "custom";
       redraw();
     });
 
-    elements.overlaySelect.addEventListener("change", (event) => {
+    el.overlay.addEventListener("change", (event) => {
       state.overlay = event.target.value;
+      state.prefabName = `${state.base}-${state.overlay}`;
       applySavedDefault();
+      source = "custom";
       redraw();
     });
 
-    elements.positionSelect.addEventListener("change", (event) => {
-      state.position = event.target.value;
-      state.pickerMode = guessPickerMode(state.position);
-      redraw();
-    });
-
-    [elements.directBoard, elements.macroBoard, elements.microBoard].forEach((board) => {
+    [el.directBoard, el.macroBoard, el.microBoard].forEach((board) => {
       board.addEventListener("click", (event) => {
         const button = event.target.closest("button[data-position]");
         if (!button) {
           return;
         }
         state.position = button.dataset.position;
-        state.pickerMode = guessPickerMode(state.position);
+        source = "custom";
         redraw();
       });
     });
 
-    elements.pickerModeToggle.addEventListener("click", (event) => {
+    el.pickerMode.addEventListener("click", (event) => {
       const button = event.target.closest("button[data-picker-mode]");
       if (!button) {
         return;
       }
-
       state.pickerMode = button.dataset.pickerMode;
+      state.position = state.pickerMode === "direct"
+        ? "s-center"
+        : state.pickerMode === "macro"
+          ? "s-mc"
+          : "s-center";
+      source = "custom";
+      redraw();
+    });
+
+    el.previewHero.addEventListener("pointerdown", (event) => {
       if (state.pickerMode === "direct") {
-        state.position = "s-center";
-      } else if (state.pickerMode === "macro" && guessPickerMode(state.position) !== "macro") {
-        state.position = "s-mc";
-      } else if (state.pickerMode === "micro" && guessPickerMode(state.position) !== "micro") {
-        state.position = "s-mc-se";
-      }
-      redraw();
-    });
-
-    elements.iconSize.addEventListener("input", (event) => {
-      state.iconSize = Number(event.target.value);
-      redraw();
-    });
-
-    elements.prefabName.addEventListener("input", (event) => {
-      state.prefabName = event.target.value;
-      redraw();
-    });
-
-    elements.modeToggle.addEventListener("change", (event) => {
-      if (event.target.name !== "mode") {
         return;
       }
-      state.mode = event.target.value;
-      redraw();
+      const position = positionById[state.position];
+      const rect = el.previewMain.getBoundingClientRect();
+      const centerX = rect.left + rect.width / 2;
+      const centerY = rect.top + rect.height / 2;
+      const scale = rect.width || 1;
+      dragPointerId = event.pointerId;
+      dragAnchor = {
+        x: ((event.clientX - centerX) / scale) - position.x,
+        y: ((event.clientY - centerY) / scale) - position.y
+      };
+      el.previewHero.classList.add("is-dragging");
+      el.previewHero.setPointerCapture(event.pointerId);
     });
 
-    elements.themeToggle.addEventListener("click", () => {
-      state.theme = state.theme === "dark" ? "light" : "dark";
-      redraw();
+    el.previewHero.addEventListener("pointermove", (event) => {
+      if (event.pointerId !== dragPointerId) {
+        return;
+      }
+      const next = nearestPosition(event.clientX, event.clientY);
+      if (next.id !== state.position) {
+        state.position = next.id;
+        source = "custom";
+        redraw();
+      }
     });
 
-    elements.resetButton.addEventListener("click", () => {
-      state = { ...defaults };
-      editingSource = "starter";
-      setStatus("Reset.");
-      redraw();
+    ["pointerup", "pointercancel"].forEach((type) => {
+      el.previewHero.addEventListener(type, (event) => {
+        if (dragPointerId !== null && event.pointerId !== dragPointerId) {
+          return;
+        }
+        dragPointerId = null;
+        el.previewHero.classList.remove("is-dragging");
+      });
     });
 
-    elements.savePrefab.addEventListener("click", saveCurrentPrefab);
-    elements.deletePrefab.addEventListener("click", deleteCurrentPrefab);
-    elements.duplicatePrefab.addEventListener("click", () => {
-      state.prefabName = `${sanitizeName(state.prefabName)}-copy`;
-      editingSource = "custom";
-      setStatus("Duplicated into a new draft.");
-      redraw();
-    });
-
-    elements.makeBaseDefault.addEventListener("click", () => {
-      baseDefaults[state.base] = makeDefaultRecord();
+    el.makeBaseDefault.addEventListener("click", () => {
+      const record = currentRecord();
+      baseDefaults[state.base] = { position: record.position, x: record.x, y: record.y, unit: record.unit, gridMode: record.gridMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
       setStatus(`Saved base default for ${state.base}.`);
       redraw();
     });
 
-    elements.makeSubDefault.addEventListener("click", () => {
-      subDefaults[state.overlay] = makeDefaultRecord();
+    el.makeSubDefault.addEventListener("click", () => {
+      const record = currentRecord();
+      subDefaults[state.overlay] = { position: record.position, x: record.x, y: record.y, unit: record.unit, gridMode: record.gridMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
       setStatus(`Saved sub default for ${state.overlay}.`);
       redraw();
     });
 
-    elements.clearBaseDefault.addEventListener("click", () => {
+    el.clearBaseDefault.addEventListener("click", () => {
       delete baseDefaults[state.base];
       setStatus(`Cleared base default for ${state.base}.`);
       redraw();
     });
 
-    elements.clearSubDefault.addEventListener("click", () => {
+    el.clearSubDefault.addEventListener("click", () => {
       delete subDefaults[state.overlay];
       setStatus(`Cleared sub default for ${state.overlay}.`);
       redraw();
     });
 
-    document.querySelectorAll("[data-copy-target]").forEach((button) => {
-      button.addEventListener("click", () => {
-        const target = document.getElementById(button.dataset.copyTarget);
-        copyText(target.textContent);
-      });
+    el.save.addEventListener("click", savePrefab);
+    el.remove.addEventListener("click", removePrefab);
+    el.duplicate.addEventListener("click", () => {
+      state.prefabName = `${sanitizeName(state.prefabName)}-copy`;
+      source = "custom";
+      setStatus("Duplicated.");
+      redraw();
     });
-
-    elements.exportJson.addEventListener("click", exportLocalJson);
-    elements.importJson.addEventListener("click", importLocalJson);
-
-    elements.previewHero.addEventListener("pointerdown", (event) => {
-      const current = currentDefinition();
-      const rect = elements.previewMain.getBoundingClientRect();
-      const centerX = rect.left + rect.width / 2;
-      const centerY = rect.top + rect.height / 2;
-      const scale = rect.width || 1;
-      dragPointerId = event.pointerId;
-      dragOffset = {
-        x: ((event.clientX - centerX) / scale) - current.position.x,
-        y: ((event.clientY - centerY) / scale) - current.position.y
-      };
-      elements.previewHero.classList.add("is-dragging");
-      elements.previewHero.setPointerCapture(event.pointerId);
-      dragToPosition(event.clientX, event.clientY);
-    });
-
-    elements.previewHero.addEventListener("pointermove", (event) => {
-      if (event.pointerId !== dragPointerId) {
-        return;
-      }
-      dragToPosition(event.clientX, event.clientY);
-    });
-
-    elements.previewHero.addEventListener("pointerup", (event) => {
-      if (event.pointerId !== dragPointerId) {
-        return;
-      }
-      dragPointerId = null;
-      elements.previewHero.classList.remove("is-dragging");
-    });
-
-    elements.previewHero.addEventListener("pointercancel", () => {
-      dragPointerId = null;
-      elements.previewHero.classList.remove("is-dragging");
+    el.reset.addEventListener("click", () => {
+      state = { ...defaults };
+      source = "starter";
+      setStatus("Reset.");
+      redraw();
     });
 
     window.addEventListener("resize", redraw);
   }
 
-  bindEvents();
+  bind();
   syncRuntimeDefaults();
   redraw();
+
+  function formatCoord(value, unit) {
+    if ((unit || "em") === "%") {
+      return `${Number(value) * 100}%`;
+    }
+    return `${value}em`;
+  }
 })();

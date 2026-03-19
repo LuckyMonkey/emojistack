@@ -38,6 +38,37 @@ function testGeneratedFiles() {
   assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");
 }
 
+function testPositionGeometry() {
+  const micro = positions.filter((entry) => entry.kind === "micro");
+  const xs = [...new Set(micro.map((entry) => entry.x))].sort((a, b) => a - b);
+  const ys = [...new Set(micro.map((entry) => entry.y))].sort((a, b) => a - b);
+
+  assert(xs.length === 6, `Expected 6 micro x columns, found ${xs.length}`);
+  assert(ys.length === 6, `Expected 6 micro y rows, found ${ys.length}`);
+  assert(xs[0] <= -0.41 && xs[xs.length - 1] >= 0.41, "Micro columns should reach the edges");
+  assert(ys[0] <= -0.41 && ys[ys.length - 1] >= 0.41, "Micro rows should reach the edges");
+
+  const mcSw = positions.find((entry) => entry.id === "s-mc-sw");
+  const mlSw = positions.find((entry) => entry.id === "s-ml-sw");
+  const mrSw = positions.find((entry) => entry.id === "s-mr-sw");
+  assert(mcSw.y === mlSw.y && mcSw.y === mrSw.y, "Middle SW row should share one y value");
+
+  const microBoardOrder = [
+    "s-tl-nw", "s-tl-ne", "s-tc-nw", "s-tc-ne", "s-tr-nw", "s-tr-ne",
+    "s-tl-sw", "s-tl-se", "s-tc-sw", "s-tc-se", "s-tr-sw", "s-tr-se",
+    "s-ml-nw", "s-ml-ne", "s-mc-nw", "s-mc-ne", "s-mr-nw", "s-mr-ne",
+    "s-ml-sw", "s-ml-se", "s-mc-sw", "s-mc-se", "s-mr-sw", "s-mr-se",
+    "s-bl-nw", "s-bl-ne", "s-bc-nw", "s-bc-ne", "s-br-nw", "s-br-ne",
+    "s-bl-sw", "s-bl-se", "s-bc-sw", "s-bc-se", "s-br-sw", "s-br-se"
+  ];
+
+  for (let index = 0; index < microBoardOrder.length; index += 6) {
+    const row = microBoardOrder.slice(index, index + 6).map((id) => positions.find((entry) => entry.id === id));
+    const firstY = row[0].y;
+    assert(row.every((entry) => entry.y === firstY), `Micro board row ${index / 6} should share one y value`);
+  }
+}
+
 function findPrefab(name) {
   const prefab = prefabs.find((entry) => entry.name === name);
   assert(prefab, `Missing prefab "${name}"`);
@@ -189,6 +220,7 @@ function testRuntime() {
 function main() {
   testCounts();
   testGeneratedFiles();
+  testPositionGeometry();
   testPrefabPlacementIntent();
   testRuntime();
   console.log("EmojiStack tests passed.");

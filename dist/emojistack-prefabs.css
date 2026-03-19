@@ -81,13 +81,15 @@
 [class~="🪣✨"] {
   --es-base: "";
   --es-sub: "";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.56;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-rotate: 0deg;
   --es-opacity: 1;
-  --es-base-shadow: none;
-  --es-overlay-shadow: 0 0 0.08em rgb(0 0 0 / 0.28);
   --es-overlay-filter: none;
   --es-shift-z: 0;
   display: inline-block;
@@ -262,10 +264,11 @@
 [class~="🪣✨"]::before,
 [class~="🪣✨"]::after {
   position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
+  display: block;
+  width: max-content;
+  height: max-content;
   line-height: 1;
+  text-align: center;
   pointer-events: none;
   user-select: none;
 }
@@ -350,7 +353,9 @@
 [class~="🍼🧠"]::before,
 [class~="🪣✨"]::before {
   content: var(--es-base);
-  text-shadow: var(--es-base-shadow);
+  left: 50%;
+  top: 50%;
+  transform: translate(calc(-50% - var(--es-base-ox)), calc(-50% - var(--es-base-oy)));
 }
 [class~="🍼🍓"]::after,
 [class~="🍼☣️"]::after,
@@ -433,1455 +438,2091 @@
 [class~="🍼🧠"]::after,
 [class~="🪣✨"]::after {
   content: var(--es-sub);
-  inset: auto;
-  left: 50%;
-  top: 50%;
-  width: 1em;
-  height: 1em;
+  left: calc(50% + var(--es-x));
+  top: calc(50% + var(--es-y));
   font-size: calc(1em * var(--es-sub-size));
   opacity: var(--es-opacity);
-  text-shadow: var(--es-overlay-shadow);
   filter: var(--es-overlay-filter);
-  transform: translate(calc(-50% + var(--es-x)), calc(-50% + var(--es-y))) rotate(var(--es-rotate)) translateZ(var(--es-shift-z));
+  transform: translate(calc(-50% - var(--es-base-ox) - var(--es-sub-ox)), calc(-50% - var(--es-base-oy) - var(--es-sub-oy))) rotate(var(--es-rotate)) translateZ(var(--es-shift-z));
   transform-origin: center;
 }
 .p-strawberry-milk {
   --es-base: "🍼";
   --es-sub: "🍓";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: -0.03em;
   --es-y: 0.11em;
   --es-sub-size: 0.37;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍼🍓"] {
   --es-base: "🍼";
   --es-sub: "🍓";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: -0.03em;
   --es-y: 0.11em;
   --es-sub-size: 0.37;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-poison-bottle {
   --es-base: "🍼";
   --es-sub: "☣️";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: -0.03em;
   --es-y: 0.05em;
   --es-sub-size: 0.41;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍼☣️"] {
   --es-base: "🍼";
   --es-sub: "☣️";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: -0.03em;
   --es-y: 0.05em;
   --es-sub-size: 0.41;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-skull-coffee {
   --es-base: "☕";
   --es-sub: "💀";
+  --es-base-ox: -0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.06em;
   --es-y: -0.08em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="☕💀"] {
   --es-base: "☕";
   --es-sub: "💀";
+  --es-base-ox: -0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.06em;
   --es-y: -0.08em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-fire-laptop {
   --es-base: "💻";
   --es-sub: "🔥";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.2em;
   --es-y: -0.22em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: -10deg;
 }
 [class~="💻🔥"] {
   --es-base: "💻";
   --es-sub: "🔥";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.2em;
   --es-y: -0.22em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: -10deg;
 }
 .p-cable-box {
   --es-base: "📦";
   --es-sub: "🔌";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.35;
+  --es-sub-ox: 0.02em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 [class~="📦🔌"] {
   --es-base: "📦";
   --es-sub: "🔌";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.35;
+  --es-sub-ox: 0.02em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 .p-pasta-box {
   --es-base: "📦";
   --es-sub: "🍝";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.27em;
   --es-y: 0.05em;
   --es-sub-size: 0.37;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -8deg;
 }
 [class~="📦🍝"] {
   --es-base: "📦";
   --es-sub: "🍝";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.27em;
   --es-y: 0.05em;
   --es-sub-size: 0.37;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -8deg;
 }
 .p-doom-folder {
   --es-base: "📁";
   --es-sub: "💀";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.22em;
   --es-y: -0.12em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📁💀"] {
   --es-base: "📁";
   --es-sub: "💀";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.22em;
   --es-y: -0.12em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-cat-angel {
   --es-base: "😇";
   --es-sub: "🐱";
+  --es-base-ox: 0em;
+  --es-base-oy: -0.05em;
   --es-x: 0.01em;
   --es-y: 0.09em;
   --es-sub-size: 0.92;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="😇🐱"] {
   --es-base: "😇";
   --es-sub: "🐱";
+  --es-base-ox: 0em;
+  --es-base-oy: -0.05em;
   --es-x: 0.01em;
   --es-y: 0.09em;
   --es-sub-size: 0.92;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-brain-battery {
   --es-base: "🔋";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.02em;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🔋🧠"] {
   --es-base: "🔋";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.02em;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-spicy-ramen {
   --es-base: "🍜";
   --es-sub: "🌶️";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -16deg;
 }
 [class~="🍜🌶️"] {
   --es-base: "🍜";
   --es-sub: "🌶️";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -16deg;
 }
 .p-toxic-jar {
   --es-base: "🫙";
   --es-sub: "☣️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.46;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🫙☣️"] {
   --es-base: "🫙";
   --es-sub: "☣️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.46;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-cherry-soda {
   --es-base: "🥤";
   --es-sub: "🍒";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0.03em;
   --es-y: 0.04em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🥤🍒"] {
   --es-base: "🥤";
   --es-sub: "🍒";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0.03em;
   --es-y: 0.04em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-archive-disk {
   --es-base: "💾";
   --es-sub: "🗃️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.02em;
   --es-x: 0.03em;
   --es-y: 0.07em;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0.01em;
+  --es-sub-oy: 0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="💾🗃️"] {
   --es-base: "💾";
   --es-sub: "🗃️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.02em;
   --es-x: 0.03em;
   --es-y: 0.07em;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0.01em;
+  --es-sub-oy: 0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-cursed-camera {
   --es-base: "📷";
   --es-sub: "👁️";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📷👁️"] {
   --es-base: "📷";
   --es-sub: "👁️";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-bomb-burger {
   --es-base: "🍔";
   --es-sub: "💣";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 [class~="🍔💣"] {
   --es-base: "🍔";
   --es-sub: "💣";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 .p-sparkle-phone {
   --es-base: "📱";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: -0.2em;
   --es-y: -0.2em;
   --es-sub-size: 0.36;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📱✨"] {
   --es-base: "📱";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: -0.2em;
   --es-y: -0.2em;
   --es-sub-size: 0.36;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-warning-folder {
   --es-base: "📁";
   --es-sub: "⚠️";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.15em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📁⚠️"] {
   --es-base: "📁";
   --es-sub: "⚠️";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.15em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-ghost-tv {
   --es-base: "📺";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.03em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📺👻"] {
   --es-base: "📺";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.03em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-rat-bucket {
   --es-base: "🪣";
   --es-sub: "🐀";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.08em;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🪣🐀"] {
   --es-base: "🪣";
   --es-sub: "🐀";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.08em;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-frog-crown {
   --es-base: "🐸";
   --es-sub: "👑";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🐸👑"] {
   --es-base: "🐸";
   --es-sub: "👑";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-brain-juice {
   --es-base: "🧃";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🧃🧠"] {
   --es-base: "🧃";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-soda-ice {
   --es-base: "🥤";
   --es-sub: "🧊";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🥤🧊"] {
   --es-base: "🥤";
   --es-sub: "🧊";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-lemon-tea {
   --es-base: "🍵";
   --es-sub: "🍋";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.01em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍵🍋"] {
   --es-base: "🍵";
   --es-sub: "🍋";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.01em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-fire-cart {
   --es-base: "🛒";
   --es-sub: "🔥";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🛒🔥"] {
   --es-base: "🛒";
   --es-sub: "🔥";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-bone-bucket {
   --es-base: "🪣";
   --es-sub: "🦴";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.54;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🪣🦴"] {
   --es-base: "🪣";
   --es-sub: "🦴";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.54;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-snake-toolbox {
   --es-base: "🧰";
   --es-sub: "🐍";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.54;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -6deg;
 }
 [class~="🧰🐍"] {
   --es-base: "🧰";
   --es-sub: "🐍";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.54;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -6deg;
 }
 .p-robot-satellite {
   --es-base: "🛰️";
   --es-sub: "🤖";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🛰️🤖"] {
   --es-base: "🛰️";
   --es-sub: "🤖";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-alien-laptop {
   --es-base: "💻";
   --es-sub: "👽";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="💻👽"] {
   --es-base: "💻";
   --es-sub: "👽";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-magnet-box {
   --es-base: "📦";
   --es-sub: "🧲";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -18deg;
 }
 [class~="📦🧲"] {
   --es-base: "📦";
   --es-sub: "🧲";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -18deg;
 }
 .p-locked-folder {
   --es-base: "📁";
   --es-sub: "🔒";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.22em;
   --es-y: -0.12em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📁🔒"] {
   --es-base: "📁";
   --es-sub: "🔒";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.22em;
   --es-y: -0.12em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-unlock-phone {
   --es-base: "📱";
   --es-sub: "🔓";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📱🔓"] {
   --es-base: "📱";
   --es-sub: "🔓";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-camera-bomb {
   --es-base: "📷";
   --es-sub: "💣";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📷💣"] {
   --es-base: "📷";
   --es-sub: "💣";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-heart-mail {
   --es-base: "📫";
   --es-sub: "❤️";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📫❤️"] {
   --es-base: "📫";
   --es-sub: "❤️";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-warning-printer {
   --es-base: "🖨️";
   --es-sub: "⚠️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.02em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🖨️⚠️"] {
   --es-base: "🖨️";
   --es-sub: "⚠️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.02em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-sparkle-dna {
   --es-base: "🧬";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: -0.2em;
   --es-y: -0.2em;
   --es-sub-size: 0.38;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🧬✨"] {
   --es-base: "🧬";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: -0.2em;
   --es-y: -0.2em;
   --es-sub-size: 0.38;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-low-power-tv {
   --es-base: "📺";
   --es-sub: "🪫";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.04em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📺🪫"] {
   --es-base: "📺";
   --es-sub: "🪫";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.04em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-soap-bucket {
   --es-base: "🪣";
   --es-sub: "🧼";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🪣🧼"] {
   --es-base: "🪣";
   --es-sub: "🧼";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-wood-basket {
   --es-base: "🧺";
   --es-sub: "🪵";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🧺🪵"] {
   --es-base: "🧺";
   --es-sub: "🪵";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-moon-coffee {
   --es-base: "☕";
   --es-sub: "🌙";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: -0.01em;
+  --es-base-oy: 0.03em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="☕🌙"] {
   --es-base: "☕";
   --es-sub: "🌙";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: -0.01em;
+  --es-base-oy: 0.03em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-sun-burger {
   --es-base: "🍔";
   --es-sub: "☀️";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍔☀️"] {
   --es-base: "🍔";
   --es-sub: "☀️";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-brain-jar {
   --es-base: "🫙";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🫙🧠"] {
   --es-base: "🫙";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-microscope-pill {
   --es-base: "🔬";
   --es-sub: "💊";
-  --es-x: 0.24em;
-  --es-y: 0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: 25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🔬💊"] {
   --es-base: "🔬";
   --es-sub: "💊";
-  --es-x: 0.24em;
-  --es-y: 0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: 25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-petri-skull {
   --es-base: "🧫";
   --es-sub: "💀";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🧫💀"] {
   --es-base: "🧫";
   --es-sub: "💀";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-ghost-folder-open {
   --es-base: "📂";
   --es-sub: "👻";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.15em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📂👻"] {
   --es-base: "📂";
   --es-sub: "👻";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.15em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-crown-burger {
   --es-base: "🍔";
   --es-sub: "👑";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍔👑"] {
   --es-base: "🍔";
   --es-sub: "👑";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-frog-soda {
   --es-base: "🥤";
   --es-sub: "🐸";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🥤🐸"] {
   --es-base: "🥤";
   --es-sub: "🐸";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-poop-box {
   --es-base: "📦";
   --es-sub: "💩";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.27em;
   --es-y: 0.05em;
   --es-sub-size: 0.36;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📦💩"] {
   --es-base: "📦";
   --es-sub: "💩";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.27em;
   --es-y: 0.05em;
   --es-sub-size: 0.36;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-sparkle-camera {
   --es-base: "📷";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: -0.22em;
   --es-y: -0.2em;
   --es-sub-size: 0.38;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📷✨"] {
   --es-base: "📷";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: -0.22em;
   --es-y: -0.2em;
   --es-sub-size: 0.38;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-battery-heart {
   --es-base: "🔋";
   --es-sub: "❤️";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🔋❤️"] {
   --es-base: "🔋";
   --es-sub: "❤️";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-lightning-cloud {
   --es-base: "☁️";
   --es-sub: "⚡";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="☁️⚡"] {
   --es-base: "☁️";
   --es-sub: "⚡";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.5;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-ice-laptop {
   --es-base: "💻";
   --es-sub: "🧊";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="💻🧊"] {
   --es-base: "💻";
   --es-sub: "🧊";
-  --es-x: 0em;
-  --es-y: 0em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
+  --es-x: 0%;
+  --es-y: 0%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-gamepad-fire {
   --es-base: "🎮";
   --es-sub: "🔥";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🎮🔥"] {
   --es-base: "🎮";
   --es-sub: "🔥";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-book-bomb {
   --es-base: "📚";
   --es-sub: "💣";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📚💣"] {
   --es-base: "📚";
   --es-sub: "💣";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-printer-ghost {
   --es-base: "🖨️";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.03em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🖨️👻"] {
   --es-base: "🖨️";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.03em;
   --es-sub-size: 0.46;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-shield-phone {
   --es-base: "📱";
   --es-sub: "🛡️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.01em;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📱🛡️"] {
   --es-base: "📱";
   --es-sub: "🛡️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.01em;
   --es-sub-size: 0.48;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-robot-tv {
   --es-base: "📺";
   --es-sub: "🤖";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.02em;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📺🤖"] {
   --es-base: "📺";
   --es-sub: "🤖";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.02em;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-calendar-bomb {
   --es-base: "📅";
   --es-sub: "💣";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 [class~="📅💣"] {
   --es-base: "📅";
   --es-sub: "💣";
-  --es-x: 0.16em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 8%;
+  --es-y: -25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 .p-cheese-trap {
   --es-base: "🐀";
   --es-sub: "🧀";
-  --es-x: 0.24em;
-  --es-y: 0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: 25%;
   --es-sub-size: 0.36;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🐀🧀"] {
   --es-base: "🐀";
   --es-sub: "🧀";
-  --es-x: 0.24em;
-  --es-y: 0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: 25%;
   --es-sub-size: 0.36;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-headphones-fire {
   --es-base: "🎧";
   --es-sub: "🔥";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 [class~="🎧🔥"] {
   --es-base: "🎧";
   --es-sub: "🔥";
-  --es-x: 0.24em;
-  --es-y: -0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: -25%;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 .p-printer-dna {
   --es-base: "🖨️";
   --es-sub: "🧬";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.02em;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🖨️🧬"] {
   --es-base: "🖨️";
   --es-sub: "🧬";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.02em;
   --es-sub-size: 0.44;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-floppy-ghost {
   --es-base: "💾";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.02em;
   --es-x: 0.01em;
   --es-y: 0.06em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="💾👻"] {
   --es-base: "💾";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.02em;
   --es-x: 0.01em;
   --es-y: 0.06em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-mailbox-sparkles {
   --es-base: "📫";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: -0.2em;
   --es-y: -0.18em;
   --es-sub-size: 0.38;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📫✨"] {
   --es-base: "📫";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: -0.2em;
   --es-y: -0.18em;
   --es-sub-size: 0.38;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-satellite-eye {
   --es-base: "🛰️";
   --es-sub: "👁️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.02em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🛰️👁️"] {
   --es-base: "🛰️";
   --es-sub: "👁️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: -0.02em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-toolbox-magnet {
   --es-base: "🧰";
   --es-sub: "🧲";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 [class~="🧰🧲"] {
   --es-base: "🧰";
   --es-sub: "🧲";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.04em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 .p-coffee-heart {
   --es-base: "☕";
   --es-sub: "❤️";
+  --es-base-ox: -0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: -0.02em;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="☕❤️"] {
   --es-base: "☕";
   --es-sub: "❤️";
+  --es-base-ox: -0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: -0.02em;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-syringe-skull {
   --es-base: "💉";
   --es-sub: "💀";
-  --es-x: 0.24em;
-  --es-y: 0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: 25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="💉💀"] {
   --es-base: "💉";
   --es-sub: "💀";
-  --es-x: 0.24em;
-  --es-y: 0.24em;
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
+  --es-x: 25%;
+  --es-y: 25%;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-lotion-biohazard {
   --es-base: "🧴";
   --es-sub: "☣️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.06em;
   --es-sub-size: 0.42;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🧴☣️"] {
   --es-base: "🧴";
   --es-sub: "☣️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.06em;
   --es-sub-size: 0.42;
+  --es-sub-ox: -0.01em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-bubble-tea-brain {
   --es-base: "🧋";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.05em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🧋🧠"] {
   --es-base: "🧋";
   --es-sub: "🧠";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: 0em;
   --es-y: 0.05em;
   --es-sub-size: 0.42;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-sparkle-folder {
   --es-base: "📁";
   --es-sub: "✨";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: -0.24em;
   --es-y: -0.22em;
   --es-sub-size: 0.32;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📁✨"] {
   --es-base: "📁";
   --es-sub: "✨";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: -0.24em;
   --es-y: -0.22em;
   --es-sub-size: 0.32;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-fire-folder {
   --es-base: "📁";
   --es-sub: "🔥";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.14em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 [class~="📁🔥"] {
   --es-base: "📁";
   --es-sub: "🔥";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.14em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: -12deg;
 }
 .p-warning-box {
   --es-base: "📦";
   --es-sub: "⚠️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📦⚠️"] {
   --es-base: "📦";
   --es-sub: "⚠️";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-ghost-box {
   --es-base: "📦";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.36;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📦👻"] {
   --es-base: "📦";
   --es-sub: "👻";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.05em;
   --es-sub-size: 0.36;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-star-bottle {
   --es-base: "🍼";
   --es-sub: "⭐";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.1em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍼⭐"] {
   --es-base: "🍼";
   --es-sub: "⭐";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.1em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-heart-bottle {
   --es-base: "🍼";
   --es-sub: "❤️";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.1em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍼❤️"] {
   --es-base: "🍼";
   --es-sub: "❤️";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.1em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-sparkle-laptop {
   --es-base: "💻";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: -0.24em;
   --es-y: -0.22em;
   --es-sub-size: 0.32;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="💻✨"] {
   --es-base: "💻";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: -0.24em;
   --es-y: -0.22em;
   --es-sub-size: 0.32;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-alien-tv {
   --es-base: "📺";
   --es-sub: "👽";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.03em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📺👽"] {
   --es-base: "📺";
   --es-sub: "👽";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.02em;
   --es-y: 0.03em;
   --es-sub-size: 0.38;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-key-folder {
   --es-base: "📁";
   --es-sub: "🔑";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.15em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0.03em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📁🔑"] {
   --es-base: "📁";
   --es-sub: "🔑";
+  --es-base-ox: 0.01em;
+  --es-base-oy: 0.03em;
   --es-x: 0.24em;
   --es-y: -0.15em;
   --es-sub-size: 0.34;
+  --es-sub-ox: 0.03em;
+  --es-sub-oy: 0.01em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-crown-box {
   --es-base: "📦";
   --es-sub: "👑";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.04em;
   --es-sub-size: 0.31;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="📦👑"] {
   --es-base: "📦";
   --es-sub: "👑";
+  --es-base-ox: 0em;
+  --es-base-oy: 0.03em;
   --es-x: 0.28em;
   --es-y: 0.04em;
   --es-sub-size: 0.31;
+  --es-sub-ox: 0em;
+  --es-sub-oy: -0.04em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-brain-bottle {
   --es-base: "🍼";
   --es-sub: "🧠";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.1em;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🍼🧠"] {
   --es-base: "🍼";
   --es-sub: "🧠";
+  --es-base-ox: -0.03em;
+  --es-base-oy: 0.03em;
   --es-x: 0em;
   --es-y: 0.1em;
   --es-sub-size: 0.4;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 .p-sparkle-bucket {
   --es-base: "🪣";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: -0.2em;
   --es-y: -0.18em;
   --es-sub-size: 0.36;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }
 [class~="🪣✨"] {
   --es-base: "🪣";
   --es-sub: "✨";
+  --es-base-ox: 0em;
+  --es-base-oy: 0em;
   --es-x: -0.2em;
   --es-y: -0.18em;
   --es-sub-size: 0.36;
+  --es-sub-ox: -0.02em;
+  --es-sub-oy: -0.03em;
   --es-opacity: 1;
   --es-rotate: 0deg;
 }

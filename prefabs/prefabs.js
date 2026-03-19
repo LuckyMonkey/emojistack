@@ -13,7 +13,7 @@
     prefabs.forEach((prefab) => {
       const card = document.createElement("article");
       card.className = "prefab-card";
-      card.dataset.search = `${prefab.name} ${prefab.label || ""} ${prefab.base} ${prefab.overlay} ${prefab.baseEmoji} ${prefab.overlayEmoji} ${prefab.category || ""}`.toLowerCase();
+      card.dataset.search = `${prefab.name} ${prefab.label || ""} ${prefab.base} ${prefab.overlay} ${prefab.baseEmoji} ${prefab.overlayEmoji}`.toLowerCase();
       const copy = snippet(prefab);
       card.innerHTML =
         `<i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i>` +

@@ -71,8 +71,8 @@
   }
 
   function applyAutoPrefab(node, prefab) {
-    node.style.setProperty("--es-x", `${prefab.x}em`);
-    node.style.setProperty("--es-y", `${prefab.y}em`);
+    node.style.setProperty("--es-x", formatCoord(prefab.x, prefab.xUnit));
+    node.style.setProperty("--es-y", formatCoord(prefab.y, prefab.yUnit));
     node.style.setProperty("--es-sub-size", `${prefab.subSize}`);
     node.style.setProperty("--es-opacity", `${prefab.opacity || 1}`);
     node.style.setProperty("--es-rotate", prefab.rotate || "0deg");
@@ -86,8 +86,8 @@
       return;
     }
 
-    node.style.setProperty("--es-x", `${preset.x}em`);
-    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-x", formatCoord(preset.x, preset.unit));
+    node.style.setProperty("--es-y", formatCoord(preset.y, preset.unit));
     node.style.setProperty("--es-sub-size", `${preset.subSize}`);
     node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
     node.style.setProperty("--es-rotate", preset.rotate || "0deg");
@@ -101,8 +101,8 @@
       return false;
     }
 
-    node.style.setProperty("--es-x", `${preset.x}em`);
-    node.style.setProperty("--es-y", `${preset.y}em`);
+    node.style.setProperty("--es-x", formatCoord(preset.x, preset.unit));
+    node.style.setProperty("--es-y", formatCoord(preset.y, preset.unit));
     node.style.setProperty("--es-sub-size", `${preset.subSize}`);
     node.style.setProperty("--es-opacity", `${preset.opacity || 1}`);
     node.style.setProperty("--es-rotate", preset.rotate || "0deg");
@@ -147,7 +147,12 @@
 
     if (base) {
       node.style.setProperty("--es-base", JSON.stringify(base));
+      node.style.setProperty("--es-base-ox", `${emojiMeta[base]?.ox || 0}em`);
+      node.style.setProperty("--es-base-oy", `${emojiMeta[base]?.oy || 0}em`);
       node.dataset.esBase = base;
+    } else {
+      node.style.removeProperty("--es-base-ox");
+      node.style.removeProperty("--es-base-oy");
     }
 
     if (sub) {
@@ -176,6 +181,13 @@
     if (!hasPositionToken(tokens) && !hasPrefabToken(tokens) && base) {
       applyBaseDefault(node, base);
     }
+  }
+
+  function formatCoord(value, unit) {
+    if ((unit || "em") === "%") {
+      return `${Number(value) * 100}%`;
+    }
+    return `${value}em`;
   }
 
   function queryTargets(root) {

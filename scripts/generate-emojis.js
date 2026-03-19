@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const emojiMeta = require("unicode-emoji-json/data-by-emoji.json");
 const emojis = require("../data/emojis");
 const positions = require("../data/positions");
 
@@ -12,6 +13,40 @@ function writeFile(name, contents) {
 
 function cssVar(emoji) {
   return JSON.stringify(emoji);
+}
+
+function slugify(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function titleCase(value) {
+  return String(value || "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function enrichEmoji(entry) {
+  const meta = emojiMeta[entry.emoji];
+
+  if (!meta) {
+    throw new Error(`Missing unicode-emoji-json metadata for "${entry.emoji}" (${entry.alias})`);
+  }
+
+  return {
+    ...entry,
+    label: titleCase(meta.name),
+    group: meta.group,
+    category: slugify(meta.group),
+    unicodeName: meta.name,
+    unicodeVersion: meta.unicode_version,
+    emojiVersion: meta.emoji_version
+  };
 }
 
 function generateEmojiCss(list) {
@@ -67,10 +102,11 @@ function generateRegistry(list) {
 }
 
 function generateEmojis() {
-  writeFile("emojis.generated.css", generateEmojiCss(emojis));
-  writeFile("aliases.generated.css", generateAliasCss(emojis));
-  writeFile("registry.js", generateRegistry(emojis));
-  return emojis;
+  const enriched = emojis.map(enrichEmoji);
+  writeFile("emojis.generated.css", generateEmojiCss(enriched));
+  writeFile("aliases.generated.css", generateAliasCss(enriched));
+  writeFile("registry.js", generateRegistry(enriched));
+  return enriched;
 }
 
 if (require.main === module) {
