@@ -10,21 +10,13 @@ Third-party notice: Emoji names and group metadata are generated from [`unicode-
 
 ## Use On Your Site
 
-Install it as a normal frontend package:
+EmojiStack is a normal frontend package, but you can also just copy the built files out of this repo and serve them yourself.
+
+### npm
 
 ```bash
 npm install emojistack
 ```
-
-Then ship the bundled assets from your app or static pipeline:
-
-```html
-<link rel="stylesheet" href="/node_modules/emojistack/dist/emojistack.css">
-<link rel="stylesheet" href="/node_modules/emojistack/dist/emojistack-prefabs.css">
-<script src="/node_modules/emojistack/dist/emojistack.js"></script>
-```
-
-If your bundler supports CSS imports, you can also pull the files in directly:
 
 ```js
 import "emojistack/dist/emojistack.css";
@@ -32,11 +24,23 @@ import "emojistack/dist/emojistack-prefabs.css";
 import "emojistack/dist/emojistack.js";
 ```
 
-Stacks built in the sandbox copy out as normal classes, so you can paste them straight into your site:
+### Plain files from GitHub
+
+1. Download or clone this repo.
+2. Copy the files from [`dist`](./dist) into your own site.
+3. Link them like any other static asset.
+
+```html
+<link rel="stylesheet" href="/assets/emojistack.css">
+<link rel="stylesheet" href="/assets/emojistack-prefabs.css">
+<script src="/assets/emojistack.js"></script>
+```
+
+Then paste the class string you built:
 
 ```html
 <i class="es p-strawberry-milk"></i>
-<i class="es 🍼🍓 s-44 sm"></i>
+<i class="es 🍼🍓 s-44 es-s"></i>
 ```
 
 ## Why This Exists
@@ -58,40 +62,22 @@ It is intentionally not:
 - React-heavy
 - a JavaScript-heavy icon framework
 
-## Install
-
-### Browser / local files
-
-```html
-<link rel="stylesheet" href="./dist/emojistack.css">
-<link rel="stylesheet" href="./dist/emojistack-prefabs.css">
-<script src="./dist/emojistack.js"></script>
-```
-
-### npm package
-
-```bash
-npm install emojistack
-```
-
-Then include the dist assets from your bundler or static pipeline.
-
 ## Quick Start
 
 ### Literal emoji mode
 
 ```html
-<i class="es 🍼 🍓 s-44"></i>
-<i class="es 📦 🍝 s-44"></i>
-<i class="es ☕ 💀 s-17"></i>
+<i class="es 🍼 🍓 s-44 es-s"></i>
+<i class="es 📦 🍝 s-67 es-s"></i>
+<i class="es ☕ 💀 s-17 es-s"></i>
 ```
 
 ### Safe alias mode
 
 ```html
-<i class="es e-bottle e-strawberry s-44"></i>
-<i class="es e-box e-spaghetti s-44"></i>
-<i class="es e-coffee e-skull s-17"></i>
+<i class="es e-bottle e-strawberry s-44 es-s"></i>
+<i class="es e-box e-spaghetti s-67 es-s"></i>
+<i class="es e-coffee e-skull s-17 es-s"></i>
 ```
 
 ### Prefab mode
@@ -149,6 +135,28 @@ These require `dist/emojistack.js`:
 
 The runtime scans `.es`, reads class order, resolves the first emoji-like token as base, resolves the second as overlay, and writes the corresponding CSS variables inline. It also exposes `init()` and `refresh()` for dynamically inserted nodes.
 
+## What The Classes Do
+
+EmojiStack stays small by making each class family do one job:
+
+- `.es` creates the 1em icon box and the two pseudo-elements
+- `.e-*` or literal emoji classes choose the base and top emoji
+- `.p-*` loads a prefab with tuned offsets and size
+- `.s-11` through `.s-77` place the top emoji on the 7x7 grid
+- `.es-s`, `.es-m`, `.es-l` control top-emoji size
+
+That means a custom stack is usually just:
+
+```html
+<i class="es 🍼🍓 s-44 es-s"></i>
+```
+
+and a prefab is:
+
+```html
+<i class="es p-strawberry-milk"></i>
+```
+
 ## Placement Classes
 
 EmojiStack now uses one 7x7 placement grid.
@@ -173,9 +181,7 @@ Size is separate from placement:
 - `.es-m`
 - `.es-l`
 
-So placement decides where the overlay lands, and size decides how big it is.
-
-The sandbox uses the full 7x7 board directly.
+Placement decides where the overlay lands. Size decides how large the overlay is inside that grid slot.
 
 ## Alias System
 
@@ -190,7 +196,7 @@ Examples:
 - `.e-fire`
 - `.e-laptop`
 
-Alias classes map to the same emoji registry used by the runtime, the sandbox, and the prefab generator.
+Alias classes map to the same emoji registry used by the runtime and the prefab generator.
 
 ## Prefabs
 
@@ -219,49 +225,9 @@ Examples:
 - `p-rat-bucket`
 - `p-frog-crown`
 
-Prefab classes are pure CSS for the bundled starter set, and the runtime can also resolve `p-*` classes from a configured remote prefab feed.
+Prefab classes are pure CSS for the bundled starter set.
 
-## Remote Prefab Feed
-
-EmojiStack now includes a Google Sheets + Apps Script handoff for prefab loading and saving.
-
-Files included for that flow:
-
-- [`config/prefab-api.js`](./config/prefab-api.js)
-- [`google-apps-script/Code.gs`](./google-apps-script/Code.gs)
-- [`google-apps-script/prefabs-seed.csv`](./google-apps-script/prefabs-seed.csv)
-- [`google-apps-script/prefabs-seed.json`](./google-apps-script/prefabs-seed.json)
-- [`google-apps-script/README.md`](./google-apps-script/README.md)
-
-When `endpoint` is configured in `config/prefab-api.js`, the homepage spinner, prefab browser, sandbox loader, and sandbox save button all use that remote feed.
-
-## Sandbox Guide
-
-Open [`sandbox/index.html`](./sandbox/index.html) or run `npm run dev` and visit `/sandbox/`.
-
-The sandbox supports:
-
-- base emoji picker
-- overlay emoji picker
-- full 7x7 placement board
-- separate `S`, `M`, and `L` size controls
-- drag placement for movable sizes
-- remote prefab browser
-- save-to-sheet workflow
-- local base/sub default placement memory
-
-## Prefab Creation Guide
-
-You can create prefabs in two ways.
-
-### In the sandbox
-
-1. Pick base emoji, overlay emoji, position, and size.
-2. Save it to the configured prefab feed.
-3. Copy the generated class.
-4. Use it as `<i class="es p-your-name"></i>`.
-
-### In source
+## Make Your Own Prefabs
 
 Add an entry to [`data/prefabs.js`](./data/prefabs.js):
 
@@ -269,11 +235,10 @@ Add an entry to [`data/prefabs.js`](./data/prefabs.js):
 {
   name: "my-stack",
   label: "My Stack",
-  category: "custom",
   base: "bottle",
   overlay: "strawberry",
   position: "s-44",
-  subSize: 0.58
+  subSize: 0.32
 }
 ```
 
@@ -303,33 +268,6 @@ This updates:
 - [`src/aliases.generated.css`](./src/aliases.generated.css)
 - [`src/registry.js`](./src/registry.js)
 
-## Extending The Prefab Library
-
-Add entries to [`data/prefabs.js`](./data/prefabs.js), then rebuild. The prefab generator validates base alias, overlay alias, and placement class before writing CSS.
-
-Generated outputs:
-
-- [`src/prefabs.css`](./src/prefabs.css)
-- [`src/prefabs.generated.js`](./src/prefabs.generated.js)
-
-## Demo
-
-Live demo: https://luckymonkey.github.io/emojistack/
-
-Local demo: open [`demo/index.html`](./demo/index.html) or run `npm run dev`.
-
-The demo includes:
-
-- cursed literal emoji examples
-- alias examples
-- prefab examples
-- large scroll-snap showcase panels with class text underneath
-- incremental search with copy-ready snippet output
-- all 49 grid positions
-- size scaling examples
-- platform caveat notes
-- link to the sandbox
-
 ## Browser Compatibility
 
 EmojiStack targets modern browsers that support:
@@ -340,6 +278,23 @@ EmojiStack targets modern browsers that support:
 - `querySelectorAll`
 
 That means current Chrome, Edge, Firefox, and Safari should be fine.
+
+## CSS Compatibility
+
+EmojiStack is designed to sit next to other CSS systems without taking over the page.
+
+- it only styles `.es` elements and its own utility classes
+- it does not ship resets
+- it does not target headings, links, buttons, forms, or layout primitives
+- it uses CSS variables scoped to the icon element itself
+
+For Tailwind and similar libraries:
+
+- `e-*`, `p-*`, and `es-*` are safely namespaced
+- the position classes are `s-11` through `s-77`
+- the old generic `.sm`, `.md`, `.lg` aliases are not part of the public API, so they will not collide with other utility naming schemes
+
+If another library styles `i` tags globally, apply EmojiStack on a neutral element or reset that rule for `.es`.
 
 ## Emoji Rendering Caveats
 
@@ -372,60 +327,6 @@ What each script does:
 - `dev`: builds and serves the repo locally on port `4173`
 - `preview`: builds and serves the repo locally on port `4174`
 
-## File Structure
-
-```text
-.
-├── config
-│   └── prefab-api.js
-├── data
-│   ├── emojis.js
-│   ├── positions.js
-│   └── prefabs.js
-├── demo
-│   ├── demo.css
-│   ├── demo.js
-│   └── index.html
-├── dist
-│   ├── emojistack-prefabs.css
-│   ├── emojistack.css
-│   ├── emojistack.js
-│   └── emojistack.min.css
-├── google-apps-script
-│   ├── Code.gs
-│   ├── README.md
-│   ├── prefabs-seed.csv
-│   └── prefabs-seed.json
-├── sandbox
-│   ├── index.html
-│   ├── sandbox.css
-│   └── sandbox.js
-├── scripts
-│   ├── build.js
-│   ├── export-prefab-seed.js
-│   ├── generate-emojis.js
-│   ├── generate-prefabs.js
-│   ├── generate-positions.js
-│   ├── serve.js
-│   └── test.js
-├── shared
-│   └── prefab-store.js
-├── src
-│   ├── aliases.generated.css
-│   ├── base.css
-│   ├── emojis.generated.css
-│   ├── positions.css
-│   ├── prefabs.css
-│   ├── prefabs.generated.js
-│   ├── registry.js
-│   └── runtime.js
-├── .gitignore
-├── index.html
-├── LICENSE
-├── package.json
-└── README.md
-```
-
 ## Distribution
 
 The generated bundles live in [`dist`](./dist):
@@ -433,21 +334,7 @@ The generated bundles live in [`dist`](./dist):
 - [`dist/emojistack.css`](./dist/emojistack.css): core CSS, positions, literal emoji classes, alias classes
 - [`dist/emojistack-prefabs.css`](./dist/emojistack-prefabs.css): starter prefab classes
 - [`dist/emojistack.min.css`](./dist/emojistack.min.css): minified combined CSS
-- [`dist/emojistack.js`](./dist/emojistack.js): registry data, prefab catalog, runtime enhancer
-
-## Screenshots / GIFs
-
-### Sandbox screenshot placeholder
-
-Add a screenshot of the builder UI here.
-
-### Demo screenshot placeholder
-
-Add a screenshot of the demo gallery here.
-
-### GIF placeholder
-
-Add a short capture showing prefab creation, code copy, and live preview updates.
+- [`dist/emojistack.js`](./dist/emojistack.js): registry data and runtime enhancer
 
 ## Roadmap
 
@@ -465,7 +352,7 @@ Preferred workflow:
 1. Update `data/emojis.js` or `data/prefabs.js`.
 2. Run `npm run generate`.
 3. Run `npm run build`.
-4. Verify the demo and sandbox.
+4. Verify the demo.
 
 ## License
 

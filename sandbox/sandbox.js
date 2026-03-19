@@ -271,7 +271,11 @@
 
     const base = emojiByAlias[state.base];
     const overlay = emojiByAlias[state.overlay];
-    const sizeClass = state.sizeMode === "small" ? " sm" : state.sizeMode === "large" ? " lg" : "";
+    const sizeClass = state.sizeMode === "small"
+      ? " es-s"
+      : state.sizeMode === "large"
+        ? " es-l"
+        : " es-m";
     return `es ${base.emoji}${overlay.emoji} ${state.position}${sizeClass}`;
   }
 
