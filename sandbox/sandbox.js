@@ -682,7 +682,11 @@
       }
     }
 
-    setStatus(store?.config?.endpoint ? "Sheet prefabs loaded." : "Using the built-in prefab list until the sheet endpoint is configured.");
+    setStatus(
+      store?.config?.endpoint
+        ? `Loaded ${catalogPrefabs.length} prefabs from the sheet.`
+        : "Using the built-in prefab list until the sheet endpoint is configured."
+    );
     redraw();
   }
 

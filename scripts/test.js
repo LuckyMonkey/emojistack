@@ -46,10 +46,12 @@ function testGeneratedFiles() {
   assert(sandboxHtml.includes('id="prefab-name"'), "Missing sandbox prefab name input");
   assert(sandboxJs.includes("defaultPrefabName"), "Missing sandbox default prefab naming");
   assert(storeJs.includes("localStorage"), "Prefab store should cache prefabs locally");
+  assert(storeJs.includes("cacheVersion"), "Prefab store cache key should be versioned");
   assert(storeJs.includes('params.set("action", "save")'), "Prefab store should support query-string saves");
   assert(storeJs.includes('document.createElement("iframe")'), "Prefab store should use iframe navigation for saves");
   assert(storeJs.includes('mode: "no-cors"'), "Prefab store should keep the POST fallback");
   assert(storeJs.includes("refreshUntilVisible"), "Prefab store should verify saves with a follow-up GET");
+  assert(storeJs.includes("if (!parsed.prefabs.length)"), "Prefab store should ignore empty cached prefab lists");
 }
 
 function testPositionGeometry() {

@@ -14,7 +14,7 @@
     medium: 0.58,
     large: 0.82
   };
-  const CACHE_KEY = `emojistack:prefabs:${config.endpoint || "built-in"}`;
+  const CACHE_KEY = `emojistack:prefabs:${config.endpoint || "built-in"}:${config.cacheVersion || "v1"}`;
   const CACHE_TTL_MS = Number(config.cacheTtlMs) > 0 ? Number(config.cacheTtlMs) : 1000 * 60 * 60 * 12;
   const SAVE_RETRY_DELAY_MS = Number(config.saveRetryDelayMs) > 0 ? Number(config.saveRetryDelayMs) : 900;
   const SAVE_RETRY_COUNT = Number(config.saveRetryCount) > 0 ? Number(config.saveRetryCount) : 3;
@@ -147,6 +147,10 @@
         return null;
       }
 
+      if (!parsed.prefabs.length) {
+        return null;
+      }
+
       if ((Date.now() - parsed.cachedAt) > CACHE_TTL_MS) {
         return null;
       }
@@ -275,8 +279,13 @@
     loadPromise = fetchJson(config.endpoint)
       .then((payload) => {
         const rows = Array.isArray(payload) ? payload : payload.prefabs || [];
-        writeCache(rows);
-        return assignPrefabs(rows);
+        const assigned = assignPrefabs(rows);
+        if (assigned.length) {
+          writeCache(rows);
+        } else {
+          clearCache();
+        }
+        return assigned;
       })
       .catch((error) => {
         const fallbackCache = readCache();
