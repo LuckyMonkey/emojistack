@@ -238,6 +238,35 @@ textarea {
     linear-gradient(180deg, #fff7f0, #f9efe2);
 }
 
+.copy-strip {
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 0.88rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.92);
+  text-align: left;
+}
+
+.copy-label {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.copy-strip code {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "IBM Plex Mono", "Cascadia Mono", monospace;
+  font-size: 0.96rem;
+}
+
 .preview-hero {
   min-height: calc(100svh - 132px);
   display: grid;

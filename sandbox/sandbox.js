@@ -27,6 +27,8 @@
     previewMain: document.getElementById("preview-main"),
     previewTitle: document.getElementById("preview-title"),
     previewSubtitle: document.getElementById("preview-subtitle"),
+    copyClass: document.getElementById("copy-class"),
+    classOutput: document.getElementById("class-output"),
     base: document.getElementById("base-select"),
     overlay: document.getElementById("overlay-select"),
     positionNote: document.getElementById("position-note"),
@@ -170,8 +172,40 @@
     };
   }
 
+  function currentClassString() {
+    const shippedPrefab = starters.find((entry) => entry.name === sanitizeName(state.prefabName));
+
+    if (shippedPrefab && state.base === shippedPrefab.base && state.overlay === shippedPrefab.overlay && state.position === shippedPrefab.position) {
+      const prefabSize = shippedPrefab.sizeMode || inferSizeMode(shippedPrefab.subSize || SIZE_MAP.medium);
+      if (prefabSize === state.sizeMode) {
+        return `es p-${shippedPrefab.name}`;
+      }
+    }
+
+    const base = emojiByAlias[state.base];
+    const overlay = emojiByAlias[state.overlay];
+    return `es ${base.emoji}${overlay.emoji} es-${state.sizeMode.charAt(0)} ${state.position}`;
+  }
+
   function setStatus(text) {
     el.status.textContent = text;
+  }
+
+  function copyText(value) {
+    if (navigator.clipboard?.writeText) {
+      return navigator.clipboard.writeText(value);
+    }
+
+    const input = document.createElement("textarea");
+    input.value = value;
+    input.setAttribute("readonly", "");
+    input.style.position = "absolute";
+    input.style.left = "-9999px";
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand("copy");
+    input.remove();
+    return Promise.resolve();
   }
 
   function syncRuntimeDefaults() {
@@ -309,6 +343,8 @@
     el.clearBaseDefault.disabled = !baseDefault;
     el.clearSubDefault.disabled = !subDefault;
     el.remove.disabled = source !== "local";
+    el.classOutput.textContent = currentClassString();
+    el.copyClass.title = `Click to copy ${currentClassString()}`;
   }
 
   function redraw() {
@@ -482,6 +518,13 @@
       source = "starter";
       setStatus("Reset.");
       redraw();
+    });
+
+    el.copyClass.addEventListener("click", () => {
+      const className = currentClassString();
+      copyText(className).then(() => {
+        setStatus(`Copied ${className}`);
+      });
     });
 
     window.addEventListener("resize", redraw);
