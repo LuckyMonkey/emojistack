@@ -4,11 +4,16 @@
   const STORAGE_SUB_DEFAULTS = "emojistack:sub-defaults";
 
   const emojis = window.EmojiStack?.data?.emojis || [];
-  const positions = window.EmojiStack?.data?.positions || [];
+  const positions = (window.EmojiStack?.data?.positions || []).slice().sort((left, right) => left.id.localeCompare(right.id));
   const starters = window.EmojiStack?.prefabs || [];
 
   const emojiByAlias = Object.fromEntries(emojis.map((entry) => [entry.alias, entry]));
   const positionById = Object.fromEntries(positions.map((entry) => [entry.id, entry]));
+  const SIZE_MAP = {
+    small: 0.32,
+    medium: 0.58,
+    large: 0.82
+  };
 
   const el = {
     prefabSearch: document.getElementById("prefab-search"),
@@ -18,7 +23,6 @@
     remove: document.getElementById("delete-prefab"),
     reset: document.getElementById("reset-button"),
     status: document.getElementById("status-line"),
-    previewStage: document.getElementById("preview-stage"),
     previewHero: document.getElementById("preview-hero"),
     previewMain: document.getElementById("preview-main"),
     previewTitle: document.getElementById("preview-title"),
@@ -26,10 +30,8 @@
     base: document.getElementById("base-select"),
     overlay: document.getElementById("overlay-select"),
     positionNote: document.getElementById("position-note"),
-    pickerMode: document.getElementById("picker-mode-toggle"),
-    directBoard: document.getElementById("position-direct"),
-    macroBoard: document.getElementById("position-macro"),
-    microBoard: document.getElementById("position-micro"),
+    sizeMode: document.getElementById("picker-mode-toggle"),
+    positionGrid: document.getElementById("position-grid"),
     makeBaseDefault: document.getElementById("make-base-default"),
     makeSubDefault: document.getElementById("make-sub-default"),
     clearBaseDefault: document.getElementById("clear-base-default"),
@@ -41,8 +43,8 @@
   const defaults = {
     base: "bottle",
     overlay: "strawberry",
-    position: "s-center",
-    pickerMode: "direct",
+    position: "s-44",
+    sizeMode: "large",
     prefabName: "strawberry-milk"
   };
 
@@ -85,21 +87,14 @@
     return cleaned || "custom-stack";
   }
 
-  function pickerModeFor(positionId) {
-    if (positionId === "s-center") {
-      return "direct";
+  function inferSizeMode(subSize) {
+    if (subSize >= 0.72) {
+      return "large";
     }
-    return /^s-[a-z]{2}$/.test(positionId) ? "macro" : "micro";
-  }
-
-  function subSizeFor(mode) {
-    if (mode === "direct") {
-      return 0.82;
+    if (subSize <= 0.4) {
+      return "small";
     }
-    if (mode === "macro") {
-      return 0.58;
-    }
-    return 0.32;
+    return "medium";
   }
 
   function currentBaseDefault() {
@@ -116,7 +111,7 @@
       return;
     }
     state.position = preset.position;
-    state.pickerMode = preset.gridMode || pickerModeFor(state.position);
+    state.sizeMode = preset.sizeMode || inferSizeMode(preset.subSize);
   }
 
   function currentDefinition() {
@@ -128,7 +123,7 @@
       base,
       overlay,
       position,
-      subSize: subSizeFor(state.pickerMode)
+      subSize: SIZE_MAP[state.sizeMode]
     };
   }
 
@@ -147,7 +142,7 @@
       x: def.position.x,
       y: def.position.y,
       unit: def.position.unit || "%",
-      gridMode: state.pickerMode,
+      sizeMode: state.sizeMode,
       subSize: def.subSize,
       opacity: 1,
       rotate: "0deg"
@@ -222,56 +217,31 @@
     });
   }
 
-  function boardItems(mode) {
-    if (mode === "direct") {
-      return [{ id: "s-center", text: "center" }];
-    }
-    if (mode === "micro") {
-      const macroRows = ["t", "m", "b"];
-      const macroCols = ["l", "c", "r"];
-      const quadRows = [["nw", "ne"], ["sw", "se"]];
-      const items = [];
-
-      macroRows.forEach((macroRow) => {
-        quadRows.forEach((pair) => {
-          macroCols.forEach((macroCol) => {
-            pair.forEach((quad) => {
-              const id = `s-${macroRow}${macroCol}-${quad}`;
-              items.push({ id, text: id.replace("s-", "") });
-            });
-          });
-        });
-      });
-
-      return items;
-    }
-    return positions
-      .filter((item) => pickerModeFor(item.id) === mode)
-      .map((item) => ({ id: item.id, text: item.id.replace("s-", "") }));
+  function positionCellText(positionId) {
+    return positionId === "s-44" ? "C" : "·";
   }
 
-  function renderBoard(node, mode) {
-    const isMicro = mode === "micro";
-    node.hidden = state.pickerMode !== mode;
-    node.innerHTML = boardItems(mode)
-      .map((item) => `<button type="button" class="position-cell${item.id === state.position ? " active" : ""}" data-position="${item.id}" title="${positionById[item.id].label}">${item.text}</button>`)
+  function renderGrid() {
+    el.positionGrid.innerHTML = positions
+      .map((item) => {
+        const disabled = state.sizeMode === "large" && item.id !== "s-44";
+        return `<button type="button" class="position-cell${item.id === state.position ? " active" : ""}" data-position="${item.id}" title="${item.label}"${disabled ? " disabled" : ""}>${positionCellText(item.id)}</button>`;
+      })
       .join("");
-
-    if (isMicro) {
-      node.insertAdjacentHTML(
-        "beforeend",
-        `<button type="button" class="position-center-dot${state.position === "s-center" ? " active" : ""}" data-position="s-center" title="Center">C</button>`
-      );
-    }
   }
 
-  function renderBoards() {
-    renderBoard(el.directBoard, "direct");
-    renderBoard(el.macroBoard, "macro");
-    renderBoard(el.microBoard, "micro");
-    el.pickerMode.querySelectorAll("button").forEach((button) => {
-      button.classList.toggle("active", button.dataset.pickerMode === state.pickerMode);
-    });
+  function nearestPosition(clientX, clientY) {
+    const rect = el.previewMain.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    const scale = rect.width || 1;
+    const dx = ((clientX - centerX) / scale) - dragAnchor.x;
+    const dy = ((clientY - centerY) / scale) - dragAnchor.y;
+
+    return positions.reduce((best, item) => {
+      const distance = ((item.x - dx) ** 2) + ((item.y - dy) ** 2);
+      return distance < best.distance ? { distance, item } : best;
+    }, { distance: Infinity, item: positionById[state.position] }).item;
   }
 
   function applyPreview() {
@@ -296,24 +266,28 @@
     icon.style.setProperty("--es-sub-oy", `${def.overlay.oy || 0}em`);
 
     el.previewTitle.textContent = `${def.base.label} + ${def.overlay.label}`;
-    el.previewSubtitle.textContent = def.position.label;
+    el.previewSubtitle.textContent = `${def.position.label} · ${titleize(state.sizeMode)}`;
     el.positionNote.textContent = def.position.label;
-    el.previewHero.title = state.pickerMode === "direct"
+    el.previewHero.title = state.sizeMode === "large"
       ? "Large size stays centered"
       : "Drag the top emoji to place it";
-    el.previewHero.classList.toggle("is-static", state.pickerMode === "direct");
+    el.previewHero.classList.toggle("is-static", state.sizeMode === "large");
   }
 
   function syncUi() {
     populateEmojiSelect(el.base, state.base);
     populateEmojiSelect(el.overlay, state.overlay);
     renderPrefabJump();
-    renderBoards();
+    renderGrid();
+
+    el.sizeMode.querySelectorAll("button").forEach((button) => {
+      button.classList.toggle("active", button.dataset.sizeMode === state.sizeMode);
+    });
 
     const baseDefault = currentBaseDefault();
     const subDefault = currentSubDefault();
-    el.baseDefaultNote.textContent = baseDefault ? `Base default: ${positionById[baseDefault.position].label}` : "No base default.";
-    el.subDefaultNote.textContent = subDefault ? `Sub default: ${positionById[subDefault.position].label}` : "No sub default.";
+    el.baseDefaultNote.textContent = baseDefault ? `Base default: ${positionById[baseDefault.position].label} · ${titleize(baseDefault.sizeMode || inferSizeMode(baseDefault.subSize))}` : "No base default.";
+    el.subDefaultNote.textContent = subDefault ? `Sub default: ${positionById[subDefault.position].label} · ${titleize(subDefault.sizeMode || inferSizeMode(subDefault.subSize))}` : "No sub default.";
     el.clearBaseDefault.disabled = !baseDefault;
     el.clearSubDefault.disabled = !subDefault;
     el.remove.disabled = source !== "local";
@@ -329,8 +303,8 @@
   function loadPrefab(prefab, kind, duplicate) {
     state.base = prefab.base;
     state.overlay = prefab.overlay;
-    state.position = prefab.position;
-    state.pickerMode = prefab.gridMode || pickerModeFor(prefab.position);
+    state.position = positionById[prefab.position] ? prefab.position : "s-44";
+    state.sizeMode = prefab.sizeMode || inferSizeMode(prefab.subSize || SIZE_MAP.medium);
     state.prefabName = duplicate ? `${prefab.name}-copy` : prefab.name;
     source = duplicate ? "custom" : kind;
     setStatus(duplicate ? "Duplicated." : `Loaded ${prefab.label || titleize(prefab.name)}.`);
@@ -363,22 +337,6 @@
     redraw();
   }
 
-  function nearestPosition(clientX, clientY) {
-    const rect = el.previewMain.getBoundingClientRect();
-    const centerX = rect.left + rect.width / 2;
-    const centerY = rect.top + rect.height / 2;
-    const scale = rect.width || 1;
-    const dx = ((clientX - centerX) / scale) - dragAnchor.x;
-    const dy = ((clientY - centerY) / scale) - dragAnchor.y;
-
-    return positions
-      .filter((item) => pickerModeFor(item.id) === state.pickerMode)
-      .reduce((best, item) => {
-        const distance = ((item.x - dx) ** 2) + ((item.y - dy) ** 2);
-        return distance < best.distance ? { distance, item } : best;
-      }, { distance: Infinity, item: positionById[state.position] }).item;
-  }
-
   function bind() {
     el.prefabSearch.addEventListener("input", renderPrefabJump);
     el.prefabJump.addEventListener("change", (event) => {
@@ -406,35 +364,31 @@
       redraw();
     });
 
-    [el.directBoard, el.macroBoard, el.microBoard].forEach((board) => {
-      board.addEventListener("click", (event) => {
-        const button = event.target.closest("button[data-position]");
-        if (!button) {
-          return;
-        }
-        state.position = button.dataset.position;
-        source = "custom";
-        redraw();
-      });
+    el.positionGrid.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-position]");
+      if (!button || button.disabled) {
+        return;
+      }
+      state.position = button.dataset.position;
+      source = "custom";
+      redraw();
     });
 
-    el.pickerMode.addEventListener("click", (event) => {
-      const button = event.target.closest("button[data-picker-mode]");
+    el.sizeMode.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-size-mode]");
       if (!button) {
         return;
       }
-      state.pickerMode = button.dataset.pickerMode;
-      state.position = state.pickerMode === "direct"
-        ? "s-center"
-        : state.pickerMode === "macro"
-          ? "s-mc"
-          : "s-center";
+      state.sizeMode = button.dataset.sizeMode;
+      if (state.sizeMode === "large") {
+        state.position = "s-44";
+      }
       source = "custom";
       redraw();
     });
 
     el.previewHero.addEventListener("pointerdown", (event) => {
-      if (state.pickerMode === "direct") {
+      if (state.sizeMode === "large") {
         return;
       }
       const position = positionById[state.position];
@@ -475,14 +429,14 @@
 
     el.makeBaseDefault.addEventListener("click", () => {
       const record = currentRecord();
-      baseDefaults[state.base] = { position: record.position, x: record.x, y: record.y, unit: record.unit, gridMode: record.gridMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
+      baseDefaults[state.base] = { position: record.position, x: record.x, y: record.y, unit: record.unit, sizeMode: record.sizeMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
       setStatus(`Saved base default for ${state.base}.`);
       redraw();
     });
 
     el.makeSubDefault.addEventListener("click", () => {
       const record = currentRecord();
-      subDefaults[state.overlay] = { position: record.position, x: record.x, y: record.y, unit: record.unit, gridMode: record.gridMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
+      subDefaults[state.overlay] = { position: record.position, x: record.x, y: record.y, unit: record.unit, sizeMode: record.sizeMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
       setStatus(`Saved sub default for ${state.overlay}.`);
       redraw();
     });

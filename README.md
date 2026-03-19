@@ -50,17 +50,17 @@ Then include the dist assets from your bundler or static pipeline.
 ### Literal emoji mode
 
 ```html
-<i class="es 🍼 🍓 s-center"></i>
-<i class="es 📦 🍝 s-mc"></i>
-<i class="es ☕ 💀 s-tl-ne"></i>
+<i class="es 🍼 🍓 s-44"></i>
+<i class="es 📦 🍝 s-44"></i>
+<i class="es ☕ 💀 s-17"></i>
 ```
 
 ### Safe alias mode
 
 ```html
-<i class="es e-bottle e-strawberry s-center"></i>
-<i class="es e-box e-spaghetti s-mc"></i>
-<i class="es e-coffee e-skull s-tl-ne"></i>
+<i class="es e-bottle e-strawberry s-44"></i>
+<i class="es e-box e-spaghetti s-44"></i>
+<i class="es e-coffee e-skull s-17"></i>
 ```
 
 ### Prefab mode
@@ -120,41 +120,31 @@ The runtime scans `.es`, reads class order, resolves the first emoji-like token 
 
 ## Placement Classes
 
-EmojiStack ships exactly 46 placement classes.
+EmojiStack now uses one 7x7 placement grid.
 
-### Direct center
+Each placement class is a lane coordinate:
 
-- `s-center`
-
-### Macro 3x3 grid
-
-- `s-tl`
-- `s-tc`
-- `s-tr`
-- `s-ml`
-- `s-mc`
-- `s-mr`
-- `s-bl`
-- `s-bc`
-- `s-br`
-
-### Micro positions
-
-Each macro cell is split into four quadrants:
-
-- `nw`
-- `ne`
-- `sw`
-- `se`
+- `s-11` through `s-77`
+- `s-44` is the exact center
+- rows and columns both have a real center lane now
 
 Examples:
 
-- `s-tl-nw`
-- `s-tl-ne`
-- `s-mc-sw`
-- `s-br-se`
+- `s-11`
+- `s-17`
+- `s-44`
+- `s-55`
+- `s-77`
 
-The sandbox includes a selector for all 46 positions, and the demo renders every one of them live.
+Size is separate from placement:
+
+- `.es-s`
+- `.es-m`
+- `.es-l`
+
+So placement decides where the overlay lands, and size decides how big it is.
+
+The sandbox uses the full 7x7 board directly.
 
 ## Alias System
 
@@ -208,21 +198,14 @@ The sandbox supports:
 
 - base emoji picker
 - overlay emoji picker
-- all 46 placement classes
-- click-to-place `1x1`, `3x3`, and `6x6` positioning boards
-- overlay size slider
-- very large preview size slider
-- cursed, alias, and prefab mode previews
-- copyable HTML snippets
-- copyable prefab CSS
+- full 7x7 placement board
+- separate `S`, `M`, and `L` size controls
+- drag placement for movable sizes
 - starter prefab browser
 - local prefab library
 - localStorage persistence
-- JSON export
-- JSON import
-- light/dark checkerboard preview backgrounds
 
-Local prefabs are not magically bundled into `dist/emojistack-prefabs.css`. The sandbox gives you the CSS snippet you need so you can keep it in your own project stylesheet or add it back into the prefab source list.
+Local prefabs are not magically bundled into `dist/emojistack-prefabs.css`. Save the layout you want in the editor, then add it back into the prefab source list if you want it shipped.
 
 ## Prefab Creation Guide
 
@@ -230,7 +213,7 @@ You can create prefabs in two ways.
 
 ### In the sandbox
 
-1. Pick base emoji, overlay emoji, position, and overlay size.
+1. Pick base emoji, overlay emoji, position, and size.
 2. Enter a prefab name.
 3. Save it locally.
 4. Copy the generated CSS class.
@@ -247,7 +230,7 @@ Add an entry to [`data/prefabs.js`](./data/prefabs.js):
   category: "custom",
   base: "bottle",
   overlay: "strawberry",
-  position: "s-center",
+  position: "s-44",
   subSize: 0.58
 }
 ```
@@ -260,10 +243,10 @@ npm run generate
 
 ## Extending The Emoji Registry
 
-Add new entries to [`data/emojis.js`](./data/emojis.js):
+Add local alias or optical-offset overrides to [`data/emojis.js`](./data/emojis.js):
 
 ```js
-{ emoji: "🧪", alias: "test-tube", label: "Test Tube", category: "objects" }
+{ emoji: "🧪", alias: "test-tube", ox: 0.01, oy: 0 }
 ```
 
 Then regenerate:
@@ -300,7 +283,7 @@ The demo includes:
 - prefab examples
 - large scroll-snap showcase panels with class text underneath
 - incremental search with copy-ready snippet output
-- all 46 placement classes
+- all 49 grid positions
 - size scaling examples
 - platform caveat notes
 - link to the sandbox

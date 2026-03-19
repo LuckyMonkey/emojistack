@@ -3,8 +3,9488 @@
   const data = {
     emojis: [
   {
+    "emoji": "😀",
+    "alias": "grinning-face",
+    "aliases": [
+      "grinning-face"
+    ],
+    "label": "Grinning Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grinning face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😃",
+    "alias": "grinning-face-with-big-eyes",
+    "aliases": [
+      "grinning-face-with-big-eyes"
+    ],
+    "label": "Grinning Face With Big Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grinning face with big eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😄",
+    "alias": "grinning-face-with-smiling-eyes",
+    "aliases": [
+      "grinning-face-with-smiling-eyes"
+    ],
+    "label": "Grinning Face With Smiling Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grinning face with smiling eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😁",
+    "alias": "beaming-face-with-smiling-eyes",
+    "aliases": [
+      "beaming-face-with-smiling-eyes"
+    ],
+    "label": "Beaming Face With Smiling Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "beaming face with smiling eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😆",
+    "alias": "grinning-squinting-face",
+    "aliases": [
+      "grinning-squinting-face"
+    ],
+    "label": "Grinning Squinting Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grinning squinting face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😅",
+    "alias": "grinning-face-with-sweat",
+    "aliases": [
+      "grinning-face-with-sweat"
+    ],
+    "label": "Grinning Face With Sweat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grinning face with sweat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤣",
+    "alias": "rolling-on-the-floor-laughing",
+    "aliases": [
+      "rolling-on-the-floor-laughing"
+    ],
+    "label": "Rolling On The Floor Laughing",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "rolling on the floor laughing",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "😂",
+    "alias": "face-with-tears-of-joy",
+    "aliases": [
+      "face-with-tears-of-joy"
+    ],
+    "label": "Face With Tears Of Joy",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with tears of joy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙂",
+    "alias": "slightly-smiling-face",
+    "aliases": [
+      "slightly-smiling-face"
+    ],
+    "label": "Slightly Smiling Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "slightly smiling face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🙃",
+    "alias": "upside-down-face",
+    "aliases": [
+      "upside-down-face"
+    ],
+    "label": "Upside-down Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "upside-down face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫠",
+    "alias": "melting-face",
+    "aliases": [
+      "melting-face"
+    ],
+    "label": "Melting Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "melting face",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "😉",
+    "alias": "winking-face",
+    "aliases": [
+      "winking-face"
+    ],
+    "label": "Winking Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "winking face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😊",
+    "alias": "smiling-face-with-smiling-eyes",
+    "aliases": [
+      "smiling-face-with-smiling-eyes"
+    ],
+    "label": "Smiling Face With Smiling Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with smiling eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😇",
+    "alias": "angel",
+    "aliases": [
+      "angel",
+      "smiling-face-with-halo"
+    ],
+    "ox": 0,
+    "oy": -0.05,
+    "label": "Smiling Face With Halo",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with halo",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🥰",
+    "alias": "smiling-face-with-hearts",
+    "aliases": [
+      "smiling-face-with-hearts"
+    ],
+    "label": "Smiling Face With Hearts",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with hearts",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "😍",
+    "alias": "smiling-face-with-heart-eyes",
+    "aliases": [
+      "smiling-face-with-heart-eyes"
+    ],
+    "label": "Smiling Face With Heart-eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with heart-eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤩",
+    "alias": "star-struck",
+    "aliases": [
+      "star-struck"
+    ],
+    "label": "Star-struck",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "star-struck",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "😘",
+    "alias": "face-blowing-a-kiss",
+    "aliases": [
+      "face-blowing-a-kiss"
+    ],
+    "label": "Face Blowing A Kiss",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face blowing a kiss",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😗",
+    "alias": "kissing-face",
+    "aliases": [
+      "kissing-face"
+    ],
+    "label": "Kissing Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "kissing face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "☺️",
+    "alias": "smiling-face",
+    "aliases": [
+      "smiling-face"
+    ],
+    "label": "Smiling Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😚",
+    "alias": "kissing-face-with-closed-eyes",
+    "aliases": [
+      "kissing-face-with-closed-eyes"
+    ],
+    "label": "Kissing Face With Closed Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "kissing face with closed eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😙",
+    "alias": "kissing-face-with-smiling-eyes",
+    "aliases": [
+      "kissing-face-with-smiling-eyes"
+    ],
+    "label": "Kissing Face With Smiling Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "kissing face with smiling eyes",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🥲",
+    "alias": "smiling-face-with-tear",
+    "aliases": [
+      "smiling-face-with-tear"
+    ],
+    "label": "Smiling Face With Tear",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with tear",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "😋",
+    "alias": "face-savoring-food",
+    "aliases": [
+      "face-savoring-food"
+    ],
+    "label": "Face Savoring Food",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face savoring food",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😛",
+    "alias": "face-with-tongue",
+    "aliases": [
+      "face-with-tongue"
+    ],
+    "label": "Face With Tongue",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with tongue",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😜",
+    "alias": "winking-face-with-tongue",
+    "aliases": [
+      "winking-face-with-tongue"
+    ],
+    "label": "Winking Face With Tongue",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "winking face with tongue",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤪",
+    "alias": "zany-face",
+    "aliases": [
+      "zany-face"
+    ],
+    "label": "Zany Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "zany face",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "😝",
+    "alias": "squinting-face-with-tongue",
+    "aliases": [
+      "squinting-face-with-tongue"
+    ],
+    "label": "Squinting Face With Tongue",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "squinting face with tongue",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤑",
+    "alias": "money-mouth-face",
+    "aliases": [
+      "money-mouth-face"
+    ],
+    "label": "Money-mouth Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "money-mouth face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🤗",
+    "alias": "smiling-face-with-open-hands",
+    "aliases": [
+      "smiling-face-with-open-hands"
+    ],
+    "label": "Smiling Face With Open Hands",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with open hands",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🤭",
+    "alias": "face-with-hand-over-mouth",
+    "aliases": [
+      "face-with-hand-over-mouth"
+    ],
+    "label": "Face With Hand Over Mouth",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with hand over mouth",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🫢",
+    "alias": "face-with-open-eyes-and-hand-over-mouth",
+    "aliases": [
+      "face-with-open-eyes-and-hand-over-mouth"
+    ],
+    "label": "Face With Open Eyes And Hand Over Mouth",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with open eyes and hand over mouth",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🫣",
+    "alias": "face-with-peeking-eye",
+    "aliases": [
+      "face-with-peeking-eye"
+    ],
+    "label": "Face With Peeking Eye",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with peeking eye",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🤫",
+    "alias": "shushing-face",
+    "aliases": [
+      "shushing-face"
+    ],
+    "label": "Shushing Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "shushing face",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🤔",
+    "alias": "thinking-face",
+    "aliases": [
+      "thinking-face"
+    ],
+    "label": "Thinking Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "thinking face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫡",
+    "alias": "saluting-face",
+    "aliases": [
+      "saluting-face"
+    ],
+    "label": "Saluting Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "saluting face",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🤐",
+    "alias": "zipper-mouth-face",
+    "aliases": [
+      "zipper-mouth-face"
+    ],
+    "label": "Zipper-mouth Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "zipper-mouth face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🤨",
+    "alias": "face-with-raised-eyebrow",
+    "aliases": [
+      "face-with-raised-eyebrow"
+    ],
+    "label": "Face With Raised Eyebrow",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with raised eyebrow",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "😐",
+    "alias": "neutral-face",
+    "aliases": [
+      "neutral-face"
+    ],
+    "label": "Neutral Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "neutral face",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "😑",
+    "alias": "expressionless-face",
+    "aliases": [
+      "expressionless-face"
+    ],
+    "label": "Expressionless Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "expressionless face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😶",
+    "alias": "face-without-mouth",
+    "aliases": [
+      "face-without-mouth"
+    ],
+    "label": "Face Without Mouth",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face without mouth",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫥",
+    "alias": "dotted-line-face",
+    "aliases": [
+      "dotted-line-face"
+    ],
+    "label": "Dotted Line Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "dotted line face",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "😶‍🌫️",
+    "alias": "face-in-clouds",
+    "aliases": [
+      "face-in-clouds"
+    ],
+    "label": "Face In Clouds",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face in clouds",
+    "unicodeVersion": "13.1",
+    "emojiVersion": "13.1"
+  },
+  {
+    "emoji": "😏",
+    "alias": "smirking-face",
+    "aliases": [
+      "smirking-face"
+    ],
+    "label": "Smirking Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smirking face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😒",
+    "alias": "unamused-face",
+    "aliases": [
+      "unamused-face"
+    ],
+    "label": "Unamused Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "unamused face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙄",
+    "alias": "face-with-rolling-eyes",
+    "aliases": [
+      "face-with-rolling-eyes"
+    ],
+    "label": "Face With Rolling Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with rolling eyes",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😬",
+    "alias": "grimacing-face",
+    "aliases": [
+      "grimacing-face"
+    ],
+    "label": "Grimacing Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grimacing face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😮‍💨",
+    "alias": "face-exhaling",
+    "aliases": [
+      "face-exhaling"
+    ],
+    "label": "Face Exhaling",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face exhaling",
+    "unicodeVersion": "13.1",
+    "emojiVersion": "13.1"
+  },
+  {
+    "emoji": "🤥",
+    "alias": "lying-face",
+    "aliases": [
+      "lying-face"
+    ],
+    "label": "Lying Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "lying face",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🫨",
+    "alias": "shaking-face",
+    "aliases": [
+      "shaking-face"
+    ],
+    "label": "Shaking Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "shaking face",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🙂‍↔️",
+    "alias": "head-shaking-horizontally",
+    "aliases": [
+      "head-shaking-horizontally"
+    ],
+    "label": "Head Shaking Horizontally",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "head shaking horizontally",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🙂‍↕️",
+    "alias": "head-shaking-vertically",
+    "aliases": [
+      "head-shaking-vertically"
+    ],
+    "label": "Head Shaking Vertically",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "head shaking vertically",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "😌",
+    "alias": "relieved-face",
+    "aliases": [
+      "relieved-face"
+    ],
+    "label": "Relieved Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "relieved face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😔",
+    "alias": "pensive-face",
+    "aliases": [
+      "pensive-face"
+    ],
+    "label": "Pensive Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "pensive face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😪",
+    "alias": "sleepy-face",
+    "aliases": [
+      "sleepy-face"
+    ],
+    "label": "Sleepy Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "sleepy face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤤",
+    "alias": "drooling-face",
+    "aliases": [
+      "drooling-face"
+    ],
+    "label": "Drooling Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "drooling face",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "😴",
+    "alias": "sleeping-face",
+    "aliases": [
+      "sleeping-face"
+    ],
+    "label": "Sleeping Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "sleeping face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫩",
+    "alias": "face-with-bags-under-eyes",
+    "aliases": [
+      "face-with-bags-under-eyes"
+    ],
+    "label": "Face With Bags Under Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with bags under eyes",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "😷",
+    "alias": "face-with-medical-mask",
+    "aliases": [
+      "face-with-medical-mask"
+    ],
+    "label": "Face With Medical Mask",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with medical mask",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤒",
+    "alias": "face-with-thermometer",
+    "aliases": [
+      "face-with-thermometer"
+    ],
+    "label": "Face With Thermometer",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with thermometer",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🤕",
+    "alias": "face-with-head-bandage",
+    "aliases": [
+      "face-with-head-bandage"
+    ],
+    "label": "Face With Head-bandage",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with head-bandage",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🤢",
+    "alias": "nauseated-face",
+    "aliases": [
+      "nauseated-face"
+    ],
+    "label": "Nauseated Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "nauseated face",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤮",
+    "alias": "face-vomiting",
+    "aliases": [
+      "face-vomiting"
+    ],
+    "label": "Face Vomiting",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face vomiting",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🤧",
+    "alias": "sneezing-face",
+    "aliases": [
+      "sneezing-face"
+    ],
+    "label": "Sneezing Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "sneezing face",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥵",
+    "alias": "hot-face",
+    "aliases": [
+      "hot-face"
+    ],
+    "label": "Hot Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "hot face",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥶",
+    "alias": "cold-face",
+    "aliases": [
+      "cold-face"
+    ],
+    "label": "Cold Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "cold face",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥴",
+    "alias": "woozy-face",
+    "aliases": [
+      "woozy-face"
+    ],
+    "label": "Woozy Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "woozy face",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "😵",
+    "alias": "face-with-crossed-out-eyes",
+    "aliases": [
+      "face-with-crossed-out-eyes"
+    ],
+    "label": "Face With Crossed-out Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with crossed-out eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😵‍💫",
+    "alias": "face-with-spiral-eyes",
+    "aliases": [
+      "face-with-spiral-eyes"
+    ],
+    "label": "Face With Spiral Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with spiral eyes",
+    "unicodeVersion": "13.1",
+    "emojiVersion": "13.1"
+  },
+  {
+    "emoji": "🤯",
+    "alias": "exploding-head",
+    "aliases": [
+      "exploding-head"
+    ],
+    "label": "Exploding Head",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "exploding head",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🤠",
+    "alias": "cowboy-hat-face",
+    "aliases": [
+      "cowboy-hat-face"
+    ],
+    "label": "Cowboy Hat Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "cowboy hat face",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥳",
+    "alias": "partying-face",
+    "aliases": [
+      "partying-face"
+    ],
+    "label": "Partying Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "partying face",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥸",
+    "alias": "disguised-face",
+    "aliases": [
+      "disguised-face"
+    ],
+    "label": "Disguised Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "disguised face",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "😎",
+    "alias": "smiling-face-with-sunglasses",
+    "aliases": [
+      "smiling-face-with-sunglasses"
+    ],
+    "label": "Smiling Face With Sunglasses",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with sunglasses",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🤓",
+    "alias": "nerd-face",
+    "aliases": [
+      "nerd-face"
+    ],
+    "label": "Nerd Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "nerd face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🧐",
+    "alias": "face-with-monocle",
+    "aliases": [
+      "face-with-monocle"
+    ],
+    "label": "Face With Monocle",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with monocle",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "😕",
+    "alias": "confused-face",
+    "aliases": [
+      "confused-face"
+    ],
+    "label": "Confused Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "confused face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫤",
+    "alias": "face-with-diagonal-mouth",
+    "aliases": [
+      "face-with-diagonal-mouth"
+    ],
+    "label": "Face With Diagonal Mouth",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with diagonal mouth",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "😟",
+    "alias": "worried-face",
+    "aliases": [
+      "worried-face"
+    ],
+    "label": "Worried Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "worried face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🙁",
+    "alias": "slightly-frowning-face",
+    "aliases": [
+      "slightly-frowning-face"
+    ],
+    "label": "Slightly Frowning Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "slightly frowning face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "☹️",
+    "alias": "frowning-face",
+    "aliases": [
+      "frowning-face"
+    ],
+    "label": "Frowning Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "frowning face",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "😮",
+    "alias": "face-with-open-mouth",
+    "aliases": [
+      "face-with-open-mouth"
+    ],
+    "label": "Face With Open Mouth",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with open mouth",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😯",
+    "alias": "hushed-face",
+    "aliases": [
+      "hushed-face"
+    ],
+    "label": "Hushed Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "hushed face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😲",
+    "alias": "astonished-face",
+    "aliases": [
+      "astonished-face"
+    ],
+    "label": "Astonished Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "astonished face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😳",
+    "alias": "flushed-face",
+    "aliases": [
+      "flushed-face"
+    ],
+    "label": "Flushed Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "flushed face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥺",
+    "alias": "pleading-face",
+    "aliases": [
+      "pleading-face"
+    ],
+    "label": "Pleading Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "pleading face",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥹",
+    "alias": "face-holding-back-tears",
+    "aliases": [
+      "face-holding-back-tears"
+    ],
+    "label": "Face Holding Back Tears",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face holding back tears",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "😦",
+    "alias": "frowning-face-with-open-mouth",
+    "aliases": [
+      "frowning-face-with-open-mouth"
+    ],
+    "label": "Frowning Face With Open Mouth",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "frowning face with open mouth",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😧",
+    "alias": "anguished-face",
+    "aliases": [
+      "anguished-face"
+    ],
+    "label": "Anguished Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "anguished face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😨",
+    "alias": "fearful-face",
+    "aliases": [
+      "fearful-face"
+    ],
+    "label": "Fearful Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "fearful face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😰",
+    "alias": "anxious-face-with-sweat",
+    "aliases": [
+      "anxious-face-with-sweat"
+    ],
+    "label": "Anxious Face With Sweat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "anxious face with sweat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😥",
+    "alias": "sad-but-relieved-face",
+    "aliases": [
+      "sad-but-relieved-face"
+    ],
+    "label": "Sad But Relieved Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "sad but relieved face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😢",
+    "alias": "crying-face",
+    "aliases": [
+      "crying-face"
+    ],
+    "label": "Crying Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "crying face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😭",
+    "alias": "loudly-crying-face",
+    "aliases": [
+      "loudly-crying-face"
+    ],
+    "label": "Loudly Crying Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "loudly crying face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😱",
+    "alias": "face-screaming-in-fear",
+    "aliases": [
+      "face-screaming-in-fear"
+    ],
+    "label": "Face Screaming In Fear",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face screaming in fear",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😖",
+    "alias": "confounded-face",
+    "aliases": [
+      "confounded-face"
+    ],
+    "label": "Confounded Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "confounded face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😣",
+    "alias": "persevering-face",
+    "aliases": [
+      "persevering-face"
+    ],
+    "label": "Persevering Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "persevering face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😞",
+    "alias": "disappointed-face",
+    "aliases": [
+      "disappointed-face"
+    ],
+    "label": "Disappointed Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "disappointed face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😓",
+    "alias": "downcast-face-with-sweat",
+    "aliases": [
+      "downcast-face-with-sweat"
+    ],
+    "label": "Downcast Face With Sweat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "downcast face with sweat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😩",
+    "alias": "weary-face",
+    "aliases": [
+      "weary-face"
+    ],
+    "label": "Weary Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "weary face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😫",
+    "alias": "tired-face",
+    "aliases": [
+      "tired-face"
+    ],
+    "label": "Tired Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "tired face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥱",
+    "alias": "yawning-face",
+    "aliases": [
+      "yawning-face"
+    ],
+    "label": "Yawning Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "yawning face",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "😤",
+    "alias": "face-with-steam-from-nose",
+    "aliases": [
+      "face-with-steam-from-nose"
+    ],
+    "label": "Face With Steam From Nose",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with steam from nose",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😡",
+    "alias": "enraged-face",
+    "aliases": [
+      "enraged-face"
+    ],
+    "label": "Enraged Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "enraged face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😠",
+    "alias": "angry-face",
+    "aliases": [
+      "angry-face"
+    ],
+    "label": "Angry Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "angry face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤬",
+    "alias": "face-with-symbols-on-mouth",
+    "aliases": [
+      "face-with-symbols-on-mouth"
+    ],
+    "label": "Face With Symbols On Mouth",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "face with symbols on mouth",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "😈",
+    "alias": "smiling-face-with-horns",
+    "aliases": [
+      "smiling-face-with-horns"
+    ],
+    "label": "Smiling Face With Horns",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling face with horns",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "👿",
+    "alias": "angry-face-with-horns",
+    "aliases": [
+      "angry-face-with-horns"
+    ],
+    "label": "Angry Face With Horns",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "angry face with horns",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💀",
+    "alias": "skull",
+    "aliases": [
+      "skull"
+    ],
+    "ox": 0,
+    "oy": -0.01,
+    "label": "Skull",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "skull",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☠️",
+    "alias": "skull-and-crossbones",
+    "aliases": [
+      "skull-and-crossbones"
+    ],
+    "label": "Skull And Crossbones",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "skull and crossbones",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💩",
+    "alias": "poop",
+    "aliases": [
+      "poop",
+      "pile-of-poo"
+    ],
+    "label": "Pile Of Poo",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "pile of poo",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤡",
+    "alias": "clown-face",
+    "aliases": [
+      "clown-face"
+    ],
+    "label": "Clown Face",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "clown face",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "👹",
+    "alias": "ogre",
+    "aliases": [
+      "ogre"
+    ],
+    "label": "Ogre",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "ogre",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👺",
+    "alias": "goblin",
+    "aliases": [
+      "goblin"
+    ],
+    "label": "Goblin",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "goblin",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👻",
+    "alias": "ghost",
+    "aliases": [
+      "ghost"
+    ],
+    "ox": 0,
+    "oy": 0.01,
+    "label": "Ghost",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "ghost",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👽",
+    "alias": "alien",
+    "aliases": [
+      "alien"
+    ],
+    "label": "Alien",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "alien",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👾",
+    "alias": "alien-monster",
+    "aliases": [
+      "alien-monster"
+    ],
+    "label": "Alien Monster",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "alien monster",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤖",
+    "alias": "robot",
+    "aliases": [
+      "robot"
+    ],
+    "label": "Robot",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "robot",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "😺",
+    "alias": "grinning-cat",
+    "aliases": [
+      "grinning-cat"
+    ],
+    "label": "Grinning Cat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grinning cat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😸",
+    "alias": "grinning-cat-with-smiling-eyes",
+    "aliases": [
+      "grinning-cat-with-smiling-eyes"
+    ],
+    "label": "Grinning Cat With Smiling Eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grinning cat with smiling eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😹",
+    "alias": "cat-with-tears-of-joy",
+    "aliases": [
+      "cat-with-tears-of-joy"
+    ],
+    "label": "Cat With Tears Of Joy",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "cat with tears of joy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😻",
+    "alias": "smiling-cat-with-heart-eyes",
+    "aliases": [
+      "smiling-cat-with-heart-eyes"
+    ],
+    "label": "Smiling Cat With Heart-eyes",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "smiling cat with heart-eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😼",
+    "alias": "cat-with-wry-smile",
+    "aliases": [
+      "cat-with-wry-smile"
+    ],
+    "label": "Cat With Wry Smile",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "cat with wry smile",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😽",
+    "alias": "kissing-cat",
+    "aliases": [
+      "kissing-cat"
+    ],
+    "label": "Kissing Cat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "kissing cat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙀",
+    "alias": "weary-cat",
+    "aliases": [
+      "weary-cat"
+    ],
+    "label": "Weary Cat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "weary cat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😿",
+    "alias": "crying-cat",
+    "aliases": [
+      "crying-cat"
+    ],
+    "label": "Crying Cat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "crying cat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "😾",
+    "alias": "pouting-cat",
+    "aliases": [
+      "pouting-cat"
+    ],
+    "label": "Pouting Cat",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "pouting cat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙈",
+    "alias": "see-no-evil-monkey",
+    "aliases": [
+      "see-no-evil-monkey"
+    ],
+    "label": "See-no-evil Monkey",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "see-no-evil monkey",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙉",
+    "alias": "hear-no-evil-monkey",
+    "aliases": [
+      "hear-no-evil-monkey"
+    ],
+    "label": "Hear-no-evil Monkey",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "hear-no-evil monkey",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙊",
+    "alias": "speak-no-evil-monkey",
+    "aliases": [
+      "speak-no-evil-monkey"
+    ],
+    "label": "Speak-no-evil Monkey",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "speak-no-evil monkey",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💌",
+    "alias": "love-letter",
+    "aliases": [
+      "love-letter"
+    ],
+    "label": "Love Letter",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "love letter",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💘",
+    "alias": "heart-with-arrow",
+    "aliases": [
+      "heart-with-arrow"
+    ],
+    "label": "Heart With Arrow",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "heart with arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💝",
+    "alias": "heart-with-ribbon",
+    "aliases": [
+      "heart-with-ribbon"
+    ],
+    "label": "Heart With Ribbon",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "heart with ribbon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💖",
+    "alias": "sparkling-heart",
+    "aliases": [
+      "sparkling-heart"
+    ],
+    "label": "Sparkling Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "sparkling heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💗",
+    "alias": "growing-heart",
+    "aliases": [
+      "growing-heart"
+    ],
+    "label": "Growing Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "growing heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💓",
+    "alias": "beating-heart",
+    "aliases": [
+      "beating-heart"
+    ],
+    "label": "Beating Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "beating heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💞",
+    "alias": "revolving-hearts",
+    "aliases": [
+      "revolving-hearts"
+    ],
+    "label": "Revolving Hearts",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "revolving hearts",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💕",
+    "alias": "two-hearts",
+    "aliases": [
+      "two-hearts"
+    ],
+    "label": "Two Hearts",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "two hearts",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💟",
+    "alias": "heart-decoration",
+    "aliases": [
+      "heart-decoration"
+    ],
+    "label": "Heart Decoration",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "heart decoration",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❣️",
+    "alias": "heart-exclamation",
+    "aliases": [
+      "heart-exclamation"
+    ],
+    "label": "Heart Exclamation",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "heart exclamation",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💔",
+    "alias": "broken-heart",
+    "aliases": [
+      "broken-heart"
+    ],
+    "label": "Broken Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "broken heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❤️‍🔥",
+    "alias": "heart-on-fire",
+    "aliases": [
+      "heart-on-fire"
+    ],
+    "label": "Heart On Fire",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "heart on fire",
+    "unicodeVersion": "13.1",
+    "emojiVersion": "13.1"
+  },
+  {
+    "emoji": "❤️‍🩹",
+    "alias": "mending-heart",
+    "aliases": [
+      "mending-heart"
+    ],
+    "label": "Mending Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "mending heart",
+    "unicodeVersion": "13.1",
+    "emojiVersion": "13.1"
+  },
+  {
+    "emoji": "❤️",
+    "alias": "heart",
+    "aliases": [
+      "heart",
+      "red-heart"
+    ],
+    "label": "Red Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "red heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🩷",
+    "alias": "pink-heart",
+    "aliases": [
+      "pink-heart"
+    ],
+    "label": "Pink Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "pink heart",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🧡",
+    "alias": "orange-heart",
+    "aliases": [
+      "orange-heart"
+    ],
+    "label": "Orange Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "orange heart",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "💛",
+    "alias": "yellow-heart",
+    "aliases": [
+      "yellow-heart"
+    ],
+    "label": "Yellow Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "yellow heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💚",
+    "alias": "green-heart",
+    "aliases": [
+      "green-heart"
+    ],
+    "label": "Green Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "green heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💙",
+    "alias": "blue-heart",
+    "aliases": [
+      "blue-heart"
+    ],
+    "label": "Blue Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "blue heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🩵",
+    "alias": "light-blue-heart",
+    "aliases": [
+      "light-blue-heart"
+    ],
+    "label": "Light Blue Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "light blue heart",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "💜",
+    "alias": "purple-heart",
+    "aliases": [
+      "purple-heart"
+    ],
+    "label": "Purple Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "purple heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤎",
+    "alias": "brown-heart",
+    "aliases": [
+      "brown-heart"
+    ],
+    "label": "Brown Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "brown heart",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🖤",
+    "alias": "black-heart",
+    "aliases": [
+      "black-heart"
+    ],
+    "label": "Black Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "black heart",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🩶",
+    "alias": "grey-heart",
+    "aliases": [
+      "grey-heart"
+    ],
+    "label": "Grey Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "grey heart",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🤍",
+    "alias": "white-heart",
+    "aliases": [
+      "white-heart"
+    ],
+    "label": "White Heart",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "white heart",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "💋",
+    "alias": "kiss-mark",
+    "aliases": [
+      "kiss-mark"
+    ],
+    "label": "Kiss Mark",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "kiss mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💯",
+    "alias": "hundred-points",
+    "aliases": [
+      "hundred-points"
+    ],
+    "label": "Hundred Points",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "hundred points",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💢",
+    "alias": "anger-symbol",
+    "aliases": [
+      "anger-symbol"
+    ],
+    "label": "Anger Symbol",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "anger symbol",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💥",
+    "alias": "collision",
+    "aliases": [
+      "collision"
+    ],
+    "label": "Collision",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "collision",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💫",
+    "alias": "dizzy",
+    "aliases": [
+      "dizzy"
+    ],
+    "label": "Dizzy",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "dizzy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💦",
+    "alias": "sweat-droplets",
+    "aliases": [
+      "sweat-droplets"
+    ],
+    "label": "Sweat Droplets",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "sweat droplets",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💨",
+    "alias": "dashing-away",
+    "aliases": [
+      "dashing-away"
+    ],
+    "label": "Dashing Away",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "dashing away",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕳️",
+    "alias": "hole",
+    "aliases": [
+      "hole"
+    ],
+    "label": "Hole",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "hole",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "💬",
+    "alias": "speech-balloon",
+    "aliases": [
+      "speech-balloon"
+    ],
+    "label": "Speech Balloon",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "speech balloon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👁️‍🗨️",
+    "alias": "eye-in-speech-bubble",
+    "aliases": [
+      "eye-in-speech-bubble"
+    ],
+    "label": "Eye In Speech Bubble",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "eye in speech bubble",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🗨️",
+    "alias": "left-speech-bubble",
+    "aliases": [
+      "left-speech-bubble"
+    ],
+    "label": "Left Speech Bubble",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "left speech bubble",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🗯️",
+    "alias": "right-anger-bubble",
+    "aliases": [
+      "right-anger-bubble"
+    ],
+    "label": "Right Anger Bubble",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "right anger bubble",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "💭",
+    "alias": "thought-balloon",
+    "aliases": [
+      "thought-balloon"
+    ],
+    "label": "Thought Balloon",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "thought balloon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💤",
+    "alias": "zzz",
+    "aliases": [
+      "zzz"
+    ],
+    "label": "ZZZ",
+    "group": "Smileys & Emotion",
+    "category": "smileys-and-emotion",
+    "unicodeName": "ZZZ",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👋",
+    "alias": "waving-hand",
+    "aliases": [
+      "waving-hand"
+    ],
+    "label": "Waving Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "waving hand",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤚",
+    "alias": "raised-back-of-hand",
+    "aliases": [
+      "raised-back-of-hand"
+    ],
+    "label": "Raised Back Of Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "raised back of hand",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🖐️",
+    "alias": "hand-with-fingers-splayed",
+    "aliases": [
+      "hand-with-fingers-splayed"
+    ],
+    "label": "Hand With Fingers Splayed",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "hand with fingers splayed",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "✋",
+    "alias": "raised-hand",
+    "aliases": [
+      "raised-hand"
+    ],
+    "label": "Raised Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "raised hand",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🖖",
+    "alias": "vulcan-salute",
+    "aliases": [
+      "vulcan-salute"
+    ],
+    "label": "Vulcan Salute",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "vulcan salute",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫱",
+    "alias": "rightwards-hand",
+    "aliases": [
+      "rightwards-hand"
+    ],
+    "label": "Rightwards Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "rightwards hand",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🫲",
+    "alias": "leftwards-hand",
+    "aliases": [
+      "leftwards-hand"
+    ],
+    "label": "Leftwards Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "leftwards hand",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🫳",
+    "alias": "palm-down-hand",
+    "aliases": [
+      "palm-down-hand"
+    ],
+    "label": "Palm Down Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "palm down hand",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🫴",
+    "alias": "palm-up-hand",
+    "aliases": [
+      "palm-up-hand"
+    ],
+    "label": "Palm Up Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "palm up hand",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🫷",
+    "alias": "leftwards-pushing-hand",
+    "aliases": [
+      "leftwards-pushing-hand"
+    ],
+    "label": "Leftwards Pushing Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "leftwards pushing hand",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🫸",
+    "alias": "rightwards-pushing-hand",
+    "aliases": [
+      "rightwards-pushing-hand"
+    ],
+    "label": "Rightwards Pushing Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "rightwards pushing hand",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "👌",
+    "alias": "ok-hand",
+    "aliases": [
+      "ok-hand"
+    ],
+    "label": "OK Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "OK hand",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤌",
+    "alias": "pinched-fingers",
+    "aliases": [
+      "pinched-fingers"
+    ],
+    "label": "Pinched Fingers",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "pinched fingers",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🤏",
+    "alias": "pinching-hand",
+    "aliases": [
+      "pinching-hand"
+    ],
+    "label": "Pinching Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "pinching hand",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "✌️",
+    "alias": "victory-hand",
+    "aliases": [
+      "victory-hand"
+    ],
+    "label": "Victory Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "victory hand",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤞",
+    "alias": "crossed-fingers",
+    "aliases": [
+      "crossed-fingers"
+    ],
+    "label": "Crossed Fingers",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "crossed fingers",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🫰",
+    "alias": "hand-with-index-finger-and-thumb-crossed",
+    "aliases": [
+      "hand-with-index-finger-and-thumb-crossed"
+    ],
+    "label": "Hand With Index Finger And Thumb Crossed",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "hand with index finger and thumb crossed",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🤟",
+    "alias": "love-you-gesture",
+    "aliases": [
+      "love-you-gesture"
+    ],
+    "label": "Love-you Gesture",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "love-you gesture",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🤘",
+    "alias": "sign-of-the-horns",
+    "aliases": [
+      "sign-of-the-horns"
+    ],
+    "label": "Sign Of The Horns",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "sign of the horns",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🤙",
+    "alias": "call-me-hand",
+    "aliases": [
+      "call-me-hand"
+    ],
+    "label": "Call Me Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "call me hand",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "👈",
+    "alias": "backhand-index-pointing-left",
+    "aliases": [
+      "backhand-index-pointing-left"
+    ],
+    "label": "Backhand Index Pointing Left",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "backhand index pointing left",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👉",
+    "alias": "backhand-index-pointing-right",
+    "aliases": [
+      "backhand-index-pointing-right"
+    ],
+    "label": "Backhand Index Pointing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "backhand index pointing right",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👆",
+    "alias": "backhand-index-pointing-up",
+    "aliases": [
+      "backhand-index-pointing-up"
+    ],
+    "label": "Backhand Index Pointing Up",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "backhand index pointing up",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🖕",
+    "alias": "middle-finger",
+    "aliases": [
+      "middle-finger"
+    ],
+    "label": "Middle Finger",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "middle finger",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "👇",
+    "alias": "backhand-index-pointing-down",
+    "aliases": [
+      "backhand-index-pointing-down"
+    ],
+    "label": "Backhand Index Pointing Down",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "backhand index pointing down",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☝️",
+    "alias": "index-pointing-up",
+    "aliases": [
+      "index-pointing-up"
+    ],
+    "label": "Index Pointing Up",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "index pointing up",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫵",
+    "alias": "index-pointing-at-the-viewer",
+    "aliases": [
+      "index-pointing-at-the-viewer"
+    ],
+    "label": "Index Pointing At The Viewer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "index pointing at the viewer",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "👍",
+    "alias": "thumbs-up",
+    "aliases": [
+      "thumbs-up"
+    ],
+    "label": "Thumbs Up",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "thumbs up",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👎",
+    "alias": "thumbs-down",
+    "aliases": [
+      "thumbs-down"
+    ],
+    "label": "Thumbs Down",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "thumbs down",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✊",
+    "alias": "raised-fist",
+    "aliases": [
+      "raised-fist"
+    ],
+    "label": "Raised Fist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "raised fist",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👊",
+    "alias": "oncoming-fist",
+    "aliases": [
+      "oncoming-fist"
+    ],
+    "label": "Oncoming Fist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "oncoming fist",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤛",
+    "alias": "left-facing-fist",
+    "aliases": [
+      "left-facing-fist"
+    ],
+    "label": "Left-facing Fist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "left-facing fist",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤜",
+    "alias": "right-facing-fist",
+    "aliases": [
+      "right-facing-fist"
+    ],
+    "label": "Right-facing Fist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "right-facing fist",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "👏",
+    "alias": "clapping-hands",
+    "aliases": [
+      "clapping-hands"
+    ],
+    "label": "Clapping Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "clapping hands",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙌",
+    "alias": "raising-hands",
+    "aliases": [
+      "raising-hands"
+    ],
+    "label": "Raising Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "raising hands",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫶",
+    "alias": "heart-hands",
+    "aliases": [
+      "heart-hands"
+    ],
+    "label": "Heart Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "heart hands",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "👐",
+    "alias": "open-hands",
+    "aliases": [
+      "open-hands"
+    ],
+    "label": "Open Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "open hands",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤲",
+    "alias": "palms-up-together",
+    "aliases": [
+      "palms-up-together"
+    ],
+    "label": "Palms Up Together",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "palms up together",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🤝",
+    "alias": "handshake",
+    "aliases": [
+      "handshake"
+    ],
+    "label": "Handshake",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "handshake",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🙏",
+    "alias": "folded-hands",
+    "aliases": [
+      "folded-hands"
+    ],
+    "label": "Folded Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "folded hands",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✍️",
+    "alias": "writing-hand",
+    "aliases": [
+      "writing-hand"
+    ],
+    "label": "Writing Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "writing hand",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "💅",
+    "alias": "nail-polish",
+    "aliases": [
+      "nail-polish"
+    ],
+    "label": "Nail Polish",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "nail polish",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤳",
+    "alias": "selfie",
+    "aliases": [
+      "selfie"
+    ],
+    "label": "Selfie",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "selfie",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "💪",
+    "alias": "flexed-biceps",
+    "aliases": [
+      "flexed-biceps"
+    ],
+    "label": "Flexed Biceps",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "flexed biceps",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦾",
+    "alias": "mechanical-arm",
+    "aliases": [
+      "mechanical-arm"
+    ],
+    "label": "Mechanical Arm",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "mechanical arm",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🦿",
+    "alias": "mechanical-leg",
+    "aliases": [
+      "mechanical-leg"
+    ],
+    "label": "Mechanical Leg",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "mechanical leg",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🦵",
+    "alias": "leg",
+    "aliases": [
+      "leg"
+    ],
+    "label": "Leg",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "leg",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦶",
+    "alias": "foot",
+    "aliases": [
+      "foot"
+    ],
+    "label": "Foot",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "foot",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "👂",
+    "alias": "ear",
+    "aliases": [
+      "ear"
+    ],
+    "label": "Ear",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "ear",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦻",
+    "alias": "ear-with-hearing-aid",
+    "aliases": [
+      "ear-with-hearing-aid"
+    ],
+    "label": "Ear With Hearing Aid",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "ear with hearing aid",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👃",
+    "alias": "nose",
+    "aliases": [
+      "nose"
+    ],
+    "label": "Nose",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "nose",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧠",
+    "alias": "brain",
+    "aliases": [
+      "brain"
+    ],
+    "label": "Brain",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "brain",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🫀",
+    "alias": "anatomical-heart",
+    "aliases": [
+      "anatomical-heart"
+    ],
+    "label": "Anatomical Heart",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "anatomical heart",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🫁",
+    "alias": "lungs",
+    "aliases": [
+      "lungs"
+    ],
+    "label": "Lungs",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "lungs",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🦷",
+    "alias": "tooth",
+    "aliases": [
+      "tooth"
+    ],
+    "label": "Tooth",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "tooth",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦴",
+    "alias": "bone",
+    "aliases": [
+      "bone"
+    ],
+    "label": "Bone",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "bone",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "👀",
+    "alias": "eyes",
+    "aliases": [
+      "eyes"
+    ],
+    "label": "Eyes",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "eyes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👁️",
+    "alias": "eye",
+    "aliases": [
+      "eye"
+    ],
+    "label": "Eye",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "eye",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "👅",
+    "alias": "tongue",
+    "aliases": [
+      "tongue"
+    ],
+    "label": "Tongue",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "tongue",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👄",
+    "alias": "mouth",
+    "aliases": [
+      "mouth"
+    ],
+    "label": "Mouth",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "mouth",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫦",
+    "alias": "biting-lip",
+    "aliases": [
+      "biting-lip"
+    ],
+    "label": "Biting Lip",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "biting lip",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "👶",
+    "alias": "baby",
+    "aliases": [
+      "baby"
+    ],
+    "label": "Baby",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "baby",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧒",
+    "alias": "child",
+    "aliases": [
+      "child"
+    ],
+    "label": "Child",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "child",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "👦",
+    "alias": "boy",
+    "aliases": [
+      "boy"
+    ],
+    "label": "Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "boy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👧",
+    "alias": "girl",
+    "aliases": [
+      "girl"
+    ],
+    "label": "Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "girl",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧑",
+    "alias": "person",
+    "aliases": [
+      "person"
+    ],
+    "label": "Person",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "👱",
+    "alias": "person-blond-hair",
+    "aliases": [
+      "person-blond-hair"
+    ],
+    "label": "Person Blond Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person blond hair",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👨",
+    "alias": "man",
+    "aliases": [
+      "man"
+    ],
+    "label": "Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧔",
+    "alias": "person-beard",
+    "aliases": [
+      "person-beard"
+    ],
+    "label": "Person Beard",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person beard",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧔‍♂️",
+    "alias": "man-beard",
+    "aliases": [
+      "man-beard"
+    ],
+    "label": "Man Beard",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man beard",
+    "unicodeVersion": "13.1",
+    "emojiVersion": "13.1"
+  },
+  {
+    "emoji": "🧔‍♀️",
+    "alias": "woman-beard",
+    "aliases": [
+      "woman-beard"
+    ],
+    "label": "Woman Beard",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman beard",
+    "unicodeVersion": "13.1",
+    "emojiVersion": "13.1"
+  },
+  {
+    "emoji": "👨‍🦰",
+    "alias": "man-red-hair",
+    "aliases": [
+      "man-red-hair"
+    ],
+    "label": "Man Red Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man red hair",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "👨‍🦱",
+    "alias": "man-curly-hair",
+    "aliases": [
+      "man-curly-hair"
+    ],
+    "label": "Man Curly Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man curly hair",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "👨‍🦳",
+    "alias": "man-white-hair",
+    "aliases": [
+      "man-white-hair"
+    ],
+    "label": "Man White Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man white hair",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "👨‍🦲",
+    "alias": "man-bald",
+    "aliases": [
+      "man-bald"
+    ],
+    "label": "Man Bald",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man bald",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "👩",
+    "alias": "woman",
+    "aliases": [
+      "woman"
+    ],
+    "label": "Woman",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👩‍🦰",
+    "alias": "woman-red-hair",
+    "aliases": [
+      "woman-red-hair"
+    ],
+    "label": "Woman Red Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman red hair",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧑‍🦰",
+    "alias": "person-red-hair",
+    "aliases": [
+      "person-red-hair"
+    ],
+    "label": "Person Red Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person red hair",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👩‍🦱",
+    "alias": "woman-curly-hair",
+    "aliases": [
+      "woman-curly-hair"
+    ],
+    "label": "Woman Curly Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman curly hair",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧑‍🦱",
+    "alias": "person-curly-hair",
+    "aliases": [
+      "person-curly-hair"
+    ],
+    "label": "Person Curly Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person curly hair",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👩‍🦳",
+    "alias": "woman-white-hair",
+    "aliases": [
+      "woman-white-hair"
+    ],
+    "label": "Woman White Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman white hair",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧑‍🦳",
+    "alias": "person-white-hair",
+    "aliases": [
+      "person-white-hair"
+    ],
+    "label": "Person White Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person white hair",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👩‍🦲",
+    "alias": "woman-bald",
+    "aliases": [
+      "woman-bald"
+    ],
+    "label": "Woman Bald",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman bald",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧑‍🦲",
+    "alias": "person-bald",
+    "aliases": [
+      "person-bald"
+    ],
+    "label": "Person Bald",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person bald",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👱‍♀️",
+    "alias": "woman-blond-hair",
+    "aliases": [
+      "woman-blond-hair"
+    ],
+    "label": "Woman Blond Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman blond hair",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👱‍♂️",
+    "alias": "man-blond-hair",
+    "aliases": [
+      "man-blond-hair"
+    ],
+    "label": "Man Blond Hair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man blond hair",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧓",
+    "alias": "older-person",
+    "aliases": [
+      "older-person"
+    ],
+    "label": "Older Person",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "older person",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "👴",
+    "alias": "old-man",
+    "aliases": [
+      "old-man"
+    ],
+    "label": "Old Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "old man",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👵",
+    "alias": "old-woman",
+    "aliases": [
+      "old-woman"
+    ],
+    "label": "Old Woman",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "old woman",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙍",
+    "alias": "person-frowning",
+    "aliases": [
+      "person-frowning"
+    ],
+    "label": "Person Frowning",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person frowning",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙍‍♂️",
+    "alias": "man-frowning",
+    "aliases": [
+      "man-frowning"
+    ],
+    "label": "Man Frowning",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man frowning",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙍‍♀️",
+    "alias": "woman-frowning",
+    "aliases": [
+      "woman-frowning"
+    ],
+    "label": "Woman Frowning",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman frowning",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙎",
+    "alias": "person-pouting",
+    "aliases": [
+      "person-pouting"
+    ],
+    "label": "Person Pouting",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person pouting",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙎‍♂️",
+    "alias": "man-pouting",
+    "aliases": [
+      "man-pouting"
+    ],
+    "label": "Man Pouting",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man pouting",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙎‍♀️",
+    "alias": "woman-pouting",
+    "aliases": [
+      "woman-pouting"
+    ],
+    "label": "Woman Pouting",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman pouting",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙅",
+    "alias": "person-gesturing-no",
+    "aliases": [
+      "person-gesturing-no"
+    ],
+    "label": "Person Gesturing NO",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person gesturing NO",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙅‍♂️",
+    "alias": "man-gesturing-no",
+    "aliases": [
+      "man-gesturing-no"
+    ],
+    "label": "Man Gesturing NO",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man gesturing NO",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙅‍♀️",
+    "alias": "woman-gesturing-no",
+    "aliases": [
+      "woman-gesturing-no"
+    ],
+    "label": "Woman Gesturing NO",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman gesturing NO",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙆",
+    "alias": "person-gesturing-ok",
+    "aliases": [
+      "person-gesturing-ok"
+    ],
+    "label": "Person Gesturing OK",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person gesturing OK",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙆‍♂️",
+    "alias": "man-gesturing-ok",
+    "aliases": [
+      "man-gesturing-ok"
+    ],
+    "label": "Man Gesturing OK",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man gesturing OK",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙆‍♀️",
+    "alias": "woman-gesturing-ok",
+    "aliases": [
+      "woman-gesturing-ok"
+    ],
+    "label": "Woman Gesturing OK",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman gesturing OK",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "💁",
+    "alias": "person-tipping-hand",
+    "aliases": [
+      "person-tipping-hand"
+    ],
+    "label": "Person Tipping Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person tipping hand",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💁‍♂️",
+    "alias": "man-tipping-hand",
+    "aliases": [
+      "man-tipping-hand"
+    ],
+    "label": "Man Tipping Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man tipping hand",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "💁‍♀️",
+    "alias": "woman-tipping-hand",
+    "aliases": [
+      "woman-tipping-hand"
+    ],
+    "label": "Woman Tipping Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman tipping hand",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙋",
+    "alias": "person-raising-hand",
+    "aliases": [
+      "person-raising-hand"
+    ],
+    "label": "Person Raising Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person raising hand",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙋‍♂️",
+    "alias": "man-raising-hand",
+    "aliases": [
+      "man-raising-hand"
+    ],
+    "label": "Man Raising Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man raising hand",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙋‍♀️",
+    "alias": "woman-raising-hand",
+    "aliases": [
+      "woman-raising-hand"
+    ],
+    "label": "Woman Raising Hand",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman raising hand",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧏",
+    "alias": "deaf-person",
+    "aliases": [
+      "deaf-person"
+    ],
+    "label": "Deaf Person",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "deaf person",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧏‍♂️",
+    "alias": "deaf-man",
+    "aliases": [
+      "deaf-man"
+    ],
+    "label": "Deaf Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "deaf man",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧏‍♀️",
+    "alias": "deaf-woman",
+    "aliases": [
+      "deaf-woman"
+    ],
+    "label": "Deaf Woman",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "deaf woman",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🙇",
+    "alias": "person-bowing",
+    "aliases": [
+      "person-bowing"
+    ],
+    "label": "Person Bowing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person bowing",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🙇‍♂️",
+    "alias": "man-bowing",
+    "aliases": [
+      "man-bowing"
+    ],
+    "label": "Man Bowing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man bowing",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🙇‍♀️",
+    "alias": "woman-bowing",
+    "aliases": [
+      "woman-bowing"
+    ],
+    "label": "Woman Bowing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman bowing",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤦",
+    "alias": "person-facepalming",
+    "aliases": [
+      "person-facepalming"
+    ],
+    "label": "Person Facepalming",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person facepalming",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤦‍♂️",
+    "alias": "man-facepalming",
+    "aliases": [
+      "man-facepalming"
+    ],
+    "label": "Man Facepalming",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man facepalming",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤦‍♀️",
+    "alias": "woman-facepalming",
+    "aliases": [
+      "woman-facepalming"
+    ],
+    "label": "Woman Facepalming",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman facepalming",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤷",
+    "alias": "person-shrugging",
+    "aliases": [
+      "person-shrugging"
+    ],
+    "label": "Person Shrugging",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person shrugging",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤷‍♂️",
+    "alias": "man-shrugging",
+    "aliases": [
+      "man-shrugging"
+    ],
+    "label": "Man Shrugging",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man shrugging",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤷‍♀️",
+    "alias": "woman-shrugging",
+    "aliases": [
+      "woman-shrugging"
+    ],
+    "label": "Woman Shrugging",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman shrugging",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍⚕️",
+    "alias": "health-worker",
+    "aliases": [
+      "health-worker"
+    ],
+    "label": "Health Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "health worker",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍⚕️",
+    "alias": "man-health-worker",
+    "aliases": [
+      "man-health-worker"
+    ],
+    "label": "Man Health Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man health worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍⚕️",
+    "alias": "woman-health-worker",
+    "aliases": [
+      "woman-health-worker"
+    ],
+    "label": "Woman Health Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman health worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🎓",
+    "alias": "student",
+    "aliases": [
+      "student"
+    ],
+    "label": "Student",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "student",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🎓",
+    "alias": "man-student",
+    "aliases": [
+      "man-student"
+    ],
+    "label": "Man Student",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man student",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🎓",
+    "alias": "woman-student",
+    "aliases": [
+      "woman-student"
+    ],
+    "label": "Woman Student",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman student",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🏫",
+    "alias": "teacher",
+    "aliases": [
+      "teacher"
+    ],
+    "label": "Teacher",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "teacher",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🏫",
+    "alias": "man-teacher",
+    "aliases": [
+      "man-teacher"
+    ],
+    "label": "Man Teacher",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man teacher",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🏫",
+    "alias": "woman-teacher",
+    "aliases": [
+      "woman-teacher"
+    ],
+    "label": "Woman Teacher",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman teacher",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍⚖️",
+    "alias": "judge",
+    "aliases": [
+      "judge"
+    ],
+    "label": "Judge",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "judge",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍⚖️",
+    "alias": "man-judge",
+    "aliases": [
+      "man-judge"
+    ],
+    "label": "Man Judge",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man judge",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍⚖️",
+    "alias": "woman-judge",
+    "aliases": [
+      "woman-judge"
+    ],
+    "label": "Woman Judge",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman judge",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🌾",
+    "alias": "farmer",
+    "aliases": [
+      "farmer"
+    ],
+    "label": "Farmer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "farmer",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🌾",
+    "alias": "man-farmer",
+    "aliases": [
+      "man-farmer"
+    ],
+    "label": "Man Farmer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man farmer",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🌾",
+    "alias": "woman-farmer",
+    "aliases": [
+      "woman-farmer"
+    ],
+    "label": "Woman Farmer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman farmer",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🍳",
+    "alias": "cook",
+    "aliases": [
+      "cook"
+    ],
+    "label": "Cook",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "cook",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🍳",
+    "alias": "man-cook",
+    "aliases": [
+      "man-cook"
+    ],
+    "label": "Man Cook",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man cook",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🍳",
+    "alias": "woman-cook",
+    "aliases": [
+      "woman-cook"
+    ],
+    "label": "Woman Cook",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman cook",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🔧",
+    "alias": "mechanic",
+    "aliases": [
+      "mechanic"
+    ],
+    "label": "Mechanic",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "mechanic",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🔧",
+    "alias": "man-mechanic",
+    "aliases": [
+      "man-mechanic"
+    ],
+    "label": "Man Mechanic",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man mechanic",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🔧",
+    "alias": "woman-mechanic",
+    "aliases": [
+      "woman-mechanic"
+    ],
+    "label": "Woman Mechanic",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman mechanic",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🏭",
+    "alias": "factory-worker",
+    "aliases": [
+      "factory-worker"
+    ],
+    "label": "Factory Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "factory worker",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🏭",
+    "alias": "man-factory-worker",
+    "aliases": [
+      "man-factory-worker"
+    ],
+    "label": "Man Factory Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man factory worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🏭",
+    "alias": "woman-factory-worker",
+    "aliases": [
+      "woman-factory-worker"
+    ],
+    "label": "Woman Factory Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman factory worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍💼",
+    "alias": "office-worker",
+    "aliases": [
+      "office-worker"
+    ],
+    "label": "Office Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "office worker",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍💼",
+    "alias": "man-office-worker",
+    "aliases": [
+      "man-office-worker"
+    ],
+    "label": "Man Office Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man office worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍💼",
+    "alias": "woman-office-worker",
+    "aliases": [
+      "woman-office-worker"
+    ],
+    "label": "Woman Office Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman office worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🔬",
+    "alias": "scientist",
+    "aliases": [
+      "scientist"
+    ],
+    "label": "Scientist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "scientist",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🔬",
+    "alias": "man-scientist",
+    "aliases": [
+      "man-scientist"
+    ],
+    "label": "Man Scientist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man scientist",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🔬",
+    "alias": "woman-scientist",
+    "aliases": [
+      "woman-scientist"
+    ],
+    "label": "Woman Scientist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman scientist",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍💻",
+    "alias": "technologist",
+    "aliases": [
+      "technologist"
+    ],
+    "label": "Technologist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "technologist",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍💻",
+    "alias": "man-technologist",
+    "aliases": [
+      "man-technologist"
+    ],
+    "label": "Man Technologist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man technologist",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍💻",
+    "alias": "woman-technologist",
+    "aliases": [
+      "woman-technologist"
+    ],
+    "label": "Woman Technologist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman technologist",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🎤",
+    "alias": "singer",
+    "aliases": [
+      "singer"
+    ],
+    "label": "Singer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "singer",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🎤",
+    "alias": "man-singer",
+    "aliases": [
+      "man-singer"
+    ],
+    "label": "Man Singer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man singer",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🎤",
+    "alias": "woman-singer",
+    "aliases": [
+      "woman-singer"
+    ],
+    "label": "Woman Singer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman singer",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🎨",
+    "alias": "artist",
+    "aliases": [
+      "artist"
+    ],
+    "label": "Artist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "artist",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🎨",
+    "alias": "man-artist",
+    "aliases": [
+      "man-artist"
+    ],
+    "label": "Man Artist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man artist",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🎨",
+    "alias": "woman-artist",
+    "aliases": [
+      "woman-artist"
+    ],
+    "label": "Woman Artist",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman artist",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍✈️",
+    "alias": "pilot",
+    "aliases": [
+      "pilot"
+    ],
+    "label": "Pilot",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "pilot",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍✈️",
+    "alias": "man-pilot",
+    "aliases": [
+      "man-pilot"
+    ],
+    "label": "Man Pilot",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man pilot",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍✈️",
+    "alias": "woman-pilot",
+    "aliases": [
+      "woman-pilot"
+    ],
+    "label": "Woman Pilot",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman pilot",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🚀",
+    "alias": "astronaut",
+    "aliases": [
+      "astronaut"
+    ],
+    "label": "Astronaut",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "astronaut",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🚀",
+    "alias": "man-astronaut",
+    "aliases": [
+      "man-astronaut"
+    ],
+    "label": "Man Astronaut",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man astronaut",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🚀",
+    "alias": "woman-astronaut",
+    "aliases": [
+      "woman-astronaut"
+    ],
+    "label": "Woman Astronaut",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman astronaut",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧑‍🚒",
+    "alias": "firefighter",
+    "aliases": [
+      "firefighter"
+    ],
+    "label": "Firefighter",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "firefighter",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "👨‍🚒",
+    "alias": "man-firefighter",
+    "aliases": [
+      "man-firefighter"
+    ],
+    "label": "Man Firefighter",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man firefighter",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍🚒",
+    "alias": "woman-firefighter",
+    "aliases": [
+      "woman-firefighter"
+    ],
+    "label": "Woman Firefighter",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman firefighter",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👮",
+    "alias": "police-officer",
+    "aliases": [
+      "police-officer"
+    ],
+    "label": "Police Officer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "police officer",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👮‍♂️",
+    "alias": "man-police-officer",
+    "aliases": [
+      "man-police-officer"
+    ],
+    "label": "Man Police Officer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man police officer",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👮‍♀️",
+    "alias": "woman-police-officer",
+    "aliases": [
+      "woman-police-officer"
+    ],
+    "label": "Woman Police Officer",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman police officer",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🕵️",
+    "alias": "detective",
+    "aliases": [
+      "detective"
+    ],
+    "label": "Detective",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "detective",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕵️‍♂️",
+    "alias": "man-detective",
+    "aliases": [
+      "man-detective"
+    ],
+    "label": "Man Detective",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man detective",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🕵️‍♀️",
+    "alias": "woman-detective",
+    "aliases": [
+      "woman-detective"
+    ],
+    "label": "Woman Detective",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman detective",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "💂",
+    "alias": "guard",
+    "aliases": [
+      "guard"
+    ],
+    "label": "Guard",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "guard",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💂‍♂️",
+    "alias": "man-guard",
+    "aliases": [
+      "man-guard"
+    ],
+    "label": "Man Guard",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man guard",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "💂‍♀️",
+    "alias": "woman-guard",
+    "aliases": [
+      "woman-guard"
+    ],
+    "label": "Woman Guard",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman guard",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🥷",
+    "alias": "ninja",
+    "aliases": [
+      "ninja"
+    ],
+    "label": "Ninja",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "ninja",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👷",
+    "alias": "construction-worker",
+    "aliases": [
+      "construction-worker"
+    ],
+    "label": "Construction Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "construction worker",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👷‍♂️",
+    "alias": "man-construction-worker",
+    "aliases": [
+      "man-construction-worker"
+    ],
+    "label": "Man Construction Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man construction worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👷‍♀️",
+    "alias": "woman-construction-worker",
+    "aliases": [
+      "woman-construction-worker"
+    ],
+    "label": "Woman Construction Worker",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman construction worker",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🫅",
+    "alias": "person-with-crown",
+    "aliases": [
+      "person-with-crown"
+    ],
+    "label": "Person With Crown",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person with crown",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🤴",
+    "alias": "prince",
+    "aliases": [
+      "prince"
+    ],
+    "label": "Prince",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "prince",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "👸",
+    "alias": "princess",
+    "aliases": [
+      "princess"
+    ],
+    "label": "Princess",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "princess",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👳",
+    "alias": "person-wearing-turban",
+    "aliases": [
+      "person-wearing-turban"
+    ],
+    "label": "Person Wearing Turban",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person wearing turban",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👳‍♂️",
+    "alias": "man-wearing-turban",
+    "aliases": [
+      "man-wearing-turban"
+    ],
+    "label": "Man Wearing Turban",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man wearing turban",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👳‍♀️",
+    "alias": "woman-wearing-turban",
+    "aliases": [
+      "woman-wearing-turban"
+    ],
+    "label": "Woman Wearing Turban",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman wearing turban",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👲",
+    "alias": "person-with-skullcap",
+    "aliases": [
+      "person-with-skullcap"
+    ],
+    "label": "Person With Skullcap",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person with skullcap",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧕",
+    "alias": "woman-with-headscarf",
+    "aliases": [
+      "woman-with-headscarf"
+    ],
+    "label": "Woman With Headscarf",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman with headscarf",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🤵",
+    "alias": "person-in-tuxedo",
+    "aliases": [
+      "person-in-tuxedo"
+    ],
+    "label": "Person In Tuxedo",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in tuxedo",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤵‍♂️",
+    "alias": "man-in-tuxedo",
+    "aliases": [
+      "man-in-tuxedo"
+    ],
+    "label": "Man In Tuxedo",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man in tuxedo",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🤵‍♀️",
+    "alias": "woman-in-tuxedo",
+    "aliases": [
+      "woman-in-tuxedo"
+    ],
+    "label": "Woman In Tuxedo",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman in tuxedo",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👰",
+    "alias": "person-with-veil",
+    "aliases": [
+      "person-with-veil"
+    ],
+    "label": "Person With Veil",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person with veil",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👰‍♂️",
+    "alias": "man-with-veil",
+    "aliases": [
+      "man-with-veil"
+    ],
+    "label": "Man With Veil",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man with veil",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👰‍♀️",
+    "alias": "woman-with-veil",
+    "aliases": [
+      "woman-with-veil"
+    ],
+    "label": "Woman With Veil",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman with veil",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🤰",
+    "alias": "pregnant-woman",
+    "aliases": [
+      "pregnant-woman"
+    ],
+    "label": "Pregnant Woman",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "pregnant woman",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🫃",
+    "alias": "pregnant-man",
+    "aliases": [
+      "pregnant-man"
+    ],
+    "label": "Pregnant Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "pregnant man",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🫄",
+    "alias": "pregnant-person",
+    "aliases": [
+      "pregnant-person"
+    ],
+    "label": "Pregnant Person",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "pregnant person",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🤱",
+    "alias": "breast-feeding",
+    "aliases": [
+      "breast-feeding"
+    ],
+    "label": "Breast-feeding",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "breast-feeding",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "👩‍🍼",
+    "alias": "woman-feeding-baby",
+    "aliases": [
+      "woman-feeding-baby"
+    ],
+    "label": "Woman Feeding Baby",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman feeding baby",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👨‍🍼",
+    "alias": "man-feeding-baby",
+    "aliases": [
+      "man-feeding-baby"
+    ],
+    "label": "Man Feeding Baby",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man feeding baby",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🧑‍🍼",
+    "alias": "person-feeding-baby",
+    "aliases": [
+      "person-feeding-baby"
+    ],
+    "label": "Person Feeding Baby",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person feeding baby",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👼",
+    "alias": "baby-angel",
+    "aliases": [
+      "baby-angel"
+    ],
+    "label": "Baby Angel",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "baby angel",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎅",
+    "alias": "santa-claus",
+    "aliases": [
+      "santa-claus"
+    ],
+    "label": "Santa Claus",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "Santa Claus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤶",
+    "alias": "mrs-claus",
+    "aliases": [
+      "mrs-claus"
+    ],
+    "label": "Mrs. Claus",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "Mrs. Claus",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🧑‍🎄",
+    "alias": "mx-claus",
+    "aliases": [
+      "mx-claus"
+    ],
+    "label": "Mx Claus",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "Mx Claus",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🦸",
+    "alias": "superhero",
+    "aliases": [
+      "superhero"
+    ],
+    "label": "Superhero",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "superhero",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦸‍♂️",
+    "alias": "man-superhero",
+    "aliases": [
+      "man-superhero"
+    ],
+    "label": "Man Superhero",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man superhero",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦸‍♀️",
+    "alias": "woman-superhero",
+    "aliases": [
+      "woman-superhero"
+    ],
+    "label": "Woman Superhero",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman superhero",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦹",
+    "alias": "supervillain",
+    "aliases": [
+      "supervillain"
+    ],
+    "label": "Supervillain",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "supervillain",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦹‍♂️",
+    "alias": "man-supervillain",
+    "aliases": [
+      "man-supervillain"
+    ],
+    "label": "Man Supervillain",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man supervillain",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦹‍♀️",
+    "alias": "woman-supervillain",
+    "aliases": [
+      "woman-supervillain"
+    ],
+    "label": "Woman Supervillain",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman supervillain",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧙",
+    "alias": "mage",
+    "aliases": [
+      "mage"
+    ],
+    "label": "Mage",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "mage",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧙‍♂️",
+    "alias": "man-mage",
+    "aliases": [
+      "man-mage"
+    ],
+    "label": "Man Mage",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man mage",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧙‍♀️",
+    "alias": "woman-mage",
+    "aliases": [
+      "woman-mage"
+    ],
+    "label": "Woman Mage",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman mage",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧚",
+    "alias": "fairy",
+    "aliases": [
+      "fairy"
+    ],
+    "label": "Fairy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "fairy",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧚‍♂️",
+    "alias": "man-fairy",
+    "aliases": [
+      "man-fairy"
+    ],
+    "label": "Man Fairy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man fairy",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧚‍♀️",
+    "alias": "woman-fairy",
+    "aliases": [
+      "woman-fairy"
+    ],
+    "label": "Woman Fairy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman fairy",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧛",
+    "alias": "vampire",
+    "aliases": [
+      "vampire"
+    ],
+    "label": "Vampire",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "vampire",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧛‍♂️",
+    "alias": "man-vampire",
+    "aliases": [
+      "man-vampire"
+    ],
+    "label": "Man Vampire",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man vampire",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧛‍♀️",
+    "alias": "woman-vampire",
+    "aliases": [
+      "woman-vampire"
+    ],
+    "label": "Woman Vampire",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman vampire",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧜",
+    "alias": "merperson",
+    "aliases": [
+      "merperson"
+    ],
+    "label": "Merperson",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "merperson",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧜‍♂️",
+    "alias": "merman",
+    "aliases": [
+      "merman"
+    ],
+    "label": "Merman",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "merman",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧜‍♀️",
+    "alias": "mermaid",
+    "aliases": [
+      "mermaid"
+    ],
+    "label": "Mermaid",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "mermaid",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧝",
+    "alias": "elf",
+    "aliases": [
+      "elf"
+    ],
+    "label": "Elf",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "elf",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧝‍♂️",
+    "alias": "man-elf",
+    "aliases": [
+      "man-elf"
+    ],
+    "label": "Man Elf",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man elf",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧝‍♀️",
+    "alias": "woman-elf",
+    "aliases": [
+      "woman-elf"
+    ],
+    "label": "Woman Elf",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman elf",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧞",
+    "alias": "genie",
+    "aliases": [
+      "genie"
+    ],
+    "label": "Genie",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "genie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧞‍♂️",
+    "alias": "man-genie",
+    "aliases": [
+      "man-genie"
+    ],
+    "label": "Man Genie",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man genie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧞‍♀️",
+    "alias": "woman-genie",
+    "aliases": [
+      "woman-genie"
+    ],
+    "label": "Woman Genie",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman genie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧟",
+    "alias": "zombie",
+    "aliases": [
+      "zombie"
+    ],
+    "label": "Zombie",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "zombie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧟‍♂️",
+    "alias": "man-zombie",
+    "aliases": [
+      "man-zombie"
+    ],
+    "label": "Man Zombie",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man zombie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧟‍♀️",
+    "alias": "woman-zombie",
+    "aliases": [
+      "woman-zombie"
+    ],
+    "label": "Woman Zombie",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman zombie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧌",
+    "alias": "troll",
+    "aliases": [
+      "troll"
+    ],
+    "label": "Troll",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "troll",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "💆",
+    "alias": "person-getting-massage",
+    "aliases": [
+      "person-getting-massage"
+    ],
+    "label": "Person Getting Massage",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person getting massage",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💆‍♂️",
+    "alias": "man-getting-massage",
+    "aliases": [
+      "man-getting-massage"
+    ],
+    "label": "Man Getting Massage",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man getting massage",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "💆‍♀️",
+    "alias": "woman-getting-massage",
+    "aliases": [
+      "woman-getting-massage"
+    ],
+    "label": "Woman Getting Massage",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman getting massage",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "💇",
+    "alias": "person-getting-haircut",
+    "aliases": [
+      "person-getting-haircut"
+    ],
+    "label": "Person Getting Haircut",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person getting haircut",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💇‍♂️",
+    "alias": "man-getting-haircut",
+    "aliases": [
+      "man-getting-haircut"
+    ],
+    "label": "Man Getting Haircut",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man getting haircut",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "💇‍♀️",
+    "alias": "woman-getting-haircut",
+    "aliases": [
+      "woman-getting-haircut"
+    ],
+    "label": "Woman Getting Haircut",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman getting haircut",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚶",
+    "alias": "person-walking",
+    "aliases": [
+      "person-walking"
+    ],
+    "label": "Person Walking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person walking",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚶‍♂️",
+    "alias": "man-walking",
+    "aliases": [
+      "man-walking"
+    ],
+    "label": "Man Walking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man walking",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚶‍♀️",
+    "alias": "woman-walking",
+    "aliases": [
+      "woman-walking"
+    ],
+    "label": "Woman Walking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman walking",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚶‍➡️",
+    "alias": "person-walking-facing-right",
+    "aliases": [
+      "person-walking-facing-right"
+    ],
+    "label": "Person Walking Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person walking facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🚶‍♀️‍➡️",
+    "alias": "woman-walking-facing-right",
+    "aliases": [
+      "woman-walking-facing-right"
+    ],
+    "label": "Woman Walking Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman walking facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🚶‍♂️‍➡️",
+    "alias": "man-walking-facing-right",
+    "aliases": [
+      "man-walking-facing-right"
+    ],
+    "label": "Man Walking Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man walking facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧍",
+    "alias": "person-standing",
+    "aliases": [
+      "person-standing"
+    ],
+    "label": "Person Standing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person standing",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧍‍♂️",
+    "alias": "man-standing",
+    "aliases": [
+      "man-standing"
+    ],
+    "label": "Man Standing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man standing",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧍‍♀️",
+    "alias": "woman-standing",
+    "aliases": [
+      "woman-standing"
+    ],
+    "label": "Woman Standing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman standing",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧎",
+    "alias": "person-kneeling",
+    "aliases": [
+      "person-kneeling"
+    ],
+    "label": "Person Kneeling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person kneeling",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧎‍♂️",
+    "alias": "man-kneeling",
+    "aliases": [
+      "man-kneeling"
+    ],
+    "label": "Man Kneeling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man kneeling",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧎‍♀️",
+    "alias": "woman-kneeling",
+    "aliases": [
+      "woman-kneeling"
+    ],
+    "label": "Woman Kneeling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman kneeling",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧎‍➡️",
+    "alias": "person-kneeling-facing-right",
+    "aliases": [
+      "person-kneeling-facing-right"
+    ],
+    "label": "Person Kneeling Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person kneeling facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧎‍♀️‍➡️",
+    "alias": "woman-kneeling-facing-right",
+    "aliases": [
+      "woman-kneeling-facing-right"
+    ],
+    "label": "Woman Kneeling Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman kneeling facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧎‍♂️‍➡️",
+    "alias": "man-kneeling-facing-right",
+    "aliases": [
+      "man-kneeling-facing-right"
+    ],
+    "label": "Man Kneeling Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man kneeling facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧑‍🦯",
+    "alias": "person-with-white-cane",
+    "aliases": [
+      "person-with-white-cane"
+    ],
+    "label": "Person With White Cane",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person with white cane",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "🧑‍🦯‍➡️",
+    "alias": "person-with-white-cane-facing-right",
+    "aliases": [
+      "person-with-white-cane-facing-right"
+    ],
+    "label": "Person With White Cane Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person with white cane facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "👨‍🦯",
+    "alias": "man-with-white-cane",
+    "aliases": [
+      "man-with-white-cane"
+    ],
+    "label": "Man With White Cane",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man with white cane",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👨‍🦯‍➡️",
+    "alias": "man-with-white-cane-facing-right",
+    "aliases": [
+      "man-with-white-cane-facing-right"
+    ],
+    "label": "Man With White Cane Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man with white cane facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "👩‍🦯",
+    "alias": "woman-with-white-cane",
+    "aliases": [
+      "woman-with-white-cane"
+    ],
+    "label": "Woman With White Cane",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman with white cane",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👩‍🦯‍➡️",
+    "alias": "woman-with-white-cane-facing-right",
+    "aliases": [
+      "woman-with-white-cane-facing-right"
+    ],
+    "label": "Woman With White Cane Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman with white cane facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧑‍🦼",
+    "alias": "person-in-motorized-wheelchair",
+    "aliases": [
+      "person-in-motorized-wheelchair"
+    ],
+    "label": "Person In Motorized Wheelchair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in motorized wheelchair",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "🧑‍🦼‍➡️",
+    "alias": "person-in-motorized-wheelchair-facing-right",
+    "aliases": [
+      "person-in-motorized-wheelchair-facing-right"
+    ],
+    "label": "Person In Motorized Wheelchair Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in motorized wheelchair facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "👨‍🦼",
+    "alias": "man-in-motorized-wheelchair",
+    "aliases": [
+      "man-in-motorized-wheelchair"
+    ],
+    "label": "Man In Motorized Wheelchair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man in motorized wheelchair",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👨‍🦼‍➡️",
+    "alias": "man-in-motorized-wheelchair-facing-right",
+    "aliases": [
+      "man-in-motorized-wheelchair-facing-right"
+    ],
+    "label": "Man In Motorized Wheelchair Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man in motorized wheelchair facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "👩‍🦼",
+    "alias": "woman-in-motorized-wheelchair",
+    "aliases": [
+      "woman-in-motorized-wheelchair"
+    ],
+    "label": "Woman In Motorized Wheelchair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman in motorized wheelchair",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👩‍🦼‍➡️",
+    "alias": "woman-in-motorized-wheelchair-facing-right",
+    "aliases": [
+      "woman-in-motorized-wheelchair-facing-right"
+    ],
+    "label": "Woman In Motorized Wheelchair Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman in motorized wheelchair facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧑‍🦽",
+    "alias": "person-in-manual-wheelchair",
+    "aliases": [
+      "person-in-manual-wheelchair"
+    ],
+    "label": "Person In Manual Wheelchair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in manual wheelchair",
+    "unicodeVersion": "12.1",
+    "emojiVersion": "12.1"
+  },
+  {
+    "emoji": "🧑‍🦽‍➡️",
+    "alias": "person-in-manual-wheelchair-facing-right",
+    "aliases": [
+      "person-in-manual-wheelchair-facing-right"
+    ],
+    "label": "Person In Manual Wheelchair Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in manual wheelchair facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "👨‍🦽",
+    "alias": "man-in-manual-wheelchair",
+    "aliases": [
+      "man-in-manual-wheelchair"
+    ],
+    "label": "Man In Manual Wheelchair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man in manual wheelchair",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👨‍🦽‍➡️",
+    "alias": "man-in-manual-wheelchair-facing-right",
+    "aliases": [
+      "man-in-manual-wheelchair-facing-right"
+    ],
+    "label": "Man In Manual Wheelchair Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man in manual wheelchair facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "👩‍🦽",
+    "alias": "woman-in-manual-wheelchair",
+    "aliases": [
+      "woman-in-manual-wheelchair"
+    ],
+    "label": "Woman In Manual Wheelchair",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman in manual wheelchair",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👩‍🦽‍➡️",
+    "alias": "woman-in-manual-wheelchair-facing-right",
+    "aliases": [
+      "woman-in-manual-wheelchair-facing-right"
+    ],
+    "label": "Woman In Manual Wheelchair Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman in manual wheelchair facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🏃",
+    "alias": "person-running",
+    "aliases": [
+      "person-running"
+    ],
+    "label": "Person Running",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person running",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏃‍♂️",
+    "alias": "man-running",
+    "aliases": [
+      "man-running"
+    ],
+    "label": "Man Running",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man running",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏃‍♀️",
+    "alias": "woman-running",
+    "aliases": [
+      "woman-running"
+    ],
+    "label": "Woman Running",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman running",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏃‍➡️",
+    "alias": "person-running-facing-right",
+    "aliases": [
+      "person-running-facing-right"
+    ],
+    "label": "Person Running Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person running facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🏃‍♀️‍➡️",
+    "alias": "woman-running-facing-right",
+    "aliases": [
+      "woman-running-facing-right"
+    ],
+    "label": "Woman Running Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman running facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🏃‍♂️‍➡️",
+    "alias": "man-running-facing-right",
+    "aliases": [
+      "man-running-facing-right"
+    ],
+    "label": "Man Running Facing Right",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man running facing right",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "💃",
+    "alias": "woman-dancing",
+    "aliases": [
+      "woman-dancing"
+    ],
+    "label": "Woman Dancing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman dancing",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕺",
+    "alias": "man-dancing",
+    "aliases": [
+      "man-dancing"
+    ],
+    "label": "Man Dancing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man dancing",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🕴️",
+    "alias": "person-in-suit-levitating",
+    "aliases": [
+      "person-in-suit-levitating"
+    ],
+    "label": "Person In Suit Levitating",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in suit levitating",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "👯",
+    "alias": "people-with-bunny-ears",
+    "aliases": [
+      "people-with-bunny-ears"
+    ],
+    "label": "People With Bunny Ears",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "people with bunny ears",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👯‍♂️",
+    "alias": "men-with-bunny-ears",
+    "aliases": [
+      "men-with-bunny-ears"
+    ],
+    "label": "Men With Bunny Ears",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "men with bunny ears",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👯‍♀️",
+    "alias": "women-with-bunny-ears",
+    "aliases": [
+      "women-with-bunny-ears"
+    ],
+    "label": "Women With Bunny Ears",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "women with bunny ears",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧖",
+    "alias": "person-in-steamy-room",
+    "aliases": [
+      "person-in-steamy-room"
+    ],
+    "label": "Person In Steamy Room",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in steamy room",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧖‍♂️",
+    "alias": "man-in-steamy-room",
+    "aliases": [
+      "man-in-steamy-room"
+    ],
+    "label": "Man In Steamy Room",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man in steamy room",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧖‍♀️",
+    "alias": "woman-in-steamy-room",
+    "aliases": [
+      "woman-in-steamy-room"
+    ],
+    "label": "Woman In Steamy Room",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman in steamy room",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧗",
+    "alias": "person-climbing",
+    "aliases": [
+      "person-climbing"
+    ],
+    "label": "Person Climbing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person climbing",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧗‍♂️",
+    "alias": "man-climbing",
+    "aliases": [
+      "man-climbing"
+    ],
+    "label": "Man Climbing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man climbing",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧗‍♀️",
+    "alias": "woman-climbing",
+    "aliases": [
+      "woman-climbing"
+    ],
+    "label": "Woman Climbing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman climbing",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🤺",
+    "alias": "person-fencing",
+    "aliases": [
+      "person-fencing"
+    ],
+    "label": "Person Fencing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person fencing",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🏇",
+    "alias": "horse-racing",
+    "aliases": [
+      "horse-racing"
+    ],
+    "label": "Horse Racing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "horse racing",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⛷️",
+    "alias": "skier",
+    "aliases": [
+      "skier"
+    ],
+    "label": "Skier",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "skier",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏂",
+    "alias": "snowboarder",
+    "aliases": [
+      "snowboarder"
+    ],
+    "label": "Snowboarder",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "snowboarder",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏌️",
+    "alias": "person-golfing",
+    "aliases": [
+      "person-golfing"
+    ],
+    "label": "Person Golfing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person golfing",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏌️‍♂️",
+    "alias": "man-golfing",
+    "aliases": [
+      "man-golfing"
+    ],
+    "label": "Man Golfing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man golfing",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏌️‍♀️",
+    "alias": "woman-golfing",
+    "aliases": [
+      "woman-golfing"
+    ],
+    "label": "Woman Golfing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman golfing",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏄",
+    "alias": "person-surfing",
+    "aliases": [
+      "person-surfing"
+    ],
+    "label": "Person Surfing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person surfing",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏄‍♂️",
+    "alias": "man-surfing",
+    "aliases": [
+      "man-surfing"
+    ],
+    "label": "Man Surfing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man surfing",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏄‍♀️",
+    "alias": "woman-surfing",
+    "aliases": [
+      "woman-surfing"
+    ],
+    "label": "Woman Surfing",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman surfing",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚣",
+    "alias": "person-rowing-boat",
+    "aliases": [
+      "person-rowing-boat"
+    ],
+    "label": "Person Rowing Boat",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person rowing boat",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚣‍♂️",
+    "alias": "man-rowing-boat",
+    "aliases": [
+      "man-rowing-boat"
+    ],
+    "label": "Man Rowing Boat",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man rowing boat",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚣‍♀️",
+    "alias": "woman-rowing-boat",
+    "aliases": [
+      "woman-rowing-boat"
+    ],
+    "label": "Woman Rowing Boat",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman rowing boat",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏊",
+    "alias": "person-swimming",
+    "aliases": [
+      "person-swimming"
+    ],
+    "label": "Person Swimming",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person swimming",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏊‍♂️",
+    "alias": "man-swimming",
+    "aliases": [
+      "man-swimming"
+    ],
+    "label": "Man Swimming",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man swimming",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏊‍♀️",
+    "alias": "woman-swimming",
+    "aliases": [
+      "woman-swimming"
+    ],
+    "label": "Woman Swimming",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman swimming",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "⛹️",
+    "alias": "person-bouncing-ball",
+    "aliases": [
+      "person-bouncing-ball"
+    ],
+    "label": "Person Bouncing Ball",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person bouncing ball",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⛹️‍♂️",
+    "alias": "man-bouncing-ball",
+    "aliases": [
+      "man-bouncing-ball"
+    ],
+    "label": "Man Bouncing Ball",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man bouncing ball",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "⛹️‍♀️",
+    "alias": "woman-bouncing-ball",
+    "aliases": [
+      "woman-bouncing-ball"
+    ],
+    "label": "Woman Bouncing Ball",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman bouncing ball",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏋️",
+    "alias": "person-lifting-weights",
+    "aliases": [
+      "person-lifting-weights"
+    ],
+    "label": "Person Lifting Weights",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person lifting weights",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏋️‍♂️",
+    "alias": "man-lifting-weights",
+    "aliases": [
+      "man-lifting-weights"
+    ],
+    "label": "Man Lifting Weights",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man lifting weights",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏋️‍♀️",
+    "alias": "woman-lifting-weights",
+    "aliases": [
+      "woman-lifting-weights"
+    ],
+    "label": "Woman Lifting Weights",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman lifting weights",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚴",
+    "alias": "person-biking",
+    "aliases": [
+      "person-biking"
+    ],
+    "label": "Person Biking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person biking",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚴‍♂️",
+    "alias": "man-biking",
+    "aliases": [
+      "man-biking"
+    ],
+    "label": "Man Biking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man biking",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚴‍♀️",
+    "alias": "woman-biking",
+    "aliases": [
+      "woman-biking"
+    ],
+    "label": "Woman Biking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman biking",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚵",
+    "alias": "person-mountain-biking",
+    "aliases": [
+      "person-mountain-biking"
+    ],
+    "label": "Person Mountain Biking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person mountain biking",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚵‍♂️",
+    "alias": "man-mountain-biking",
+    "aliases": [
+      "man-mountain-biking"
+    ],
+    "label": "Man Mountain Biking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man mountain biking",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🚵‍♀️",
+    "alias": "woman-mountain-biking",
+    "aliases": [
+      "woman-mountain-biking"
+    ],
+    "label": "Woman Mountain Biking",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman mountain biking",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤸",
+    "alias": "person-cartwheeling",
+    "aliases": [
+      "person-cartwheeling"
+    ],
+    "label": "Person Cartwheeling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person cartwheeling",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤸‍♂️",
+    "alias": "man-cartwheeling",
+    "aliases": [
+      "man-cartwheeling"
+    ],
+    "label": "Man Cartwheeling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man cartwheeling",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤸‍♀️",
+    "alias": "woman-cartwheeling",
+    "aliases": [
+      "woman-cartwheeling"
+    ],
+    "label": "Woman Cartwheeling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman cartwheeling",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤼",
+    "alias": "people-wrestling",
+    "aliases": [
+      "people-wrestling"
+    ],
+    "label": "People Wrestling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "people wrestling",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤼‍♂️",
+    "alias": "men-wrestling",
+    "aliases": [
+      "men-wrestling"
+    ],
+    "label": "Men Wrestling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "men wrestling",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤼‍♀️",
+    "alias": "women-wrestling",
+    "aliases": [
+      "women-wrestling"
+    ],
+    "label": "Women Wrestling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "women wrestling",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤽",
+    "alias": "person-playing-water-polo",
+    "aliases": [
+      "person-playing-water-polo"
+    ],
+    "label": "Person Playing Water Polo",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person playing water polo",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤽‍♂️",
+    "alias": "man-playing-water-polo",
+    "aliases": [
+      "man-playing-water-polo"
+    ],
+    "label": "Man Playing Water Polo",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man playing water polo",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤽‍♀️",
+    "alias": "woman-playing-water-polo",
+    "aliases": [
+      "woman-playing-water-polo"
+    ],
+    "label": "Woman Playing Water Polo",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman playing water polo",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤾",
+    "alias": "person-playing-handball",
+    "aliases": [
+      "person-playing-handball"
+    ],
+    "label": "Person Playing Handball",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person playing handball",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤾‍♂️",
+    "alias": "man-playing-handball",
+    "aliases": [
+      "man-playing-handball"
+    ],
+    "label": "Man Playing Handball",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man playing handball",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤾‍♀️",
+    "alias": "woman-playing-handball",
+    "aliases": [
+      "woman-playing-handball"
+    ],
+    "label": "Woman Playing Handball",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman playing handball",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤹",
+    "alias": "person-juggling",
+    "aliases": [
+      "person-juggling"
+    ],
+    "label": "Person Juggling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person juggling",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🤹‍♂️",
+    "alias": "man-juggling",
+    "aliases": [
+      "man-juggling"
+    ],
+    "label": "Man Juggling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man juggling",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🤹‍♀️",
+    "alias": "woman-juggling",
+    "aliases": [
+      "woman-juggling"
+    ],
+    "label": "Woman Juggling",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman juggling",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🧘",
+    "alias": "person-in-lotus-position",
+    "aliases": [
+      "person-in-lotus-position"
+    ],
+    "label": "Person In Lotus Position",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in lotus position",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧘‍♂️",
+    "alias": "man-in-lotus-position",
+    "aliases": [
+      "man-in-lotus-position"
+    ],
+    "label": "Man In Lotus Position",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "man in lotus position",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧘‍♀️",
+    "alias": "woman-in-lotus-position",
+    "aliases": [
+      "woman-in-lotus-position"
+    ],
+    "label": "Woman In Lotus Position",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman in lotus position",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🛀",
+    "alias": "person-taking-bath",
+    "aliases": [
+      "person-taking-bath"
+    ],
+    "label": "Person Taking Bath",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person taking bath",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛌",
+    "alias": "person-in-bed",
+    "aliases": [
+      "person-in-bed"
+    ],
+    "label": "Person In Bed",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "person in bed",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🧑‍🤝‍🧑",
+    "alias": "people-holding-hands",
+    "aliases": [
+      "people-holding-hands"
+    ],
+    "label": "People Holding Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "people holding hands",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👭",
+    "alias": "women-holding-hands",
+    "aliases": [
+      "women-holding-hands"
+    ],
+    "label": "Women Holding Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "women holding hands",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "👫",
+    "alias": "woman-and-man-holding-hands",
+    "aliases": [
+      "woman-and-man-holding-hands"
+    ],
+    "label": "Woman And Man Holding Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "woman and man holding hands",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👬",
+    "alias": "men-holding-hands",
+    "aliases": [
+      "men-holding-hands"
+    ],
+    "label": "Men Holding Hands",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "men holding hands",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💏",
+    "alias": "kiss",
+    "aliases": [
+      "kiss"
+    ],
+    "label": "Kiss",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "kiss",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👩‍❤️‍💋‍👨",
+    "alias": "kiss-woman-man",
+    "aliases": [
+      "kiss-woman-man"
+    ],
+    "label": "Kiss Woman, Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "kiss woman, man",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍❤️‍💋‍👨",
+    "alias": "kiss-man-man",
+    "aliases": [
+      "kiss-man-man"
+    ],
+    "label": "Kiss Man, Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "kiss man, man",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👩‍❤️‍💋‍👩",
+    "alias": "kiss-woman-woman",
+    "aliases": [
+      "kiss-woman-woman"
+    ],
+    "label": "Kiss Woman, Woman",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "kiss woman, woman",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "💑",
+    "alias": "couple-with-heart",
+    "aliases": [
+      "couple-with-heart"
+    ],
+    "label": "Couple With Heart",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "couple with heart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👩‍❤️‍👨",
+    "alias": "couple-with-heart-woman-man",
+    "aliases": [
+      "couple-with-heart-woman-man"
+    ],
+    "label": "Couple With Heart Woman, Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "couple with heart woman, man",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍❤️‍👨",
+    "alias": "couple-with-heart-man-man",
+    "aliases": [
+      "couple-with-heart-man-man"
+    ],
+    "label": "Couple With Heart Man, Man",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "couple with heart man, man",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👩‍❤️‍👩",
+    "alias": "couple-with-heart-woman-woman",
+    "aliases": [
+      "couple-with-heart-woman-woman"
+    ],
+    "label": "Couple With Heart Woman, Woman",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "couple with heart woman, woman",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👩‍👦",
+    "alias": "family-man-woman-boy",
+    "aliases": [
+      "family-man-woman-boy"
+    ],
+    "label": "Family Man, Woman, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, woman, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👩‍👧",
+    "alias": "family-man-woman-girl",
+    "aliases": [
+      "family-man-woman-girl"
+    ],
+    "label": "Family Man, Woman, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, woman, girl",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👩‍👧‍👦",
+    "alias": "family-man-woman-girl-boy",
+    "aliases": [
+      "family-man-woman-girl-boy"
+    ],
+    "label": "Family Man, Woman, Girl, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, woman, girl, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👩‍👦‍👦",
+    "alias": "family-man-woman-boy-boy",
+    "aliases": [
+      "family-man-woman-boy-boy"
+    ],
+    "label": "Family Man, Woman, Boy, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, woman, boy, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👩‍👧‍👧",
+    "alias": "family-man-woman-girl-girl",
+    "aliases": [
+      "family-man-woman-girl-girl"
+    ],
+    "label": "Family Man, Woman, Girl, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, woman, girl, girl",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👨‍👦",
+    "alias": "family-man-man-boy",
+    "aliases": [
+      "family-man-man-boy"
+    ],
+    "label": "Family Man, Man, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, man, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👨‍👧",
+    "alias": "family-man-man-girl",
+    "aliases": [
+      "family-man-man-girl"
+    ],
+    "label": "Family Man, Man, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, man, girl",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👨‍👧‍👦",
+    "alias": "family-man-man-girl-boy",
+    "aliases": [
+      "family-man-man-girl-boy"
+    ],
+    "label": "Family Man, Man, Girl, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, man, girl, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👨‍👦‍👦",
+    "alias": "family-man-man-boy-boy",
+    "aliases": [
+      "family-man-man-boy-boy"
+    ],
+    "label": "Family Man, Man, Boy, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, man, boy, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👨‍👧‍👧",
+    "alias": "family-man-man-girl-girl",
+    "aliases": [
+      "family-man-man-girl-girl"
+    ],
+    "label": "Family Man, Man, Girl, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, man, girl, girl",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👩‍👩‍👦",
+    "alias": "family-woman-woman-boy",
+    "aliases": [
+      "family-woman-woman-boy"
+    ],
+    "label": "Family Woman, Woman, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, woman, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👩‍👩‍👧",
+    "alias": "family-woman-woman-girl",
+    "aliases": [
+      "family-woman-woman-girl"
+    ],
+    "label": "Family Woman, Woman, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, woman, girl",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👩‍👩‍👧‍👦",
+    "alias": "family-woman-woman-girl-boy",
+    "aliases": [
+      "family-woman-woman-girl-boy"
+    ],
+    "label": "Family Woman, Woman, Girl, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, woman, girl, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👩‍👩‍👦‍👦",
+    "alias": "family-woman-woman-boy-boy",
+    "aliases": [
+      "family-woman-woman-boy-boy"
+    ],
+    "label": "Family Woman, Woman, Boy, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, woman, boy, boy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👩‍👩‍👧‍👧",
+    "alias": "family-woman-woman-girl-girl",
+    "aliases": [
+      "family-woman-woman-girl-girl"
+    ],
+    "label": "Family Woman, Woman, Girl, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, woman, girl, girl",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "👨‍👦",
+    "alias": "family-man-boy",
+    "aliases": [
+      "family-man-boy"
+    ],
+    "label": "Family Man, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, boy",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👨‍👦‍👦",
+    "alias": "family-man-boy-boy",
+    "aliases": [
+      "family-man-boy-boy"
+    ],
+    "label": "Family Man, Boy, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, boy, boy",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👨‍👧",
+    "alias": "family-man-girl",
+    "aliases": [
+      "family-man-girl"
+    ],
+    "label": "Family Man, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, girl",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👨‍👧‍👦",
+    "alias": "family-man-girl-boy",
+    "aliases": [
+      "family-man-girl-boy"
+    ],
+    "label": "Family Man, Girl, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, girl, boy",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👨‍👧‍👧",
+    "alias": "family-man-girl-girl",
+    "aliases": [
+      "family-man-girl-girl"
+    ],
+    "label": "Family Man, Girl, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family man, girl, girl",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍👦",
+    "alias": "family-woman-boy",
+    "aliases": [
+      "family-woman-boy"
+    ],
+    "label": "Family Woman, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, boy",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍👦‍👦",
+    "alias": "family-woman-boy-boy",
+    "aliases": [
+      "family-woman-boy-boy"
+    ],
+    "label": "Family Woman, Boy, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, boy, boy",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍👧",
+    "alias": "family-woman-girl",
+    "aliases": [
+      "family-woman-girl"
+    ],
+    "label": "Family Woman, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, girl",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍👧‍👦",
+    "alias": "family-woman-girl-boy",
+    "aliases": [
+      "family-woman-girl-boy"
+    ],
+    "label": "Family Woman, Girl, Boy",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, girl, boy",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "👩‍👧‍👧",
+    "alias": "family-woman-girl-girl",
+    "aliases": [
+      "family-woman-girl-girl"
+    ],
+    "label": "Family Woman, Girl, Girl",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family woman, girl, girl",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🗣️",
+    "alias": "speaking-head",
+    "aliases": [
+      "speaking-head"
+    ],
+    "label": "Speaking Head",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "speaking head",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "👤",
+    "alias": "bust-in-silhouette",
+    "aliases": [
+      "bust-in-silhouette"
+    ],
+    "label": "Bust In Silhouette",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "bust in silhouette",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👥",
+    "alias": "busts-in-silhouette",
+    "aliases": [
+      "busts-in-silhouette"
+    ],
+    "label": "Busts In Silhouette",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "busts in silhouette",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫂",
+    "alias": "people-hugging",
+    "aliases": [
+      "people-hugging"
+    ],
+    "label": "People Hugging",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "people hugging",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👪",
+    "alias": "family",
+    "aliases": [
+      "family"
+    ],
+    "label": "Family",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧑‍🧑‍🧒",
+    "alias": "family-adult-adult-child",
+    "aliases": [
+      "family-adult-adult-child"
+    ],
+    "label": "Family Adult, Adult, Child",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family adult, adult, child",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧑‍🧑‍🧒‍🧒",
+    "alias": "family-adult-adult-child-child",
+    "aliases": [
+      "family-adult-adult-child-child"
+    ],
+    "label": "Family Adult, Adult, Child, Child",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family adult, adult, child, child",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧑‍🧒",
+    "alias": "family-adult-child",
+    "aliases": [
+      "family-adult-child"
+    ],
+    "label": "Family Adult, Child",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family adult, child",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🧑‍🧒‍🧒",
+    "alias": "family-adult-child-child",
+    "aliases": [
+      "family-adult-child-child"
+    ],
+    "label": "Family Adult, Child, Child",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "family adult, child, child",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "👣",
+    "alias": "footprints",
+    "aliases": [
+      "footprints"
+    ],
+    "label": "Footprints",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "footprints",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫆",
+    "alias": "fingerprint",
+    "aliases": [
+      "fingerprint"
+    ],
+    "label": "Fingerprint",
+    "group": "People & Body",
+    "category": "people-and-body",
+    "unicodeName": "fingerprint",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "🐵",
+    "alias": "monkey-face",
+    "aliases": [
+      "monkey-face"
+    ],
+    "label": "Monkey Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "monkey face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐒",
+    "alias": "monkey",
+    "aliases": [
+      "monkey"
+    ],
+    "label": "Monkey",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "monkey",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦍",
+    "alias": "gorilla",
+    "aliases": [
+      "gorilla"
+    ],
+    "label": "Gorilla",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "gorilla",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦧",
+    "alias": "orangutan",
+    "aliases": [
+      "orangutan"
+    ],
+    "label": "Orangutan",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "orangutan",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🐶",
+    "alias": "dog-face",
+    "aliases": [
+      "dog-face"
+    ],
+    "label": "Dog Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "dog face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐕",
+    "alias": "dog",
+    "aliases": [
+      "dog"
+    ],
+    "label": "Dog",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "dog",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🦮",
+    "alias": "guide-dog",
+    "aliases": [
+      "guide-dog"
+    ],
+    "label": "Guide Dog",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "guide dog",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🐕‍🦺",
+    "alias": "service-dog",
+    "aliases": [
+      "service-dog"
+    ],
+    "label": "Service Dog",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "service dog",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🐩",
+    "alias": "poodle",
+    "aliases": [
+      "poodle"
+    ],
+    "label": "Poodle",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "poodle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐺",
+    "alias": "wolf",
+    "aliases": [
+      "wolf"
+    ],
+    "label": "Wolf",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "wolf",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦊",
+    "alias": "fox",
+    "aliases": [
+      "fox"
+    ],
+    "label": "Fox",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "fox",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦝",
+    "alias": "raccoon",
+    "aliases": [
+      "raccoon"
+    ],
+    "label": "Raccoon",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "raccoon",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🐱",
+    "alias": "cat",
+    "aliases": [
+      "cat",
+      "cat-face"
+    ],
+    "ox": 0,
+    "oy": 0.01,
+    "label": "Cat Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cat face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐈",
+    "alias": "cat",
+    "aliases": [
+      "cat"
+    ],
+    "label": "Cat",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cat",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🐈‍⬛",
+    "alias": "black-cat",
+    "aliases": [
+      "black-cat"
+    ],
+    "label": "Black Cat",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "black cat",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🦁",
+    "alias": "lion",
+    "aliases": [
+      "lion"
+    ],
+    "label": "Lion",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "lion",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐯",
+    "alias": "tiger-face",
+    "aliases": [
+      "tiger-face"
+    ],
+    "label": "Tiger Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "tiger face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐅",
+    "alias": "tiger",
+    "aliases": [
+      "tiger"
+    ],
+    "label": "Tiger",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "tiger",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐆",
+    "alias": "leopard",
+    "aliases": [
+      "leopard"
+    ],
+    "label": "Leopard",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "leopard",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐴",
+    "alias": "horse-face",
+    "aliases": [
+      "horse-face"
+    ],
+    "label": "Horse Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "horse face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫎",
+    "alias": "moose",
+    "aliases": [
+      "moose"
+    ],
+    "label": "Moose",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "moose",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🫏",
+    "alias": "donkey",
+    "aliases": [
+      "donkey"
+    ],
+    "label": "Donkey",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "donkey",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🐎",
+    "alias": "horse",
+    "aliases": [
+      "horse"
+    ],
+    "label": "Horse",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "horse",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦄",
+    "alias": "unicorn",
+    "aliases": [
+      "unicorn"
+    ],
+    "label": "Unicorn",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "unicorn",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🦓",
+    "alias": "zebra",
+    "aliases": [
+      "zebra"
+    ],
+    "label": "Zebra",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "zebra",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🦌",
+    "alias": "deer",
+    "aliases": [
+      "deer"
+    ],
+    "label": "Deer",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "deer",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦬",
+    "alias": "bison",
+    "aliases": [
+      "bison"
+    ],
+    "label": "Bison",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "bison",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🐮",
+    "alias": "cow-face",
+    "aliases": [
+      "cow-face"
+    ],
+    "label": "Cow Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cow face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐂",
+    "alias": "ox",
+    "aliases": [
+      "ox"
+    ],
+    "label": "Ox",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "ox",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐃",
+    "alias": "water-buffalo",
+    "aliases": [
+      "water-buffalo"
+    ],
+    "label": "Water Buffalo",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "water buffalo",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐄",
+    "alias": "cow",
+    "aliases": [
+      "cow"
+    ],
+    "label": "Cow",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cow",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐷",
+    "alias": "pig-face",
+    "aliases": [
+      "pig-face"
+    ],
+    "label": "Pig Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "pig face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐖",
+    "alias": "pig",
+    "aliases": [
+      "pig"
+    ],
+    "label": "Pig",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "pig",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐗",
+    "alias": "boar",
+    "aliases": [
+      "boar"
+    ],
+    "label": "Boar",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "boar",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐽",
+    "alias": "pig-nose",
+    "aliases": [
+      "pig-nose"
+    ],
+    "label": "Pig Nose",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "pig nose",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐏",
+    "alias": "ram",
+    "aliases": [
+      "ram"
+    ],
+    "label": "Ram",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "ram",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐑",
+    "alias": "ewe",
+    "aliases": [
+      "ewe"
+    ],
+    "label": "Ewe",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "ewe",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐐",
+    "alias": "goat",
+    "aliases": [
+      "goat"
+    ],
+    "label": "Goat",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "goat",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐪",
+    "alias": "camel",
+    "aliases": [
+      "camel"
+    ],
+    "label": "Camel",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "camel",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐫",
+    "alias": "two-hump-camel",
+    "aliases": [
+      "two-hump-camel"
+    ],
+    "label": "Two-hump Camel",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "two-hump camel",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦙",
+    "alias": "llama",
+    "aliases": [
+      "llama"
+    ],
+    "label": "Llama",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "llama",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦒",
+    "alias": "giraffe",
+    "aliases": [
+      "giraffe"
+    ],
+    "label": "Giraffe",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "giraffe",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🐘",
+    "alias": "elephant",
+    "aliases": [
+      "elephant"
+    ],
+    "label": "Elephant",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "elephant",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦣",
+    "alias": "mammoth",
+    "aliases": [
+      "mammoth"
+    ],
+    "label": "Mammoth",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "mammoth",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🦏",
+    "alias": "rhinoceros",
+    "aliases": [
+      "rhinoceros"
+    ],
+    "label": "Rhinoceros",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rhinoceros",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦛",
+    "alias": "hippopotamus",
+    "aliases": [
+      "hippopotamus"
+    ],
+    "label": "Hippopotamus",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "hippopotamus",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🐭",
+    "alias": "mouse-face",
+    "aliases": [
+      "mouse-face"
+    ],
+    "label": "Mouse Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "mouse face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐁",
+    "alias": "mouse",
+    "aliases": [
+      "mouse"
+    ],
+    "label": "Mouse",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "mouse",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐀",
+    "alias": "rat",
+    "aliases": [
+      "rat"
+    ],
+    "label": "Rat",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rat",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐹",
+    "alias": "hamster",
+    "aliases": [
+      "hamster"
+    ],
+    "label": "Hamster",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "hamster",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐰",
+    "alias": "rabbit-face",
+    "aliases": [
+      "rabbit-face"
+    ],
+    "label": "Rabbit Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rabbit face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐇",
+    "alias": "rabbit",
+    "aliases": [
+      "rabbit"
+    ],
+    "label": "Rabbit",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rabbit",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐿️",
+    "alias": "chipmunk",
+    "aliases": [
+      "chipmunk"
+    ],
+    "label": "Chipmunk",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "chipmunk",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🦫",
+    "alias": "beaver",
+    "aliases": [
+      "beaver"
+    ],
+    "label": "Beaver",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "beaver",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🦔",
+    "alias": "hedgehog",
+    "aliases": [
+      "hedgehog"
+    ],
+    "label": "Hedgehog",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "hedgehog",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🦇",
+    "alias": "bat",
+    "aliases": [
+      "bat"
+    ],
+    "label": "Bat",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "bat",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🐻",
+    "alias": "bear",
+    "aliases": [
+      "bear"
+    ],
+    "label": "Bear",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "bear",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐻‍❄️",
+    "alias": "polar-bear",
+    "aliases": [
+      "polar-bear"
+    ],
+    "label": "Polar Bear",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "polar bear",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🐨",
+    "alias": "koala",
+    "aliases": [
+      "koala"
+    ],
+    "label": "Koala",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "koala",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐼",
+    "alias": "panda",
+    "aliases": [
+      "panda"
+    ],
+    "label": "Panda",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "panda",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦥",
+    "alias": "sloth",
+    "aliases": [
+      "sloth"
+    ],
+    "label": "Sloth",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "sloth",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🦦",
+    "alias": "otter",
+    "aliases": [
+      "otter"
+    ],
+    "label": "Otter",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "otter",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🦨",
+    "alias": "skunk",
+    "aliases": [
+      "skunk"
+    ],
+    "label": "Skunk",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "skunk",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🦘",
+    "alias": "kangaroo",
+    "aliases": [
+      "kangaroo"
+    ],
+    "label": "Kangaroo",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "kangaroo",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦡",
+    "alias": "badger",
+    "aliases": [
+      "badger"
+    ],
+    "label": "Badger",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "badger",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🐾",
+    "alias": "paw-prints",
+    "aliases": [
+      "paw-prints"
+    ],
+    "label": "Paw Prints",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "paw prints",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦃",
+    "alias": "turkey",
+    "aliases": [
+      "turkey"
+    ],
+    "label": "Turkey",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "turkey",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐔",
+    "alias": "chicken",
+    "aliases": [
+      "chicken"
+    ],
+    "label": "Chicken",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "chicken",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐓",
+    "alias": "rooster",
+    "aliases": [
+      "rooster"
+    ],
+    "label": "Rooster",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rooster",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐣",
+    "alias": "hatching-chick",
+    "aliases": [
+      "hatching-chick"
+    ],
+    "label": "Hatching Chick",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "hatching chick",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐤",
+    "alias": "baby-chick",
+    "aliases": [
+      "baby-chick"
+    ],
+    "label": "Baby Chick",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "baby chick",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐥",
+    "alias": "front-facing-baby-chick",
+    "aliases": [
+      "front-facing-baby-chick"
+    ],
+    "label": "Front-facing Baby Chick",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "front-facing baby chick",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐦",
+    "alias": "bird",
+    "aliases": [
+      "bird"
+    ],
+    "label": "Bird",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "bird",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐧",
+    "alias": "penguin",
+    "aliases": [
+      "penguin"
+    ],
+    "label": "Penguin",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "penguin",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕊️",
+    "alias": "dove",
+    "aliases": [
+      "dove"
+    ],
+    "label": "Dove",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "dove",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🦅",
+    "alias": "eagle",
+    "aliases": [
+      "eagle"
+    ],
+    "label": "Eagle",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "eagle",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦆",
+    "alias": "duck",
+    "aliases": [
+      "duck"
+    ],
+    "label": "Duck",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "duck",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦢",
+    "alias": "swan",
+    "aliases": [
+      "swan"
+    ],
+    "label": "Swan",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "swan",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦉",
+    "alias": "owl",
+    "aliases": [
+      "owl"
+    ],
+    "label": "Owl",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "owl",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦤",
+    "alias": "dodo",
+    "aliases": [
+      "dodo"
+    ],
+    "label": "Dodo",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "dodo",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪶",
+    "alias": "feather",
+    "aliases": [
+      "feather"
+    ],
+    "label": "Feather",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "feather",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🦩",
+    "alias": "flamingo",
+    "aliases": [
+      "flamingo"
+    ],
+    "label": "Flamingo",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "flamingo",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🦚",
+    "alias": "peacock",
+    "aliases": [
+      "peacock"
+    ],
+    "label": "Peacock",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "peacock",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦜",
+    "alias": "parrot",
+    "aliases": [
+      "parrot"
+    ],
+    "label": "Parrot",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "parrot",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪽",
+    "alias": "wing",
+    "aliases": [
+      "wing"
+    ],
+    "label": "Wing",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "wing",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🐦‍⬛",
+    "alias": "black-bird",
+    "aliases": [
+      "black-bird"
+    ],
+    "label": "Black Bird",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "black bird",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🪿",
+    "alias": "goose",
+    "aliases": [
+      "goose"
+    ],
+    "label": "Goose",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "goose",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🐦‍🔥",
+    "alias": "phoenix",
+    "aliases": [
+      "phoenix"
+    ],
+    "label": "Phoenix",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "phoenix",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🐸",
+    "alias": "frog",
+    "aliases": [
+      "frog"
+    ],
+    "label": "Frog",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "frog",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐊",
+    "alias": "crocodile",
+    "aliases": [
+      "crocodile"
+    ],
+    "label": "Crocodile",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "crocodile",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐢",
+    "alias": "turtle",
+    "aliases": [
+      "turtle"
+    ],
+    "label": "Turtle",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "turtle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦎",
+    "alias": "lizard",
+    "aliases": [
+      "lizard"
+    ],
+    "label": "Lizard",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "lizard",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🐍",
+    "alias": "snake",
+    "aliases": [
+      "snake"
+    ],
+    "label": "Snake",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "snake",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐲",
+    "alias": "dragon-face",
+    "aliases": [
+      "dragon-face"
+    ],
+    "label": "Dragon Face",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "dragon face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐉",
+    "alias": "dragon",
+    "aliases": [
+      "dragon"
+    ],
+    "label": "Dragon",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "dragon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🦕",
+    "alias": "sauropod",
+    "aliases": [
+      "sauropod"
+    ],
+    "label": "Sauropod",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "sauropod",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🦖",
+    "alias": "t-rex",
+    "aliases": [
+      "t-rex"
+    ],
+    "label": "T-Rex",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "T-Rex",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🐳",
+    "alias": "spouting-whale",
+    "aliases": [
+      "spouting-whale"
+    ],
+    "label": "Spouting Whale",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "spouting whale",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐋",
+    "alias": "whale",
+    "aliases": [
+      "whale"
+    ],
+    "label": "Whale",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "whale",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🐬",
+    "alias": "dolphin",
+    "aliases": [
+      "dolphin"
+    ],
+    "label": "Dolphin",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "dolphin",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦭",
+    "alias": "seal",
+    "aliases": [
+      "seal"
+    ],
+    "label": "Seal",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "seal",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🐟",
+    "alias": "fish",
+    "aliases": [
+      "fish"
+    ],
+    "label": "Fish",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "fish",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐠",
+    "alias": "tropical-fish",
+    "aliases": [
+      "tropical-fish"
+    ],
+    "label": "Tropical Fish",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "tropical fish",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐡",
+    "alias": "blowfish",
+    "aliases": [
+      "blowfish"
+    ],
+    "label": "Blowfish",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "blowfish",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦈",
+    "alias": "shark",
+    "aliases": [
+      "shark"
+    ],
+    "label": "Shark",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "shark",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🐙",
+    "alias": "octopus",
+    "aliases": [
+      "octopus"
+    ],
+    "label": "Octopus",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "octopus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐚",
+    "alias": "spiral-shell",
+    "aliases": [
+      "spiral-shell"
+    ],
+    "label": "Spiral Shell",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "spiral shell",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪸",
+    "alias": "coral",
+    "aliases": [
+      "coral"
+    ],
+    "label": "Coral",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "coral",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🪼",
+    "alias": "jellyfish",
+    "aliases": [
+      "jellyfish"
+    ],
+    "label": "Jellyfish",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "jellyfish",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🦀",
+    "alias": "crab",
+    "aliases": [
+      "crab"
+    ],
+    "label": "Crab",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "crab",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🦞",
+    "alias": "lobster",
+    "aliases": [
+      "lobster"
+    ],
+    "label": "Lobster",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "lobster",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦐",
+    "alias": "shrimp",
+    "aliases": [
+      "shrimp"
+    ],
+    "label": "Shrimp",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "shrimp",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦑",
+    "alias": "squid",
+    "aliases": [
+      "squid"
+    ],
+    "label": "Squid",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "squid",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦪",
+    "alias": "oyster",
+    "aliases": [
+      "oyster"
+    ],
+    "label": "Oyster",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "oyster",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🐌",
+    "alias": "snail",
+    "aliases": [
+      "snail"
+    ],
+    "label": "Snail",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "snail",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦋",
+    "alias": "butterfly",
+    "aliases": [
+      "butterfly"
+    ],
+    "label": "Butterfly",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "butterfly",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🐛",
+    "alias": "bug",
+    "aliases": [
+      "bug"
+    ],
+    "label": "Bug",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "bug",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐜",
+    "alias": "ant",
+    "aliases": [
+      "ant"
+    ],
+    "label": "Ant",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "ant",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🐝",
+    "alias": "honeybee",
+    "aliases": [
+      "honeybee"
+    ],
+    "label": "Honeybee",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "honeybee",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪲",
+    "alias": "beetle",
+    "aliases": [
+      "beetle"
+    ],
+    "label": "Beetle",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "beetle",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🐞",
+    "alias": "lady-beetle",
+    "aliases": [
+      "lady-beetle"
+    ],
+    "label": "Lady Beetle",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "lady beetle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🦗",
+    "alias": "cricket",
+    "aliases": [
+      "cricket"
+    ],
+    "label": "Cricket",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cricket",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🪳",
+    "alias": "cockroach",
+    "aliases": [
+      "cockroach"
+    ],
+    "label": "Cockroach",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cockroach",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🕷️",
+    "alias": "spider",
+    "aliases": [
+      "spider"
+    ],
+    "label": "Spider",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "spider",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕸️",
+    "alias": "spider-web",
+    "aliases": [
+      "spider-web"
+    ],
+    "label": "Spider Web",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "spider web",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🦂",
+    "alias": "scorpion",
+    "aliases": [
+      "scorpion"
+    ],
+    "label": "Scorpion",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "scorpion",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🦟",
+    "alias": "mosquito",
+    "aliases": [
+      "mosquito"
+    ],
+    "label": "Mosquito",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "mosquito",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪰",
+    "alias": "fly",
+    "aliases": [
+      "fly"
+    ],
+    "label": "Fly",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "fly",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪱",
+    "alias": "worm",
+    "aliases": [
+      "worm"
+    ],
+    "label": "Worm",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "worm",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🦠",
+    "alias": "microbe",
+    "aliases": [
+      "microbe"
+    ],
+    "label": "Microbe",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "microbe",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "💐",
+    "alias": "bouquet",
+    "aliases": [
+      "bouquet"
+    ],
+    "label": "Bouquet",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "bouquet",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌸",
+    "alias": "cherry-blossom",
+    "aliases": [
+      "cherry-blossom"
+    ],
+    "label": "Cherry Blossom",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cherry blossom",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💮",
+    "alias": "white-flower",
+    "aliases": [
+      "white-flower"
+    ],
+    "label": "White Flower",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "white flower",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪷",
+    "alias": "lotus",
+    "aliases": [
+      "lotus"
+    ],
+    "label": "Lotus",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "lotus",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🏵️",
+    "alias": "rosette",
+    "aliases": [
+      "rosette"
+    ],
+    "label": "Rosette",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rosette",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌹",
+    "alias": "rose",
+    "aliases": [
+      "rose"
+    ],
+    "label": "Rose",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "rose",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥀",
+    "alias": "wilted-flower",
+    "aliases": [
+      "wilted-flower"
+    ],
+    "label": "Wilted Flower",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "wilted flower",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🌺",
+    "alias": "hibiscus",
+    "aliases": [
+      "hibiscus"
+    ],
+    "label": "Hibiscus",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "hibiscus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌻",
+    "alias": "sunflower",
+    "aliases": [
+      "sunflower"
+    ],
+    "label": "Sunflower",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "sunflower",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌼",
+    "alias": "blossom",
+    "aliases": [
+      "blossom"
+    ],
+    "label": "Blossom",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "blossom",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌷",
+    "alias": "tulip",
+    "aliases": [
+      "tulip"
+    ],
+    "label": "Tulip",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "tulip",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪻",
+    "alias": "hyacinth",
+    "aliases": [
+      "hyacinth"
+    ],
+    "label": "Hyacinth",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "hyacinth",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🌱",
+    "alias": "seedling",
+    "aliases": [
+      "seedling"
+    ],
+    "label": "Seedling",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "seedling",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪴",
+    "alias": "potted-plant",
+    "aliases": [
+      "potted-plant"
+    ],
+    "label": "Potted Plant",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "potted plant",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🌲",
+    "alias": "evergreen-tree",
+    "aliases": [
+      "evergreen-tree"
+    ],
+    "label": "Evergreen Tree",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "evergreen tree",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌳",
+    "alias": "deciduous-tree",
+    "aliases": [
+      "deciduous-tree"
+    ],
+    "label": "Deciduous Tree",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "deciduous tree",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌴",
+    "alias": "palm-tree",
+    "aliases": [
+      "palm-tree"
+    ],
+    "label": "Palm Tree",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "palm tree",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌵",
+    "alias": "cactus",
+    "aliases": [
+      "cactus"
+    ],
+    "label": "Cactus",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "cactus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌾",
+    "alias": "sheaf-of-rice",
+    "aliases": [
+      "sheaf-of-rice"
+    ],
+    "label": "Sheaf Of Rice",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "sheaf of rice",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌿",
+    "alias": "herb",
+    "aliases": [
+      "herb"
+    ],
+    "label": "Herb",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "herb",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☘️",
+    "alias": "shamrock",
+    "aliases": [
+      "shamrock"
+    ],
+    "label": "Shamrock",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "shamrock",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🍀",
+    "alias": "four-leaf-clover",
+    "aliases": [
+      "four-leaf-clover"
+    ],
+    "label": "Four Leaf Clover",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "four leaf clover",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍁",
+    "alias": "maple-leaf",
+    "aliases": [
+      "maple-leaf"
+    ],
+    "label": "Maple Leaf",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "maple leaf",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍂",
+    "alias": "fallen-leaf",
+    "aliases": [
+      "fallen-leaf"
+    ],
+    "label": "Fallen Leaf",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "fallen leaf",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍃",
+    "alias": "leaf-fluttering-in-wind",
+    "aliases": [
+      "leaf-fluttering-in-wind"
+    ],
+    "label": "Leaf Fluttering In Wind",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "leaf fluttering in wind",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪹",
+    "alias": "empty-nest",
+    "aliases": [
+      "empty-nest"
+    ],
+    "label": "Empty Nest",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "empty nest",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🪺",
+    "alias": "nest-with-eggs",
+    "aliases": [
+      "nest-with-eggs"
+    ],
+    "label": "Nest With Eggs",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "nest with eggs",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🍄",
+    "alias": "mushroom",
+    "aliases": [
+      "mushroom"
+    ],
+    "label": "Mushroom",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "mushroom",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪾",
+    "alias": "leafless-tree",
+    "aliases": [
+      "leafless-tree"
+    ],
+    "label": "Leafless Tree",
+    "group": "Animals & Nature",
+    "category": "animals-and-nature",
+    "unicodeName": "leafless tree",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "🍇",
+    "alias": "grapes",
+    "aliases": [
+      "grapes"
+    ],
+    "label": "Grapes",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "grapes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍈",
+    "alias": "melon",
+    "aliases": [
+      "melon"
+    ],
+    "label": "Melon",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "melon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍉",
+    "alias": "watermelon",
+    "aliases": [
+      "watermelon"
+    ],
+    "label": "Watermelon",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "watermelon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍊",
+    "alias": "tangerine",
+    "aliases": [
+      "tangerine"
+    ],
+    "label": "Tangerine",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "tangerine",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍋",
+    "alias": "lemon",
+    "aliases": [
+      "lemon"
+    ],
+    "label": "Lemon",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "lemon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🍋‍🟩",
+    "alias": "lime",
+    "aliases": [
+      "lime"
+    ],
+    "label": "Lime",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "lime",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🍌",
+    "alias": "banana",
+    "aliases": [
+      "banana"
+    ],
+    "label": "Banana",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "banana",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍍",
+    "alias": "pineapple",
+    "aliases": [
+      "pineapple"
+    ],
+    "label": "Pineapple",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pineapple",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥭",
+    "alias": "mango",
+    "aliases": [
+      "mango"
+    ],
+    "label": "Mango",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "mango",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🍎",
+    "alias": "apple",
+    "aliases": [
+      "apple",
+      "red-apple"
+    ],
+    "label": "Red Apple",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "red apple",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍏",
+    "alias": "green-apple",
+    "aliases": [
+      "green-apple"
+    ],
+    "label": "Green Apple",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "green apple",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍐",
+    "alias": "pear",
+    "aliases": [
+      "pear"
+    ],
+    "label": "Pear",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pear",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🍑",
+    "alias": "peach",
+    "aliases": [
+      "peach"
+    ],
+    "label": "Peach",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "peach",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍒",
+    "alias": "cherries",
+    "aliases": [
+      "cherries"
+    ],
+    "label": "Cherries",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cherries",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
     "emoji": "🍓",
     "alias": "strawberry",
+    "aliases": [
+      "strawberry"
+    ],
     "ox": -0.01,
     "oy": 0.01,
     "label": "Strawberry",
@@ -15,8 +9495,1174 @@
     "emojiVersion": "0.6"
   },
   {
+    "emoji": "🫐",
+    "alias": "blueberries",
+    "aliases": [
+      "blueberries"
+    ],
+    "label": "Blueberries",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "blueberries",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🥝",
+    "alias": "kiwi-fruit",
+    "aliases": [
+      "kiwi-fruit"
+    ],
+    "label": "Kiwi Fruit",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "kiwi fruit",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🍅",
+    "alias": "tomato",
+    "aliases": [
+      "tomato"
+    ],
+    "label": "Tomato",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "tomato",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫒",
+    "alias": "olive",
+    "aliases": [
+      "olive"
+    ],
+    "label": "Olive",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "olive",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🥥",
+    "alias": "coconut",
+    "aliases": [
+      "coconut"
+    ],
+    "label": "Coconut",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "coconut",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🥑",
+    "alias": "avocado",
+    "aliases": [
+      "avocado"
+    ],
+    "label": "Avocado",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "avocado",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🍆",
+    "alias": "eggplant",
+    "aliases": [
+      "eggplant"
+    ],
+    "label": "Eggplant",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "eggplant",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥔",
+    "alias": "potato",
+    "aliases": [
+      "potato"
+    ],
+    "label": "Potato",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "potato",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥕",
+    "alias": "carrot",
+    "aliases": [
+      "carrot"
+    ],
+    "label": "Carrot",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "carrot",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🌽",
+    "alias": "ear-of-corn",
+    "aliases": [
+      "ear-of-corn"
+    ],
+    "label": "Ear Of Corn",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "ear of corn",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌶️",
+    "alias": "pepper",
+    "aliases": [
+      "pepper",
+      "hot-pepper"
+    ],
+    "label": "Hot Pepper",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "hot pepper",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🫑",
+    "alias": "bell-pepper",
+    "aliases": [
+      "bell-pepper"
+    ],
+    "label": "Bell Pepper",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bell pepper",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🥒",
+    "alias": "cucumber",
+    "aliases": [
+      "cucumber"
+    ],
+    "label": "Cucumber",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cucumber",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥬",
+    "alias": "leafy-green",
+    "aliases": [
+      "leafy-green"
+    ],
+    "label": "Leafy Green",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "leafy green",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥦",
+    "alias": "broccoli",
+    "aliases": [
+      "broccoli"
+    ],
+    "label": "Broccoli",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "broccoli",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧄",
+    "alias": "garlic",
+    "aliases": [
+      "garlic"
+    ],
+    "label": "Garlic",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "garlic",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧅",
+    "alias": "onion",
+    "aliases": [
+      "onion"
+    ],
+    "label": "Onion",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "onion",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🥜",
+    "alias": "peanuts",
+    "aliases": [
+      "peanuts"
+    ],
+    "label": "Peanuts",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "peanuts",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🫘",
+    "alias": "beans",
+    "aliases": [
+      "beans"
+    ],
+    "label": "Beans",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "beans",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🌰",
+    "alias": "chestnut",
+    "aliases": [
+      "chestnut"
+    ],
+    "label": "Chestnut",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "chestnut",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫚",
+    "alias": "ginger-root",
+    "aliases": [
+      "ginger-root"
+    ],
+    "label": "Ginger Root",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "ginger root",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🫛",
+    "alias": "pea-pod",
+    "aliases": [
+      "pea-pod"
+    ],
+    "label": "Pea Pod",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pea pod",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🍄‍🟫",
+    "alias": "brown-mushroom",
+    "aliases": [
+      "brown-mushroom"
+    ],
+    "label": "Brown Mushroom",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "brown mushroom",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
+  },
+  {
+    "emoji": "🫜",
+    "alias": "root-vegetable",
+    "aliases": [
+      "root-vegetable"
+    ],
+    "label": "Root Vegetable",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "root vegetable",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "🍞",
+    "alias": "bread",
+    "aliases": [
+      "bread"
+    ],
+    "label": "Bread",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bread",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥐",
+    "alias": "croissant",
+    "aliases": [
+      "croissant"
+    ],
+    "label": "Croissant",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "croissant",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥖",
+    "alias": "baguette-bread",
+    "aliases": [
+      "baguette-bread"
+    ],
+    "label": "Baguette Bread",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "baguette bread",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🫓",
+    "alias": "flatbread",
+    "aliases": [
+      "flatbread"
+    ],
+    "label": "Flatbread",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "flatbread",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🥨",
+    "alias": "pretzel",
+    "aliases": [
+      "pretzel"
+    ],
+    "label": "Pretzel",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pretzel",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🥯",
+    "alias": "bagel",
+    "aliases": [
+      "bagel"
+    ],
+    "label": "Bagel",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bagel",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥞",
+    "alias": "pancakes",
+    "aliases": [
+      "pancakes"
+    ],
+    "label": "Pancakes",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pancakes",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🧇",
+    "alias": "waffle",
+    "aliases": [
+      "waffle"
+    ],
+    "label": "Waffle",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "waffle",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧀",
+    "alias": "cheese",
+    "aliases": [
+      "cheese",
+      "cheese-wedge"
+    ],
+    "label": "Cheese Wedge",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cheese wedge",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🍖",
+    "alias": "meat-on-bone",
+    "aliases": [
+      "meat-on-bone"
+    ],
+    "label": "Meat On Bone",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "meat on bone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍗",
+    "alias": "poultry-leg",
+    "aliases": [
+      "poultry-leg"
+    ],
+    "label": "Poultry Leg",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "poultry leg",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥩",
+    "alias": "cut-of-meat",
+    "aliases": [
+      "cut-of-meat"
+    ],
+    "label": "Cut Of Meat",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cut of meat",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🥓",
+    "alias": "bacon",
+    "aliases": [
+      "bacon"
+    ],
+    "label": "Bacon",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bacon",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🍔",
+    "alias": "burger",
+    "aliases": [
+      "burger",
+      "hamburger"
+    ],
+    "label": "Hamburger",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "hamburger",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍟",
+    "alias": "fries",
+    "aliases": [
+      "fries",
+      "french-fries"
+    ],
+    "label": "French Fries",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "french fries",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍕",
+    "alias": "pizza",
+    "aliases": [
+      "pizza"
+    ],
+    "label": "Pizza",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pizza",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌭",
+    "alias": "hot-dog",
+    "aliases": [
+      "hot-dog"
+    ],
+    "label": "Hot Dog",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "hot dog",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🥪",
+    "alias": "sandwich",
+    "aliases": [
+      "sandwich"
+    ],
+    "label": "Sandwich",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "sandwich",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🌮",
+    "alias": "taco",
+    "aliases": [
+      "taco"
+    ],
+    "label": "Taco",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "taco",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌯",
+    "alias": "burrito",
+    "aliases": [
+      "burrito"
+    ],
+    "label": "Burrito",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "burrito",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🫔",
+    "alias": "tamale",
+    "aliases": [
+      "tamale"
+    ],
+    "label": "Tamale",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "tamale",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🥙",
+    "alias": "stuffed-flatbread",
+    "aliases": [
+      "stuffed-flatbread"
+    ],
+    "label": "Stuffed Flatbread",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "stuffed flatbread",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🧆",
+    "alias": "falafel",
+    "aliases": [
+      "falafel"
+    ],
+    "label": "Falafel",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "falafel",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🥚",
+    "alias": "egg",
+    "aliases": [
+      "egg"
+    ],
+    "label": "Egg",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "egg",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🍳",
+    "alias": "cooking",
+    "aliases": [
+      "cooking"
+    ],
+    "label": "Cooking",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cooking",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥘",
+    "alias": "shallow-pan-of-food",
+    "aliases": [
+      "shallow-pan-of-food"
+    ],
+    "label": "Shallow Pan Of Food",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "shallow pan of food",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🍲",
+    "alias": "pot-of-food",
+    "aliases": [
+      "pot-of-food"
+    ],
+    "label": "Pot Of Food",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pot of food",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫕",
+    "alias": "fondue",
+    "aliases": [
+      "fondue"
+    ],
+    "label": "Fondue",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "fondue",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🥣",
+    "alias": "bowl-with-spoon",
+    "aliases": [
+      "bowl-with-spoon"
+    ],
+    "label": "Bowl With Spoon",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bowl with spoon",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🥗",
+    "alias": "green-salad",
+    "aliases": [
+      "green-salad"
+    ],
+    "label": "Green Salad",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "green salad",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🍿",
+    "alias": "popcorn",
+    "aliases": [
+      "popcorn"
+    ],
+    "label": "Popcorn",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "popcorn",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🧈",
+    "alias": "butter",
+    "aliases": [
+      "butter"
+    ],
+    "label": "Butter",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "butter",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧂",
+    "alias": "salt",
+    "aliases": [
+      "salt"
+    ],
+    "label": "Salt",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "salt",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥫",
+    "alias": "canned-food",
+    "aliases": [
+      "canned-food"
+    ],
+    "label": "Canned Food",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "canned food",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🍱",
+    "alias": "bento-box",
+    "aliases": [
+      "bento-box"
+    ],
+    "label": "Bento Box",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bento box",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍘",
+    "alias": "rice-cracker",
+    "aliases": [
+      "rice-cracker"
+    ],
+    "label": "Rice Cracker",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "rice cracker",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍙",
+    "alias": "rice-ball",
+    "aliases": [
+      "rice-ball"
+    ],
+    "label": "Rice Ball",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "rice ball",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍚",
+    "alias": "cooked-rice",
+    "aliases": [
+      "cooked-rice"
+    ],
+    "label": "Cooked Rice",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cooked rice",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍛",
+    "alias": "curry-rice",
+    "aliases": [
+      "curry-rice"
+    ],
+    "label": "Curry Rice",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "curry rice",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍜",
+    "alias": "ramen",
+    "aliases": [
+      "ramen",
+      "steaming-bowl"
+    ],
+    "label": "Steaming Bowl",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "steaming bowl",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍝",
+    "alias": "spaghetti",
+    "aliases": [
+      "spaghetti"
+    ],
+    "label": "Spaghetti",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "spaghetti",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍠",
+    "alias": "roasted-sweet-potato",
+    "aliases": [
+      "roasted-sweet-potato"
+    ],
+    "label": "Roasted Sweet Potato",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "roasted sweet potato",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍢",
+    "alias": "oden",
+    "aliases": [
+      "oden"
+    ],
+    "label": "Oden",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "oden",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍣",
+    "alias": "sushi",
+    "aliases": [
+      "sushi"
+    ],
+    "label": "Sushi",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "sushi",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍤",
+    "alias": "fried-shrimp",
+    "aliases": [
+      "fried-shrimp"
+    ],
+    "label": "Fried Shrimp",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "fried shrimp",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍥",
+    "alias": "fish-cake-with-swirl",
+    "aliases": [
+      "fish-cake-with-swirl"
+    ],
+    "label": "Fish Cake With Swirl",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "fish cake with swirl",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥮",
+    "alias": "moon-cake",
+    "aliases": [
+      "moon-cake"
+    ],
+    "label": "Moon Cake",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "moon cake",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🍡",
+    "alias": "dango",
+    "aliases": [
+      "dango"
+    ],
+    "label": "Dango",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "dango",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥟",
+    "alias": "dumpling",
+    "aliases": [
+      "dumpling"
+    ],
+    "label": "Dumpling",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "dumpling",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🥠",
+    "alias": "fortune-cookie",
+    "aliases": [
+      "fortune-cookie"
+    ],
+    "label": "Fortune Cookie",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "fortune cookie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🥡",
+    "alias": "takeout-box",
+    "aliases": [
+      "takeout-box"
+    ],
+    "label": "Takeout Box",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "takeout box",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🍦",
+    "alias": "soft-ice-cream",
+    "aliases": [
+      "soft-ice-cream"
+    ],
+    "label": "Soft Ice Cream",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "soft ice cream",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍧",
+    "alias": "shaved-ice",
+    "aliases": [
+      "shaved-ice"
+    ],
+    "label": "Shaved Ice",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "shaved ice",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍨",
+    "alias": "ice-cream",
+    "aliases": [
+      "ice-cream"
+    ],
+    "label": "Ice Cream",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "ice cream",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍩",
+    "alias": "doughnut",
+    "aliases": [
+      "doughnut"
+    ],
+    "label": "Doughnut",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "doughnut",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍪",
+    "alias": "cookie",
+    "aliases": [
+      "cookie"
+    ],
+    "label": "Cookie",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cookie",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎂",
+    "alias": "birthday-cake",
+    "aliases": [
+      "birthday-cake"
+    ],
+    "label": "Birthday Cake",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "birthday cake",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍰",
+    "alias": "shortcake",
+    "aliases": [
+      "shortcake"
+    ],
+    "label": "Shortcake",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "shortcake",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧁",
+    "alias": "cupcake",
+    "aliases": [
+      "cupcake"
+    ],
+    "label": "Cupcake",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cupcake",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥧",
+    "alias": "pie",
+    "aliases": [
+      "pie"
+    ],
+    "label": "Pie",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pie",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🍫",
+    "alias": "chocolate-bar",
+    "aliases": [
+      "chocolate-bar"
+    ],
+    "label": "Chocolate Bar",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "chocolate bar",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍬",
+    "alias": "candy",
+    "aliases": [
+      "candy"
+    ],
+    "label": "Candy",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "candy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍭",
+    "alias": "lollipop",
+    "aliases": [
+      "lollipop"
+    ],
+    "label": "Lollipop",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "lollipop",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍮",
+    "alias": "custard",
+    "aliases": [
+      "custard"
+    ],
+    "label": "Custard",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "custard",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍯",
+    "alias": "honey-pot",
+    "aliases": [
+      "honey-pot"
+    ],
+    "label": "Honey Pot",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "honey pot",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
     "emoji": "🍼",
     "alias": "bottle",
+    "aliases": [
+      "bottle",
+      "baby-bottle"
+    ],
     "ox": -0.03,
     "oy": 0.03,
     "label": "Baby Bottle",
@@ -29,6 +10675,10 @@
   {
     "emoji": "🥛",
     "alias": "milk",
+    "aliases": [
+      "milk",
+      "glass-of-milk"
+    ],
     "label": "Glass Of Milk",
     "group": "Food & Drink",
     "category": "food-and-drink",
@@ -39,6 +10689,10 @@
   {
     "emoji": "☕",
     "alias": "coffee",
+    "aliases": [
+      "coffee",
+      "hot-beverage"
+    ],
     "ox": -0.01,
     "oy": 0.03,
     "label": "Hot Beverage",
@@ -49,162 +10703,198 @@
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "💀",
-    "alias": "skull",
-    "ox": 0,
-    "oy": -0.01,
-    "label": "Skull",
-    "group": "Smileys & Emotion",
-    "category": "smileys-and-emotion",
-    "unicodeName": "skull",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🔥",
-    "alias": "fire",
-    "ox": 0,
-    "oy": -0.03,
-    "label": "Fire",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "fire",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "💻",
-    "alias": "laptop",
-    "ox": 0,
-    "oy": 0.03,
-    "label": "Laptop",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "laptop",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "📦",
-    "alias": "box",
-    "ox": 0,
-    "oy": 0.03,
-    "label": "Package",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "package",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🍝",
-    "alias": "spaghetti",
-    "label": "Spaghetti",
+    "emoji": "🫖",
+    "alias": "teapot",
+    "aliases": [
+      "teapot"
+    ],
+    "label": "Teapot",
     "group": "Food & Drink",
     "category": "food-and-drink",
-    "unicodeName": "spaghetti",
+    "unicodeName": "teapot",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🍵",
+    "alias": "tea",
+    "aliases": [
+      "tea",
+      "teacup-without-handle"
+    ],
+    "label": "Teacup Without Handle",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "teacup without handle",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🗂️",
-    "alias": "dividers",
-    "label": "Card Index Dividers",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "card index dividers",
-    "unicodeVersion": "0.7",
-    "emojiVersion": "0.7"
+    "emoji": "🍶",
+    "alias": "sake",
+    "aliases": [
+      "sake"
+    ],
+    "label": "Sake",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "sake",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
-    "emoji": "😇",
-    "alias": "angel",
-    "ox": 0,
-    "oy": -0.05,
-    "label": "Smiling Face With Halo",
-    "group": "Smileys & Emotion",
-    "category": "smileys-and-emotion",
-    "unicodeName": "smiling face with halo",
+    "emoji": "🍾",
+    "alias": "bottle-with-popping-cork",
+    "aliases": [
+      "bottle-with-popping-cork"
+    ],
+    "label": "Bottle With Popping Cork",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "bottle with popping cork",
     "unicodeVersion": "1.0",
     "emojiVersion": "1.0"
   },
   {
-    "emoji": "🐱",
-    "alias": "cat",
-    "ox": 0,
-    "oy": 0.01,
-    "label": "Cat Face",
-    "group": "Animals & Nature",
-    "category": "animals-and-nature",
-    "unicodeName": "cat face",
+    "emoji": "🍷",
+    "alias": "wine",
+    "aliases": [
+      "wine",
+      "wine-glass"
+    ],
+    "label": "Wine Glass",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "wine glass",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🧠",
-    "alias": "brain",
-    "label": "Brain",
-    "group": "People & Body",
-    "category": "people-and-body",
-    "unicodeName": "brain",
+    "emoji": "🍸",
+    "alias": "cocktail-glass",
+    "aliases": [
+      "cocktail-glass"
+    ],
+    "label": "Cocktail Glass",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cocktail glass",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍹",
+    "alias": "tropical-drink",
+    "aliases": [
+      "tropical-drink"
+    ],
+    "label": "Tropical Drink",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "tropical drink",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍺",
+    "alias": "beer",
+    "aliases": [
+      "beer",
+      "beer-mug"
+    ],
+    "label": "Beer Mug",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "beer mug",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🍻",
+    "alias": "clinking-beer-mugs",
+    "aliases": [
+      "clinking-beer-mugs"
+    ],
+    "label": "Clinking Beer Mugs",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "clinking beer mugs",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥂",
+    "alias": "clinking-glasses",
+    "aliases": [
+      "clinking-glasses"
+    ],
+    "label": "Clinking Glasses",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "clinking glasses",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥃",
+    "alias": "tumbler-glass",
+    "aliases": [
+      "tumbler-glass"
+    ],
+    "label": "Tumbler Glass",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "tumbler glass",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🫗",
+    "alias": "pouring-liquid",
+    "aliases": [
+      "pouring-liquid"
+    ],
+    "label": "Pouring Liquid",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "pouring liquid",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🥤",
+    "alias": "soda",
+    "aliases": [
+      "soda",
+      "cup-with-straw"
+    ],
+    "label": "Cup With Straw",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "cup with straw",
     "unicodeVersion": "5.0",
     "emojiVersion": "5.0"
   },
   {
-    "emoji": "🔋",
-    "alias": "battery",
-    "label": "Battery",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "battery",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🍜",
-    "alias": "ramen",
-    "label": "Steaming Bowl",
+    "emoji": "🧋",
+    "alias": "bubble-tea",
+    "aliases": [
+      "bubble-tea"
+    ],
+    "label": "Bubble Tea",
     "group": "Food & Drink",
     "category": "food-and-drink",
-    "unicodeName": "steaming bowl",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🌶️",
-    "alias": "pepper",
-    "label": "Hot Pepper",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "hot pepper",
-    "unicodeVersion": "0.7",
-    "emojiVersion": "0.7"
-  },
-  {
-    "emoji": "☣️",
-    "alias": "biohazard",
-    "ox": -0.01,
-    "oy": 0.01,
-    "label": "Biohazard",
-    "group": "Symbols",
-    "category": "symbols",
-    "unicodeName": "biohazard",
-    "unicodeVersion": "1.0",
-    "emojiVersion": "1.0"
-  },
-  {
-    "emoji": "🧴",
-    "alias": "lotion",
-    "label": "Lotion Bottle",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "lotion bottle",
-    "unicodeVersion": "11.0",
-    "emojiVersion": "11.0"
+    "unicodeName": "bubble tea",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
   },
   {
     "emoji": "🧃",
     "alias": "juice-box",
+    "aliases": [
+      "juice-box",
+      "beverage-box"
+    ],
     "label": "Beverage Box",
     "group": "Food & Drink",
     "category": "food-and-drink",
@@ -213,8 +10903,102 @@
     "emojiVersion": "12.0"
   },
   {
+    "emoji": "🧉",
+    "alias": "mate",
+    "aliases": [
+      "mate"
+    ],
+    "label": "Mate",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "mate",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧊",
+    "alias": "ice",
+    "aliases": [
+      "ice"
+    ],
+    "label": "Ice",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "ice",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🥢",
+    "alias": "chopsticks",
+    "aliases": [
+      "chopsticks"
+    ],
+    "label": "Chopsticks",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "chopsticks",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🍽️",
+    "alias": "fork-and-knife-with-plate",
+    "aliases": [
+      "fork-and-knife-with-plate"
+    ],
+    "label": "Fork And Knife With Plate",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "fork and knife with plate",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🍴",
+    "alias": "fork-and-knife",
+    "aliases": [
+      "fork-and-knife"
+    ],
+    "label": "Fork And Knife",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "fork and knife",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥄",
+    "alias": "spoon",
+    "aliases": [
+      "spoon"
+    ],
+    "label": "Spoon",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "spoon",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🔪",
+    "alias": "kitchen-knife",
+    "aliases": [
+      "kitchen-knife"
+    ],
+    "label": "Kitchen Knife",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "kitchen knife",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
     "emoji": "🫙",
     "alias": "jar",
+    "aliases": [
+      "jar"
+    ],
     "ox": 0,
     "oy": 0.03,
     "label": "Jar",
@@ -225,198 +11009,2928 @@
     "emojiVersion": "14.0"
   },
   {
-    "emoji": "📁",
-    "alias": "folder",
-    "ox": 0.01,
-    "oy": 0.03,
-    "label": "File Folder",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "file folder",
+    "emoji": "🏺",
+    "alias": "amphora",
+    "aliases": [
+      "amphora"
+    ],
+    "label": "Amphora",
+    "group": "Food & Drink",
+    "category": "food-and-drink",
+    "unicodeName": "amphora",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌍",
+    "alias": "globe-showing-europe-africa",
+    "aliases": [
+      "globe-showing-europe-africa"
+    ],
+    "label": "Globe Showing Europe-Africa",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "globe showing Europe-Africa",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌎",
+    "alias": "globe-showing-americas",
+    "aliases": [
+      "globe-showing-americas"
+    ],
+    "label": "Globe Showing Americas",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "globe showing Americas",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌏",
+    "alias": "globe-showing-asia-australia",
+    "aliases": [
+      "globe-showing-asia-australia"
+    ],
+    "label": "Globe Showing Asia-Australia",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "globe showing Asia-Australia",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "💾",
-    "alias": "floppy-disk",
-    "ox": 0,
-    "oy": 0.02,
-    "label": "Floppy Disk",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "floppy disk",
+    "emoji": "🌐",
+    "alias": "globe-with-meridians",
+    "aliases": [
+      "globe-with-meridians"
+    ],
+    "label": "Globe With Meridians",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "globe with meridians",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🗺️",
+    "alias": "world-map",
+    "aliases": [
+      "world-map"
+    ],
+    "label": "World Map",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "world map",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🗾",
+    "alias": "map-of-japan",
+    "aliases": [
+      "map-of-japan"
+    ],
+    "label": "Map Of Japan",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "map of Japan",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🔌",
-    "alias": "plug",
-    "ox": 0.02,
-    "oy": 0.01,
-    "label": "Electric Plug",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "electric plug",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "📱",
-    "alias": "phone",
-    "ox": 0,
-    "oy": 0.03,
-    "label": "Mobile Phone",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "mobile phone",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🧪",
-    "alias": "test-tube",
-    "label": "Test Tube",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "test tube",
+    "emoji": "🧭",
+    "alias": "compass",
+    "aliases": [
+      "compass"
+    ],
+    "label": "Compass",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "compass",
     "unicodeVersion": "11.0",
     "emojiVersion": "11.0"
   },
   {
-    "emoji": "🍋",
-    "alias": "lemon",
-    "label": "Lemon",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "lemon",
-    "unicodeVersion": "1.0",
-    "emojiVersion": "1.0"
+    "emoji": "🏔️",
+    "alias": "snow-capped-mountain",
+    "aliases": [
+      "snow-capped-mountain"
+    ],
+    "label": "Snow-capped Mountain",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "snow-capped mountain",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🍎",
-    "alias": "apple",
-    "label": "Red Apple",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "red apple",
+    "emoji": "⛰️",
+    "alias": "mountain",
+    "aliases": [
+      "mountain"
+    ],
+    "label": "Mountain",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "mountain",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌋",
+    "alias": "volcano",
+    "aliases": [
+      "volcano"
+    ],
+    "label": "Volcano",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "volcano",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🍒",
-    "alias": "cherries",
-    "label": "Cherries",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "cherries",
+    "emoji": "🗻",
+    "alias": "mount-fuji",
+    "aliases": [
+      "mount-fuji"
+    ],
+    "label": "Mount Fuji",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "mount fuji",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🍔",
-    "alias": "burger",
-    "label": "Hamburger",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "hamburger",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
+    "emoji": "🏕️",
+    "alias": "camping",
+    "aliases": [
+      "camping"
+    ],
+    "label": "Camping",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "camping",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🍟",
-    "alias": "fries",
-    "label": "French Fries",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "french fries",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
+    "emoji": "🏖️",
+    "alias": "beach-with-umbrella",
+    "aliases": [
+      "beach-with-umbrella"
+    ],
+    "label": "Beach With Umbrella",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "beach with umbrella",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🍕",
-    "alias": "pizza",
-    "label": "Pizza",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "pizza",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
+    "emoji": "🏜️",
+    "alias": "desert",
+    "aliases": [
+      "desert"
+    ],
+    "label": "Desert",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "desert",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🌮",
-    "alias": "taco",
-    "label": "Taco",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "taco",
-    "unicodeVersion": "1.0",
-    "emojiVersion": "1.0"
+    "emoji": "🏝️",
+    "alias": "desert-island",
+    "aliases": [
+      "desert-island"
+    ],
+    "label": "Desert Island",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "desert island",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🍣",
-    "alias": "sushi",
-    "label": "Sushi",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "sushi",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
+    "emoji": "🏞️",
+    "alias": "national-park",
+    "aliases": [
+      "national-park"
+    ],
+    "label": "National Park",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "national park",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🧋",
-    "alias": "bubble-tea",
-    "label": "Bubble Tea",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "bubble tea",
+    "emoji": "🏟️",
+    "alias": "stadium",
+    "aliases": [
+      "stadium"
+    ],
+    "label": "Stadium",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "stadium",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏛️",
+    "alias": "classical-building",
+    "aliases": [
+      "classical-building"
+    ],
+    "label": "Classical Building",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "classical building",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏗️",
+    "alias": "building-construction",
+    "aliases": [
+      "building-construction"
+    ],
+    "label": "Building Construction",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "building construction",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🧱",
+    "alias": "brick",
+    "aliases": [
+      "brick"
+    ],
+    "label": "Brick",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "brick",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪨",
+    "alias": "rock",
+    "aliases": [
+      "rock"
+    ],
+    "label": "Rock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "rock",
     "unicodeVersion": "13.0",
     "emojiVersion": "13.0"
   },
   {
-    "emoji": "🥤",
-    "alias": "soda",
-    "label": "Cup With Straw",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "cup with straw",
-    "unicodeVersion": "5.0",
-    "emojiVersion": "5.0"
+    "emoji": "🪵",
+    "alias": "wood",
+    "aliases": [
+      "wood"
+    ],
+    "label": "Wood",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "wood",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
   },
   {
-    "emoji": "🧊",
-    "alias": "ice",
-    "label": "Ice",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "ice",
+    "emoji": "🛖",
+    "alias": "hut",
+    "aliases": [
+      "hut"
+    ],
+    "label": "Hut",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hut",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🏘️",
+    "alias": "houses",
+    "aliases": [
+      "houses"
+    ],
+    "label": "Houses",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "houses",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏚️",
+    "alias": "derelict-house",
+    "aliases": [
+      "derelict-house"
+    ],
+    "label": "Derelict House",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "derelict house",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏠",
+    "alias": "house",
+    "aliases": [
+      "house"
+    ],
+    "label": "House",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "house",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏡",
+    "alias": "house-with-garden",
+    "aliases": [
+      "house-with-garden"
+    ],
+    "label": "House With Garden",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "house with garden",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏢",
+    "alias": "office-building",
+    "aliases": [
+      "office-building"
+    ],
+    "label": "Office Building",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "office building",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏣",
+    "alias": "japanese-post-office",
+    "aliases": [
+      "japanese-post-office"
+    ],
+    "label": "Japanese Post Office",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "Japanese post office",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏤",
+    "alias": "post-office",
+    "aliases": [
+      "post-office"
+    ],
+    "label": "Post Office",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "post office",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🏥",
+    "alias": "hospital",
+    "aliases": [
+      "hospital"
+    ],
+    "label": "Hospital",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hospital",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏦",
+    "alias": "bank",
+    "aliases": [
+      "bank"
+    ],
+    "label": "Bank",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "bank",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏨",
+    "alias": "hotel",
+    "aliases": [
+      "hotel"
+    ],
+    "label": "Hotel",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hotel",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏩",
+    "alias": "love-hotel",
+    "aliases": [
+      "love-hotel"
+    ],
+    "label": "Love Hotel",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "love hotel",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏪",
+    "alias": "convenience-store",
+    "aliases": [
+      "convenience-store"
+    ],
+    "label": "Convenience Store",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "convenience store",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏫",
+    "alias": "school",
+    "aliases": [
+      "school"
+    ],
+    "label": "School",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "school",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏬",
+    "alias": "department-store",
+    "aliases": [
+      "department-store"
+    ],
+    "label": "Department Store",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "department store",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏭",
+    "alias": "factory",
+    "aliases": [
+      "factory"
+    ],
+    "label": "Factory",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "factory",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏯",
+    "alias": "japanese-castle",
+    "aliases": [
+      "japanese-castle"
+    ],
+    "label": "Japanese Castle",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "Japanese castle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏰",
+    "alias": "castle",
+    "aliases": [
+      "castle"
+    ],
+    "label": "Castle",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "castle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💒",
+    "alias": "wedding",
+    "aliases": [
+      "wedding"
+    ],
+    "label": "Wedding",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "wedding",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🗼",
+    "alias": "tokyo-tower",
+    "aliases": [
+      "tokyo-tower"
+    ],
+    "label": "Tokyo Tower",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "Tokyo tower",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🗽",
+    "alias": "statue-of-liberty",
+    "aliases": [
+      "statue-of-liberty"
+    ],
+    "label": "Statue Of Liberty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "Statue of Liberty",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⛪",
+    "alias": "church",
+    "aliases": [
+      "church"
+    ],
+    "label": "Church",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "church",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕌",
+    "alias": "mosque",
+    "aliases": [
+      "mosque"
+    ],
+    "label": "Mosque",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "mosque",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛕",
+    "alias": "hindu-temple",
+    "aliases": [
+      "hindu-temple"
+    ],
+    "label": "Hindu Temple",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hindu temple",
     "unicodeVersion": "12.0",
     "emojiVersion": "12.0"
   },
   {
-    "emoji": "❤️",
-    "alias": "heart",
-    "label": "Red Heart",
-    "group": "Smileys & Emotion",
-    "category": "smileys-and-emotion",
-    "unicodeName": "red heart",
+    "emoji": "🕍",
+    "alias": "synagogue",
+    "aliases": [
+      "synagogue"
+    ],
+    "label": "Synagogue",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "synagogue",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⛩️",
+    "alias": "shinto-shrine",
+    "aliases": [
+      "shinto-shrine"
+    ],
+    "label": "Shinto Shrine",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "shinto shrine",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕋",
+    "alias": "kaaba",
+    "aliases": [
+      "kaaba"
+    ],
+    "label": "Kaaba",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "kaaba",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⛲",
+    "alias": "fountain",
+    "aliases": [
+      "fountain"
+    ],
+    "label": "Fountain",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "fountain",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "⚠️",
-    "alias": "warning",
-    "ox": 0,
-    "oy": -0.01,
-    "label": "Warning",
-    "group": "Symbols",
-    "category": "symbols",
-    "unicodeName": "warning",
+    "emoji": "⛺",
+    "alias": "tent",
+    "aliases": [
+      "tent"
+    ],
+    "label": "Tent",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "tent",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌁",
+    "alias": "foggy",
+    "aliases": [
+      "foggy"
+    ],
+    "label": "Foggy",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "foggy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌃",
+    "alias": "night-with-stars",
+    "aliases": [
+      "night-with-stars"
+    ],
+    "label": "Night With Stars",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "night with stars",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏙️",
+    "alias": "cityscape",
+    "aliases": [
+      "cityscape"
+    ],
+    "label": "Cityscape",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cityscape",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌄",
+    "alias": "sunrise-over-mountains",
+    "aliases": [
+      "sunrise-over-mountains"
+    ],
+    "label": "Sunrise Over Mountains",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sunrise over mountains",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌅",
+    "alias": "sunrise",
+    "aliases": [
+      "sunrise"
+    ],
+    "label": "Sunrise",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sunrise",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌆",
+    "alias": "cityscape-at-dusk",
+    "aliases": [
+      "cityscape-at-dusk"
+    ],
+    "label": "Cityscape At Dusk",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cityscape at dusk",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌇",
+    "alias": "sunset",
+    "aliases": [
+      "sunset"
+    ],
+    "label": "Sunset",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sunset",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌉",
+    "alias": "bridge-at-night",
+    "aliases": [
+      "bridge-at-night"
+    ],
+    "label": "Bridge At Night",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "bridge at night",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♨️",
+    "alias": "hot-springs",
+    "aliases": [
+      "hot-springs"
+    ],
+    "label": "Hot Springs",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hot springs",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎠",
+    "alias": "carousel-horse",
+    "aliases": [
+      "carousel-horse"
+    ],
+    "label": "Carousel Horse",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "carousel horse",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛝",
+    "alias": "playground-slide",
+    "aliases": [
+      "playground-slide"
+    ],
+    "label": "Playground Slide",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "playground slide",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🎡",
+    "alias": "ferris-wheel",
+    "aliases": [
+      "ferris-wheel"
+    ],
+    "label": "Ferris Wheel",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ferris wheel",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎢",
+    "alias": "roller-coaster",
+    "aliases": [
+      "roller-coaster"
+    ],
+    "label": "Roller Coaster",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "roller coaster",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💈",
+    "alias": "barber-pole",
+    "aliases": [
+      "barber-pole"
+    ],
+    "label": "Barber Pole",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "barber pole",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎪",
+    "alias": "circus-tent",
+    "aliases": [
+      "circus-tent"
+    ],
+    "label": "Circus Tent",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "circus tent",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚂",
+    "alias": "locomotive",
+    "aliases": [
+      "locomotive"
+    ],
+    "label": "Locomotive",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "locomotive",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚃",
+    "alias": "railway-car",
+    "aliases": [
+      "railway-car"
+    ],
+    "label": "Railway Car",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "railway car",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚄",
+    "alias": "high-speed-train",
+    "aliases": [
+      "high-speed-train"
+    ],
+    "label": "High-speed Train",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "high-speed train",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚅",
+    "alias": "bullet-train",
+    "aliases": [
+      "bullet-train"
+    ],
+    "label": "Bullet Train",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "bullet train",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚆",
+    "alias": "train",
+    "aliases": [
+      "train"
+    ],
+    "label": "Train",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "train",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚇",
+    "alias": "metro",
+    "aliases": [
+      "metro"
+    ],
+    "label": "Metro",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "metro",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚈",
+    "alias": "light-rail",
+    "aliases": [
+      "light-rail"
+    ],
+    "label": "Light Rail",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "light rail",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚉",
+    "alias": "station",
+    "aliases": [
+      "station"
+    ],
+    "label": "Station",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "station",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚊",
+    "alias": "tram",
+    "aliases": [
+      "tram"
+    ],
+    "label": "Tram",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "tram",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚝",
+    "alias": "monorail",
+    "aliases": [
+      "monorail"
+    ],
+    "label": "Monorail",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "monorail",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚞",
+    "alias": "mountain-railway",
+    "aliases": [
+      "mountain-railway"
+    ],
+    "label": "Mountain Railway",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "mountain railway",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚋",
+    "alias": "tram-car",
+    "aliases": [
+      "tram-car"
+    ],
+    "label": "Tram Car",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "tram car",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚌",
+    "alias": "bus",
+    "aliases": [
+      "bus"
+    ],
+    "label": "Bus",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "bus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚍",
+    "alias": "oncoming-bus",
+    "aliases": [
+      "oncoming-bus"
+    ],
+    "label": "Oncoming Bus",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "oncoming bus",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🚎",
+    "alias": "trolleybus",
+    "aliases": [
+      "trolleybus"
+    ],
+    "label": "Trolleybus",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "trolleybus",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚐",
+    "alias": "minibus",
+    "aliases": [
+      "minibus"
+    ],
+    "label": "Minibus",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "minibus",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚑",
+    "alias": "ambulance",
+    "aliases": [
+      "ambulance"
+    ],
+    "label": "Ambulance",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ambulance",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚒",
+    "alias": "fire-engine",
+    "aliases": [
+      "fire-engine"
+    ],
+    "label": "Fire Engine",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "fire engine",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚓",
+    "alias": "police-car",
+    "aliases": [
+      "police-car"
+    ],
+    "label": "Police Car",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "police car",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚔",
+    "alias": "oncoming-police-car",
+    "aliases": [
+      "oncoming-police-car"
+    ],
+    "label": "Oncoming Police Car",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "oncoming police car",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🚕",
+    "alias": "taxi",
+    "aliases": [
+      "taxi"
+    ],
+    "label": "Taxi",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "taxi",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚖",
+    "alias": "oncoming-taxi",
+    "aliases": [
+      "oncoming-taxi"
+    ],
+    "label": "Oncoming Taxi",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "oncoming taxi",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚗",
+    "alias": "automobile",
+    "aliases": [
+      "automobile"
+    ],
+    "label": "Automobile",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "automobile",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚘",
+    "alias": "oncoming-automobile",
+    "aliases": [
+      "oncoming-automobile"
+    ],
+    "label": "Oncoming Automobile",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "oncoming automobile",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🚙",
+    "alias": "sport-utility-vehicle",
+    "aliases": [
+      "sport-utility-vehicle"
+    ],
+    "label": "Sport Utility Vehicle",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sport utility vehicle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛻",
+    "alias": "pickup-truck",
+    "aliases": [
+      "pickup-truck"
+    ],
+    "label": "Pickup Truck",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "pickup truck",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🚚",
+    "alias": "delivery-truck",
+    "aliases": [
+      "delivery-truck"
+    ],
+    "label": "Delivery Truck",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "delivery truck",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚛",
+    "alias": "articulated-lorry",
+    "aliases": [
+      "articulated-lorry"
+    ],
+    "label": "Articulated Lorry",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "articulated lorry",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚜",
+    "alias": "tractor",
+    "aliases": [
+      "tractor"
+    ],
+    "label": "Tractor",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "tractor",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🏎️",
+    "alias": "racing-car",
+    "aliases": [
+      "racing-car"
+    ],
+    "label": "Racing Car",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "racing car",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏍️",
+    "alias": "motorcycle",
+    "aliases": [
+      "motorcycle"
+    ],
+    "label": "Motorcycle",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "motorcycle",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🛵",
+    "alias": "motor-scooter",
+    "aliases": [
+      "motor-scooter"
+    ],
+    "label": "Motor Scooter",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "motor scooter",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🦽",
+    "alias": "manual-wheelchair",
+    "aliases": [
+      "manual-wheelchair"
+    ],
+    "label": "Manual Wheelchair",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "manual wheelchair",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🦼",
+    "alias": "motorized-wheelchair",
+    "aliases": [
+      "motorized-wheelchair"
+    ],
+    "label": "Motorized Wheelchair",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "motorized wheelchair",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🛺",
+    "alias": "auto-rickshaw",
+    "aliases": [
+      "auto-rickshaw"
+    ],
+    "label": "Auto Rickshaw",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "auto rickshaw",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🚲",
+    "alias": "bicycle",
+    "aliases": [
+      "bicycle"
+    ],
+    "label": "Bicycle",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "bicycle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛴",
+    "alias": "kick-scooter",
+    "aliases": [
+      "kick-scooter"
+    ],
+    "label": "Kick Scooter",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "kick scooter",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🛹",
+    "alias": "skateboard",
+    "aliases": [
+      "skateboard"
+    ],
+    "label": "Skateboard",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "skateboard",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🛼",
+    "alias": "roller-skate",
+    "aliases": [
+      "roller-skate"
+    ],
+    "label": "Roller Skate",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "roller skate",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🚏",
+    "alias": "bus-stop",
+    "aliases": [
+      "bus-stop"
+    ],
+    "label": "Bus Stop",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "bus stop",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛣️",
+    "alias": "motorway",
+    "aliases": [
+      "motorway"
+    ],
+    "label": "Motorway",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "motorway",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🛤️",
+    "alias": "railway-track",
+    "aliases": [
+      "railway-track"
+    ],
+    "label": "Railway Track",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "railway track",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🛢️",
+    "alias": "oil-drum",
+    "aliases": [
+      "oil-drum"
+    ],
+    "label": "Oil Drum",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "oil drum",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⛽",
+    "alias": "fuel-pump",
+    "aliases": [
+      "fuel-pump"
+    ],
+    "label": "Fuel Pump",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "fuel pump",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛞",
+    "alias": "wheel",
+    "aliases": [
+      "wheel"
+    ],
+    "label": "Wheel",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "wheel",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🚨",
+    "alias": "police-car-light",
+    "aliases": [
+      "police-car-light"
+    ],
+    "label": "Police Car Light",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "police car light",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚥",
+    "alias": "horizontal-traffic-light",
+    "aliases": [
+      "horizontal-traffic-light"
+    ],
+    "label": "Horizontal Traffic Light",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "horizontal traffic light",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚦",
+    "alias": "vertical-traffic-light",
+    "aliases": [
+      "vertical-traffic-light"
+    ],
+    "label": "Vertical Traffic Light",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "vertical traffic light",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛑",
+    "alias": "stop-sign",
+    "aliases": [
+      "stop-sign"
+    ],
+    "label": "Stop Sign",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "stop sign",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🚧",
+    "alias": "construction",
+    "aliases": [
+      "construction"
+    ],
+    "label": "Construction",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "construction",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⚓",
+    "alias": "anchor",
+    "aliases": [
+      "anchor"
+    ],
+    "label": "Anchor",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "anchor",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛟",
+    "alias": "ring-buoy",
+    "aliases": [
+      "ring-buoy"
+    ],
+    "label": "Ring Buoy",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ring buoy",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "⛵",
+    "alias": "sailboat",
+    "aliases": [
+      "sailboat"
+    ],
+    "label": "Sailboat",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sailboat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛶",
+    "alias": "canoe",
+    "aliases": [
+      "canoe"
+    ],
+    "label": "Canoe",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "canoe",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🚤",
+    "alias": "speedboat",
+    "aliases": [
+      "speedboat"
+    ],
+    "label": "Speedboat",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "speedboat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛳️",
+    "alias": "passenger-ship",
+    "aliases": [
+      "passenger-ship"
+    ],
+    "label": "Passenger Ship",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "passenger ship",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⛴️",
+    "alias": "ferry",
+    "aliases": [
+      "ferry"
+    ],
+    "label": "Ferry",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ferry",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🛥️",
+    "alias": "motor-boat",
+    "aliases": [
+      "motor-boat"
+    ],
+    "label": "Motor Boat",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "motor boat",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🚢",
+    "alias": "ship",
+    "aliases": [
+      "ship"
+    ],
+    "label": "Ship",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ship",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✈️",
+    "alias": "airplane",
+    "aliases": [
+      "airplane"
+    ],
+    "label": "Airplane",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "airplane",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛩️",
+    "alias": "small-airplane",
+    "aliases": [
+      "small-airplane"
+    ],
+    "label": "Small Airplane",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "small airplane",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🛫",
+    "alias": "airplane-departure",
+    "aliases": [
+      "airplane-departure"
+    ],
+    "label": "Airplane Departure",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "airplane departure",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛬",
+    "alias": "airplane-arrival",
+    "aliases": [
+      "airplane-arrival"
+    ],
+    "label": "Airplane Arrival",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "airplane arrival",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🪂",
+    "alias": "parachute",
+    "aliases": [
+      "parachute"
+    ],
+    "label": "Parachute",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "parachute",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "💺",
+    "alias": "seat",
+    "aliases": [
+      "seat"
+    ],
+    "label": "Seat",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "seat",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚁",
+    "alias": "helicopter",
+    "aliases": [
+      "helicopter"
+    ],
+    "label": "Helicopter",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "helicopter",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚟",
+    "alias": "suspension-railway",
+    "aliases": [
+      "suspension-railway"
+    ],
+    "label": "Suspension Railway",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "suspension railway",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚠",
+    "alias": "mountain-cableway",
+    "aliases": [
+      "mountain-cableway"
+    ],
+    "label": "Mountain Cableway",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "mountain cableway",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚡",
+    "alias": "aerial-tramway",
+    "aliases": [
+      "aerial-tramway"
+    ],
+    "label": "Aerial Tramway",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "aerial tramway",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛰️",
+    "alias": "satellite",
+    "aliases": [
+      "satellite"
+    ],
+    "label": "Satellite",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "satellite",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🚀",
+    "alias": "rocket",
+    "aliases": [
+      "rocket"
+    ],
+    "label": "Rocket",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "rocket",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛸",
+    "alias": "flying-saucer",
+    "aliases": [
+      "flying-saucer"
+    ],
+    "label": "Flying Saucer",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "flying saucer",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🛎️",
+    "alias": "bellhop-bell",
+    "aliases": [
+      "bellhop-bell"
+    ],
+    "label": "Bellhop Bell",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "bellhop bell",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🧳",
+    "alias": "luggage",
+    "aliases": [
+      "luggage"
+    ],
+    "label": "Luggage",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "luggage",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "⌛",
+    "alias": "hourglass-done",
+    "aliases": [
+      "hourglass-done"
+    ],
+    "label": "Hourglass Done",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hourglass done",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏳",
+    "alias": "hourglass",
+    "aliases": [
+      "hourglass",
+      "hourglass-not-done"
+    ],
+    "label": "Hourglass Not Done",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "hourglass not done",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⌚",
+    "alias": "watch",
+    "aliases": [
+      "watch"
+    ],
+    "label": "Watch",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "watch",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏰",
+    "alias": "alarm-clock",
+    "aliases": [
+      "alarm-clock"
+    ],
+    "label": "Alarm Clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "alarm clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏱️",
+    "alias": "stopwatch",
+    "aliases": [
+      "stopwatch"
+    ],
+    "label": "Stopwatch",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "stopwatch",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⏲️",
+    "alias": "timer-clock",
+    "aliases": [
+      "timer-clock"
+    ],
+    "label": "Timer Clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "timer clock",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🕰️",
+    "alias": "mantelpiece-clock",
+    "aliases": [
+      "mantelpiece-clock"
+    ],
+    "label": "Mantelpiece Clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "mantelpiece clock",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕛",
+    "alias": "twelve-o-clock",
+    "aliases": [
+      "twelve-o-clock"
+    ],
+    "label": "Twelve O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "twelve o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕧",
+    "alias": "twelve-thirty",
+    "aliases": [
+      "twelve-thirty"
+    ],
+    "label": "Twelve-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "twelve-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕐",
+    "alias": "one-o-clock",
+    "aliases": [
+      "one-o-clock"
+    ],
+    "label": "One O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "one o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕜",
+    "alias": "one-thirty",
+    "aliases": [
+      "one-thirty"
+    ],
+    "label": "One-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "one-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕑",
+    "alias": "two-o-clock",
+    "aliases": [
+      "two-o-clock"
+    ],
+    "label": "Two O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "two o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕝",
+    "alias": "two-thirty",
+    "aliases": [
+      "two-thirty"
+    ],
+    "label": "Two-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "two-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕒",
+    "alias": "three-o-clock",
+    "aliases": [
+      "three-o-clock"
+    ],
+    "label": "Three O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "three o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕞",
+    "alias": "three-thirty",
+    "aliases": [
+      "three-thirty"
+    ],
+    "label": "Three-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "three-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕓",
+    "alias": "four-o-clock",
+    "aliases": [
+      "four-o-clock"
+    ],
+    "label": "Four O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "four o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕟",
+    "alias": "four-thirty",
+    "aliases": [
+      "four-thirty"
+    ],
+    "label": "Four-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "four-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕔",
+    "alias": "five-o-clock",
+    "aliases": [
+      "five-o-clock"
+    ],
+    "label": "Five O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "five o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕠",
+    "alias": "five-thirty",
+    "aliases": [
+      "five-thirty"
+    ],
+    "label": "Five-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "five-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕕",
+    "alias": "six-o-clock",
+    "aliases": [
+      "six-o-clock"
+    ],
+    "label": "Six O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "six o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕡",
+    "alias": "six-thirty",
+    "aliases": [
+      "six-thirty"
+    ],
+    "label": "Six-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "six-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕖",
+    "alias": "seven-o-clock",
+    "aliases": [
+      "seven-o-clock"
+    ],
+    "label": "Seven O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "seven o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕢",
+    "alias": "seven-thirty",
+    "aliases": [
+      "seven-thirty"
+    ],
+    "label": "Seven-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "seven-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕗",
+    "alias": "eight-o-clock",
+    "aliases": [
+      "eight-o-clock"
+    ],
+    "label": "Eight O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "eight o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕣",
+    "alias": "eight-thirty",
+    "aliases": [
+      "eight-thirty"
+    ],
+    "label": "Eight-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "eight-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕘",
+    "alias": "nine-o-clock",
+    "aliases": [
+      "nine-o-clock"
+    ],
+    "label": "Nine O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "nine o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕤",
+    "alias": "nine-thirty",
+    "aliases": [
+      "nine-thirty"
+    ],
+    "label": "Nine-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "nine-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕙",
+    "alias": "ten-o-clock",
+    "aliases": [
+      "ten-o-clock"
+    ],
+    "label": "Ten O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ten o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕥",
+    "alias": "ten-thirty",
+    "aliases": [
+      "ten-thirty"
+    ],
+    "label": "Ten-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ten-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🕚",
+    "alias": "eleven-o-clock",
+    "aliases": [
+      "eleven-o-clock"
+    ],
+    "label": "Eleven O’clock",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "eleven o’clock",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕦",
+    "alias": "eleven-thirty",
+    "aliases": [
+      "eleven-thirty"
+    ],
+    "label": "Eleven-thirty",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "eleven-thirty",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌑",
+    "alias": "new-moon",
+    "aliases": [
+      "new-moon"
+    ],
+    "label": "New Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "new moon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌒",
+    "alias": "waxing-crescent-moon",
+    "aliases": [
+      "waxing-crescent-moon"
+    ],
+    "label": "Waxing Crescent Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "waxing crescent moon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌓",
+    "alias": "first-quarter-moon",
+    "aliases": [
+      "first-quarter-moon"
+    ],
+    "label": "First Quarter Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "first quarter moon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌔",
+    "alias": "waxing-gibbous-moon",
+    "aliases": [
+      "waxing-gibbous-moon"
+    ],
+    "label": "Waxing Gibbous Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "waxing gibbous moon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌕",
+    "alias": "full-moon",
+    "aliases": [
+      "full-moon"
+    ],
+    "label": "Full Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "full moon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌖",
+    "alias": "waning-gibbous-moon",
+    "aliases": [
+      "waning-gibbous-moon"
+    ],
+    "label": "Waning Gibbous Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "waning gibbous moon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌗",
+    "alias": "last-quarter-moon",
+    "aliases": [
+      "last-quarter-moon"
+    ],
+    "label": "Last Quarter Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "last quarter moon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌘",
+    "alias": "waning-crescent-moon",
+    "aliases": [
+      "waning-crescent-moon"
+    ],
+    "label": "Waning Crescent Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "waning crescent moon",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌙",
+    "alias": "moon",
+    "aliases": [
+      "moon",
+      "crescent-moon"
+    ],
+    "label": "Crescent Moon",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "crescent moon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌚",
+    "alias": "new-moon-face",
+    "aliases": [
+      "new-moon-face"
+    ],
+    "label": "New Moon Face",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "new moon face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌛",
+    "alias": "first-quarter-moon-face",
+    "aliases": [
+      "first-quarter-moon-face"
+    ],
+    "label": "First Quarter Moon Face",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "first quarter moon face",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌜",
+    "alias": "last-quarter-moon-face",
+    "aliases": [
+      "last-quarter-moon-face"
+    ],
+    "label": "Last Quarter Moon Face",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "last quarter moon face",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌡️",
+    "alias": "thermometer",
+    "aliases": [
+      "thermometer"
+    ],
+    "label": "Thermometer",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "thermometer",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "☀️",
+    "alias": "sun",
+    "aliases": [
+      "sun"
+    ],
+    "label": "Sun",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sun",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌝",
+    "alias": "full-moon-face",
+    "aliases": [
+      "full-moon-face"
+    ],
+    "label": "Full Moon Face",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "full moon face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🌞",
+    "alias": "sun-with-face",
+    "aliases": [
+      "sun-with-face"
+    ],
+    "label": "Sun With Face",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sun with face",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🪐",
+    "alias": "ringed-planet",
+    "aliases": [
+      "ringed-planet"
+    ],
+    "label": "Ringed Planet",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "ringed planet",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "⭐",
+    "alias": "star",
+    "aliases": [
+      "star"
+    ],
+    "label": "Star",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "star",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌟",
+    "alias": "glowing-star",
+    "aliases": [
+      "glowing-star"
+    ],
+    "label": "Glowing Star",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "glowing star",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌠",
+    "alias": "shooting-star",
+    "aliases": [
+      "shooting-star"
+    ],
+    "label": "Shooting Star",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "shooting star",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌌",
+    "alias": "milky-way",
+    "aliases": [
+      "milky-way"
+    ],
+    "label": "Milky Way",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "milky way",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☁️",
+    "alias": "cloud",
+    "aliases": [
+      "cloud"
+    ],
+    "label": "Cloud",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cloud",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⛅",
+    "alias": "sun-behind-cloud",
+    "aliases": [
+      "sun-behind-cloud"
+    ],
+    "label": "Sun Behind Cloud",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sun behind cloud",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⛈️",
+    "alias": "cloud-with-lightning-and-rain",
+    "aliases": [
+      "cloud-with-lightning-and-rain"
+    ],
+    "label": "Cloud With Lightning And Rain",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cloud with lightning and rain",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌤️",
+    "alias": "sun-behind-small-cloud",
+    "aliases": [
+      "sun-behind-small-cloud"
+    ],
+    "label": "Sun Behind Small Cloud",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sun behind small cloud",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌥️",
+    "alias": "sun-behind-large-cloud",
+    "aliases": [
+      "sun-behind-large-cloud"
+    ],
+    "label": "Sun Behind Large Cloud",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sun behind large cloud",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌦️",
+    "alias": "sun-behind-rain-cloud",
+    "aliases": [
+      "sun-behind-rain-cloud"
+    ],
+    "label": "Sun Behind Rain Cloud",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "sun behind rain cloud",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌧️",
+    "alias": "cloud-with-rain",
+    "aliases": [
+      "cloud-with-rain"
+    ],
+    "label": "Cloud With Rain",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cloud with rain",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌨️",
+    "alias": "cloud-with-snow",
+    "aliases": [
+      "cloud-with-snow"
+    ],
+    "label": "Cloud With Snow",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cloud with snow",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌩️",
+    "alias": "cloud-with-lightning",
+    "aliases": [
+      "cloud-with-lightning"
+    ],
+    "label": "Cloud With Lightning",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cloud with lightning",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌪️",
+    "alias": "tornado",
+    "aliases": [
+      "tornado"
+    ],
+    "label": "Tornado",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "tornado",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌫️",
+    "alias": "fog",
+    "aliases": [
+      "fog"
+    ],
+    "label": "Fog",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "fog",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌬️",
+    "alias": "wind-face",
+    "aliases": [
+      "wind-face"
+    ],
+    "label": "Wind Face",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "wind face",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🌀",
+    "alias": "cyclone",
+    "aliases": [
+      "cyclone"
+    ],
+    "label": "Cyclone",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "cyclone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌈",
+    "alias": "rainbow",
+    "aliases": [
+      "rainbow"
+    ],
+    "label": "Rainbow",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "rainbow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌂",
+    "alias": "closed-umbrella",
+    "aliases": [
+      "closed-umbrella"
+    ],
+    "label": "Closed Umbrella",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "closed umbrella",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☂️",
+    "alias": "umbrella",
+    "aliases": [
+      "umbrella"
+    ],
+    "label": "Umbrella",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "umbrella",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "☔",
+    "alias": "umbrella-with-rain-drops",
+    "aliases": [
+      "umbrella-with-rain-drops"
+    ],
+    "label": "Umbrella With Rain Drops",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "umbrella with rain drops",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⛱️",
+    "alias": "umbrella-on-ground",
+    "aliases": [
+      "umbrella-on-ground"
+    ],
+    "label": "Umbrella On Ground",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "umbrella on ground",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⚡",
+    "alias": "lightning",
+    "aliases": [
+      "lightning",
+      "high-voltage"
+    ],
+    "label": "High Voltage",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "high voltage",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❄️",
+    "alias": "snowflake",
+    "aliases": [
+      "snowflake"
+    ],
+    "label": "Snowflake",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "snowflake",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☃️",
+    "alias": "snowman",
+    "aliases": [
+      "snowman"
+    ],
+    "label": "Snowman",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "snowman",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⛄",
+    "alias": "snowman-without-snow",
+    "aliases": [
+      "snowman-without-snow"
+    ],
+    "label": "Snowman Without Snow",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "snowman without snow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☄️",
+    "alias": "comet",
+    "aliases": [
+      "comet"
+    ],
+    "label": "Comet",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "comet",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔥",
+    "alias": "fire",
+    "aliases": [
+      "fire"
+    ],
+    "ox": 0,
+    "oy": -0.03,
+    "label": "Fire",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "fire",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💧",
+    "alias": "droplet",
+    "aliases": [
+      "droplet"
+    ],
+    "label": "Droplet",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "droplet",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🌊",
+    "alias": "water-wave",
+    "aliases": [
+      "water-wave"
+    ],
+    "label": "Water Wave",
+    "group": "Travel & Places",
+    "category": "travel-and-places",
+    "unicodeName": "water wave",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎃",
+    "alias": "jack-o-lantern",
+    "aliases": [
+      "jack-o-lantern"
+    ],
+    "label": "Jack-o-lantern",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "jack-o-lantern",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎄",
+    "alias": "christmas-tree",
+    "aliases": [
+      "christmas-tree"
+    ],
+    "label": "Christmas Tree",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "Christmas tree",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎆",
+    "alias": "fireworks",
+    "aliases": [
+      "fireworks"
+    ],
+    "label": "Fireworks",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "fireworks",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎇",
+    "alias": "sparkler",
+    "aliases": [
+      "sparkler"
+    ],
+    "label": "Sparkler",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "sparkler",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧨",
+    "alias": "firecracker",
+    "aliases": [
+      "firecracker"
+    ],
+    "label": "Firecracker",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "firecracker",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "✨",
     "alias": "sparkles",
+    "aliases": [
+      "sparkles"
+    ],
     "ox": -0.02,
     "oy": -0.03,
     "label": "Sparkles",
@@ -427,68 +13941,1508 @@
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "💣",
-    "alias": "bomb",
-    "label": "Bomb",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "bomb",
+    "emoji": "🎈",
+    "alias": "balloon",
+    "aliases": [
+      "balloon"
+    ],
+    "label": "Balloon",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "balloon",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "👁️",
-    "alias": "eye",
-    "label": "Eye",
-    "group": "People & Body",
-    "category": "people-and-body",
-    "unicodeName": "eye",
-    "unicodeVersion": "0.7",
-    "emojiVersion": "0.7"
+    "emoji": "🎉",
+    "alias": "party-popper",
+    "aliases": [
+      "party-popper"
+    ],
+    "label": "Party Popper",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "party popper",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
-    "emoji": "🦴",
-    "alias": "bone",
-    "label": "Bone",
-    "group": "People & Body",
-    "category": "people-and-body",
-    "unicodeName": "bone",
+    "emoji": "🎊",
+    "alias": "confetti-ball",
+    "aliases": [
+      "confetti-ball"
+    ],
+    "label": "Confetti Ball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "confetti ball",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎋",
+    "alias": "tanabata-tree",
+    "aliases": [
+      "tanabata-tree"
+    ],
+    "label": "Tanabata Tree",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "tanabata tree",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎍",
+    "alias": "pine-decoration",
+    "aliases": [
+      "pine-decoration"
+    ],
+    "label": "Pine Decoration",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "pine decoration",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎎",
+    "alias": "japanese-dolls",
+    "aliases": [
+      "japanese-dolls"
+    ],
+    "label": "Japanese Dolls",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "Japanese dolls",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎏",
+    "alias": "carp-streamer",
+    "aliases": [
+      "carp-streamer"
+    ],
+    "label": "Carp Streamer",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "carp streamer",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎐",
+    "alias": "wind-chime",
+    "aliases": [
+      "wind-chime"
+    ],
+    "label": "Wind Chime",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "wind chime",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎑",
+    "alias": "moon-viewing-ceremony",
+    "aliases": [
+      "moon-viewing-ceremony"
+    ],
+    "label": "Moon Viewing Ceremony",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "moon viewing ceremony",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧧",
+    "alias": "red-envelope",
+    "aliases": [
+      "red-envelope"
+    ],
+    "label": "Red Envelope",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "red envelope",
     "unicodeVersion": "11.0",
     "emojiVersion": "11.0"
   },
   {
-    "emoji": "🐸",
-    "alias": "frog",
-    "label": "Frog",
-    "group": "Animals & Nature",
-    "category": "animals-and-nature",
-    "unicodeName": "frog",
+    "emoji": "🎀",
+    "alias": "ribbon",
+    "aliases": [
+      "ribbon"
+    ],
+    "label": "Ribbon",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "ribbon",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🐀",
-    "alias": "rat",
-    "label": "Rat",
-    "group": "Animals & Nature",
-    "category": "animals-and-nature",
-    "unicodeName": "rat",
+    "emoji": "🎁",
+    "alias": "wrapped-gift",
+    "aliases": [
+      "wrapped-gift"
+    ],
+    "label": "Wrapped Gift",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "wrapped gift",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎗️",
+    "alias": "reminder-ribbon",
+    "aliases": [
+      "reminder-ribbon"
+    ],
+    "label": "Reminder Ribbon",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "reminder ribbon",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎟️",
+    "alias": "admission-tickets",
+    "aliases": [
+      "admission-tickets"
+    ],
+    "label": "Admission Tickets",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "admission tickets",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎫",
+    "alias": "ticket",
+    "aliases": [
+      "ticket"
+    ],
+    "label": "Ticket",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "ticket",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎖️",
+    "alias": "military-medal",
+    "aliases": [
+      "military-medal"
+    ],
+    "label": "Military Medal",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "military medal",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏆",
+    "alias": "trophy",
+    "aliases": [
+      "trophy"
+    ],
+    "label": "Trophy",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "trophy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏅",
+    "alias": "medal",
+    "aliases": [
+      "medal",
+      "sports-medal"
+    ],
+    "label": "Sports Medal",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "sports medal",
     "unicodeVersion": "1.0",
     "emojiVersion": "1.0"
   },
   {
-    "emoji": "🐍",
-    "alias": "snake",
-    "label": "Snake",
-    "group": "Animals & Nature",
-    "category": "animals-and-nature",
-    "unicodeName": "snake",
+    "emoji": "🥇",
+    "alias": "1st-place-medal",
+    "aliases": [
+      "1st-place-medal"
+    ],
+    "label": "1st Place Medal",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "1st place medal",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥈",
+    "alias": "2nd-place-medal",
+    "aliases": [
+      "2nd-place-medal"
+    ],
+    "label": "2nd Place Medal",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "2nd place medal",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥉",
+    "alias": "3rd-place-medal",
+    "aliases": [
+      "3rd-place-medal"
+    ],
+    "label": "3rd Place Medal",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "3rd place medal",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "⚽",
+    "alias": "soccer-ball",
+    "aliases": [
+      "soccer-ball"
+    ],
+    "label": "Soccer Ball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "soccer ball",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
+    "emoji": "⚾",
+    "alias": "baseball",
+    "aliases": [
+      "baseball"
+    ],
+    "label": "Baseball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "baseball",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥎",
+    "alias": "softball",
+    "aliases": [
+      "softball"
+    ],
+    "label": "Softball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "softball",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🏀",
+    "alias": "basketball",
+    "aliases": [
+      "basketball"
+    ],
+    "label": "Basketball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "basketball",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏐",
+    "alias": "volleyball",
+    "aliases": [
+      "volleyball"
+    ],
+    "label": "Volleyball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "volleyball",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🏈",
+    "alias": "american-football",
+    "aliases": [
+      "american-football"
+    ],
+    "label": "American Football",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "american football",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏉",
+    "alias": "rugby-football",
+    "aliases": [
+      "rugby-football"
+    ],
+    "label": "Rugby Football",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "rugby football",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🎾",
+    "alias": "tennis",
+    "aliases": [
+      "tennis"
+    ],
+    "label": "Tennis",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "tennis",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥏",
+    "alias": "flying-disc",
+    "aliases": [
+      "flying-disc"
+    ],
+    "label": "Flying Disc",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "flying disc",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🎳",
+    "alias": "bowling",
+    "aliases": [
+      "bowling"
+    ],
+    "label": "Bowling",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "bowling",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏏",
+    "alias": "cricket-game",
+    "aliases": [
+      "cricket-game"
+    ],
+    "label": "Cricket Game",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "cricket game",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🏑",
+    "alias": "field-hockey",
+    "aliases": [
+      "field-hockey"
+    ],
+    "label": "Field Hockey",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "field hockey",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🏒",
+    "alias": "ice-hockey",
+    "aliases": [
+      "ice-hockey"
+    ],
+    "label": "Ice Hockey",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "ice hockey",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🥍",
+    "alias": "lacrosse",
+    "aliases": [
+      "lacrosse"
+    ],
+    "label": "Lacrosse",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "lacrosse",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🏓",
+    "alias": "ping-pong",
+    "aliases": [
+      "ping-pong"
+    ],
+    "label": "Ping Pong",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "ping pong",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🏸",
+    "alias": "badminton",
+    "aliases": [
+      "badminton"
+    ],
+    "label": "Badminton",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "badminton",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🥊",
+    "alias": "boxing-glove",
+    "aliases": [
+      "boxing-glove"
+    ],
+    "label": "Boxing Glove",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "boxing glove",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥋",
+    "alias": "martial-arts-uniform",
+    "aliases": [
+      "martial-arts-uniform"
+    ],
+    "label": "Martial Arts Uniform",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "martial arts uniform",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🥅",
+    "alias": "goal-net",
+    "aliases": [
+      "goal-net"
+    ],
+    "label": "Goal Net",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "goal net",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "⛳",
+    "alias": "flag-in-hole",
+    "aliases": [
+      "flag-in-hole"
+    ],
+    "label": "Flag In Hole",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "flag in hole",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⛸️",
+    "alias": "ice-skate",
+    "aliases": [
+      "ice-skate"
+    ],
+    "label": "Ice Skate",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "ice skate",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎣",
+    "alias": "fishing-pole",
+    "aliases": [
+      "fishing-pole"
+    ],
+    "label": "Fishing Pole",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "fishing pole",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🤿",
+    "alias": "diving-mask",
+    "aliases": [
+      "diving-mask"
+    ],
+    "label": "Diving Mask",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "diving mask",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🎽",
+    "alias": "running-shirt",
+    "aliases": [
+      "running-shirt"
+    ],
+    "label": "Running Shirt",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "running shirt",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎿",
+    "alias": "skis",
+    "aliases": [
+      "skis"
+    ],
+    "label": "Skis",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "skis",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛷",
+    "alias": "sled",
+    "aliases": [
+      "sled"
+    ],
+    "label": "Sled",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "sled",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🥌",
+    "alias": "curling-stone",
+    "aliases": [
+      "curling-stone"
+    ],
+    "label": "Curling Stone",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "curling stone",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🎯",
+    "alias": "bullseye",
+    "aliases": [
+      "bullseye"
+    ],
+    "label": "Bullseye",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "bullseye",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪀",
+    "alias": "yo-yo",
+    "aliases": [
+      "yo-yo"
+    ],
+    "label": "Yo-yo",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "yo-yo",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🪁",
+    "alias": "kite",
+    "aliases": [
+      "kite"
+    ],
+    "label": "Kite",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "kite",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🔫",
+    "alias": "water-pistol",
+    "aliases": [
+      "water-pistol"
+    ],
+    "label": "Water Pistol",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "water pistol",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎱",
+    "alias": "pool-8-ball",
+    "aliases": [
+      "pool-8-ball"
+    ],
+    "label": "Pool 8 Ball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "pool 8 ball",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔮",
+    "alias": "crystal-ball",
+    "aliases": [
+      "crystal-ball"
+    ],
+    "label": "Crystal Ball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "crystal ball",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪄",
+    "alias": "magic-wand",
+    "aliases": [
+      "magic-wand"
+    ],
+    "label": "Magic Wand",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "magic wand",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🎮",
+    "alias": "gamepad",
+    "aliases": [
+      "gamepad",
+      "video-game"
+    ],
+    "label": "Video Game",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "video game",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕹️",
+    "alias": "joystick",
+    "aliases": [
+      "joystick"
+    ],
+    "label": "Joystick",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "joystick",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎰",
+    "alias": "slot-machine",
+    "aliases": [
+      "slot-machine"
+    ],
+    "label": "Slot Machine",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "slot machine",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎲",
+    "alias": "game-die",
+    "aliases": [
+      "game-die"
+    ],
+    "label": "Game Die",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "game die",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧩",
+    "alias": "puzzle-piece",
+    "aliases": [
+      "puzzle-piece"
+    ],
+    "label": "Puzzle Piece",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "puzzle piece",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧸",
+    "alias": "teddy-bear",
+    "aliases": [
+      "teddy-bear"
+    ],
+    "label": "Teddy Bear",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "teddy bear",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪅",
+    "alias": "pinata",
+    "aliases": [
+      "pinata"
+    ],
+    "label": "Piñata",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "piñata",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪩",
+    "alias": "mirror-ball",
+    "aliases": [
+      "mirror-ball"
+    ],
+    "label": "Mirror Ball",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "mirror ball",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🪆",
+    "alias": "nesting-dolls",
+    "aliases": [
+      "nesting-dolls"
+    ],
+    "label": "Nesting Dolls",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "nesting dolls",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "♠️",
+    "alias": "spade-suit",
+    "aliases": [
+      "spade-suit"
+    ],
+    "label": "Spade Suit",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "spade suit",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♥️",
+    "alias": "heart-suit",
+    "aliases": [
+      "heart-suit"
+    ],
+    "label": "Heart Suit",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "heart suit",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♦️",
+    "alias": "diamond-suit",
+    "aliases": [
+      "diamond-suit"
+    ],
+    "label": "Diamond Suit",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "diamond suit",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♣️",
+    "alias": "club-suit",
+    "aliases": [
+      "club-suit"
+    ],
+    "label": "Club Suit",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "club suit",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♟️",
+    "alias": "chess-pawn",
+    "aliases": [
+      "chess-pawn"
+    ],
+    "label": "Chess Pawn",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "chess pawn",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🃏",
+    "alias": "joker",
+    "aliases": [
+      "joker"
+    ],
+    "label": "Joker",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "joker",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🀄",
+    "alias": "mahjong-red-dragon",
+    "aliases": [
+      "mahjong-red-dragon"
+    ],
+    "label": "Mahjong Red Dragon",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "mahjong red dragon",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎴",
+    "alias": "flower-playing-cards",
+    "aliases": [
+      "flower-playing-cards"
+    ],
+    "label": "Flower Playing Cards",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "flower playing cards",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎭",
+    "alias": "performing-arts",
+    "aliases": [
+      "performing-arts"
+    ],
+    "label": "Performing Arts",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "performing arts",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🖼️",
+    "alias": "framed-picture",
+    "aliases": [
+      "framed-picture"
+    ],
+    "label": "Framed Picture",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "framed picture",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎨",
+    "alias": "artist-palette",
+    "aliases": [
+      "artist-palette"
+    ],
+    "label": "Artist Palette",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "artist palette",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧵",
+    "alias": "thread",
+    "aliases": [
+      "thread"
+    ],
+    "label": "Thread",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "thread",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪡",
+    "alias": "sewing-needle",
+    "aliases": [
+      "sewing-needle"
+    ],
+    "label": "Sewing Needle",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "sewing needle",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🧶",
+    "alias": "yarn",
+    "aliases": [
+      "yarn"
+    ],
+    "label": "Yarn",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "yarn",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪢",
+    "alias": "knot",
+    "aliases": [
+      "knot"
+    ],
+    "label": "Knot",
+    "group": "Activities",
+    "category": "activities",
+    "unicodeName": "knot",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👓",
+    "alias": "glasses",
+    "aliases": [
+      "glasses"
+    ],
+    "label": "Glasses",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "glasses",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕶️",
+    "alias": "sunglasses",
+    "aliases": [
+      "sunglasses"
+    ],
+    "label": "Sunglasses",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "sunglasses",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🥽",
+    "alias": "goggles",
+    "aliases": [
+      "goggles"
+    ],
+    "label": "Goggles",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "goggles",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥼",
+    "alias": "lab-coat",
+    "aliases": [
+      "lab-coat"
+    ],
+    "label": "Lab Coat",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "lab coat",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🦺",
+    "alias": "safety-vest",
+    "aliases": [
+      "safety-vest"
+    ],
+    "label": "Safety Vest",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "safety vest",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👔",
+    "alias": "necktie",
+    "aliases": [
+      "necktie"
+    ],
+    "label": "Necktie",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "necktie",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👕",
+    "alias": "t-shirt",
+    "aliases": [
+      "t-shirt"
+    ],
+    "label": "T-shirt",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "t-shirt",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👖",
+    "alias": "jeans",
+    "aliases": [
+      "jeans"
+    ],
+    "label": "Jeans",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "jeans",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧣",
+    "alias": "scarf",
+    "aliases": [
+      "scarf"
+    ],
+    "label": "Scarf",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "scarf",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧤",
+    "alias": "gloves",
+    "aliases": [
+      "gloves"
+    ],
+    "label": "Gloves",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "gloves",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧥",
+    "alias": "coat",
+    "aliases": [
+      "coat"
+    ],
+    "label": "Coat",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "coat",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🧦",
+    "alias": "socks",
+    "aliases": [
+      "socks"
+    ],
+    "label": "Socks",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "socks",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "👗",
+    "alias": "dress",
+    "aliases": [
+      "dress"
+    ],
+    "label": "Dress",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "dress",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👘",
+    "alias": "kimono",
+    "aliases": [
+      "kimono"
+    ],
+    "label": "Kimono",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "kimono",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥻",
+    "alias": "sari",
+    "aliases": [
+      "sari"
+    ],
+    "label": "Sari",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "sari",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🩱",
+    "alias": "one-piece-swimsuit",
+    "aliases": [
+      "one-piece-swimsuit"
+    ],
+    "label": "One-piece Swimsuit",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "one-piece swimsuit",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🩲",
+    "alias": "briefs",
+    "aliases": [
+      "briefs"
+    ],
+    "label": "Briefs",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "briefs",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🩳",
+    "alias": "shorts",
+    "aliases": [
+      "shorts"
+    ],
+    "label": "Shorts",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "shorts",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👙",
+    "alias": "bikini",
+    "aliases": [
+      "bikini"
+    ],
+    "label": "Bikini",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bikini",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👚",
+    "alias": "woman-s-clothes",
+    "aliases": [
+      "woman-s-clothes"
+    ],
+    "label": "Woman’s Clothes",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "woman’s clothes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪭",
+    "alias": "folding-hand-fan",
+    "aliases": [
+      "folding-hand-fan"
+    ],
+    "label": "Folding Hand Fan",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "folding hand fan",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "👛",
+    "alias": "purse",
+    "aliases": [
+      "purse"
+    ],
+    "label": "Purse",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "purse",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👜",
+    "alias": "handbag",
+    "aliases": [
+      "handbag"
+    ],
+    "label": "Handbag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "handbag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👝",
+    "alias": "clutch-bag",
+    "aliases": [
+      "clutch-bag"
+    ],
+    "label": "Clutch Bag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "clutch bag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛍️",
+    "alias": "shopping-bags",
+    "aliases": [
+      "shopping-bags"
+    ],
+    "label": "Shopping Bags",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "shopping bags",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎒",
+    "alias": "backpack",
+    "aliases": [
+      "backpack"
+    ],
+    "label": "Backpack",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "backpack",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🩴",
+    "alias": "thong-sandal",
+    "aliases": [
+      "thong-sandal"
+    ],
+    "label": "Thong Sandal",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "thong sandal",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "👞",
+    "alias": "man-s-shoe",
+    "aliases": [
+      "man-s-shoe"
+    ],
+    "label": "Man’s Shoe",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "man’s shoe",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👟",
+    "alias": "running-shoe",
+    "aliases": [
+      "running-shoe"
+    ],
+    "label": "Running Shoe",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "running shoe",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🥾",
+    "alias": "hiking-boot",
+    "aliases": [
+      "hiking-boot"
+    ],
+    "label": "Hiking Boot",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "hiking boot",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🥿",
+    "alias": "flat-shoe",
+    "aliases": [
+      "flat-shoe"
+    ],
+    "label": "Flat Shoe",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "flat shoe",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "👠",
+    "alias": "high-heeled-shoe",
+    "aliases": [
+      "high-heeled-shoe"
+    ],
+    "label": "High-heeled Shoe",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "high-heeled shoe",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "👡",
+    "alias": "woman-s-sandal",
+    "aliases": [
+      "woman-s-sandal"
+    ],
+    "label": "Woman’s Sandal",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "woman’s sandal",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🩰",
+    "alias": "ballet-shoes",
+    "aliases": [
+      "ballet-shoes"
+    ],
+    "label": "Ballet Shoes",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "ballet shoes",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "👢",
+    "alias": "woman-s-boot",
+    "aliases": [
+      "woman-s-boot"
+    ],
+    "label": "Woman’s Boot",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "woman’s boot",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪮",
+    "alias": "hair-pick",
+    "aliases": [
+      "hair-pick"
+    ],
+    "label": "Hair Pick",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "hair pick",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
     "emoji": "👑",
     "alias": "crown",
+    "aliases": [
+      "crown"
+    ],
     "ox": 0,
     "oy": -0.04,
     "label": "Crown",
@@ -499,40 +15453,350 @@
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🔒",
-    "alias": "lock",
-    "label": "Locked",
+    "emoji": "👒",
+    "alias": "woman-s-hat",
+    "aliases": [
+      "woman-s-hat"
+    ],
+    "label": "Woman’s Hat",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "locked",
+    "unicodeName": "woman’s hat",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🔓",
-    "alias": "unlock",
-    "label": "Unlocked",
+    "emoji": "🎩",
+    "alias": "top-hat",
+    "aliases": [
+      "top-hat"
+    ],
+    "label": "Top Hat",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "unlocked",
+    "unicodeName": "top hat",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "📷",
-    "alias": "camera",
-    "ox": 0,
-    "oy": 0.03,
-    "label": "Camera",
+    "emoji": "🎓",
+    "alias": "graduation-cap",
+    "aliases": [
+      "graduation-cap"
+    ],
+    "label": "Graduation Cap",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "camera",
+    "unicodeName": "graduation cap",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧢",
+    "alias": "billed-cap",
+    "aliases": [
+      "billed-cap"
+    ],
+    "label": "Billed Cap",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "billed cap",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🪖",
+    "alias": "military-helmet",
+    "aliases": [
+      "military-helmet"
+    ],
+    "label": "Military Helmet",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "military helmet",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "⛑️",
+    "alias": "rescue-worker-s-helmet",
+    "aliases": [
+      "rescue-worker-s-helmet"
+    ],
+    "label": "Rescue Worker’s Helmet",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "rescue worker’s helmet",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "📿",
+    "alias": "prayer-beads",
+    "aliases": [
+      "prayer-beads"
+    ],
+    "label": "Prayer Beads",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "prayer beads",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💄",
+    "alias": "lipstick",
+    "aliases": [
+      "lipstick"
+    ],
+    "label": "Lipstick",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "lipstick",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💍",
+    "alias": "ring",
+    "aliases": [
+      "ring"
+    ],
+    "label": "Ring",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "ring",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💎",
+    "alias": "gem-stone",
+    "aliases": [
+      "gem-stone"
+    ],
+    "label": "Gem Stone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "gem stone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔇",
+    "alias": "muted-speaker",
+    "aliases": [
+      "muted-speaker"
+    ],
+    "label": "Muted Speaker",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "muted speaker",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔈",
+    "alias": "speaker-low-volume",
+    "aliases": [
+      "speaker-low-volume"
+    ],
+    "label": "Speaker Low Volume",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "speaker low volume",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🔉",
+    "alias": "speaker-medium-volume",
+    "aliases": [
+      "speaker-medium-volume"
+    ],
+    "label": "Speaker Medium Volume",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "speaker medium volume",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔊",
+    "alias": "speaker-high-volume",
+    "aliases": [
+      "speaker-high-volume"
+    ],
+    "label": "Speaker High Volume",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "speaker high volume",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📢",
+    "alias": "loudspeaker",
+    "aliases": [
+      "loudspeaker"
+    ],
+    "label": "Loudspeaker",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "loudspeaker",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📣",
+    "alias": "megaphone",
+    "aliases": [
+      "megaphone"
+    ],
+    "label": "Megaphone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "megaphone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📯",
+    "alias": "postal-horn",
+    "aliases": [
+      "postal-horn"
+    ],
+    "label": "Postal Horn",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "postal horn",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔔",
+    "alias": "bell",
+    "aliases": [
+      "bell"
+    ],
+    "label": "Bell",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bell",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔕",
+    "alias": "bell-with-slash",
+    "aliases": [
+      "bell-with-slash"
+    ],
+    "label": "Bell With Slash",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bell with slash",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🎼",
+    "alias": "musical-score",
+    "aliases": [
+      "musical-score"
+    ],
+    "label": "Musical Score",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "musical score",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎵",
+    "alias": "musical-note",
+    "aliases": [
+      "musical-note"
+    ],
+    "label": "Musical Note",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "musical note",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎶",
+    "alias": "musical-notes",
+    "aliases": [
+      "musical-notes"
+    ],
+    "label": "Musical Notes",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "musical notes",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎙️",
+    "alias": "studio-microphone",
+    "aliases": [
+      "studio-microphone"
+    ],
+    "label": "Studio Microphone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "studio microphone",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎚️",
+    "alias": "level-slider",
+    "aliases": [
+      "level-slider"
+    ],
+    "label": "Level Slider",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "level slider",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎛️",
+    "alias": "control-knobs",
+    "aliases": [
+      "control-knobs"
+    ],
+    "label": "Control Knobs",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "control knobs",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🎤",
+    "alias": "microphone",
+    "aliases": [
+      "microphone"
+    ],
+    "label": "Microphone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "microphone",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
     "emoji": "🎧",
     "alias": "headphones",
+    "aliases": [
+      "headphones",
+      "headphone"
+    ],
     "label": "Headphone",
     "group": "Objects",
     "category": "objects",
@@ -541,30 +15805,275 @@
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "📚",
-    "alias": "books",
-    "label": "Books",
+    "emoji": "📻",
+    "alias": "radio",
+    "aliases": [
+      "radio"
+    ],
+    "label": "Radio",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "books",
+    "unicodeName": "radio",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🗃️",
-    "alias": "card-box",
-    "ox": 0.01,
-    "oy": 0.04,
-    "label": "Card File Box",
+    "emoji": "🎷",
+    "alias": "saxophone",
+    "aliases": [
+      "saxophone"
+    ],
+    "label": "Saxophone",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "card file box",
-    "unicodeVersion": "0.7",
-    "emojiVersion": "0.7"
+    "unicodeName": "saxophone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪗",
+    "alias": "accordion",
+    "aliases": [
+      "accordion"
+    ],
+    "label": "Accordion",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "accordion",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🎸",
+    "alias": "guitar",
+    "aliases": [
+      "guitar"
+    ],
+    "label": "Guitar",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "guitar",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎹",
+    "alias": "musical-keyboard",
+    "aliases": [
+      "musical-keyboard"
+    ],
+    "label": "Musical Keyboard",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "musical keyboard",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎺",
+    "alias": "trumpet",
+    "aliases": [
+      "trumpet"
+    ],
+    "label": "Trumpet",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "trumpet",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎻",
+    "alias": "violin",
+    "aliases": [
+      "violin"
+    ],
+    "label": "Violin",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "violin",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪕",
+    "alias": "banjo",
+    "aliases": [
+      "banjo"
+    ],
+    "label": "Banjo",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "banjo",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🥁",
+    "alias": "drum",
+    "aliases": [
+      "drum"
+    ],
+    "label": "Drum",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "drum",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🪘",
+    "alias": "long-drum",
+    "aliases": [
+      "long-drum"
+    ],
+    "label": "Long Drum",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "long drum",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪇",
+    "alias": "maracas",
+    "aliases": [
+      "maracas"
+    ],
+    "label": "Maracas",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "maracas",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🪈",
+    "alias": "flute",
+    "aliases": [
+      "flute"
+    ],
+    "label": "Flute",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "flute",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "🪉",
+    "alias": "harp",
+    "aliases": [
+      "harp"
+    ],
+    "label": "Harp",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "harp",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "📱",
+    "alias": "phone",
+    "aliases": [
+      "phone",
+      "mobile-phone"
+    ],
+    "ox": 0,
+    "oy": 0.03,
+    "label": "Mobile Phone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "mobile phone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📲",
+    "alias": "mobile-phone-with-arrow",
+    "aliases": [
+      "mobile-phone-with-arrow"
+    ],
+    "label": "Mobile Phone With Arrow",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "mobile phone with arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☎️",
+    "alias": "telephone",
+    "aliases": [
+      "telephone"
+    ],
+    "label": "Telephone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "telephone",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📞",
+    "alias": "telephone-receiver",
+    "aliases": [
+      "telephone-receiver"
+    ],
+    "label": "Telephone Receiver",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "telephone receiver",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📟",
+    "alias": "pager",
+    "aliases": [
+      "pager"
+    ],
+    "label": "Pager",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pager",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📠",
+    "alias": "fax-machine",
+    "aliases": [
+      "fax-machine"
+    ],
+    "label": "Fax Machine",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "fax machine",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔋",
+    "alias": "battery",
+    "aliases": [
+      "battery"
+    ],
+    "label": "Battery",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "battery",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
     "emoji": "🪫",
     "alias": "battery-low",
+    "aliases": [
+      "battery-low",
+      "low-battery"
+    ],
     "label": "Low Battery",
     "group": "Objects",
     "category": "objects",
@@ -573,98 +16082,227 @@
     "emojiVersion": "14.0"
   },
   {
-    "emoji": "🔦",
-    "alias": "flashlight",
-    "label": "Flashlight",
+    "emoji": "🔌",
+    "alias": "plug",
+    "aliases": [
+      "plug",
+      "electric-plug"
+    ],
+    "ox": 0.02,
+    "oy": 0.01,
+    "label": "Electric Plug",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "flashlight",
+    "unicodeName": "electric plug",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🧼",
-    "alias": "soap",
-    "label": "Soap",
+    "emoji": "💻",
+    "alias": "laptop",
+    "aliases": [
+      "laptop"
+    ],
+    "ox": 0,
+    "oy": 0.03,
+    "label": "Laptop",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "soap",
+    "unicodeName": "laptop",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🖥️",
+    "alias": "desktop-computer",
+    "aliases": [
+      "desktop-computer"
+    ],
+    "label": "Desktop Computer",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "desktop computer",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🖨️",
+    "alias": "printer",
+    "aliases": [
+      "printer"
+    ],
+    "label": "Printer",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "printer",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⌨️",
+    "alias": "keyboard",
+    "aliases": [
+      "keyboard"
+    ],
+    "label": "Keyboard",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "keyboard",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🖱️",
+    "alias": "computer-mouse",
+    "aliases": [
+      "computer-mouse"
+    ],
+    "label": "Computer Mouse",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "computer mouse",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🖲️",
+    "alias": "trackball",
+    "aliases": [
+      "trackball"
+    ],
+    "label": "Trackball",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "trackball",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "💽",
+    "alias": "computer-disk",
+    "aliases": [
+      "computer-disk"
+    ],
+    "label": "Computer Disk",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "computer disk",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💾",
+    "alias": "floppy-disk",
+    "aliases": [
+      "floppy-disk"
+    ],
+    "ox": 0,
+    "oy": 0.02,
+    "label": "Floppy Disk",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "floppy disk",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💿",
+    "alias": "optical-disk",
+    "aliases": [
+      "optical-disk"
+    ],
+    "label": "Optical Disk",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "optical disk",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📀",
+    "alias": "dvd",
+    "aliases": [
+      "dvd"
+    ],
+    "label": "Dvd",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "dvd",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧮",
+    "alias": "abacus",
+    "aliases": [
+      "abacus"
+    ],
+    "label": "Abacus",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "abacus",
     "unicodeVersion": "11.0",
     "emojiVersion": "11.0"
   },
   {
-    "emoji": "🪵",
-    "alias": "wood",
-    "label": "Wood",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "wood",
-    "unicodeVersion": "13.0",
-    "emojiVersion": "13.0"
-  },
-  {
-    "emoji": "🛒",
-    "alias": "cart",
-    "label": "Shopping Cart",
+    "emoji": "🎥",
+    "alias": "movie-camera",
+    "aliases": [
+      "movie-camera"
+    ],
+    "label": "Movie Camera",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "shopping cart",
-    "unicodeVersion": "3.0",
-    "emojiVersion": "3.0"
+    "unicodeName": "movie camera",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
   },
   {
-    "emoji": "🧺",
-    "alias": "basket",
-    "label": "Basket",
+    "emoji": "🎞️",
+    "alias": "film-frames",
+    "aliases": [
+      "film-frames"
+    ],
+    "label": "Film Frames",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "basket",
-    "unicodeVersion": "11.0",
-    "emojiVersion": "11.0"
+    "unicodeName": "film frames",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🪣",
-    "alias": "bucket",
-    "label": "Bucket",
+    "emoji": "📽️",
+    "alias": "film-projector",
+    "aliases": [
+      "film-projector"
+    ],
+    "label": "Film Projector",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "bucket",
-    "unicodeVersion": "13.0",
-    "emojiVersion": "13.0"
+    "unicodeName": "film projector",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
-    "emoji": "🧰",
-    "alias": "toolbox",
-    "label": "Toolbox",
+    "emoji": "🎬",
+    "alias": "clapper-board",
+    "aliases": [
+      "clapper-board"
+    ],
+    "label": "Clapper Board",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "toolbox",
-    "unicodeVersion": "11.0",
-    "emojiVersion": "11.0"
-  },
-  {
-    "emoji": "🧲",
-    "alias": "magnet",
-    "label": "Magnet",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "magnet",
-    "unicodeVersion": "11.0",
-    "emojiVersion": "11.0"
-  },
-  {
-    "emoji": "🎮",
-    "alias": "gamepad",
-    "label": "Video Game",
-    "group": "Activities",
-    "category": "activities",
-    "unicodeName": "video game",
+    "unicodeName": "clapper board",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
     "emoji": "📺",
     "alias": "tv",
+    "aliases": [
+      "tv",
+      "television"
+    ],
     "ox": 0,
     "oy": 0.03,
     "label": "Television",
@@ -675,50 +16313,801 @@
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🖨️",
-    "alias": "printer",
-    "label": "Printer",
+    "emoji": "📷",
+    "alias": "camera",
+    "aliases": [
+      "camera"
+    ],
+    "ox": 0,
+    "oy": 0.03,
+    "label": "Camera",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "printer",
-    "unicodeVersion": "0.7",
-    "emojiVersion": "0.7"
-  },
-  {
-    "emoji": "💿",
-    "alias": "optical-disk",
-    "label": "Optical Disk",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "optical disk",
+    "unicodeName": "camera",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🧬",
-    "alias": "dna",
-    "label": "Dna",
+    "emoji": "📸",
+    "alias": "camera-with-flash",
+    "aliases": [
+      "camera-with-flash"
+    ],
+    "label": "Camera With Flash",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "dna",
+    "unicodeName": "camera with flash",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "📹",
+    "alias": "video-camera",
+    "aliases": [
+      "video-camera"
+    ],
+    "label": "Video Camera",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "video camera",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📼",
+    "alias": "videocassette",
+    "aliases": [
+      "videocassette"
+    ],
+    "label": "Videocassette",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "videocassette",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔍",
+    "alias": "magnifying-glass-tilted-left",
+    "aliases": [
+      "magnifying-glass-tilted-left"
+    ],
+    "label": "Magnifying Glass Tilted Left",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "magnifying glass tilted left",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔎",
+    "alias": "magnifying-glass-tilted-right",
+    "aliases": [
+      "magnifying-glass-tilted-right"
+    ],
+    "label": "Magnifying Glass Tilted Right",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "magnifying glass tilted right",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🕯️",
+    "alias": "candle",
+    "aliases": [
+      "candle"
+    ],
+    "label": "Candle",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "candle",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "💡",
+    "alias": "light-bulb",
+    "aliases": [
+      "light-bulb"
+    ],
+    "label": "Light Bulb",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "light bulb",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔦",
+    "alias": "flashlight",
+    "aliases": [
+      "flashlight"
+    ],
+    "label": "Flashlight",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "flashlight",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏮",
+    "alias": "red-paper-lantern",
+    "aliases": [
+      "red-paper-lantern"
+    ],
+    "label": "Red Paper Lantern",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "red paper lantern",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪔",
+    "alias": "diya-lamp",
+    "aliases": [
+      "diya-lamp"
+    ],
+    "label": "Diya Lamp",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "diya lamp",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "📔",
+    "alias": "notebook-with-decorative-cover",
+    "aliases": [
+      "notebook-with-decorative-cover"
+    ],
+    "label": "Notebook With Decorative Cover",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "notebook with decorative cover",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📕",
+    "alias": "closed-book",
+    "aliases": [
+      "closed-book"
+    ],
+    "label": "Closed Book",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "closed book",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📖",
+    "alias": "open-book",
+    "aliases": [
+      "open-book"
+    ],
+    "label": "Open Book",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "open book",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📗",
+    "alias": "green-book",
+    "aliases": [
+      "green-book"
+    ],
+    "label": "Green Book",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "green book",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📘",
+    "alias": "blue-book",
+    "aliases": [
+      "blue-book"
+    ],
+    "label": "Blue Book",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "blue book",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📙",
+    "alias": "orange-book",
+    "aliases": [
+      "orange-book"
+    ],
+    "label": "Orange Book",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "orange book",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📚",
+    "alias": "books",
+    "aliases": [
+      "books"
+    ],
+    "label": "Books",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "books",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📓",
+    "alias": "notebook",
+    "aliases": [
+      "notebook"
+    ],
+    "label": "Notebook",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "notebook",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📒",
+    "alias": "ledger",
+    "aliases": [
+      "ledger"
+    ],
+    "label": "Ledger",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "ledger",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📃",
+    "alias": "page-with-curl",
+    "aliases": [
+      "page-with-curl"
+    ],
+    "label": "Page With Curl",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "page with curl",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📜",
+    "alias": "scroll",
+    "aliases": [
+      "scroll"
+    ],
+    "label": "Scroll",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "scroll",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📄",
+    "alias": "page-facing-up",
+    "aliases": [
+      "page-facing-up"
+    ],
+    "label": "Page Facing Up",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "page facing up",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📰",
+    "alias": "newspaper",
+    "aliases": [
+      "newspaper"
+    ],
+    "label": "Newspaper",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "newspaper",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🗞️",
+    "alias": "rolled-up-newspaper",
+    "aliases": [
+      "rolled-up-newspaper"
+    ],
+    "label": "Rolled-up Newspaper",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "rolled-up newspaper",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "📑",
+    "alias": "bookmark-tabs",
+    "aliases": [
+      "bookmark-tabs"
+    ],
+    "label": "Bookmark Tabs",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bookmark tabs",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔖",
+    "alias": "bookmark",
+    "aliases": [
+      "bookmark"
+    ],
+    "label": "Bookmark",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bookmark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏷️",
+    "alias": "label",
+    "aliases": [
+      "label"
+    ],
+    "label": "Label",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "label",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "💰",
+    "alias": "money-bag",
+    "aliases": [
+      "money-bag"
+    ],
+    "label": "Money Bag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "money bag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪙",
+    "alias": "coin",
+    "aliases": [
+      "coin"
+    ],
+    "label": "Coin",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "coin",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "💴",
+    "alias": "yen-banknote",
+    "aliases": [
+      "yen-banknote"
+    ],
+    "label": "Yen Banknote",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "yen banknote",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💵",
+    "alias": "dollar-banknote",
+    "aliases": [
+      "dollar-banknote"
+    ],
+    "label": "Dollar Banknote",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "dollar banknote",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💶",
+    "alias": "euro-banknote",
+    "aliases": [
+      "euro-banknote"
+    ],
+    "label": "Euro Banknote",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "euro banknote",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💷",
+    "alias": "pound-banknote",
+    "aliases": [
+      "pound-banknote"
+    ],
+    "label": "Pound Banknote",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pound banknote",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💸",
+    "alias": "money-with-wings",
+    "aliases": [
+      "money-with-wings"
+    ],
+    "label": "Money With Wings",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "money with wings",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💳",
+    "alias": "credit-card",
+    "aliases": [
+      "credit-card"
+    ],
+    "label": "Credit Card",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "credit card",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🧾",
+    "alias": "receipt",
+    "aliases": [
+      "receipt"
+    ],
+    "label": "Receipt",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "receipt",
     "unicodeVersion": "11.0",
     "emojiVersion": "11.0"
   },
   {
-    "emoji": "👻",
-    "alias": "ghost",
+    "emoji": "💹",
+    "alias": "chart-increasing-with-yen",
+    "aliases": [
+      "chart-increasing-with-yen"
+    ],
+    "label": "Chart Increasing With Yen",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "chart increasing with yen",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✉️",
+    "alias": "envelope",
+    "aliases": [
+      "envelope"
+    ],
+    "label": "Envelope",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "envelope",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📧",
+    "alias": "e-mail",
+    "aliases": [
+      "e-mail"
+    ],
+    "label": "E-mail",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "e-mail",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📨",
+    "alias": "incoming-envelope",
+    "aliases": [
+      "incoming-envelope"
+    ],
+    "label": "Incoming Envelope",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "incoming envelope",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📩",
+    "alias": "envelope-with-arrow",
+    "aliases": [
+      "envelope-with-arrow"
+    ],
+    "label": "Envelope With Arrow",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "envelope with arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📤",
+    "alias": "outbox-tray",
+    "aliases": [
+      "outbox-tray"
+    ],
+    "label": "Outbox Tray",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "outbox tray",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📥",
+    "alias": "inbox-tray",
+    "aliases": [
+      "inbox-tray"
+    ],
+    "label": "Inbox Tray",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "inbox tray",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📦",
+    "alias": "box",
+    "aliases": [
+      "box",
+      "package"
+    ],
     "ox": 0,
-    "oy": 0.01,
-    "label": "Ghost",
-    "group": "Smileys & Emotion",
-    "category": "smileys-and-emotion",
-    "unicodeName": "ghost",
+    "oy": 0.03,
+    "label": "Package",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "package",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📫",
+    "alias": "mailbox",
+    "aliases": [
+      "mailbox",
+      "closed-mailbox-with-raised-flag"
+    ],
+    "label": "Closed Mailbox With Raised Flag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "closed mailbox with raised flag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📪",
+    "alias": "closed-mailbox-with-lowered-flag",
+    "aliases": [
+      "closed-mailbox-with-lowered-flag"
+    ],
+    "label": "Closed Mailbox With Lowered Flag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "closed mailbox with lowered flag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📬",
+    "alias": "open-mailbox-with-raised-flag",
+    "aliases": [
+      "open-mailbox-with-raised-flag"
+    ],
+    "label": "Open Mailbox With Raised Flag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "open mailbox with raised flag",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "📭",
+    "alias": "open-mailbox-with-lowered-flag",
+    "aliases": [
+      "open-mailbox-with-lowered-flag"
+    ],
+    "label": "Open Mailbox With Lowered Flag",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "open mailbox with lowered flag",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "📮",
+    "alias": "postbox",
+    "aliases": [
+      "postbox"
+    ],
+    "label": "Postbox",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "postbox",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🗳️",
+    "alias": "ballot-box-with-ballot",
+    "aliases": [
+      "ballot-box-with-ballot"
+    ],
+    "label": "Ballot Box With Ballot",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "ballot box with ballot",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "✏️",
+    "alias": "pencil",
+    "aliases": [
+      "pencil"
+    ],
+    "label": "Pencil",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pencil",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✒️",
+    "alias": "black-nib",
+    "aliases": [
+      "black-nib"
+    ],
+    "label": "Black Nib",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "black nib",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🖋️",
+    "alias": "fountain-pen",
+    "aliases": [
+      "fountain-pen"
+    ],
+    "label": "Fountain Pen",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "fountain pen",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🖊️",
+    "alias": "pen",
+    "aliases": [
+      "pen"
+    ],
+    "label": "Pen",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pen",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🖌️",
+    "alias": "paintbrush",
+    "aliases": [
+      "paintbrush"
+    ],
+    "label": "Paintbrush",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "paintbrush",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🖍️",
+    "alias": "crayon",
+    "aliases": [
+      "crayon"
+    ],
+    "label": "Crayon",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "crayon",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "📝",
+    "alias": "memo",
+    "aliases": [
+      "memo"
+    ],
+    "label": "Memo",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "memo",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💼",
+    "alias": "briefcase",
+    "aliases": [
+      "briefcase"
+    ],
+    "label": "Briefcase",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "briefcase",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📁",
+    "alias": "folder",
+    "aliases": [
+      "folder",
+      "file-folder"
+    ],
+    "ox": 0.01,
+    "oy": 0.03,
+    "label": "File Folder",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "file folder",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
     "emoji": "📂",
     "alias": "folder-open",
+    "aliases": [
+      "folder-open",
+      "open-file-folder"
+    ],
     "ox": 0.01,
     "oy": 0.03,
     "label": "Open File Folder",
@@ -729,18 +17118,25 @@
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🧾",
-    "alias": "receipt",
-    "label": "Receipt",
+    "emoji": "🗂️",
+    "alias": "dividers",
+    "aliases": [
+      "dividers",
+      "card-index-dividers"
+    ],
+    "label": "Card Index Dividers",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "receipt",
-    "unicodeVersion": "11.0",
-    "emojiVersion": "11.0"
+    "unicodeName": "card index dividers",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
   },
   {
     "emoji": "📅",
     "alias": "calendar",
+    "aliases": [
+      "calendar"
+    ],
     "label": "Calendar",
     "group": "Objects",
     "category": "objects",
@@ -749,18 +17145,115 @@
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "📝",
-    "alias": "memo",
-    "label": "Memo",
+    "emoji": "📆",
+    "alias": "tear-off-calendar",
+    "aliases": [
+      "tear-off-calendar"
+    ],
+    "label": "Tear-off Calendar",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "memo",
+    "unicodeName": "tear-off calendar",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🗒️",
+    "alias": "spiral-notepad",
+    "aliases": [
+      "spiral-notepad"
+    ],
+    "label": "Spiral Notepad",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "spiral notepad",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🗓️",
+    "alias": "spiral-calendar",
+    "aliases": [
+      "spiral-calendar"
+    ],
+    "label": "Spiral Calendar",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "spiral calendar",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "📇",
+    "alias": "card-index",
+    "aliases": [
+      "card-index"
+    ],
+    "label": "Card Index",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "card index",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📈",
+    "alias": "chart-increasing",
+    "aliases": [
+      "chart-increasing"
+    ],
+    "label": "Chart Increasing",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "chart increasing",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📉",
+    "alias": "chart-decreasing",
+    "aliases": [
+      "chart-decreasing"
+    ],
+    "label": "Chart Decreasing",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "chart decreasing",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📊",
+    "alias": "bar-chart",
+    "aliases": [
+      "bar-chart"
+    ],
+    "label": "Bar Chart",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bar chart",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📋",
+    "alias": "clipboard",
+    "aliases": [
+      "clipboard"
+    ],
+    "label": "Clipboard",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "clipboard",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
     "emoji": "📌",
     "alias": "pushpin",
+    "aliases": [
+      "pushpin"
+    ],
     "label": "Pushpin",
     "group": "Objects",
     "category": "objects",
@@ -769,8 +17262,185 @@
     "emojiVersion": "0.6"
   },
   {
+    "emoji": "📍",
+    "alias": "round-pushpin",
+    "aliases": [
+      "round-pushpin"
+    ],
+    "label": "Round Pushpin",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "round pushpin",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📎",
+    "alias": "paperclip",
+    "aliases": [
+      "paperclip"
+    ],
+    "label": "Paperclip",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "paperclip",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🖇️",
+    "alias": "linked-paperclips",
+    "aliases": [
+      "linked-paperclips"
+    ],
+    "label": "Linked Paperclips",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "linked paperclips",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "📏",
+    "alias": "straight-ruler",
+    "aliases": [
+      "straight-ruler"
+    ],
+    "label": "Straight Ruler",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "straight ruler",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📐",
+    "alias": "triangular-ruler",
+    "aliases": [
+      "triangular-ruler"
+    ],
+    "label": "Triangular Ruler",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "triangular ruler",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✂️",
+    "alias": "scissors",
+    "aliases": [
+      "scissors"
+    ],
+    "label": "Scissors",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "scissors",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🗃️",
+    "alias": "card-box",
+    "aliases": [
+      "card-box",
+      "card-file-box"
+    ],
+    "ox": 0.01,
+    "oy": 0.04,
+    "label": "Card File Box",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "card file box",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🗄️",
+    "alias": "file-cabinet",
+    "aliases": [
+      "file-cabinet"
+    ],
+    "label": "File Cabinet",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "file cabinet",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🗑️",
+    "alias": "wastebasket",
+    "aliases": [
+      "wastebasket"
+    ],
+    "label": "Wastebasket",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "wastebasket",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🔒",
+    "alias": "lock",
+    "aliases": [
+      "lock",
+      "locked"
+    ],
+    "label": "Locked",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "locked",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔓",
+    "alias": "unlock",
+    "aliases": [
+      "unlock",
+      "unlocked"
+    ],
+    "label": "Unlocked",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "unlocked",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔏",
+    "alias": "locked-with-pen",
+    "aliases": [
+      "locked-with-pen"
+    ],
+    "label": "Locked With Pen",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "locked with pen",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔐",
+    "alias": "locked-with-key",
+    "aliases": [
+      "locked-with-key"
+    ],
+    "label": "Locked With Key",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "locked with key",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
     "emoji": "🔑",
     "alias": "key",
+    "aliases": [
+      "key"
+    ],
     "ox": 0.03,
     "oy": 0.01,
     "label": "Key",
@@ -781,8 +17451,154 @@
     "emojiVersion": "0.6"
   },
   {
+    "emoji": "🗝️",
+    "alias": "old-key",
+    "aliases": [
+      "old-key"
+    ],
+    "label": "Old Key",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "old key",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🔨",
+    "alias": "hammer",
+    "aliases": [
+      "hammer"
+    ],
+    "label": "Hammer",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "hammer",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪓",
+    "alias": "axe",
+    "aliases": [
+      "axe"
+    ],
+    "label": "Axe",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "axe",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "⛏️",
+    "alias": "pick",
+    "aliases": [
+      "pick"
+    ],
+    "label": "Pick",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pick",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⚒️",
+    "alias": "hammer-and-pick",
+    "aliases": [
+      "hammer-and-pick"
+    ],
+    "label": "Hammer And Pick",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "hammer and pick",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛠️",
+    "alias": "hammer-and-wrench",
+    "aliases": [
+      "hammer-and-wrench"
+    ],
+    "label": "Hammer And Wrench",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "hammer and wrench",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🗡️",
+    "alias": "dagger",
+    "aliases": [
+      "dagger"
+    ],
+    "label": "Dagger",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "dagger",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⚔️",
+    "alias": "crossed-swords",
+    "aliases": [
+      "crossed-swords"
+    ],
+    "label": "Crossed Swords",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "crossed swords",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "💣",
+    "alias": "bomb",
+    "aliases": [
+      "bomb"
+    ],
+    "label": "Bomb",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bomb",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪃",
+    "alias": "boomerang",
+    "aliases": [
+      "boomerang"
+    ],
+    "label": "Boomerang",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "boomerang",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🏹",
+    "alias": "bow-and-arrow",
+    "aliases": [
+      "bow-and-arrow"
+    ],
+    "label": "Bow And Arrow",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bow and arrow",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
     "emoji": "🛡️",
     "alias": "shield",
+    "aliases": [
+      "shield"
+    ],
     "label": "Shield",
     "group": "Objects",
     "category": "objects",
@@ -791,108 +17607,245 @@
     "emojiVersion": "0.7"
   },
   {
-    "emoji": "🛰️",
-    "alias": "satellite",
-    "label": "Satellite",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "satellite",
+    "emoji": "🪚",
+    "alias": "carpentry-saw",
+    "aliases": [
+      "carpentry-saw"
+    ],
+    "label": "Carpentry Saw",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "carpentry saw",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🔧",
+    "alias": "wrench",
+    "aliases": [
+      "wrench"
+    ],
+    "label": "Wrench",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "wrench",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪛",
+    "alias": "screwdriver",
+    "aliases": [
+      "screwdriver"
+    ],
+    "label": "Screwdriver",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "screwdriver",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🔩",
+    "alias": "nut-and-bolt",
+    "aliases": [
+      "nut-and-bolt"
+    ],
+    "label": "Nut And Bolt",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "nut and bolt",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⚙️",
+    "alias": "gear",
+    "aliases": [
+      "gear"
+    ],
+    "label": "Gear",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "gear",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🗜️",
+    "alias": "clamp",
+    "aliases": [
+      "clamp"
+    ],
+    "label": "Clamp",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "clamp",
     "unicodeVersion": "0.7",
     "emojiVersion": "0.7"
   },
   {
-    "emoji": "🤖",
-    "alias": "robot",
-    "label": "Robot",
-    "group": "Smileys & Emotion",
-    "category": "smileys-and-emotion",
-    "unicodeName": "robot",
+    "emoji": "⚖️",
+    "alias": "balance-scale",
+    "aliases": [
+      "balance-scale"
+    ],
+    "label": "Balance Scale",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "balance scale",
     "unicodeVersion": "1.0",
     "emojiVersion": "1.0"
   },
   {
-    "emoji": "👽",
-    "alias": "alien",
-    "label": "Alien",
-    "group": "Smileys & Emotion",
-    "category": "smileys-and-emotion",
-    "unicodeName": "alien",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "☁️",
-    "alias": "cloud",
-    "label": "Cloud",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "cloud",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "⚡",
-    "alias": "lightning",
-    "label": "High Voltage",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "high voltage",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "💧",
-    "alias": "droplet",
-    "label": "Droplet",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "droplet",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "💩",
-    "alias": "poop",
-    "label": "Pile Of Poo",
-    "group": "Smileys & Emotion",
-    "category": "smileys-and-emotion",
-    "unicodeName": "pile of poo",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "💊",
-    "alias": "pill",
-    "label": "Pill",
+    "emoji": "🦯",
+    "alias": "white-cane",
+    "aliases": [
+      "white-cane"
+    ],
+    "label": "White Cane",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "pill",
+    "unicodeName": "white cane",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🔗",
+    "alias": "link",
+    "aliases": [
+      "link"
+    ],
+    "label": "Link",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "link",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "💉",
-    "alias": "syringe",
-    "label": "Syringe",
+    "emoji": "⛓️‍💥",
+    "alias": "broken-chain",
+    "aliases": [
+      "broken-chain"
+    ],
+    "label": "Broken Chain",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "syringe",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
+    "unicodeName": "broken chain",
+    "unicodeVersion": "15.1",
+    "emojiVersion": "15.1"
   },
   {
-    "emoji": "🔬",
-    "alias": "microscope",
-    "label": "Microscope",
+    "emoji": "⛓️",
+    "alias": "chains",
+    "aliases": [
+      "chains"
+    ],
+    "label": "Chains",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "microscope",
+    "unicodeName": "chains",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🪝",
+    "alias": "hook",
+    "aliases": [
+      "hook"
+    ],
+    "label": "Hook",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "hook",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🧰",
+    "alias": "toolbox",
+    "aliases": [
+      "toolbox"
+    ],
+    "label": "Toolbox",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "toolbox",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧲",
+    "alias": "magnet",
+    "aliases": [
+      "magnet"
+    ],
+    "label": "Magnet",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "magnet",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪜",
+    "alias": "ladder",
+    "aliases": [
+      "ladder"
+    ],
+    "label": "Ladder",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "ladder",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪏",
+    "alias": "shovel",
+    "aliases": [
+      "shovel"
+    ],
+    "label": "Shovel",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "shovel",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "⚗️",
+    "alias": "alembic",
+    "aliases": [
+      "alembic"
+    ],
+    "label": "Alembic",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "alembic",
     "unicodeVersion": "1.0",
     "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🧪",
+    "alias": "test-tube",
+    "aliases": [
+      "test-tube"
+    ],
+    "label": "Test Tube",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "test tube",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
     "emoji": "🧫",
     "alias": "petri-dish",
+    "aliases": [
+      "petri-dish"
+    ],
     "label": "Petri Dish",
     "group": "Objects",
     "category": "objects",
@@ -901,801 +17854,11265 @@
     "emojiVersion": "11.0"
   },
   {
-    "emoji": "✂️",
-    "alias": "scissors",
-    "label": "Scissors",
+    "emoji": "🧬",
+    "alias": "dna",
+    "aliases": [
+      "dna"
+    ],
+    "label": "Dna",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "scissors",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
+    "unicodeName": "dna",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
   },
   {
-    "emoji": "📎",
-    "alias": "paperclip",
-    "label": "Paperclip",
+    "emoji": "🔬",
+    "alias": "microscope",
+    "aliases": [
+      "microscope"
+    ],
+    "label": "Microscope",
     "group": "Objects",
     "category": "objects",
-    "unicodeName": "paperclip",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "📫",
-    "alias": "mailbox",
-    "label": "Closed Mailbox With Raised Flag",
-    "group": "Objects",
-    "category": "objects",
-    "unicodeName": "closed mailbox with raised flag",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🍪",
-    "alias": "cookie",
-    "label": "Cookie",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "cookie",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🍩",
-    "alias": "doughnut",
-    "label": "Doughnut",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "doughnut",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🧀",
-    "alias": "cheese",
-    "label": "Cheese Wedge",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "cheese wedge",
+    "unicodeName": "microscope",
     "unicodeVersion": "1.0",
     "emojiVersion": "1.0"
   },
   {
-    "emoji": "🥚",
-    "alias": "egg",
-    "label": "Egg",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "egg",
-    "unicodeVersion": "3.0",
-    "emojiVersion": "3.0"
-  },
-  {
-    "emoji": "🍄",
-    "alias": "mushroom",
-    "label": "Mushroom",
-    "group": "Animals & Nature",
-    "category": "animals-and-nature",
-    "unicodeName": "mushroom",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🍌",
-    "alias": "banana",
-    "label": "Banana",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "banana",
-    "unicodeVersion": "0.6",
-    "emojiVersion": "0.6"
-  },
-  {
-    "emoji": "🍐",
-    "alias": "pear",
-    "label": "Pear",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "pear",
+    "emoji": "🔭",
+    "alias": "telescope",
+    "aliases": [
+      "telescope"
+    ],
+    "label": "Telescope",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "telescope",
     "unicodeVersion": "1.0",
     "emojiVersion": "1.0"
   },
   {
-    "emoji": "🍉",
-    "alias": "watermelon",
-    "label": "Watermelon",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "watermelon",
+    "emoji": "📡",
+    "alias": "satellite-antenna",
+    "aliases": [
+      "satellite-antenna"
+    ],
+    "label": "Satellite Antenna",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "satellite antenna",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🥑",
-    "alias": "avocado",
-    "label": "Avocado",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "avocado",
-    "unicodeVersion": "3.0",
-    "emojiVersion": "3.0"
-  },
-  {
-    "emoji": "🥕",
-    "alias": "carrot",
-    "label": "Carrot",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "carrot",
-    "unicodeVersion": "3.0",
-    "emojiVersion": "3.0"
-  },
-  {
-    "emoji": "🍵",
-    "alias": "tea",
-    "label": "Teacup Without Handle",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "teacup without handle",
+    "emoji": "💉",
+    "alias": "syringe",
+    "aliases": [
+      "syringe"
+    ],
+    "label": "Syringe",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "syringe",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🍺",
-    "alias": "beer",
-    "label": "Beer Mug",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "beer mug",
+    "emoji": "🩸",
+    "alias": "drop-of-blood",
+    "aliases": [
+      "drop-of-blood"
+    ],
+    "label": "Drop Of Blood",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "drop of blood",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "💊",
+    "alias": "pill",
+    "aliases": [
+      "pill"
+    ],
+    "label": "Pill",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "pill",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🍷",
-    "alias": "wine",
-    "label": "Wine Glass",
-    "group": "Food & Drink",
-    "category": "food-and-drink",
-    "unicodeName": "wine glass",
+    "emoji": "🩹",
+    "alias": "adhesive-bandage",
+    "aliases": [
+      "adhesive-bandage"
+    ],
+    "label": "Adhesive Bandage",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "adhesive bandage",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🩼",
+    "alias": "crutch",
+    "aliases": [
+      "crutch"
+    ],
+    "label": "Crutch",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "crutch",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🩺",
+    "alias": "stethoscope",
+    "aliases": [
+      "stethoscope"
+    ],
+    "label": "Stethoscope",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "stethoscope",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🩻",
+    "alias": "x-ray",
+    "aliases": [
+      "x-ray"
+    ],
+    "label": "X-ray",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "x-ray",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🚪",
+    "alias": "door",
+    "aliases": [
+      "door"
+    ],
+    "label": "Door",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "door",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🏅",
-    "alias": "medal",
-    "label": "Sports Medal",
-    "group": "Activities",
-    "category": "activities",
-    "unicodeName": "sports medal",
+    "emoji": "🛗",
+    "alias": "elevator",
+    "aliases": [
+      "elevator"
+    ],
+    "label": "Elevator",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "elevator",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪞",
+    "alias": "mirror",
+    "aliases": [
+      "mirror"
+    ],
+    "label": "Mirror",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "mirror",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪟",
+    "alias": "window",
+    "aliases": [
+      "window"
+    ],
+    "label": "Window",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "window",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🛏️",
+    "alias": "bed",
+    "aliases": [
+      "bed"
+    ],
+    "label": "Bed",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bed",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🛋️",
+    "alias": "couch-and-lamp",
+    "aliases": [
+      "couch-and-lamp"
+    ],
+    "label": "Couch And Lamp",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "couch and lamp",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🪑",
+    "alias": "chair",
+    "aliases": [
+      "chair"
+    ],
+    "label": "Chair",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "chair",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🚽",
+    "alias": "toilet",
+    "aliases": [
+      "toilet"
+    ],
+    "label": "Toilet",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "toilet",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪠",
+    "alias": "plunger",
+    "aliases": [
+      "plunger"
+    ],
+    "label": "Plunger",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "plunger",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🚿",
+    "alias": "shower",
+    "aliases": [
+      "shower"
+    ],
+    "label": "Shower",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "shower",
     "unicodeVersion": "1.0",
     "emojiVersion": "1.0"
   },
   {
-    "emoji": "⭐",
-    "alias": "star",
-    "label": "Star",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "star",
+    "emoji": "🛁",
+    "alias": "bathtub",
+    "aliases": [
+      "bathtub"
+    ],
+    "label": "Bathtub",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bathtub",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🪤",
+    "alias": "mouse-trap",
+    "aliases": [
+      "mouse-trap"
+    ],
+    "label": "Mouse Trap",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "mouse trap",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪒",
+    "alias": "razor",
+    "aliases": [
+      "razor"
+    ],
+    "label": "Razor",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "razor",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🧴",
+    "alias": "lotion",
+    "aliases": [
+      "lotion",
+      "lotion-bottle"
+    ],
+    "label": "Lotion Bottle",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "lotion bottle",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧷",
+    "alias": "safety-pin",
+    "aliases": [
+      "safety-pin"
+    ],
+    "label": "Safety Pin",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "safety pin",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧹",
+    "alias": "broom",
+    "aliases": [
+      "broom"
+    ],
+    "label": "Broom",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "broom",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧺",
+    "alias": "basket",
+    "aliases": [
+      "basket"
+    ],
+    "label": "Basket",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "basket",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧻",
+    "alias": "roll-of-paper",
+    "aliases": [
+      "roll-of-paper"
+    ],
+    "label": "Roll Of Paper",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "roll of paper",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪣",
+    "alias": "bucket",
+    "aliases": [
+      "bucket"
+    ],
+    "label": "Bucket",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bucket",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🧼",
+    "alias": "soap",
+    "aliases": [
+      "soap"
+    ],
+    "label": "Soap",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "soap",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🫧",
+    "alias": "bubbles",
+    "aliases": [
+      "bubbles"
+    ],
+    "label": "Bubbles",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "bubbles",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🪥",
+    "alias": "toothbrush",
+    "aliases": [
+      "toothbrush"
+    ],
+    "label": "Toothbrush",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "toothbrush",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🧽",
+    "alias": "sponge",
+    "aliases": [
+      "sponge"
+    ],
+    "label": "Sponge",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "sponge",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🧯",
+    "alias": "fire-extinguisher",
+    "aliases": [
+      "fire-extinguisher"
+    ],
+    "label": "Fire Extinguisher",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "fire extinguisher",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🛒",
+    "alias": "cart",
+    "aliases": [
+      "cart",
+      "shopping-cart"
+    ],
+    "label": "Shopping Cart",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "shopping cart",
+    "unicodeVersion": "3.0",
+    "emojiVersion": "3.0"
+  },
+  {
+    "emoji": "🚬",
+    "alias": "cigarette",
+    "aliases": [
+      "cigarette"
+    ],
+    "label": "Cigarette",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "cigarette",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "🌙",
-    "alias": "moon",
-    "label": "Crescent Moon",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "crescent moon",
+    "emoji": "⚰️",
+    "alias": "coffin",
+    "aliases": [
+      "coffin"
+    ],
+    "label": "Coffin",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "coffin",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🪦",
+    "alias": "headstone",
+    "aliases": [
+      "headstone"
+    ],
+    "label": "Headstone",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "headstone",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "⚱️",
+    "alias": "funeral-urn",
+    "aliases": [
+      "funeral-urn"
+    ],
+    "label": "Funeral Urn",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "funeral urn",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🧿",
+    "alias": "nazar-amulet",
+    "aliases": [
+      "nazar-amulet"
+    ],
+    "label": "Nazar Amulet",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "nazar amulet",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🪬",
+    "alias": "hamsa",
+    "aliases": [
+      "hamsa"
+    ],
+    "label": "Hamsa",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "hamsa",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🗿",
+    "alias": "moai",
+    "aliases": [
+      "moai"
+    ],
+    "label": "Moai",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "moai",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "☀️",
-    "alias": "sun",
-    "label": "Sun",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "sun",
+    "emoji": "🪧",
+    "alias": "placard",
+    "aliases": [
+      "placard"
+    ],
+    "label": "Placard",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "placard",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🪪",
+    "alias": "identification-card",
+    "aliases": [
+      "identification-card"
+    ],
+    "label": "Identification Card",
+    "group": "Objects",
+    "category": "objects",
+    "unicodeName": "identification card",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "🏧",
+    "alias": "atm-sign",
+    "aliases": [
+      "atm-sign"
+    ],
+    "label": "ATM Sign",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "ATM sign",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
   },
   {
-    "emoji": "⏳",
-    "alias": "hourglass",
-    "label": "Hourglass Not Done",
-    "group": "Travel & Places",
-    "category": "travel-and-places",
-    "unicodeName": "hourglass not done",
+    "emoji": "🚮",
+    "alias": "litter-in-bin-sign",
+    "aliases": [
+      "litter-in-bin-sign"
+    ],
+    "label": "Litter In Bin Sign",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "litter in bin sign",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚰",
+    "alias": "potable-water",
+    "aliases": [
+      "potable-water"
+    ],
+    "label": "Potable Water",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "potable water",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "♿",
+    "alias": "wheelchair-symbol",
+    "aliases": [
+      "wheelchair-symbol"
+    ],
+    "label": "Wheelchair Symbol",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "wheelchair symbol",
     "unicodeVersion": "0.6",
     "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚹",
+    "alias": "men-s-room",
+    "aliases": [
+      "men-s-room"
+    ],
+    "label": "Men’s Room",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "men’s room",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚺",
+    "alias": "women-s-room",
+    "aliases": [
+      "women-s-room"
+    ],
+    "label": "Women’s Room",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "women’s room",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚻",
+    "alias": "restroom",
+    "aliases": [
+      "restroom"
+    ],
+    "label": "Restroom",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "restroom",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚼",
+    "alias": "baby-symbol",
+    "aliases": [
+      "baby-symbol"
+    ],
+    "label": "Baby Symbol",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "baby symbol",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚾",
+    "alias": "water-closet",
+    "aliases": [
+      "water-closet"
+    ],
+    "label": "Water Closet",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "water closet",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛂",
+    "alias": "passport-control",
+    "aliases": [
+      "passport-control"
+    ],
+    "label": "Passport Control",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "passport control",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛃",
+    "alias": "customs",
+    "aliases": [
+      "customs"
+    ],
+    "label": "Customs",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "customs",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛄",
+    "alias": "baggage-claim",
+    "aliases": [
+      "baggage-claim"
+    ],
+    "label": "Baggage Claim",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "baggage claim",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🛅",
+    "alias": "left-luggage",
+    "aliases": [
+      "left-luggage"
+    ],
+    "label": "Left Luggage",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "left luggage",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⚠️",
+    "alias": "warning",
+    "aliases": [
+      "warning"
+    ],
+    "ox": 0,
+    "oy": -0.01,
+    "label": "Warning",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "warning",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚸",
+    "alias": "children-crossing",
+    "aliases": [
+      "children-crossing"
+    ],
+    "label": "Children Crossing",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "children crossing",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⛔",
+    "alias": "no-entry",
+    "aliases": [
+      "no-entry"
+    ],
+    "label": "No Entry",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "no entry",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚫",
+    "alias": "prohibited",
+    "aliases": [
+      "prohibited"
+    ],
+    "label": "Prohibited",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "prohibited",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚳",
+    "alias": "no-bicycles",
+    "aliases": [
+      "no-bicycles"
+    ],
+    "label": "No Bicycles",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "no bicycles",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚭",
+    "alias": "no-smoking",
+    "aliases": [
+      "no-smoking"
+    ],
+    "label": "No Smoking",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "no smoking",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚯",
+    "alias": "no-littering",
+    "aliases": [
+      "no-littering"
+    ],
+    "label": "No Littering",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "no littering",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚱",
+    "alias": "non-potable-water",
+    "aliases": [
+      "non-potable-water"
+    ],
+    "label": "Non-potable Water",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "non-potable water",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🚷",
+    "alias": "no-pedestrians",
+    "aliases": [
+      "no-pedestrians"
+    ],
+    "label": "No Pedestrians",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "no pedestrians",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "📵",
+    "alias": "no-mobile-phones",
+    "aliases": [
+      "no-mobile-phones"
+    ],
+    "label": "No Mobile Phones",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "no mobile phones",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔞",
+    "alias": "no-one-under-eighteen",
+    "aliases": [
+      "no-one-under-eighteen"
+    ],
+    "label": "No One Under Eighteen",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "no one under eighteen",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☢️",
+    "alias": "radioactive",
+    "aliases": [
+      "radioactive"
+    ],
+    "label": "Radioactive",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "radioactive",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "☣️",
+    "alias": "biohazard",
+    "aliases": [
+      "biohazard"
+    ],
+    "ox": -0.01,
+    "oy": 0.01,
+    "label": "Biohazard",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "biohazard",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⬆️",
+    "alias": "up-arrow",
+    "aliases": [
+      "up-arrow"
+    ],
+    "label": "Up Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "up arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↗️",
+    "alias": "up-right-arrow",
+    "aliases": [
+      "up-right-arrow"
+    ],
+    "label": "Up-right Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "up-right arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "➡️",
+    "alias": "right-arrow",
+    "aliases": [
+      "right-arrow"
+    ],
+    "label": "Right Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "right arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↘️",
+    "alias": "down-right-arrow",
+    "aliases": [
+      "down-right-arrow"
+    ],
+    "label": "Down-right Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "down-right arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⬇️",
+    "alias": "down-arrow",
+    "aliases": [
+      "down-arrow"
+    ],
+    "label": "Down Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "down arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↙️",
+    "alias": "down-left-arrow",
+    "aliases": [
+      "down-left-arrow"
+    ],
+    "label": "Down-left Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "down-left arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⬅️",
+    "alias": "left-arrow",
+    "aliases": [
+      "left-arrow"
+    ],
+    "label": "Left Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "left arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↖️",
+    "alias": "up-left-arrow",
+    "aliases": [
+      "up-left-arrow"
+    ],
+    "label": "Up-left Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "up-left arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↕️",
+    "alias": "up-down-arrow",
+    "aliases": [
+      "up-down-arrow"
+    ],
+    "label": "Up-down Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "up-down arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↔️",
+    "alias": "left-right-arrow",
+    "aliases": [
+      "left-right-arrow"
+    ],
+    "label": "Left-right Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "left-right arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↩️",
+    "alias": "right-arrow-curving-left",
+    "aliases": [
+      "right-arrow-curving-left"
+    ],
+    "label": "Right Arrow Curving Left",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "right arrow curving left",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "↪️",
+    "alias": "left-arrow-curving-right",
+    "aliases": [
+      "left-arrow-curving-right"
+    ],
+    "label": "Left Arrow Curving Right",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "left arrow curving right",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⤴️",
+    "alias": "right-arrow-curving-up",
+    "aliases": [
+      "right-arrow-curving-up"
+    ],
+    "label": "Right Arrow Curving Up",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "right arrow curving up",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⤵️",
+    "alias": "right-arrow-curving-down",
+    "aliases": [
+      "right-arrow-curving-down"
+    ],
+    "label": "Right Arrow Curving Down",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "right arrow curving down",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔃",
+    "alias": "clockwise-vertical-arrows",
+    "aliases": [
+      "clockwise-vertical-arrows"
+    ],
+    "label": "Clockwise Vertical Arrows",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "clockwise vertical arrows",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔄",
+    "alias": "counterclockwise-arrows-button",
+    "aliases": [
+      "counterclockwise-arrows-button"
+    ],
+    "label": "Counterclockwise Arrows Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "counterclockwise arrows button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔙",
+    "alias": "back-arrow",
+    "aliases": [
+      "back-arrow"
+    ],
+    "label": "BACK Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "BACK arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔚",
+    "alias": "end-arrow",
+    "aliases": [
+      "end-arrow"
+    ],
+    "label": "END Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "END arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔛",
+    "alias": "on-arrow",
+    "aliases": [
+      "on-arrow"
+    ],
+    "label": "ON! Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "ON! arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔜",
+    "alias": "soon-arrow",
+    "aliases": [
+      "soon-arrow"
+    ],
+    "label": "SOON Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "SOON arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔝",
+    "alias": "top-arrow",
+    "aliases": [
+      "top-arrow"
+    ],
+    "label": "TOP Arrow",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "TOP arrow",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛐",
+    "alias": "place-of-worship",
+    "aliases": [
+      "place-of-worship"
+    ],
+    "label": "Place Of Worship",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "place of worship",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "⚛️",
+    "alias": "atom-symbol",
+    "aliases": [
+      "atom-symbol"
+    ],
+    "label": "Atom Symbol",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "atom symbol",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🕉️",
+    "alias": "om",
+    "aliases": [
+      "om"
+    ],
+    "label": "Om",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "om",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "✡️",
+    "alias": "star-of-david",
+    "aliases": [
+      "star-of-david"
+    ],
+    "label": "Star Of David",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "star of David",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "☸️",
+    "alias": "wheel-of-dharma",
+    "aliases": [
+      "wheel-of-dharma"
+    ],
+    "label": "Wheel Of Dharma",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "wheel of dharma",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "☯️",
+    "alias": "yin-yang",
+    "aliases": [
+      "yin-yang"
+    ],
+    "label": "Yin Yang",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "yin yang",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "✝️",
+    "alias": "latin-cross",
+    "aliases": [
+      "latin-cross"
+    ],
+    "label": "Latin Cross",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "latin cross",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "☦️",
+    "alias": "orthodox-cross",
+    "aliases": [
+      "orthodox-cross"
+    ],
+    "label": "Orthodox Cross",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "orthodox cross",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "☪️",
+    "alias": "star-and-crescent",
+    "aliases": [
+      "star-and-crescent"
+    ],
+    "label": "Star And Crescent",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "star and crescent",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "☮️",
+    "alias": "peace-symbol",
+    "aliases": [
+      "peace-symbol"
+    ],
+    "label": "Peace Symbol",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "peace symbol",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🕎",
+    "alias": "menorah",
+    "aliases": [
+      "menorah"
+    ],
+    "label": "Menorah",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "menorah",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔯",
+    "alias": "dotted-six-pointed-star",
+    "aliases": [
+      "dotted-six-pointed-star"
+    ],
+    "label": "Dotted Six-pointed Star",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "dotted six-pointed star",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🪯",
+    "alias": "khanda",
+    "aliases": [
+      "khanda"
+    ],
+    "label": "Khanda",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "khanda",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "♈",
+    "alias": "aries",
+    "aliases": [
+      "aries"
+    ],
+    "label": "Aries",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Aries",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♉",
+    "alias": "taurus",
+    "aliases": [
+      "taurus"
+    ],
+    "label": "Taurus",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Taurus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♊",
+    "alias": "gemini",
+    "aliases": [
+      "gemini"
+    ],
+    "label": "Gemini",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Gemini",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♋",
+    "alias": "cancer",
+    "aliases": [
+      "cancer"
+    ],
+    "label": "Cancer",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Cancer",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♌",
+    "alias": "leo",
+    "aliases": [
+      "leo"
+    ],
+    "label": "Leo",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Leo",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♍",
+    "alias": "virgo",
+    "aliases": [
+      "virgo"
+    ],
+    "label": "Virgo",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Virgo",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♎",
+    "alias": "libra",
+    "aliases": [
+      "libra"
+    ],
+    "label": "Libra",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Libra",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♏",
+    "alias": "scorpio",
+    "aliases": [
+      "scorpio"
+    ],
+    "label": "Scorpio",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Scorpio",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♐",
+    "alias": "sagittarius",
+    "aliases": [
+      "sagittarius"
+    ],
+    "label": "Sagittarius",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Sagittarius",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♑",
+    "alias": "capricorn",
+    "aliases": [
+      "capricorn"
+    ],
+    "label": "Capricorn",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Capricorn",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♒",
+    "alias": "aquarius",
+    "aliases": [
+      "aquarius"
+    ],
+    "label": "Aquarius",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Aquarius",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♓",
+    "alias": "pisces",
+    "aliases": [
+      "pisces"
+    ],
+    "label": "Pisces",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Pisces",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⛎",
+    "alias": "ophiuchus",
+    "aliases": [
+      "ophiuchus"
+    ],
+    "label": "Ophiuchus",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Ophiuchus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔀",
+    "alias": "shuffle-tracks-button",
+    "aliases": [
+      "shuffle-tracks-button"
+    ],
+    "label": "Shuffle Tracks Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "shuffle tracks button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔁",
+    "alias": "repeat-button",
+    "aliases": [
+      "repeat-button"
+    ],
+    "label": "Repeat Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "repeat button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔂",
+    "alias": "repeat-single-button",
+    "aliases": [
+      "repeat-single-button"
+    ],
+    "label": "Repeat Single Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "repeat single button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "▶️",
+    "alias": "play-button",
+    "aliases": [
+      "play-button"
+    ],
+    "label": "Play Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "play button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏩",
+    "alias": "fast-forward-button",
+    "aliases": [
+      "fast-forward-button"
+    ],
+    "label": "Fast-forward Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "fast-forward button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏭️",
+    "alias": "next-track-button",
+    "aliases": [
+      "next-track-button"
+    ],
+    "label": "Next Track Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "next track button",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⏯️",
+    "alias": "play-or-pause-button",
+    "aliases": [
+      "play-or-pause-button"
+    ],
+    "label": "Play Or Pause Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "play or pause button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "◀️",
+    "alias": "reverse-button",
+    "aliases": [
+      "reverse-button"
+    ],
+    "label": "Reverse Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "reverse button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏪",
+    "alias": "fast-reverse-button",
+    "aliases": [
+      "fast-reverse-button"
+    ],
+    "label": "Fast Reverse Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "fast reverse button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏮️",
+    "alias": "last-track-button",
+    "aliases": [
+      "last-track-button"
+    ],
+    "label": "Last Track Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "last track button",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🔼",
+    "alias": "upwards-button",
+    "aliases": [
+      "upwards-button"
+    ],
+    "label": "Upwards Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "upwards button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏫",
+    "alias": "fast-up-button",
+    "aliases": [
+      "fast-up-button"
+    ],
+    "label": "Fast Up Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "fast up button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔽",
+    "alias": "downwards-button",
+    "aliases": [
+      "downwards-button"
+    ],
+    "label": "Downwards Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "downwards button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏬",
+    "alias": "fast-down-button",
+    "aliases": [
+      "fast-down-button"
+    ],
+    "label": "Fast Down Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "fast down button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⏸️",
+    "alias": "pause-button",
+    "aliases": [
+      "pause-button"
+    ],
+    "label": "Pause Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "pause button",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⏹️",
+    "alias": "stop-button",
+    "aliases": [
+      "stop-button"
+    ],
+    "label": "Stop Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "stop button",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⏺️",
+    "alias": "record-button",
+    "aliases": [
+      "record-button"
+    ],
+    "label": "Record Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "record button",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "⏏️",
+    "alias": "eject-button",
+    "aliases": [
+      "eject-button"
+    ],
+    "label": "Eject Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "eject button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🎦",
+    "alias": "cinema",
+    "aliases": [
+      "cinema"
+    ],
+    "label": "Cinema",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "cinema",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔅",
+    "alias": "dim-button",
+    "aliases": [
+      "dim-button"
+    ],
+    "label": "Dim Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "dim button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔆",
+    "alias": "bright-button",
+    "aliases": [
+      "bright-button"
+    ],
+    "label": "Bright Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "bright button",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "📶",
+    "alias": "antenna-bars",
+    "aliases": [
+      "antenna-bars"
+    ],
+    "label": "Antenna Bars",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "antenna bars",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🛜",
+    "alias": "wireless",
+    "aliases": [
+      "wireless"
+    ],
+    "label": "Wireless",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "wireless",
+    "unicodeVersion": "15.0",
+    "emojiVersion": "15.0"
+  },
+  {
+    "emoji": "📳",
+    "alias": "vibration-mode",
+    "aliases": [
+      "vibration-mode"
+    ],
+    "label": "Vibration Mode",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "vibration mode",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📴",
+    "alias": "mobile-phone-off",
+    "aliases": [
+      "mobile-phone-off"
+    ],
+    "label": "Mobile Phone Off",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "mobile phone off",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "♀️",
+    "alias": "female-sign",
+    "aliases": [
+      "female-sign"
+    ],
+    "label": "Female Sign",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "female sign",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "♂️",
+    "alias": "male-sign",
+    "aliases": [
+      "male-sign"
+    ],
+    "label": "Male Sign",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "male sign",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "⚧️",
+    "alias": "transgender-symbol",
+    "aliases": [
+      "transgender-symbol"
+    ],
+    "label": "Transgender Symbol",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "transgender symbol",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "✖️",
+    "alias": "multiply",
+    "aliases": [
+      "multiply"
+    ],
+    "label": "Multiply",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "multiply",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "➕",
+    "alias": "plus",
+    "aliases": [
+      "plus"
+    ],
+    "label": "Plus",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "plus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "➖",
+    "alias": "minus",
+    "aliases": [
+      "minus"
+    ],
+    "label": "Minus",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "minus",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "➗",
+    "alias": "divide",
+    "aliases": [
+      "divide"
+    ],
+    "label": "Divide",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "divide",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🟰",
+    "alias": "heavy-equals-sign",
+    "aliases": [
+      "heavy-equals-sign"
+    ],
+    "label": "Heavy Equals Sign",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "heavy equals sign",
+    "unicodeVersion": "14.0",
+    "emojiVersion": "14.0"
+  },
+  {
+    "emoji": "♾️",
+    "alias": "infinity",
+    "aliases": [
+      "infinity"
+    ],
+    "label": "Infinity",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "infinity",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "‼️",
+    "alias": "double-exclamation-mark",
+    "aliases": [
+      "double-exclamation-mark"
+    ],
+    "label": "Double Exclamation Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "double exclamation mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⁉️",
+    "alias": "exclamation-question-mark",
+    "aliases": [
+      "exclamation-question-mark"
+    ],
+    "label": "Exclamation Question Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "exclamation question mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❓",
+    "alias": "red-question-mark",
+    "aliases": [
+      "red-question-mark"
+    ],
+    "label": "Red Question Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "red question mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❔",
+    "alias": "white-question-mark",
+    "aliases": [
+      "white-question-mark"
+    ],
+    "label": "White Question Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white question mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❕",
+    "alias": "white-exclamation-mark",
+    "aliases": [
+      "white-exclamation-mark"
+    ],
+    "label": "White Exclamation Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white exclamation mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❗",
+    "alias": "red-exclamation-mark",
+    "aliases": [
+      "red-exclamation-mark"
+    ],
+    "label": "Red Exclamation Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "red exclamation mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "〰️",
+    "alias": "wavy-dash",
+    "aliases": [
+      "wavy-dash"
+    ],
+    "label": "Wavy Dash",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "wavy dash",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💱",
+    "alias": "currency-exchange",
+    "aliases": [
+      "currency-exchange"
+    ],
+    "label": "Currency Exchange",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "currency exchange",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💲",
+    "alias": "heavy-dollar-sign",
+    "aliases": [
+      "heavy-dollar-sign"
+    ],
+    "label": "Heavy Dollar Sign",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "heavy dollar sign",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⚕️",
+    "alias": "medical-symbol",
+    "aliases": [
+      "medical-symbol"
+    ],
+    "label": "Medical Symbol",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "medical symbol",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "♻️",
+    "alias": "recycling-symbol",
+    "aliases": [
+      "recycling-symbol"
+    ],
+    "label": "Recycling Symbol",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "recycling symbol",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⚜️",
+    "alias": "fleur-de-lis",
+    "aliases": [
+      "fleur-de-lis"
+    ],
+    "label": "Fleur-de-lis",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "fleur-de-lis",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🔱",
+    "alias": "trident-emblem",
+    "aliases": [
+      "trident-emblem"
+    ],
+    "label": "Trident Emblem",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "trident emblem",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "📛",
+    "alias": "name-badge",
+    "aliases": [
+      "name-badge"
+    ],
+    "label": "Name Badge",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "name badge",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔰",
+    "alias": "japanese-symbol-for-beginner",
+    "aliases": [
+      "japanese-symbol-for-beginner"
+    ],
+    "label": "Japanese Symbol For Beginner",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese symbol for beginner",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⭕",
+    "alias": "hollow-red-circle",
+    "aliases": [
+      "hollow-red-circle"
+    ],
+    "label": "Hollow Red Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "hollow red circle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✅",
+    "alias": "check-mark-button",
+    "aliases": [
+      "check-mark-button"
+    ],
+    "label": "Check Mark Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "check mark button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "☑️",
+    "alias": "check-box-with-check",
+    "aliases": [
+      "check-box-with-check"
+    ],
+    "label": "Check Box With Check",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "check box with check",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✔️",
+    "alias": "check-mark",
+    "aliases": [
+      "check-mark"
+    ],
+    "label": "Check Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "check mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❌",
+    "alias": "cross-mark",
+    "aliases": [
+      "cross-mark"
+    ],
+    "label": "Cross Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "cross mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❎",
+    "alias": "cross-mark-button",
+    "aliases": [
+      "cross-mark-button"
+    ],
+    "label": "Cross Mark Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "cross mark button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "➰",
+    "alias": "curly-loop",
+    "aliases": [
+      "curly-loop"
+    ],
+    "label": "Curly Loop",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "curly loop",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "➿",
+    "alias": "double-curly-loop",
+    "aliases": [
+      "double-curly-loop"
+    ],
+    "label": "Double Curly Loop",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "double curly loop",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "〽️",
+    "alias": "part-alternation-mark",
+    "aliases": [
+      "part-alternation-mark"
+    ],
+    "label": "Part Alternation Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "part alternation mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✳️",
+    "alias": "eight-spoked-asterisk",
+    "aliases": [
+      "eight-spoked-asterisk"
+    ],
+    "label": "Eight-spoked Asterisk",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "eight-spoked asterisk",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "✴️",
+    "alias": "eight-pointed-star",
+    "aliases": [
+      "eight-pointed-star"
+    ],
+    "label": "Eight-pointed Star",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "eight-pointed star",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "❇️",
+    "alias": "sparkle",
+    "aliases": [
+      "sparkle"
+    ],
+    "label": "Sparkle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "sparkle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "©️",
+    "alias": "copyright",
+    "aliases": [
+      "copyright"
+    ],
+    "label": "Copyright",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "copyright",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "®️",
+    "alias": "registered",
+    "aliases": [
+      "registered"
+    ],
+    "label": "Registered",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "registered",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "™️",
+    "alias": "trade-mark",
+    "aliases": [
+      "trade-mark"
+    ],
+    "label": "Trade Mark",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "trade mark",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🫟",
+    "alias": "splatter",
+    "aliases": [
+      "splatter"
+    ],
+    "label": "Splatter",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "splatter",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "#️⃣",
+    "alias": "keycap-number-sign",
+    "aliases": [
+      "keycap-number-sign"
+    ],
+    "label": "Keycap #",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap #",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "*️⃣",
+    "alias": "keycap-asterisk",
+    "aliases": [
+      "keycap-asterisk"
+    ],
+    "label": "Keycap *",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap *",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "0️⃣",
+    "alias": "keycap-0",
+    "aliases": [
+      "keycap-0"
+    ],
+    "label": "Keycap 0",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 0",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "1️⃣",
+    "alias": "keycap-1",
+    "aliases": [
+      "keycap-1"
+    ],
+    "label": "Keycap 1",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 1",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "2️⃣",
+    "alias": "keycap-2",
+    "aliases": [
+      "keycap-2"
+    ],
+    "label": "Keycap 2",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 2",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "3️⃣",
+    "alias": "keycap-3",
+    "aliases": [
+      "keycap-3"
+    ],
+    "label": "Keycap 3",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 3",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "4️⃣",
+    "alias": "keycap-4",
+    "aliases": [
+      "keycap-4"
+    ],
+    "label": "Keycap 4",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 4",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "5️⃣",
+    "alias": "keycap-5",
+    "aliases": [
+      "keycap-5"
+    ],
+    "label": "Keycap 5",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 5",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "6️⃣",
+    "alias": "keycap-6",
+    "aliases": [
+      "keycap-6"
+    ],
+    "label": "Keycap 6",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 6",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "7️⃣",
+    "alias": "keycap-7",
+    "aliases": [
+      "keycap-7"
+    ],
+    "label": "Keycap 7",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 7",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "8️⃣",
+    "alias": "keycap-8",
+    "aliases": [
+      "keycap-8"
+    ],
+    "label": "Keycap 8",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 8",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "9️⃣",
+    "alias": "keycap-9",
+    "aliases": [
+      "keycap-9"
+    ],
+    "label": "Keycap 9",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 9",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔟",
+    "alias": "keycap-10",
+    "aliases": [
+      "keycap-10"
+    ],
+    "label": "Keycap 10",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "keycap 10",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔠",
+    "alias": "input-latin-uppercase",
+    "aliases": [
+      "input-latin-uppercase"
+    ],
+    "label": "Input Latin Uppercase",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "input latin uppercase",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔡",
+    "alias": "input-latin-lowercase",
+    "aliases": [
+      "input-latin-lowercase"
+    ],
+    "label": "Input Latin Lowercase",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "input latin lowercase",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔢",
+    "alias": "input-numbers",
+    "aliases": [
+      "input-numbers"
+    ],
+    "label": "Input Numbers",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "input numbers",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔣",
+    "alias": "input-symbols",
+    "aliases": [
+      "input-symbols"
+    ],
+    "label": "Input Symbols",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "input symbols",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔤",
+    "alias": "input-latin-letters",
+    "aliases": [
+      "input-latin-letters"
+    ],
+    "label": "Input Latin Letters",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "input latin letters",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🅰️",
+    "alias": "a-button",
+    "aliases": [
+      "a-button"
+    ],
+    "label": "A Button (blood Type)",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "A button (blood type)",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆎",
+    "alias": "ab-button",
+    "aliases": [
+      "ab-button"
+    ],
+    "label": "AB Button (blood Type)",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "AB button (blood type)",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🅱️",
+    "alias": "b-button",
+    "aliases": [
+      "b-button"
+    ],
+    "label": "B Button (blood Type)",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "B button (blood type)",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆑",
+    "alias": "cl-button",
+    "aliases": [
+      "cl-button"
+    ],
+    "label": "CL Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "CL button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆒",
+    "alias": "cool-button",
+    "aliases": [
+      "cool-button"
+    ],
+    "label": "COOL Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "COOL button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆓",
+    "alias": "free-button",
+    "aliases": [
+      "free-button"
+    ],
+    "label": "FREE Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "FREE button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "ℹ️",
+    "alias": "information",
+    "aliases": [
+      "information"
+    ],
+    "label": "Information",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "information",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆔",
+    "alias": "id-button",
+    "aliases": [
+      "id-button"
+    ],
+    "label": "ID Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "ID button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "Ⓜ️",
+    "alias": "circled-m",
+    "aliases": [
+      "circled-m"
+    ],
+    "label": "Circled M",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "circled M",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆕",
+    "alias": "new-button",
+    "aliases": [
+      "new-button"
+    ],
+    "label": "NEW Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "NEW button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆖",
+    "alias": "ng-button",
+    "aliases": [
+      "ng-button"
+    ],
+    "label": "NG Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "NG button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🅾️",
+    "alias": "o-button",
+    "aliases": [
+      "o-button"
+    ],
+    "label": "O Button (blood Type)",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "O button (blood type)",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆗",
+    "alias": "ok-button",
+    "aliases": [
+      "ok-button"
+    ],
+    "label": "OK Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "OK button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🅿️",
+    "alias": "p-button",
+    "aliases": [
+      "p-button"
+    ],
+    "label": "P Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "P button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆘",
+    "alias": "sos-button",
+    "aliases": [
+      "sos-button"
+    ],
+    "label": "SOS Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "SOS button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆙",
+    "alias": "up-button",
+    "aliases": [
+      "up-button"
+    ],
+    "label": "UP! Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "UP! button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🆚",
+    "alias": "vs-button",
+    "aliases": [
+      "vs-button"
+    ],
+    "label": "VS Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "VS button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈁",
+    "alias": "japanese-here-button",
+    "aliases": [
+      "japanese-here-button"
+    ],
+    "label": "Japanese “here” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “here” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈂️",
+    "alias": "japanese-service-charge-button",
+    "aliases": [
+      "japanese-service-charge-button"
+    ],
+    "label": "Japanese “service Charge” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “service charge” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈷️",
+    "alias": "japanese-monthly-amount-button",
+    "aliases": [
+      "japanese-monthly-amount-button"
+    ],
+    "label": "Japanese “monthly Amount” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “monthly amount” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈶",
+    "alias": "japanese-not-free-of-charge-button",
+    "aliases": [
+      "japanese-not-free-of-charge-button"
+    ],
+    "label": "Japanese “not Free Of Charge” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “not free of charge” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈯",
+    "alias": "japanese-reserved-button",
+    "aliases": [
+      "japanese-reserved-button"
+    ],
+    "label": "Japanese “reserved” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “reserved” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🉐",
+    "alias": "japanese-bargain-button",
+    "aliases": [
+      "japanese-bargain-button"
+    ],
+    "label": "Japanese “bargain” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “bargain” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈹",
+    "alias": "japanese-discount-button",
+    "aliases": [
+      "japanese-discount-button"
+    ],
+    "label": "Japanese “discount” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “discount” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈚",
+    "alias": "japanese-free-of-charge-button",
+    "aliases": [
+      "japanese-free-of-charge-button"
+    ],
+    "label": "Japanese “free Of Charge” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “free of charge” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈲",
+    "alias": "japanese-prohibited-button",
+    "aliases": [
+      "japanese-prohibited-button"
+    ],
+    "label": "Japanese “prohibited” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “prohibited” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🉑",
+    "alias": "japanese-acceptable-button",
+    "aliases": [
+      "japanese-acceptable-button"
+    ],
+    "label": "Japanese “acceptable” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “acceptable” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈸",
+    "alias": "japanese-application-button",
+    "aliases": [
+      "japanese-application-button"
+    ],
+    "label": "Japanese “application” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “application” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈴",
+    "alias": "japanese-passing-grade-button",
+    "aliases": [
+      "japanese-passing-grade-button"
+    ],
+    "label": "Japanese “passing Grade” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “passing grade” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈳",
+    "alias": "japanese-vacancy-button",
+    "aliases": [
+      "japanese-vacancy-button"
+    ],
+    "label": "Japanese “vacancy” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “vacancy” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "㊗️",
+    "alias": "japanese-congratulations-button",
+    "aliases": [
+      "japanese-congratulations-button"
+    ],
+    "label": "Japanese “congratulations” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “congratulations” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "㊙️",
+    "alias": "japanese-secret-button",
+    "aliases": [
+      "japanese-secret-button"
+    ],
+    "label": "Japanese “secret” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “secret” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈺",
+    "alias": "japanese-open-for-business-button",
+    "aliases": [
+      "japanese-open-for-business-button"
+    ],
+    "label": "Japanese “open For Business” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “open for business” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🈵",
+    "alias": "japanese-no-vacancy-button",
+    "aliases": [
+      "japanese-no-vacancy-button"
+    ],
+    "label": "Japanese “no Vacancy” Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "Japanese “no vacancy” button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔴",
+    "alias": "red-circle",
+    "aliases": [
+      "red-circle"
+    ],
+    "label": "Red Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "red circle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🟠",
+    "alias": "orange-circle",
+    "aliases": [
+      "orange-circle"
+    ],
+    "label": "Orange Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "orange circle",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟡",
+    "alias": "yellow-circle",
+    "aliases": [
+      "yellow-circle"
+    ],
+    "label": "Yellow Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "yellow circle",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟢",
+    "alias": "green-circle",
+    "aliases": [
+      "green-circle"
+    ],
+    "label": "Green Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "green circle",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🔵",
+    "alias": "blue-circle",
+    "aliases": [
+      "blue-circle"
+    ],
+    "label": "Blue Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "blue circle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🟣",
+    "alias": "purple-circle",
+    "aliases": [
+      "purple-circle"
+    ],
+    "label": "Purple Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "purple circle",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟤",
+    "alias": "brown-circle",
+    "aliases": [
+      "brown-circle"
+    ],
+    "label": "Brown Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "brown circle",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "⚫",
+    "alias": "black-circle",
+    "aliases": [
+      "black-circle"
+    ],
+    "label": "Black Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "black circle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⚪",
+    "alias": "white-circle",
+    "aliases": [
+      "white-circle"
+    ],
+    "label": "White Circle",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white circle",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🟥",
+    "alias": "red-square",
+    "aliases": [
+      "red-square"
+    ],
+    "label": "Red Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "red square",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟧",
+    "alias": "orange-square",
+    "aliases": [
+      "orange-square"
+    ],
+    "label": "Orange Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "orange square",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟨",
+    "alias": "yellow-square",
+    "aliases": [
+      "yellow-square"
+    ],
+    "label": "Yellow Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "yellow square",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟩",
+    "alias": "green-square",
+    "aliases": [
+      "green-square"
+    ],
+    "label": "Green Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "green square",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟦",
+    "alias": "blue-square",
+    "aliases": [
+      "blue-square"
+    ],
+    "label": "Blue Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "blue square",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟪",
+    "alias": "purple-square",
+    "aliases": [
+      "purple-square"
+    ],
+    "label": "Purple Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "purple square",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "🟫",
+    "alias": "brown-square",
+    "aliases": [
+      "brown-square"
+    ],
+    "label": "Brown Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "brown square",
+    "unicodeVersion": "12.0",
+    "emojiVersion": "12.0"
+  },
+  {
+    "emoji": "⬛",
+    "alias": "black-large-square",
+    "aliases": [
+      "black-large-square"
+    ],
+    "label": "Black Large Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "black large square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "⬜",
+    "alias": "white-large-square",
+    "aliases": [
+      "white-large-square"
+    ],
+    "label": "White Large Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white large square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "◼️",
+    "alias": "black-medium-square",
+    "aliases": [
+      "black-medium-square"
+    ],
+    "label": "Black Medium Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "black medium square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "◻️",
+    "alias": "white-medium-square",
+    "aliases": [
+      "white-medium-square"
+    ],
+    "label": "White Medium Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white medium square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "◾",
+    "alias": "black-medium-small-square",
+    "aliases": [
+      "black-medium-small-square"
+    ],
+    "label": "Black Medium-small Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "black medium-small square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "◽",
+    "alias": "white-medium-small-square",
+    "aliases": [
+      "white-medium-small-square"
+    ],
+    "label": "White Medium-small Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white medium-small square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "▪️",
+    "alias": "black-small-square",
+    "aliases": [
+      "black-small-square"
+    ],
+    "label": "Black Small Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "black small square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "▫️",
+    "alias": "white-small-square",
+    "aliases": [
+      "white-small-square"
+    ],
+    "label": "White Small Square",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white small square",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔶",
+    "alias": "large-orange-diamond",
+    "aliases": [
+      "large-orange-diamond"
+    ],
+    "label": "Large Orange Diamond",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "large orange diamond",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔷",
+    "alias": "large-blue-diamond",
+    "aliases": [
+      "large-blue-diamond"
+    ],
+    "label": "Large Blue Diamond",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "large blue diamond",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔸",
+    "alias": "small-orange-diamond",
+    "aliases": [
+      "small-orange-diamond"
+    ],
+    "label": "Small Orange Diamond",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "small orange diamond",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔹",
+    "alias": "small-blue-diamond",
+    "aliases": [
+      "small-blue-diamond"
+    ],
+    "label": "Small Blue Diamond",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "small blue diamond",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔺",
+    "alias": "red-triangle-pointed-up",
+    "aliases": [
+      "red-triangle-pointed-up"
+    ],
+    "label": "Red Triangle Pointed Up",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "red triangle pointed up",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔻",
+    "alias": "red-triangle-pointed-down",
+    "aliases": [
+      "red-triangle-pointed-down"
+    ],
+    "label": "Red Triangle Pointed Down",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "red triangle pointed down",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "💠",
+    "alias": "diamond-with-a-dot",
+    "aliases": [
+      "diamond-with-a-dot"
+    ],
+    "label": "Diamond With A Dot",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "diamond with a dot",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔘",
+    "alias": "radio-button",
+    "aliases": [
+      "radio-button"
+    ],
+    "label": "Radio Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "radio button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔳",
+    "alias": "white-square-button",
+    "aliases": [
+      "white-square-button"
+    ],
+    "label": "White Square Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "white square button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🔲",
+    "alias": "black-square-button",
+    "aliases": [
+      "black-square-button"
+    ],
+    "label": "Black Square Button",
+    "group": "Symbols",
+    "category": "symbols",
+    "unicodeName": "black square button",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏁",
+    "alias": "chequered-flag",
+    "aliases": [
+      "chequered-flag"
+    ],
+    "label": "Chequered Flag",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "chequered flag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🚩",
+    "alias": "triangular-flag",
+    "aliases": [
+      "triangular-flag"
+    ],
+    "label": "Triangular Flag",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "triangular flag",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🎌",
+    "alias": "crossed-flags",
+    "aliases": [
+      "crossed-flags"
+    ],
+    "label": "Crossed Flags",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "crossed flags",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🏴",
+    "alias": "black-flag",
+    "aliases": [
+      "black-flag"
+    ],
+    "label": "Black Flag",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "black flag",
+    "unicodeVersion": "1.0",
+    "emojiVersion": "1.0"
+  },
+  {
+    "emoji": "🏳️",
+    "alias": "white-flag",
+    "aliases": [
+      "white-flag"
+    ],
+    "label": "White Flag",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "white flag",
+    "unicodeVersion": "0.7",
+    "emojiVersion": "0.7"
+  },
+  {
+    "emoji": "🏳️‍🌈",
+    "alias": "rainbow-flag",
+    "aliases": [
+      "rainbow-flag"
+    ],
+    "label": "Rainbow Flag",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "rainbow flag",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🏳️‍⚧️",
+    "alias": "transgender-flag",
+    "aliases": [
+      "transgender-flag"
+    ],
+    "label": "Transgender Flag",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "transgender flag",
+    "unicodeVersion": "13.0",
+    "emojiVersion": "13.0"
+  },
+  {
+    "emoji": "🏴‍☠️",
+    "alias": "pirate-flag",
+    "aliases": [
+      "pirate-flag"
+    ],
+    "label": "Pirate Flag",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "pirate flag",
+    "unicodeVersion": "11.0",
+    "emojiVersion": "11.0"
+  },
+  {
+    "emoji": "🇦🇨",
+    "alias": "flag-ascension-island",
+    "aliases": [
+      "flag-ascension-island"
+    ],
+    "label": "Flag Ascension Island",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Ascension Island",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇩",
+    "alias": "flag-andorra",
+    "aliases": [
+      "flag-andorra"
+    ],
+    "label": "Flag Andorra",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Andorra",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇪",
+    "alias": "flag-united-arab-emirates",
+    "aliases": [
+      "flag-united-arab-emirates"
+    ],
+    "label": "Flag United Arab Emirates",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag United Arab Emirates",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇫",
+    "alias": "flag-afghanistan",
+    "aliases": [
+      "flag-afghanistan"
+    ],
+    "label": "Flag Afghanistan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Afghanistan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇬",
+    "alias": "flag-antigua-barbuda",
+    "aliases": [
+      "flag-antigua-barbuda"
+    ],
+    "label": "Flag Antigua & Barbuda",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Antigua & Barbuda",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇮",
+    "alias": "flag-anguilla",
+    "aliases": [
+      "flag-anguilla"
+    ],
+    "label": "Flag Anguilla",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Anguilla",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇱",
+    "alias": "flag-albania",
+    "aliases": [
+      "flag-albania"
+    ],
+    "label": "Flag Albania",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Albania",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇲",
+    "alias": "flag-armenia",
+    "aliases": [
+      "flag-armenia"
+    ],
+    "label": "Flag Armenia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Armenia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇴",
+    "alias": "flag-angola",
+    "aliases": [
+      "flag-angola"
+    ],
+    "label": "Flag Angola",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Angola",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇶",
+    "alias": "flag-antarctica",
+    "aliases": [
+      "flag-antarctica"
+    ],
+    "label": "Flag Antarctica",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Antarctica",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇷",
+    "alias": "flag-argentina",
+    "aliases": [
+      "flag-argentina"
+    ],
+    "label": "Flag Argentina",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Argentina",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇸",
+    "alias": "flag-american-samoa",
+    "aliases": [
+      "flag-american-samoa"
+    ],
+    "label": "Flag American Samoa",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag American Samoa",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇹",
+    "alias": "flag-austria",
+    "aliases": [
+      "flag-austria"
+    ],
+    "label": "Flag Austria",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Austria",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇺",
+    "alias": "flag-australia",
+    "aliases": [
+      "flag-australia"
+    ],
+    "label": "Flag Australia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Australia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇼",
+    "alias": "flag-aruba",
+    "aliases": [
+      "flag-aruba"
+    ],
+    "label": "Flag Aruba",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Aruba",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇽",
+    "alias": "flag-aland-islands",
+    "aliases": [
+      "flag-aland-islands"
+    ],
+    "label": "Flag Åland Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Åland Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇦🇿",
+    "alias": "flag-azerbaijan",
+    "aliases": [
+      "flag-azerbaijan"
+    ],
+    "label": "Flag Azerbaijan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Azerbaijan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇦",
+    "alias": "flag-bosnia-herzegovina",
+    "aliases": [
+      "flag-bosnia-herzegovina"
+    ],
+    "label": "Flag Bosnia & Herzegovina",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bosnia & Herzegovina",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇧",
+    "alias": "flag-barbados",
+    "aliases": [
+      "flag-barbados"
+    ],
+    "label": "Flag Barbados",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Barbados",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇩",
+    "alias": "flag-bangladesh",
+    "aliases": [
+      "flag-bangladesh"
+    ],
+    "label": "Flag Bangladesh",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bangladesh",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇪",
+    "alias": "flag-belgium",
+    "aliases": [
+      "flag-belgium"
+    ],
+    "label": "Flag Belgium",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Belgium",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇫",
+    "alias": "flag-burkina-faso",
+    "aliases": [
+      "flag-burkina-faso"
+    ],
+    "label": "Flag Burkina Faso",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Burkina Faso",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇬",
+    "alias": "flag-bulgaria",
+    "aliases": [
+      "flag-bulgaria"
+    ],
+    "label": "Flag Bulgaria",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bulgaria",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇭",
+    "alias": "flag-bahrain",
+    "aliases": [
+      "flag-bahrain"
+    ],
+    "label": "Flag Bahrain",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bahrain",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇮",
+    "alias": "flag-burundi",
+    "aliases": [
+      "flag-burundi"
+    ],
+    "label": "Flag Burundi",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Burundi",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇯",
+    "alias": "flag-benin",
+    "aliases": [
+      "flag-benin"
+    ],
+    "label": "Flag Benin",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Benin",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇱",
+    "alias": "flag-st-barthelemy",
+    "aliases": [
+      "flag-st-barthelemy"
+    ],
+    "label": "Flag St. Barthélemy",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag St. Barthélemy",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇲",
+    "alias": "flag-bermuda",
+    "aliases": [
+      "flag-bermuda"
+    ],
+    "label": "Flag Bermuda",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bermuda",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇳",
+    "alias": "flag-brunei",
+    "aliases": [
+      "flag-brunei"
+    ],
+    "label": "Flag Brunei",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Brunei",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇴",
+    "alias": "flag-bolivia",
+    "aliases": [
+      "flag-bolivia"
+    ],
+    "label": "Flag Bolivia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bolivia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇶",
+    "alias": "flag-caribbean-netherlands",
+    "aliases": [
+      "flag-caribbean-netherlands"
+    ],
+    "label": "Flag Caribbean Netherlands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Caribbean Netherlands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇷",
+    "alias": "flag-brazil",
+    "aliases": [
+      "flag-brazil"
+    ],
+    "label": "Flag Brazil",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Brazil",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇸",
+    "alias": "flag-bahamas",
+    "aliases": [
+      "flag-bahamas"
+    ],
+    "label": "Flag Bahamas",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bahamas",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇹",
+    "alias": "flag-bhutan",
+    "aliases": [
+      "flag-bhutan"
+    ],
+    "label": "Flag Bhutan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bhutan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇻",
+    "alias": "flag-bouvet-island",
+    "aliases": [
+      "flag-bouvet-island"
+    ],
+    "label": "Flag Bouvet Island",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Bouvet Island",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇼",
+    "alias": "flag-botswana",
+    "aliases": [
+      "flag-botswana"
+    ],
+    "label": "Flag Botswana",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Botswana",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇾",
+    "alias": "flag-belarus",
+    "aliases": [
+      "flag-belarus"
+    ],
+    "label": "Flag Belarus",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Belarus",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇧🇿",
+    "alias": "flag-belize",
+    "aliases": [
+      "flag-belize"
+    ],
+    "label": "Flag Belize",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Belize",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇦",
+    "alias": "flag-canada",
+    "aliases": [
+      "flag-canada"
+    ],
+    "label": "Flag Canada",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Canada",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇨",
+    "alias": "flag-cocos-islands",
+    "aliases": [
+      "flag-cocos-islands"
+    ],
+    "label": "Flag Cocos (Keeling) Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cocos (Keeling) Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇩",
+    "alias": "flag-congo-kinshasa",
+    "aliases": [
+      "flag-congo-kinshasa"
+    ],
+    "label": "Flag Congo - Kinshasa",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Congo - Kinshasa",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇫",
+    "alias": "flag-central-african-republic",
+    "aliases": [
+      "flag-central-african-republic"
+    ],
+    "label": "Flag Central African Republic",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Central African Republic",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇬",
+    "alias": "flag-congo-brazzaville",
+    "aliases": [
+      "flag-congo-brazzaville"
+    ],
+    "label": "Flag Congo - Brazzaville",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Congo - Brazzaville",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇭",
+    "alias": "flag-switzerland",
+    "aliases": [
+      "flag-switzerland"
+    ],
+    "label": "Flag Switzerland",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Switzerland",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇮",
+    "alias": "flag-cote-d-ivoire",
+    "aliases": [
+      "flag-cote-d-ivoire"
+    ],
+    "label": "Flag Côte D’Ivoire",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Côte d’Ivoire",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇰",
+    "alias": "flag-cook-islands",
+    "aliases": [
+      "flag-cook-islands"
+    ],
+    "label": "Flag Cook Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cook Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇱",
+    "alias": "flag-chile",
+    "aliases": [
+      "flag-chile"
+    ],
+    "label": "Flag Chile",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Chile",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇲",
+    "alias": "flag-cameroon",
+    "aliases": [
+      "flag-cameroon"
+    ],
+    "label": "Flag Cameroon",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cameroon",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇳",
+    "alias": "flag-china",
+    "aliases": [
+      "flag-china"
+    ],
+    "label": "Flag China",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag China",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇨🇴",
+    "alias": "flag-colombia",
+    "aliases": [
+      "flag-colombia"
+    ],
+    "label": "Flag Colombia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Colombia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇵",
+    "alias": "flag-clipperton-island",
+    "aliases": [
+      "flag-clipperton-island"
+    ],
+    "label": "Flag Clipperton Island",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Clipperton Island",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇶",
+    "alias": "flag-sark",
+    "aliases": [
+      "flag-sark"
+    ],
+    "label": "Flag Sark",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Sark",
+    "unicodeVersion": "16.0",
+    "emojiVersion": "16.0"
+  },
+  {
+    "emoji": "🇨🇷",
+    "alias": "flag-costa-rica",
+    "aliases": [
+      "flag-costa-rica"
+    ],
+    "label": "Flag Costa Rica",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Costa Rica",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇺",
+    "alias": "flag-cuba",
+    "aliases": [
+      "flag-cuba"
+    ],
+    "label": "Flag Cuba",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cuba",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇻",
+    "alias": "flag-cape-verde",
+    "aliases": [
+      "flag-cape-verde"
+    ],
+    "label": "Flag Cape Verde",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cape Verde",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇼",
+    "alias": "flag-curacao",
+    "aliases": [
+      "flag-curacao"
+    ],
+    "label": "Flag Curaçao",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Curaçao",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇽",
+    "alias": "flag-christmas-island",
+    "aliases": [
+      "flag-christmas-island"
+    ],
+    "label": "Flag Christmas Island",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Christmas Island",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇾",
+    "alias": "flag-cyprus",
+    "aliases": [
+      "flag-cyprus"
+    ],
+    "label": "Flag Cyprus",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cyprus",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇨🇿",
+    "alias": "flag-czechia",
+    "aliases": [
+      "flag-czechia"
+    ],
+    "label": "Flag Czechia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Czechia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇩🇪",
+    "alias": "flag-germany",
+    "aliases": [
+      "flag-germany"
+    ],
+    "label": "Flag Germany",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Germany",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇩🇬",
+    "alias": "flag-diego-garcia",
+    "aliases": [
+      "flag-diego-garcia"
+    ],
+    "label": "Flag Diego Garcia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Diego Garcia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇩🇯",
+    "alias": "flag-djibouti",
+    "aliases": [
+      "flag-djibouti"
+    ],
+    "label": "Flag Djibouti",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Djibouti",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇩🇰",
+    "alias": "flag-denmark",
+    "aliases": [
+      "flag-denmark"
+    ],
+    "label": "Flag Denmark",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Denmark",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇩🇲",
+    "alias": "flag-dominica",
+    "aliases": [
+      "flag-dominica"
+    ],
+    "label": "Flag Dominica",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Dominica",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇩🇴",
+    "alias": "flag-dominican-republic",
+    "aliases": [
+      "flag-dominican-republic"
+    ],
+    "label": "Flag Dominican Republic",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Dominican Republic",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇩🇿",
+    "alias": "flag-algeria",
+    "aliases": [
+      "flag-algeria"
+    ],
+    "label": "Flag Algeria",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Algeria",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇦",
+    "alias": "flag-ceuta-melilla",
+    "aliases": [
+      "flag-ceuta-melilla"
+    ],
+    "label": "Flag Ceuta & Melilla",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Ceuta & Melilla",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇨",
+    "alias": "flag-ecuador",
+    "aliases": [
+      "flag-ecuador"
+    ],
+    "label": "Flag Ecuador",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Ecuador",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇪",
+    "alias": "flag-estonia",
+    "aliases": [
+      "flag-estonia"
+    ],
+    "label": "Flag Estonia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Estonia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇬",
+    "alias": "flag-egypt",
+    "aliases": [
+      "flag-egypt"
+    ],
+    "label": "Flag Egypt",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Egypt",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇭",
+    "alias": "flag-western-sahara",
+    "aliases": [
+      "flag-western-sahara"
+    ],
+    "label": "Flag Western Sahara",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Western Sahara",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇷",
+    "alias": "flag-eritrea",
+    "aliases": [
+      "flag-eritrea"
+    ],
+    "label": "Flag Eritrea",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Eritrea",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇸",
+    "alias": "flag-spain",
+    "aliases": [
+      "flag-spain"
+    ],
+    "label": "Flag Spain",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Spain",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇪🇹",
+    "alias": "flag-ethiopia",
+    "aliases": [
+      "flag-ethiopia"
+    ],
+    "label": "Flag Ethiopia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Ethiopia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇪🇺",
+    "alias": "flag-european-union",
+    "aliases": [
+      "flag-european-union"
+    ],
+    "label": "Flag European Union",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag European Union",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇫🇮",
+    "alias": "flag-finland",
+    "aliases": [
+      "flag-finland"
+    ],
+    "label": "Flag Finland",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Finland",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇫🇯",
+    "alias": "flag-fiji",
+    "aliases": [
+      "flag-fiji"
+    ],
+    "label": "Flag Fiji",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Fiji",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇫🇰",
+    "alias": "flag-falkland-islands",
+    "aliases": [
+      "flag-falkland-islands"
+    ],
+    "label": "Flag Falkland Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Falkland Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇫🇲",
+    "alias": "flag-micronesia",
+    "aliases": [
+      "flag-micronesia"
+    ],
+    "label": "Flag Micronesia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Micronesia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇫🇴",
+    "alias": "flag-faroe-islands",
+    "aliases": [
+      "flag-faroe-islands"
+    ],
+    "label": "Flag Faroe Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Faroe Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇫🇷",
+    "alias": "flag-france",
+    "aliases": [
+      "flag-france"
+    ],
+    "label": "Flag France",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag France",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇬🇦",
+    "alias": "flag-gabon",
+    "aliases": [
+      "flag-gabon"
+    ],
+    "label": "Flag Gabon",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Gabon",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇧",
+    "alias": "flag-united-kingdom",
+    "aliases": [
+      "flag-united-kingdom"
+    ],
+    "label": "Flag United Kingdom",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag United Kingdom",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇬🇩",
+    "alias": "flag-grenada",
+    "aliases": [
+      "flag-grenada"
+    ],
+    "label": "Flag Grenada",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Grenada",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇪",
+    "alias": "flag-georgia",
+    "aliases": [
+      "flag-georgia"
+    ],
+    "label": "Flag Georgia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Georgia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇫",
+    "alias": "flag-french-guiana",
+    "aliases": [
+      "flag-french-guiana"
+    ],
+    "label": "Flag French Guiana",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag French Guiana",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇬",
+    "alias": "flag-guernsey",
+    "aliases": [
+      "flag-guernsey"
+    ],
+    "label": "Flag Guernsey",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Guernsey",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇭",
+    "alias": "flag-ghana",
+    "aliases": [
+      "flag-ghana"
+    ],
+    "label": "Flag Ghana",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Ghana",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇮",
+    "alias": "flag-gibraltar",
+    "aliases": [
+      "flag-gibraltar"
+    ],
+    "label": "Flag Gibraltar",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Gibraltar",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇱",
+    "alias": "flag-greenland",
+    "aliases": [
+      "flag-greenland"
+    ],
+    "label": "Flag Greenland",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Greenland",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇲",
+    "alias": "flag-gambia",
+    "aliases": [
+      "flag-gambia"
+    ],
+    "label": "Flag Gambia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Gambia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇳",
+    "alias": "flag-guinea",
+    "aliases": [
+      "flag-guinea"
+    ],
+    "label": "Flag Guinea",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Guinea",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇵",
+    "alias": "flag-guadeloupe",
+    "aliases": [
+      "flag-guadeloupe"
+    ],
+    "label": "Flag Guadeloupe",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Guadeloupe",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇶",
+    "alias": "flag-equatorial-guinea",
+    "aliases": [
+      "flag-equatorial-guinea"
+    ],
+    "label": "Flag Equatorial Guinea",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Equatorial Guinea",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇷",
+    "alias": "flag-greece",
+    "aliases": [
+      "flag-greece"
+    ],
+    "label": "Flag Greece",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Greece",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇸",
+    "alias": "flag-south-georgia-south-sandwich-islands",
+    "aliases": [
+      "flag-south-georgia-south-sandwich-islands"
+    ],
+    "label": "Flag South Georgia & South Sandwich Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag South Georgia & South Sandwich Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇹",
+    "alias": "flag-guatemala",
+    "aliases": [
+      "flag-guatemala"
+    ],
+    "label": "Flag Guatemala",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Guatemala",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇺",
+    "alias": "flag-guam",
+    "aliases": [
+      "flag-guam"
+    ],
+    "label": "Flag Guam",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Guam",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇼",
+    "alias": "flag-guinea-bissau",
+    "aliases": [
+      "flag-guinea-bissau"
+    ],
+    "label": "Flag Guinea-Bissau",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Guinea-Bissau",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇬🇾",
+    "alias": "flag-guyana",
+    "aliases": [
+      "flag-guyana"
+    ],
+    "label": "Flag Guyana",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Guyana",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇭🇰",
+    "alias": "flag-hong-kong-sar-china",
+    "aliases": [
+      "flag-hong-kong-sar-china"
+    ],
+    "label": "Flag Hong Kong SAR China",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Hong Kong SAR China",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇭🇲",
+    "alias": "flag-heard-mcdonald-islands",
+    "aliases": [
+      "flag-heard-mcdonald-islands"
+    ],
+    "label": "Flag Heard & McDonald Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Heard & McDonald Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇭🇳",
+    "alias": "flag-honduras",
+    "aliases": [
+      "flag-honduras"
+    ],
+    "label": "Flag Honduras",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Honduras",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇭🇷",
+    "alias": "flag-croatia",
+    "aliases": [
+      "flag-croatia"
+    ],
+    "label": "Flag Croatia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Croatia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇭🇹",
+    "alias": "flag-haiti",
+    "aliases": [
+      "flag-haiti"
+    ],
+    "label": "Flag Haiti",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Haiti",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇭🇺",
+    "alias": "flag-hungary",
+    "aliases": [
+      "flag-hungary"
+    ],
+    "label": "Flag Hungary",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Hungary",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇨",
+    "alias": "flag-canary-islands",
+    "aliases": [
+      "flag-canary-islands"
+    ],
+    "label": "Flag Canary Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Canary Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇩",
+    "alias": "flag-indonesia",
+    "aliases": [
+      "flag-indonesia"
+    ],
+    "label": "Flag Indonesia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Indonesia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇪",
+    "alias": "flag-ireland",
+    "aliases": [
+      "flag-ireland"
+    ],
+    "label": "Flag Ireland",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Ireland",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇱",
+    "alias": "flag-israel",
+    "aliases": [
+      "flag-israel"
+    ],
+    "label": "Flag Israel",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Israel",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇲",
+    "alias": "flag-isle-of-man",
+    "aliases": [
+      "flag-isle-of-man"
+    ],
+    "label": "Flag Isle Of Man",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Isle of Man",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇳",
+    "alias": "flag-india",
+    "aliases": [
+      "flag-india"
+    ],
+    "label": "Flag India",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag India",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇴",
+    "alias": "flag-british-indian-ocean-territory",
+    "aliases": [
+      "flag-british-indian-ocean-territory"
+    ],
+    "label": "Flag British Indian Ocean Territory",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag British Indian Ocean Territory",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇶",
+    "alias": "flag-iraq",
+    "aliases": [
+      "flag-iraq"
+    ],
+    "label": "Flag Iraq",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Iraq",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇷",
+    "alias": "flag-iran",
+    "aliases": [
+      "flag-iran"
+    ],
+    "label": "Flag Iran",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Iran",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇸",
+    "alias": "flag-iceland",
+    "aliases": [
+      "flag-iceland"
+    ],
+    "label": "Flag Iceland",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Iceland",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇮🇹",
+    "alias": "flag-italy",
+    "aliases": [
+      "flag-italy"
+    ],
+    "label": "Flag Italy",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Italy",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇯🇪",
+    "alias": "flag-jersey",
+    "aliases": [
+      "flag-jersey"
+    ],
+    "label": "Flag Jersey",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Jersey",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇯🇲",
+    "alias": "flag-jamaica",
+    "aliases": [
+      "flag-jamaica"
+    ],
+    "label": "Flag Jamaica",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Jamaica",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇯🇴",
+    "alias": "flag-jordan",
+    "aliases": [
+      "flag-jordan"
+    ],
+    "label": "Flag Jordan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Jordan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇯🇵",
+    "alias": "flag-japan",
+    "aliases": [
+      "flag-japan"
+    ],
+    "label": "Flag Japan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Japan",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇰🇪",
+    "alias": "flag-kenya",
+    "aliases": [
+      "flag-kenya"
+    ],
+    "label": "Flag Kenya",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Kenya",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇬",
+    "alias": "flag-kyrgyzstan",
+    "aliases": [
+      "flag-kyrgyzstan"
+    ],
+    "label": "Flag Kyrgyzstan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Kyrgyzstan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇭",
+    "alias": "flag-cambodia",
+    "aliases": [
+      "flag-cambodia"
+    ],
+    "label": "Flag Cambodia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cambodia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇮",
+    "alias": "flag-kiribati",
+    "aliases": [
+      "flag-kiribati"
+    ],
+    "label": "Flag Kiribati",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Kiribati",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇲",
+    "alias": "flag-comoros",
+    "aliases": [
+      "flag-comoros"
+    ],
+    "label": "Flag Comoros",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Comoros",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇳",
+    "alias": "flag-st-kitts-nevis",
+    "aliases": [
+      "flag-st-kitts-nevis"
+    ],
+    "label": "Flag St. Kitts & Nevis",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag St. Kitts & Nevis",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇵",
+    "alias": "flag-north-korea",
+    "aliases": [
+      "flag-north-korea"
+    ],
+    "label": "Flag North Korea",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag North Korea",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇷",
+    "alias": "flag-south-korea",
+    "aliases": [
+      "flag-south-korea"
+    ],
+    "label": "Flag South Korea",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag South Korea",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇰🇼",
+    "alias": "flag-kuwait",
+    "aliases": [
+      "flag-kuwait"
+    ],
+    "label": "Flag Kuwait",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Kuwait",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇾",
+    "alias": "flag-cayman-islands",
+    "aliases": [
+      "flag-cayman-islands"
+    ],
+    "label": "Flag Cayman Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Cayman Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇰🇿",
+    "alias": "flag-kazakhstan",
+    "aliases": [
+      "flag-kazakhstan"
+    ],
+    "label": "Flag Kazakhstan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Kazakhstan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇦",
+    "alias": "flag-laos",
+    "aliases": [
+      "flag-laos"
+    ],
+    "label": "Flag Laos",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Laos",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇧",
+    "alias": "flag-lebanon",
+    "aliases": [
+      "flag-lebanon"
+    ],
+    "label": "Flag Lebanon",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Lebanon",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇨",
+    "alias": "flag-st-lucia",
+    "aliases": [
+      "flag-st-lucia"
+    ],
+    "label": "Flag St. Lucia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag St. Lucia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇮",
+    "alias": "flag-liechtenstein",
+    "aliases": [
+      "flag-liechtenstein"
+    ],
+    "label": "Flag Liechtenstein",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Liechtenstein",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇰",
+    "alias": "flag-sri-lanka",
+    "aliases": [
+      "flag-sri-lanka"
+    ],
+    "label": "Flag Sri Lanka",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Sri Lanka",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇷",
+    "alias": "flag-liberia",
+    "aliases": [
+      "flag-liberia"
+    ],
+    "label": "Flag Liberia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Liberia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇸",
+    "alias": "flag-lesotho",
+    "aliases": [
+      "flag-lesotho"
+    ],
+    "label": "Flag Lesotho",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Lesotho",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇹",
+    "alias": "flag-lithuania",
+    "aliases": [
+      "flag-lithuania"
+    ],
+    "label": "Flag Lithuania",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Lithuania",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇺",
+    "alias": "flag-luxembourg",
+    "aliases": [
+      "flag-luxembourg"
+    ],
+    "label": "Flag Luxembourg",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Luxembourg",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇻",
+    "alias": "flag-latvia",
+    "aliases": [
+      "flag-latvia"
+    ],
+    "label": "Flag Latvia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Latvia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇱🇾",
+    "alias": "flag-libya",
+    "aliases": [
+      "flag-libya"
+    ],
+    "label": "Flag Libya",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Libya",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇦",
+    "alias": "flag-morocco",
+    "aliases": [
+      "flag-morocco"
+    ],
+    "label": "Flag Morocco",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Morocco",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇨",
+    "alias": "flag-monaco",
+    "aliases": [
+      "flag-monaco"
+    ],
+    "label": "Flag Monaco",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Monaco",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇩",
+    "alias": "flag-moldova",
+    "aliases": [
+      "flag-moldova"
+    ],
+    "label": "Flag Moldova",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Moldova",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇪",
+    "alias": "flag-montenegro",
+    "aliases": [
+      "flag-montenegro"
+    ],
+    "label": "Flag Montenegro",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Montenegro",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇫",
+    "alias": "flag-st-martin",
+    "aliases": [
+      "flag-st-martin"
+    ],
+    "label": "Flag St. Martin",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag St. Martin",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇬",
+    "alias": "flag-madagascar",
+    "aliases": [
+      "flag-madagascar"
+    ],
+    "label": "Flag Madagascar",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Madagascar",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇭",
+    "alias": "flag-marshall-islands",
+    "aliases": [
+      "flag-marshall-islands"
+    ],
+    "label": "Flag Marshall Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Marshall Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇰",
+    "alias": "flag-north-macedonia",
+    "aliases": [
+      "flag-north-macedonia"
+    ],
+    "label": "Flag North Macedonia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag North Macedonia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇱",
+    "alias": "flag-mali",
+    "aliases": [
+      "flag-mali"
+    ],
+    "label": "Flag Mali",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Mali",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇲",
+    "alias": "flag-myanmar",
+    "aliases": [
+      "flag-myanmar"
+    ],
+    "label": "Flag Myanmar (Burma)",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Myanmar (Burma)",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇳",
+    "alias": "flag-mongolia",
+    "aliases": [
+      "flag-mongolia"
+    ],
+    "label": "Flag Mongolia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Mongolia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇴",
+    "alias": "flag-macao-sar-china",
+    "aliases": [
+      "flag-macao-sar-china"
+    ],
+    "label": "Flag Macao SAR China",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Macao SAR China",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇵",
+    "alias": "flag-northern-mariana-islands",
+    "aliases": [
+      "flag-northern-mariana-islands"
+    ],
+    "label": "Flag Northern Mariana Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Northern Mariana Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇶",
+    "alias": "flag-martinique",
+    "aliases": [
+      "flag-martinique"
+    ],
+    "label": "Flag Martinique",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Martinique",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇷",
+    "alias": "flag-mauritania",
+    "aliases": [
+      "flag-mauritania"
+    ],
+    "label": "Flag Mauritania",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Mauritania",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇸",
+    "alias": "flag-montserrat",
+    "aliases": [
+      "flag-montserrat"
+    ],
+    "label": "Flag Montserrat",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Montserrat",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇹",
+    "alias": "flag-malta",
+    "aliases": [
+      "flag-malta"
+    ],
+    "label": "Flag Malta",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Malta",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇺",
+    "alias": "flag-mauritius",
+    "aliases": [
+      "flag-mauritius"
+    ],
+    "label": "Flag Mauritius",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Mauritius",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇻",
+    "alias": "flag-maldives",
+    "aliases": [
+      "flag-maldives"
+    ],
+    "label": "Flag Maldives",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Maldives",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇼",
+    "alias": "flag-malawi",
+    "aliases": [
+      "flag-malawi"
+    ],
+    "label": "Flag Malawi",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Malawi",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇽",
+    "alias": "flag-mexico",
+    "aliases": [
+      "flag-mexico"
+    ],
+    "label": "Flag Mexico",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Mexico",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇾",
+    "alias": "flag-malaysia",
+    "aliases": [
+      "flag-malaysia"
+    ],
+    "label": "Flag Malaysia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Malaysia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇲🇿",
+    "alias": "flag-mozambique",
+    "aliases": [
+      "flag-mozambique"
+    ],
+    "label": "Flag Mozambique",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Mozambique",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇦",
+    "alias": "flag-namibia",
+    "aliases": [
+      "flag-namibia"
+    ],
+    "label": "Flag Namibia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Namibia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇨",
+    "alias": "flag-new-caledonia",
+    "aliases": [
+      "flag-new-caledonia"
+    ],
+    "label": "Flag New Caledonia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag New Caledonia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇪",
+    "alias": "flag-niger",
+    "aliases": [
+      "flag-niger"
+    ],
+    "label": "Flag Niger",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Niger",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇫",
+    "alias": "flag-norfolk-island",
+    "aliases": [
+      "flag-norfolk-island"
+    ],
+    "label": "Flag Norfolk Island",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Norfolk Island",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇬",
+    "alias": "flag-nigeria",
+    "aliases": [
+      "flag-nigeria"
+    ],
+    "label": "Flag Nigeria",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Nigeria",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇮",
+    "alias": "flag-nicaragua",
+    "aliases": [
+      "flag-nicaragua"
+    ],
+    "label": "Flag Nicaragua",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Nicaragua",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇱",
+    "alias": "flag-netherlands",
+    "aliases": [
+      "flag-netherlands"
+    ],
+    "label": "Flag Netherlands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Netherlands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇴",
+    "alias": "flag-norway",
+    "aliases": [
+      "flag-norway"
+    ],
+    "label": "Flag Norway",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Norway",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇵",
+    "alias": "flag-nepal",
+    "aliases": [
+      "flag-nepal"
+    ],
+    "label": "Flag Nepal",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Nepal",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇷",
+    "alias": "flag-nauru",
+    "aliases": [
+      "flag-nauru"
+    ],
+    "label": "Flag Nauru",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Nauru",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇺",
+    "alias": "flag-niue",
+    "aliases": [
+      "flag-niue"
+    ],
+    "label": "Flag Niue",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Niue",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇳🇿",
+    "alias": "flag-new-zealand",
+    "aliases": [
+      "flag-new-zealand"
+    ],
+    "label": "Flag New Zealand",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag New Zealand",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇴🇲",
+    "alias": "flag-oman",
+    "aliases": [
+      "flag-oman"
+    ],
+    "label": "Flag Oman",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Oman",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇦",
+    "alias": "flag-panama",
+    "aliases": [
+      "flag-panama"
+    ],
+    "label": "Flag Panama",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Panama",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇪",
+    "alias": "flag-peru",
+    "aliases": [
+      "flag-peru"
+    ],
+    "label": "Flag Peru",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Peru",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇫",
+    "alias": "flag-french-polynesia",
+    "aliases": [
+      "flag-french-polynesia"
+    ],
+    "label": "Flag French Polynesia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag French Polynesia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇬",
+    "alias": "flag-papua-new-guinea",
+    "aliases": [
+      "flag-papua-new-guinea"
+    ],
+    "label": "Flag Papua New Guinea",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Papua New Guinea",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇭",
+    "alias": "flag-philippines",
+    "aliases": [
+      "flag-philippines"
+    ],
+    "label": "Flag Philippines",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Philippines",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇰",
+    "alias": "flag-pakistan",
+    "aliases": [
+      "flag-pakistan"
+    ],
+    "label": "Flag Pakistan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Pakistan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇱",
+    "alias": "flag-poland",
+    "aliases": [
+      "flag-poland"
+    ],
+    "label": "Flag Poland",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Poland",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇲",
+    "alias": "flag-st-pierre-miquelon",
+    "aliases": [
+      "flag-st-pierre-miquelon"
+    ],
+    "label": "Flag St. Pierre & Miquelon",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag St. Pierre & Miquelon",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇳",
+    "alias": "flag-pitcairn-islands",
+    "aliases": [
+      "flag-pitcairn-islands"
+    ],
+    "label": "Flag Pitcairn Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Pitcairn Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇷",
+    "alias": "flag-puerto-rico",
+    "aliases": [
+      "flag-puerto-rico"
+    ],
+    "label": "Flag Puerto Rico",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Puerto Rico",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇸",
+    "alias": "flag-palestinian-territories",
+    "aliases": [
+      "flag-palestinian-territories"
+    ],
+    "label": "Flag Palestinian Territories",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Palestinian Territories",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇹",
+    "alias": "flag-portugal",
+    "aliases": [
+      "flag-portugal"
+    ],
+    "label": "Flag Portugal",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Portugal",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇼",
+    "alias": "flag-palau",
+    "aliases": [
+      "flag-palau"
+    ],
+    "label": "Flag Palau",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Palau",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇵🇾",
+    "alias": "flag-paraguay",
+    "aliases": [
+      "flag-paraguay"
+    ],
+    "label": "Flag Paraguay",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Paraguay",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇶🇦",
+    "alias": "flag-qatar",
+    "aliases": [
+      "flag-qatar"
+    ],
+    "label": "Flag Qatar",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Qatar",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇷🇪",
+    "alias": "flag-reunion",
+    "aliases": [
+      "flag-reunion"
+    ],
+    "label": "Flag Réunion",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Réunion",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇷🇴",
+    "alias": "flag-romania",
+    "aliases": [
+      "flag-romania"
+    ],
+    "label": "Flag Romania",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Romania",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇷🇸",
+    "alias": "flag-serbia",
+    "aliases": [
+      "flag-serbia"
+    ],
+    "label": "Flag Serbia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Serbia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇷🇺",
+    "alias": "flag-russia",
+    "aliases": [
+      "flag-russia"
+    ],
+    "label": "Flag Russia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Russia",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇷🇼",
+    "alias": "flag-rwanda",
+    "aliases": [
+      "flag-rwanda"
+    ],
+    "label": "Flag Rwanda",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Rwanda",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇦",
+    "alias": "flag-saudi-arabia",
+    "aliases": [
+      "flag-saudi-arabia"
+    ],
+    "label": "Flag Saudi Arabia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Saudi Arabia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇧",
+    "alias": "flag-solomon-islands",
+    "aliases": [
+      "flag-solomon-islands"
+    ],
+    "label": "Flag Solomon Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Solomon Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇨",
+    "alias": "flag-seychelles",
+    "aliases": [
+      "flag-seychelles"
+    ],
+    "label": "Flag Seychelles",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Seychelles",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇩",
+    "alias": "flag-sudan",
+    "aliases": [
+      "flag-sudan"
+    ],
+    "label": "Flag Sudan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Sudan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇪",
+    "alias": "flag-sweden",
+    "aliases": [
+      "flag-sweden"
+    ],
+    "label": "Flag Sweden",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Sweden",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇬",
+    "alias": "flag-singapore",
+    "aliases": [
+      "flag-singapore"
+    ],
+    "label": "Flag Singapore",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Singapore",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇭",
+    "alias": "flag-st-helena",
+    "aliases": [
+      "flag-st-helena"
+    ],
+    "label": "Flag St. Helena",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag St. Helena",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇮",
+    "alias": "flag-slovenia",
+    "aliases": [
+      "flag-slovenia"
+    ],
+    "label": "Flag Slovenia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Slovenia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇯",
+    "alias": "flag-svalbard-jan-mayen",
+    "aliases": [
+      "flag-svalbard-jan-mayen"
+    ],
+    "label": "Flag Svalbard & Jan Mayen",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Svalbard & Jan Mayen",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇰",
+    "alias": "flag-slovakia",
+    "aliases": [
+      "flag-slovakia"
+    ],
+    "label": "Flag Slovakia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Slovakia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇱",
+    "alias": "flag-sierra-leone",
+    "aliases": [
+      "flag-sierra-leone"
+    ],
+    "label": "Flag Sierra Leone",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Sierra Leone",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇲",
+    "alias": "flag-san-marino",
+    "aliases": [
+      "flag-san-marino"
+    ],
+    "label": "Flag San Marino",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag San Marino",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇳",
+    "alias": "flag-senegal",
+    "aliases": [
+      "flag-senegal"
+    ],
+    "label": "Flag Senegal",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Senegal",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇴",
+    "alias": "flag-somalia",
+    "aliases": [
+      "flag-somalia"
+    ],
+    "label": "Flag Somalia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Somalia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇷",
+    "alias": "flag-suriname",
+    "aliases": [
+      "flag-suriname"
+    ],
+    "label": "Flag Suriname",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Suriname",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇸",
+    "alias": "flag-south-sudan",
+    "aliases": [
+      "flag-south-sudan"
+    ],
+    "label": "Flag South Sudan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag South Sudan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇹",
+    "alias": "flag-sao-tome-principe",
+    "aliases": [
+      "flag-sao-tome-principe"
+    ],
+    "label": "Flag São Tomé & Príncipe",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag São Tomé & Príncipe",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇻",
+    "alias": "flag-el-salvador",
+    "aliases": [
+      "flag-el-salvador"
+    ],
+    "label": "Flag El Salvador",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag El Salvador",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇽",
+    "alias": "flag-sint-maarten",
+    "aliases": [
+      "flag-sint-maarten"
+    ],
+    "label": "Flag Sint Maarten",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Sint Maarten",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇾",
+    "alias": "flag-syria",
+    "aliases": [
+      "flag-syria"
+    ],
+    "label": "Flag Syria",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Syria",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇸🇿",
+    "alias": "flag-eswatini",
+    "aliases": [
+      "flag-eswatini"
+    ],
+    "label": "Flag Eswatini",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Eswatini",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇦",
+    "alias": "flag-tristan-da-cunha",
+    "aliases": [
+      "flag-tristan-da-cunha"
+    ],
+    "label": "Flag Tristan Da Cunha",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Tristan da Cunha",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇨",
+    "alias": "flag-turks-caicos-islands",
+    "aliases": [
+      "flag-turks-caicos-islands"
+    ],
+    "label": "Flag Turks & Caicos Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Turks & Caicos Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇩",
+    "alias": "flag-chad",
+    "aliases": [
+      "flag-chad"
+    ],
+    "label": "Flag Chad",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Chad",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇫",
+    "alias": "flag-french-southern-territories",
+    "aliases": [
+      "flag-french-southern-territories"
+    ],
+    "label": "Flag French Southern Territories",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag French Southern Territories",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇬",
+    "alias": "flag-togo",
+    "aliases": [
+      "flag-togo"
+    ],
+    "label": "Flag Togo",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Togo",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇭",
+    "alias": "flag-thailand",
+    "aliases": [
+      "flag-thailand"
+    ],
+    "label": "Flag Thailand",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Thailand",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇯",
+    "alias": "flag-tajikistan",
+    "aliases": [
+      "flag-tajikistan"
+    ],
+    "label": "Flag Tajikistan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Tajikistan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇰",
+    "alias": "flag-tokelau",
+    "aliases": [
+      "flag-tokelau"
+    ],
+    "label": "Flag Tokelau",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Tokelau",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇱",
+    "alias": "flag-timor-leste",
+    "aliases": [
+      "flag-timor-leste"
+    ],
+    "label": "Flag Timor-Leste",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Timor-Leste",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇲",
+    "alias": "flag-turkmenistan",
+    "aliases": [
+      "flag-turkmenistan"
+    ],
+    "label": "Flag Turkmenistan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Turkmenistan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇳",
+    "alias": "flag-tunisia",
+    "aliases": [
+      "flag-tunisia"
+    ],
+    "label": "Flag Tunisia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Tunisia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇴",
+    "alias": "flag-tonga",
+    "aliases": [
+      "flag-tonga"
+    ],
+    "label": "Flag Tonga",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Tonga",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇷",
+    "alias": "flag-turkiye",
+    "aliases": [
+      "flag-turkiye"
+    ],
+    "label": "Flag Türkiye",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Türkiye",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇹",
+    "alias": "flag-trinidad-tobago",
+    "aliases": [
+      "flag-trinidad-tobago"
+    ],
+    "label": "Flag Trinidad & Tobago",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Trinidad & Tobago",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇻",
+    "alias": "flag-tuvalu",
+    "aliases": [
+      "flag-tuvalu"
+    ],
+    "label": "Flag Tuvalu",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Tuvalu",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇼",
+    "alias": "flag-taiwan",
+    "aliases": [
+      "flag-taiwan"
+    ],
+    "label": "Flag Taiwan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Taiwan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇹🇿",
+    "alias": "flag-tanzania",
+    "aliases": [
+      "flag-tanzania"
+    ],
+    "label": "Flag Tanzania",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Tanzania",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇺🇦",
+    "alias": "flag-ukraine",
+    "aliases": [
+      "flag-ukraine"
+    ],
+    "label": "Flag Ukraine",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Ukraine",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇺🇬",
+    "alias": "flag-uganda",
+    "aliases": [
+      "flag-uganda"
+    ],
+    "label": "Flag Uganda",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Uganda",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇺🇲",
+    "alias": "flag-u-s-outlying-islands",
+    "aliases": [
+      "flag-u-s-outlying-islands"
+    ],
+    "label": "Flag U.S. Outlying Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag U.S. Outlying Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇺🇳",
+    "alias": "flag-united-nations",
+    "aliases": [
+      "flag-united-nations"
+    ],
+    "label": "Flag United Nations",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag United Nations",
+    "unicodeVersion": "4.0",
+    "emojiVersion": "4.0"
+  },
+  {
+    "emoji": "🇺🇸",
+    "alias": "flag-united-states",
+    "aliases": [
+      "flag-united-states"
+    ],
+    "label": "Flag United States",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag United States",
+    "unicodeVersion": "0.6",
+    "emojiVersion": "0.6"
+  },
+  {
+    "emoji": "🇺🇾",
+    "alias": "flag-uruguay",
+    "aliases": [
+      "flag-uruguay"
+    ],
+    "label": "Flag Uruguay",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Uruguay",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇺🇿",
+    "alias": "flag-uzbekistan",
+    "aliases": [
+      "flag-uzbekistan"
+    ],
+    "label": "Flag Uzbekistan",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Uzbekistan",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇻🇦",
+    "alias": "flag-vatican-city",
+    "aliases": [
+      "flag-vatican-city"
+    ],
+    "label": "Flag Vatican City",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Vatican City",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇻🇨",
+    "alias": "flag-st-vincent-grenadines",
+    "aliases": [
+      "flag-st-vincent-grenadines"
+    ],
+    "label": "Flag St. Vincent & Grenadines",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag St. Vincent & Grenadines",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇻🇪",
+    "alias": "flag-venezuela",
+    "aliases": [
+      "flag-venezuela"
+    ],
+    "label": "Flag Venezuela",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Venezuela",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇻🇬",
+    "alias": "flag-british-virgin-islands",
+    "aliases": [
+      "flag-british-virgin-islands"
+    ],
+    "label": "Flag British Virgin Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag British Virgin Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇻🇮",
+    "alias": "flag-u-s-virgin-islands",
+    "aliases": [
+      "flag-u-s-virgin-islands"
+    ],
+    "label": "Flag U.S. Virgin Islands",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag U.S. Virgin Islands",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇻🇳",
+    "alias": "flag-vietnam",
+    "aliases": [
+      "flag-vietnam"
+    ],
+    "label": "Flag Vietnam",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Vietnam",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇻🇺",
+    "alias": "flag-vanuatu",
+    "aliases": [
+      "flag-vanuatu"
+    ],
+    "label": "Flag Vanuatu",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Vanuatu",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇼🇫",
+    "alias": "flag-wallis-futuna",
+    "aliases": [
+      "flag-wallis-futuna"
+    ],
+    "label": "Flag Wallis & Futuna",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Wallis & Futuna",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇼🇸",
+    "alias": "flag-samoa",
+    "aliases": [
+      "flag-samoa"
+    ],
+    "label": "Flag Samoa",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Samoa",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇽🇰",
+    "alias": "flag-kosovo",
+    "aliases": [
+      "flag-kosovo"
+    ],
+    "label": "Flag Kosovo",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Kosovo",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇾🇪",
+    "alias": "flag-yemen",
+    "aliases": [
+      "flag-yemen"
+    ],
+    "label": "Flag Yemen",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Yemen",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇾🇹",
+    "alias": "flag-mayotte",
+    "aliases": [
+      "flag-mayotte"
+    ],
+    "label": "Flag Mayotte",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Mayotte",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇿🇦",
+    "alias": "flag-south-africa",
+    "aliases": [
+      "flag-south-africa"
+    ],
+    "label": "Flag South Africa",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag South Africa",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇿🇲",
+    "alias": "flag-zambia",
+    "aliases": [
+      "flag-zambia"
+    ],
+    "label": "Flag Zambia",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Zambia",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🇿🇼",
+    "alias": "flag-zimbabwe",
+    "aliases": [
+      "flag-zimbabwe"
+    ],
+    "label": "Flag Zimbabwe",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Zimbabwe",
+    "unicodeVersion": "2.0",
+    "emojiVersion": "2.0"
+  },
+  {
+    "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "alias": "flag-england",
+    "aliases": [
+      "flag-england"
+    ],
+    "label": "Flag England",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag England",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "alias": "flag-scotland",
+    "aliases": [
+      "flag-scotland"
+    ],
+    "label": "Flag Scotland",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Scotland",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
+  },
+  {
+    "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "alias": "flag-wales",
+    "aliases": [
+      "flag-wales"
+    ],
+    "label": "Flag Wales",
+    "group": "Flags",
+    "category": "flags",
+    "unicodeName": "flag Wales",
+    "unicodeVersion": "5.0",
+    "emojiVersion": "5.0"
   }
 ],
     positions: [
   {
-    "id": "s-center",
-    "label": "Direct Center",
+    "id": "s-11",
+    "label": "Row 1 Col 1",
+    "x": -0.6,
+    "y": -0.6,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-12",
+    "label": "Row 1 Col 2",
+    "x": -0.4,
+    "y": -0.6,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-13",
+    "label": "Row 1 Col 3",
+    "x": -0.2,
+    "y": -0.6,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-14",
+    "label": "Row 1 Col 4",
+    "x": 0,
+    "y": -0.6,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-15",
+    "label": "Row 1 Col 5",
+    "x": 0.2,
+    "y": -0.6,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-16",
+    "label": "Row 1 Col 6",
+    "x": 0.4,
+    "y": -0.6,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-17",
+    "label": "Row 1 Col 7",
+    "x": 0.6,
+    "y": -0.6,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-21",
+    "label": "Row 2 Col 1",
+    "x": -0.6,
+    "y": -0.4,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-22",
+    "label": "Row 2 Col 2",
+    "x": -0.4,
+    "y": -0.4,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-23",
+    "label": "Row 2 Col 3",
+    "x": -0.2,
+    "y": -0.4,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-24",
+    "label": "Row 2 Col 4",
+    "x": 0,
+    "y": -0.4,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-25",
+    "label": "Row 2 Col 5",
+    "x": 0.2,
+    "y": -0.4,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-26",
+    "label": "Row 2 Col 6",
+    "x": 0.4,
+    "y": -0.4,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-27",
+    "label": "Row 2 Col 7",
+    "x": 0.6,
+    "y": -0.4,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-31",
+    "label": "Row 3 Col 1",
+    "x": -0.6,
+    "y": -0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-32",
+    "label": "Row 3 Col 2",
+    "x": -0.4,
+    "y": -0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-33",
+    "label": "Row 3 Col 3",
+    "x": -0.2,
+    "y": -0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-34",
+    "label": "Row 3 Col 4",
+    "x": 0,
+    "y": -0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-35",
+    "label": "Row 3 Col 5",
+    "x": 0.2,
+    "y": -0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-36",
+    "label": "Row 3 Col 6",
+    "x": 0.4,
+    "y": -0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-37",
+    "label": "Row 3 Col 7",
+    "x": 0.6,
+    "y": -0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-41",
+    "label": "Row 4 Col 1",
+    "x": -0.6,
+    "y": 0,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-42",
+    "label": "Row 4 Col 2",
+    "x": -0.4,
+    "y": 0,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-43",
+    "label": "Row 4 Col 3",
+    "x": -0.2,
+    "y": 0,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-44",
+    "label": "Center",
     "x": 0,
     "y": 0,
     "unit": "%",
-    "kind": "direct"
+    "kind": "grid"
   },
   {
-    "id": "s-tl",
-    "label": "Top Left",
-    "x": -0.333333,
-    "y": -0.333333,
-    "unit": "%",
-    "kind": "macro"
-  },
-  {
-    "id": "s-tc",
-    "label": "Top Center",
-    "x": 0,
-    "y": -0.333333,
-    "unit": "%",
-    "kind": "macro"
-  },
-  {
-    "id": "s-tr",
-    "label": "Top Right",
-    "x": 0.333333,
-    "y": -0.333333,
-    "unit": "%",
-    "kind": "macro"
-  },
-  {
-    "id": "s-ml",
-    "label": "Middle Left",
-    "x": -0.333333,
+    "id": "s-45",
+    "label": "Row 4 Col 5",
+    "x": 0.2,
     "y": 0,
     "unit": "%",
-    "kind": "macro"
+    "kind": "grid"
   },
   {
-    "id": "s-mc",
-    "label": "Middle Center",
-    "x": 0,
+    "id": "s-46",
+    "label": "Row 4 Col 6",
+    "x": 0.4,
     "y": 0,
     "unit": "%",
-    "kind": "macro"
+    "kind": "grid"
   },
   {
-    "id": "s-mr",
-    "label": "Middle Right",
-    "x": 0.333333,
+    "id": "s-47",
+    "label": "Row 4 Col 7",
+    "x": 0.6,
     "y": 0,
     "unit": "%",
-    "kind": "macro"
+    "kind": "grid"
   },
   {
-    "id": "s-bl",
-    "label": "Bottom Left",
-    "x": -0.333333,
-    "y": 0.333333,
+    "id": "s-51",
+    "label": "Row 5 Col 1",
+    "x": -0.6,
+    "y": 0.2,
     "unit": "%",
-    "kind": "macro"
+    "kind": "grid"
   },
   {
-    "id": "s-bc",
-    "label": "Bottom Center",
+    "id": "s-52",
+    "label": "Row 5 Col 2",
+    "x": -0.4,
+    "y": 0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-53",
+    "label": "Row 5 Col 3",
+    "x": -0.2,
+    "y": 0.2,
+    "unit": "%",
+    "kind": "grid"
+  },
+  {
+    "id": "s-54",
+    "label": "Row 5 Col 4",
     "x": 0,
-    "y": 0.333333,
+    "y": 0.2,
     "unit": "%",
-    "kind": "macro"
+    "kind": "grid"
   },
   {
-    "id": "s-br",
-    "label": "Bottom Right",
-    "x": 0.333333,
-    "y": 0.333333,
+    "id": "s-55",
+    "label": "Row 5 Col 5",
+    "x": 0.2,
+    "y": 0.2,
     "unit": "%",
-    "kind": "macro"
+    "kind": "grid"
   },
   {
-    "id": "s-tl-nw",
-    "label": "Top Left NW",
-    "x": -0.42,
-    "y": -0.42,
+    "id": "s-56",
+    "label": "Row 5 Col 6",
+    "x": 0.4,
+    "y": 0.2,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tl-ne",
-    "label": "Top Left NE",
-    "x": -0.25,
-    "y": -0.42,
+    "id": "s-57",
+    "label": "Row 5 Col 7",
+    "x": 0.6,
+    "y": 0.2,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tl-sw",
-    "label": "Top Left SW",
-    "x": -0.42,
-    "y": -0.25,
+    "id": "s-61",
+    "label": "Row 6 Col 1",
+    "x": -0.6,
+    "y": 0.4,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tl-se",
-    "label": "Top Left SE",
-    "x": -0.25,
-    "y": -0.25,
+    "id": "s-62",
+    "label": "Row 6 Col 2",
+    "x": -0.4,
+    "y": 0.4,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tc-nw",
-    "label": "Top Center NW",
-    "x": -0.08,
-    "y": -0.42,
+    "id": "s-63",
+    "label": "Row 6 Col 3",
+    "x": -0.2,
+    "y": 0.4,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tc-ne",
-    "label": "Top Center NE",
-    "x": 0.08,
-    "y": -0.42,
+    "id": "s-64",
+    "label": "Row 6 Col 4",
+    "x": 0,
+    "y": 0.4,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tc-sw",
-    "label": "Top Center SW",
-    "x": -0.08,
-    "y": -0.25,
+    "id": "s-65",
+    "label": "Row 6 Col 5",
+    "x": 0.2,
+    "y": 0.4,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tc-se",
-    "label": "Top Center SE",
-    "x": 0.08,
-    "y": -0.25,
+    "id": "s-66",
+    "label": "Row 6 Col 6",
+    "x": 0.4,
+    "y": 0.4,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tr-nw",
-    "label": "Top Right NW",
-    "x": 0.25,
-    "y": -0.42,
+    "id": "s-67",
+    "label": "Row 6 Col 7",
+    "x": 0.6,
+    "y": 0.4,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tr-ne",
-    "label": "Top Right NE",
-    "x": 0.42,
-    "y": -0.42,
+    "id": "s-71",
+    "label": "Row 7 Col 1",
+    "x": -0.6,
+    "y": 0.6,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tr-sw",
-    "label": "Top Right SW",
-    "x": 0.25,
-    "y": -0.25,
+    "id": "s-72",
+    "label": "Row 7 Col 2",
+    "x": -0.4,
+    "y": 0.6,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-tr-se",
-    "label": "Top Right SE",
-    "x": 0.42,
-    "y": -0.25,
+    "id": "s-73",
+    "label": "Row 7 Col 3",
+    "x": -0.2,
+    "y": 0.6,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-ml-nw",
-    "label": "Middle Left NW",
-    "x": -0.42,
-    "y": -0.08,
+    "id": "s-74",
+    "label": "Row 7 Col 4",
+    "x": 0,
+    "y": 0.6,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-ml-ne",
-    "label": "Middle Left NE",
-    "x": -0.25,
-    "y": -0.08,
+    "id": "s-75",
+    "label": "Row 7 Col 5",
+    "x": 0.2,
+    "y": 0.6,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-ml-sw",
-    "label": "Middle Left SW",
-    "x": -0.42,
-    "y": 0.08,
+    "id": "s-76",
+    "label": "Row 7 Col 6",
+    "x": 0.4,
+    "y": 0.6,
     "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   },
   {
-    "id": "s-ml-se",
-    "label": "Middle Left SE",
-    "x": -0.25,
-    "y": 0.08,
+    "id": "s-77",
+    "label": "Row 7 Col 7",
+    "x": 0.6,
+    "y": 0.6,
     "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mc-nw",
-    "label": "Middle Center NW",
-    "x": -0.08,
-    "y": -0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mc-ne",
-    "label": "Middle Center NE",
-    "x": 0.08,
-    "y": -0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mc-sw",
-    "label": "Middle Center SW",
-    "x": -0.08,
-    "y": 0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mc-se",
-    "label": "Middle Center SE",
-    "x": 0.08,
-    "y": 0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mr-nw",
-    "label": "Middle Right NW",
-    "x": 0.25,
-    "y": -0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mr-ne",
-    "label": "Middle Right NE",
-    "x": 0.42,
-    "y": -0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mr-sw",
-    "label": "Middle Right SW",
-    "x": 0.25,
-    "y": 0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-mr-se",
-    "label": "Middle Right SE",
-    "x": 0.42,
-    "y": 0.08,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bl-nw",
-    "label": "Bottom Left NW",
-    "x": -0.42,
-    "y": 0.25,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bl-ne",
-    "label": "Bottom Left NE",
-    "x": -0.25,
-    "y": 0.25,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bl-sw",
-    "label": "Bottom Left SW",
-    "x": -0.42,
-    "y": 0.42,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bl-se",
-    "label": "Bottom Left SE",
-    "x": -0.25,
-    "y": 0.42,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bc-nw",
-    "label": "Bottom Center NW",
-    "x": -0.08,
-    "y": 0.25,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bc-ne",
-    "label": "Bottom Center NE",
-    "x": 0.08,
-    "y": 0.25,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bc-sw",
-    "label": "Bottom Center SW",
-    "x": -0.08,
-    "y": 0.42,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-bc-se",
-    "label": "Bottom Center SE",
-    "x": 0.08,
-    "y": 0.42,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-br-nw",
-    "label": "Bottom Right NW",
-    "x": 0.25,
-    "y": 0.25,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-br-ne",
-    "label": "Bottom Right NE",
-    "x": 0.42,
-    "y": 0.25,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-br-sw",
-    "label": "Bottom Right SW",
-    "x": 0.25,
-    "y": 0.42,
-    "unit": "%",
-    "kind": "micro"
-  },
-  {
-    "id": "s-br-se",
-    "label": "Bottom Right SE",
-    "x": 0.42,
-    "y": 0.42,
-    "unit": "%",
-    "kind": "micro"
+    "kind": "grid"
   }
 ],
     aliasToEmoji: {
-  "e-strawberry": "🍓",
-  "e-bottle": "🍼",
-  "e-milk": "🥛",
-  "e-coffee": "☕",
-  "e-skull": "💀",
-  "e-fire": "🔥",
-  "e-laptop": "💻",
-  "e-box": "📦",
-  "e-spaghetti": "🍝",
-  "e-dividers": "🗂️",
+  "e-grinning-face": "😀",
+  "e-grinning-face-with-big-eyes": "😃",
+  "e-grinning-face-with-smiling-eyes": "😄",
+  "e-beaming-face-with-smiling-eyes": "😁",
+  "e-grinning-squinting-face": "😆",
+  "e-grinning-face-with-sweat": "😅",
+  "e-rolling-on-the-floor-laughing": "🤣",
+  "e-face-with-tears-of-joy": "😂",
+  "e-slightly-smiling-face": "🙂",
+  "e-upside-down-face": "🙃",
+  "e-melting-face": "🫠",
+  "e-winking-face": "😉",
+  "e-smiling-face-with-smiling-eyes": "😊",
   "e-angel": "😇",
-  "e-cat": "🐱",
-  "e-brain": "🧠",
-  "e-battery": "🔋",
-  "e-ramen": "🍜",
-  "e-pepper": "🌶️",
-  "e-biohazard": "☣️",
-  "e-lotion": "🧴",
-  "e-juice-box": "🧃",
-  "e-jar": "🫙",
-  "e-folder": "📁",
-  "e-floppy-disk": "💾",
-  "e-plug": "🔌",
-  "e-phone": "📱",
-  "e-test-tube": "🧪",
-  "e-lemon": "🍋",
-  "e-apple": "🍎",
-  "e-cherries": "🍒",
-  "e-burger": "🍔",
-  "e-fries": "🍟",
-  "e-pizza": "🍕",
-  "e-taco": "🌮",
-  "e-sushi": "🍣",
-  "e-bubble-tea": "🧋",
-  "e-soda": "🥤",
-  "e-ice": "🧊",
+  "e-smiling-face-with-halo": "😇",
+  "e-smiling-face-with-hearts": "🥰",
+  "e-smiling-face-with-heart-eyes": "😍",
+  "e-star-struck": "🤩",
+  "e-face-blowing-a-kiss": "😘",
+  "e-kissing-face": "😗",
+  "e-smiling-face": "☺️",
+  "e-kissing-face-with-closed-eyes": "😚",
+  "e-kissing-face-with-smiling-eyes": "😙",
+  "e-smiling-face-with-tear": "🥲",
+  "e-face-savoring-food": "😋",
+  "e-face-with-tongue": "😛",
+  "e-winking-face-with-tongue": "😜",
+  "e-zany-face": "🤪",
+  "e-squinting-face-with-tongue": "😝",
+  "e-money-mouth-face": "🤑",
+  "e-smiling-face-with-open-hands": "🤗",
+  "e-face-with-hand-over-mouth": "🤭",
+  "e-face-with-open-eyes-and-hand-over-mouth": "🫢",
+  "e-face-with-peeking-eye": "🫣",
+  "e-shushing-face": "🤫",
+  "e-thinking-face": "🤔",
+  "e-saluting-face": "🫡",
+  "e-zipper-mouth-face": "🤐",
+  "e-face-with-raised-eyebrow": "🤨",
+  "e-neutral-face": "😐",
+  "e-expressionless-face": "😑",
+  "e-face-without-mouth": "😶",
+  "e-dotted-line-face": "🫥",
+  "e-face-in-clouds": "😶‍🌫️",
+  "e-smirking-face": "😏",
+  "e-unamused-face": "😒",
+  "e-face-with-rolling-eyes": "🙄",
+  "e-grimacing-face": "😬",
+  "e-face-exhaling": "😮‍💨",
+  "e-lying-face": "🤥",
+  "e-shaking-face": "🫨",
+  "e-head-shaking-horizontally": "🙂‍↔️",
+  "e-head-shaking-vertically": "🙂‍↕️",
+  "e-relieved-face": "😌",
+  "e-pensive-face": "😔",
+  "e-sleepy-face": "😪",
+  "e-drooling-face": "🤤",
+  "e-sleeping-face": "😴",
+  "e-face-with-bags-under-eyes": "🫩",
+  "e-face-with-medical-mask": "😷",
+  "e-face-with-thermometer": "🤒",
+  "e-face-with-head-bandage": "🤕",
+  "e-nauseated-face": "🤢",
+  "e-face-vomiting": "🤮",
+  "e-sneezing-face": "🤧",
+  "e-hot-face": "🥵",
+  "e-cold-face": "🥶",
+  "e-woozy-face": "🥴",
+  "e-face-with-crossed-out-eyes": "😵",
+  "e-face-with-spiral-eyes": "😵‍💫",
+  "e-exploding-head": "🤯",
+  "e-cowboy-hat-face": "🤠",
+  "e-partying-face": "🥳",
+  "e-disguised-face": "🥸",
+  "e-smiling-face-with-sunglasses": "😎",
+  "e-nerd-face": "🤓",
+  "e-face-with-monocle": "🧐",
+  "e-confused-face": "😕",
+  "e-face-with-diagonal-mouth": "🫤",
+  "e-worried-face": "😟",
+  "e-slightly-frowning-face": "🙁",
+  "e-frowning-face": "☹️",
+  "e-face-with-open-mouth": "😮",
+  "e-hushed-face": "😯",
+  "e-astonished-face": "😲",
+  "e-flushed-face": "😳",
+  "e-pleading-face": "🥺",
+  "e-face-holding-back-tears": "🥹",
+  "e-frowning-face-with-open-mouth": "😦",
+  "e-anguished-face": "😧",
+  "e-fearful-face": "😨",
+  "e-anxious-face-with-sweat": "😰",
+  "e-sad-but-relieved-face": "😥",
+  "e-crying-face": "😢",
+  "e-loudly-crying-face": "😭",
+  "e-face-screaming-in-fear": "😱",
+  "e-confounded-face": "😖",
+  "e-persevering-face": "😣",
+  "e-disappointed-face": "😞",
+  "e-downcast-face-with-sweat": "😓",
+  "e-weary-face": "😩",
+  "e-tired-face": "😫",
+  "e-yawning-face": "🥱",
+  "e-face-with-steam-from-nose": "😤",
+  "e-enraged-face": "😡",
+  "e-angry-face": "😠",
+  "e-face-with-symbols-on-mouth": "🤬",
+  "e-smiling-face-with-horns": "😈",
+  "e-angry-face-with-horns": "👿",
+  "e-skull": "💀",
+  "e-skull-and-crossbones": "☠️",
+  "e-poop": "💩",
+  "e-pile-of-poo": "💩",
+  "e-clown-face": "🤡",
+  "e-ogre": "👹",
+  "e-goblin": "👺",
+  "e-ghost": "👻",
+  "e-alien": "👽",
+  "e-alien-monster": "👾",
+  "e-robot": "🤖",
+  "e-grinning-cat": "😺",
+  "e-grinning-cat-with-smiling-eyes": "😸",
+  "e-cat-with-tears-of-joy": "😹",
+  "e-smiling-cat-with-heart-eyes": "😻",
+  "e-cat-with-wry-smile": "😼",
+  "e-kissing-cat": "😽",
+  "e-weary-cat": "🙀",
+  "e-crying-cat": "😿",
+  "e-pouting-cat": "😾",
+  "e-see-no-evil-monkey": "🙈",
+  "e-hear-no-evil-monkey": "🙉",
+  "e-speak-no-evil-monkey": "🙊",
+  "e-love-letter": "💌",
+  "e-heart-with-arrow": "💘",
+  "e-heart-with-ribbon": "💝",
+  "e-sparkling-heart": "💖",
+  "e-growing-heart": "💗",
+  "e-beating-heart": "💓",
+  "e-revolving-hearts": "💞",
+  "e-two-hearts": "💕",
+  "e-heart-decoration": "💟",
+  "e-heart-exclamation": "❣️",
+  "e-broken-heart": "💔",
+  "e-heart-on-fire": "❤️‍🔥",
+  "e-mending-heart": "❤️‍🩹",
   "e-heart": "❤️",
-  "e-warning": "⚠️",
-  "e-sparkles": "✨",
-  "e-bomb": "💣",
-  "e-eye": "👁️",
+  "e-red-heart": "❤️",
+  "e-pink-heart": "🩷",
+  "e-orange-heart": "🧡",
+  "e-yellow-heart": "💛",
+  "e-green-heart": "💚",
+  "e-blue-heart": "💙",
+  "e-light-blue-heart": "🩵",
+  "e-purple-heart": "💜",
+  "e-brown-heart": "🤎",
+  "e-black-heart": "🖤",
+  "e-grey-heart": "🩶",
+  "e-white-heart": "🤍",
+  "e-kiss-mark": "💋",
+  "e-hundred-points": "💯",
+  "e-anger-symbol": "💢",
+  "e-collision": "💥",
+  "e-dizzy": "💫",
+  "e-sweat-droplets": "💦",
+  "e-dashing-away": "💨",
+  "e-hole": "🕳️",
+  "e-speech-balloon": "💬",
+  "e-eye-in-speech-bubble": "👁️‍🗨️",
+  "e-left-speech-bubble": "🗨️",
+  "e-right-anger-bubble": "🗯️",
+  "e-thought-balloon": "💭",
+  "e-zzz": "💤",
+  "e-waving-hand": "👋",
+  "e-raised-back-of-hand": "🤚",
+  "e-hand-with-fingers-splayed": "🖐️",
+  "e-raised-hand": "✋",
+  "e-vulcan-salute": "🖖",
+  "e-rightwards-hand": "🫱",
+  "e-leftwards-hand": "🫲",
+  "e-palm-down-hand": "🫳",
+  "e-palm-up-hand": "🫴",
+  "e-leftwards-pushing-hand": "🫷",
+  "e-rightwards-pushing-hand": "🫸",
+  "e-ok-hand": "👌",
+  "e-pinched-fingers": "🤌",
+  "e-pinching-hand": "🤏",
+  "e-victory-hand": "✌️",
+  "e-crossed-fingers": "🤞",
+  "e-hand-with-index-finger-and-thumb-crossed": "🫰",
+  "e-love-you-gesture": "🤟",
+  "e-sign-of-the-horns": "🤘",
+  "e-call-me-hand": "🤙",
+  "e-backhand-index-pointing-left": "👈",
+  "e-backhand-index-pointing-right": "👉",
+  "e-backhand-index-pointing-up": "👆",
+  "e-middle-finger": "🖕",
+  "e-backhand-index-pointing-down": "👇",
+  "e-index-pointing-up": "☝️",
+  "e-index-pointing-at-the-viewer": "🫵",
+  "e-thumbs-up": "👍",
+  "e-thumbs-down": "👎",
+  "e-raised-fist": "✊",
+  "e-oncoming-fist": "👊",
+  "e-left-facing-fist": "🤛",
+  "e-right-facing-fist": "🤜",
+  "e-clapping-hands": "👏",
+  "e-raising-hands": "🙌",
+  "e-heart-hands": "🫶",
+  "e-open-hands": "👐",
+  "e-palms-up-together": "🤲",
+  "e-handshake": "🤝",
+  "e-folded-hands": "🙏",
+  "e-writing-hand": "✍️",
+  "e-nail-polish": "💅",
+  "e-selfie": "🤳",
+  "e-flexed-biceps": "💪",
+  "e-mechanical-arm": "🦾",
+  "e-mechanical-leg": "🦿",
+  "e-leg": "🦵",
+  "e-foot": "🦶",
+  "e-ear": "👂",
+  "e-ear-with-hearing-aid": "🦻",
+  "e-nose": "👃",
+  "e-brain": "🧠",
+  "e-anatomical-heart": "🫀",
+  "e-lungs": "🫁",
+  "e-tooth": "🦷",
   "e-bone": "🦴",
-  "e-frog": "🐸",
+  "e-eyes": "👀",
+  "e-eye": "👁️",
+  "e-tongue": "👅",
+  "e-mouth": "👄",
+  "e-biting-lip": "🫦",
+  "e-baby": "👶",
+  "e-child": "🧒",
+  "e-boy": "👦",
+  "e-girl": "👧",
+  "e-person": "🧑",
+  "e-person-blond-hair": "👱",
+  "e-man": "👨",
+  "e-person-beard": "🧔",
+  "e-man-beard": "🧔‍♂️",
+  "e-woman-beard": "🧔‍♀️",
+  "e-man-red-hair": "👨‍🦰",
+  "e-man-curly-hair": "👨‍🦱",
+  "e-man-white-hair": "👨‍🦳",
+  "e-man-bald": "👨‍🦲",
+  "e-woman": "👩",
+  "e-woman-red-hair": "👩‍🦰",
+  "e-person-red-hair": "🧑‍🦰",
+  "e-woman-curly-hair": "👩‍🦱",
+  "e-person-curly-hair": "🧑‍🦱",
+  "e-woman-white-hair": "👩‍🦳",
+  "e-person-white-hair": "🧑‍🦳",
+  "e-woman-bald": "👩‍🦲",
+  "e-person-bald": "🧑‍🦲",
+  "e-woman-blond-hair": "👱‍♀️",
+  "e-man-blond-hair": "👱‍♂️",
+  "e-older-person": "🧓",
+  "e-old-man": "👴",
+  "e-old-woman": "👵",
+  "e-person-frowning": "🙍",
+  "e-man-frowning": "🙍‍♂️",
+  "e-woman-frowning": "🙍‍♀️",
+  "e-person-pouting": "🙎",
+  "e-man-pouting": "🙎‍♂️",
+  "e-woman-pouting": "🙎‍♀️",
+  "e-person-gesturing-no": "🙅",
+  "e-man-gesturing-no": "🙅‍♂️",
+  "e-woman-gesturing-no": "🙅‍♀️",
+  "e-person-gesturing-ok": "🙆",
+  "e-man-gesturing-ok": "🙆‍♂️",
+  "e-woman-gesturing-ok": "🙆‍♀️",
+  "e-person-tipping-hand": "💁",
+  "e-man-tipping-hand": "💁‍♂️",
+  "e-woman-tipping-hand": "💁‍♀️",
+  "e-person-raising-hand": "🙋",
+  "e-man-raising-hand": "🙋‍♂️",
+  "e-woman-raising-hand": "🙋‍♀️",
+  "e-deaf-person": "🧏",
+  "e-deaf-man": "🧏‍♂️",
+  "e-deaf-woman": "🧏‍♀️",
+  "e-person-bowing": "🙇",
+  "e-man-bowing": "🙇‍♂️",
+  "e-woman-bowing": "🙇‍♀️",
+  "e-person-facepalming": "🤦",
+  "e-man-facepalming": "🤦‍♂️",
+  "e-woman-facepalming": "🤦‍♀️",
+  "e-person-shrugging": "🤷",
+  "e-man-shrugging": "🤷‍♂️",
+  "e-woman-shrugging": "🤷‍♀️",
+  "e-health-worker": "🧑‍⚕️",
+  "e-man-health-worker": "👨‍⚕️",
+  "e-woman-health-worker": "👩‍⚕️",
+  "e-student": "🧑‍🎓",
+  "e-man-student": "👨‍🎓",
+  "e-woman-student": "👩‍🎓",
+  "e-teacher": "🧑‍🏫",
+  "e-man-teacher": "👨‍🏫",
+  "e-woman-teacher": "👩‍🏫",
+  "e-judge": "🧑‍⚖️",
+  "e-man-judge": "👨‍⚖️",
+  "e-woman-judge": "👩‍⚖️",
+  "e-farmer": "🧑‍🌾",
+  "e-man-farmer": "👨‍🌾",
+  "e-woman-farmer": "👩‍🌾",
+  "e-cook": "🧑‍🍳",
+  "e-man-cook": "👨‍🍳",
+  "e-woman-cook": "👩‍🍳",
+  "e-mechanic": "🧑‍🔧",
+  "e-man-mechanic": "👨‍🔧",
+  "e-woman-mechanic": "👩‍🔧",
+  "e-factory-worker": "🧑‍🏭",
+  "e-man-factory-worker": "👨‍🏭",
+  "e-woman-factory-worker": "👩‍🏭",
+  "e-office-worker": "🧑‍💼",
+  "e-man-office-worker": "👨‍💼",
+  "e-woman-office-worker": "👩‍💼",
+  "e-scientist": "🧑‍🔬",
+  "e-man-scientist": "👨‍🔬",
+  "e-woman-scientist": "👩‍🔬",
+  "e-technologist": "🧑‍💻",
+  "e-man-technologist": "👨‍💻",
+  "e-woman-technologist": "👩‍💻",
+  "e-singer": "🧑‍🎤",
+  "e-man-singer": "👨‍🎤",
+  "e-woman-singer": "👩‍🎤",
+  "e-artist": "🧑‍🎨",
+  "e-man-artist": "👨‍🎨",
+  "e-woman-artist": "👩‍🎨",
+  "e-pilot": "🧑‍✈️",
+  "e-man-pilot": "👨‍✈️",
+  "e-woman-pilot": "👩‍✈️",
+  "e-astronaut": "🧑‍🚀",
+  "e-man-astronaut": "👨‍🚀",
+  "e-woman-astronaut": "👩‍🚀",
+  "e-firefighter": "🧑‍🚒",
+  "e-man-firefighter": "👨‍🚒",
+  "e-woman-firefighter": "👩‍🚒",
+  "e-police-officer": "👮",
+  "e-man-police-officer": "👮‍♂️",
+  "e-woman-police-officer": "👮‍♀️",
+  "e-detective": "🕵️",
+  "e-man-detective": "🕵️‍♂️",
+  "e-woman-detective": "🕵️‍♀️",
+  "e-guard": "💂",
+  "e-man-guard": "💂‍♂️",
+  "e-woman-guard": "💂‍♀️",
+  "e-ninja": "🥷",
+  "e-construction-worker": "👷",
+  "e-man-construction-worker": "👷‍♂️",
+  "e-woman-construction-worker": "👷‍♀️",
+  "e-person-with-crown": "🫅",
+  "e-prince": "🤴",
+  "e-princess": "👸",
+  "e-person-wearing-turban": "👳",
+  "e-man-wearing-turban": "👳‍♂️",
+  "e-woman-wearing-turban": "👳‍♀️",
+  "e-person-with-skullcap": "👲",
+  "e-woman-with-headscarf": "🧕",
+  "e-person-in-tuxedo": "🤵",
+  "e-man-in-tuxedo": "🤵‍♂️",
+  "e-woman-in-tuxedo": "🤵‍♀️",
+  "e-person-with-veil": "👰",
+  "e-man-with-veil": "👰‍♂️",
+  "e-woman-with-veil": "👰‍♀️",
+  "e-pregnant-woman": "🤰",
+  "e-pregnant-man": "🫃",
+  "e-pregnant-person": "🫄",
+  "e-breast-feeding": "🤱",
+  "e-woman-feeding-baby": "👩‍🍼",
+  "e-man-feeding-baby": "👨‍🍼",
+  "e-person-feeding-baby": "🧑‍🍼",
+  "e-baby-angel": "👼",
+  "e-santa-claus": "🎅",
+  "e-mrs-claus": "🤶",
+  "e-mx-claus": "🧑‍🎄",
+  "e-superhero": "🦸",
+  "e-man-superhero": "🦸‍♂️",
+  "e-woman-superhero": "🦸‍♀️",
+  "e-supervillain": "🦹",
+  "e-man-supervillain": "🦹‍♂️",
+  "e-woman-supervillain": "🦹‍♀️",
+  "e-mage": "🧙",
+  "e-man-mage": "🧙‍♂️",
+  "e-woman-mage": "🧙‍♀️",
+  "e-fairy": "🧚",
+  "e-man-fairy": "🧚‍♂️",
+  "e-woman-fairy": "🧚‍♀️",
+  "e-vampire": "🧛",
+  "e-man-vampire": "🧛‍♂️",
+  "e-woman-vampire": "🧛‍♀️",
+  "e-merperson": "🧜",
+  "e-merman": "🧜‍♂️",
+  "e-mermaid": "🧜‍♀️",
+  "e-elf": "🧝",
+  "e-man-elf": "🧝‍♂️",
+  "e-woman-elf": "🧝‍♀️",
+  "e-genie": "🧞",
+  "e-man-genie": "🧞‍♂️",
+  "e-woman-genie": "🧞‍♀️",
+  "e-zombie": "🧟",
+  "e-man-zombie": "🧟‍♂️",
+  "e-woman-zombie": "🧟‍♀️",
+  "e-troll": "🧌",
+  "e-person-getting-massage": "💆",
+  "e-man-getting-massage": "💆‍♂️",
+  "e-woman-getting-massage": "💆‍♀️",
+  "e-person-getting-haircut": "💇",
+  "e-man-getting-haircut": "💇‍♂️",
+  "e-woman-getting-haircut": "💇‍♀️",
+  "e-person-walking": "🚶",
+  "e-man-walking": "🚶‍♂️",
+  "e-woman-walking": "🚶‍♀️",
+  "e-person-walking-facing-right": "🚶‍➡️",
+  "e-woman-walking-facing-right": "🚶‍♀️‍➡️",
+  "e-man-walking-facing-right": "🚶‍♂️‍➡️",
+  "e-person-standing": "🧍",
+  "e-man-standing": "🧍‍♂️",
+  "e-woman-standing": "🧍‍♀️",
+  "e-person-kneeling": "🧎",
+  "e-man-kneeling": "🧎‍♂️",
+  "e-woman-kneeling": "🧎‍♀️",
+  "e-person-kneeling-facing-right": "🧎‍➡️",
+  "e-woman-kneeling-facing-right": "🧎‍♀️‍➡️",
+  "e-man-kneeling-facing-right": "🧎‍♂️‍➡️",
+  "e-person-with-white-cane": "🧑‍🦯",
+  "e-person-with-white-cane-facing-right": "🧑‍🦯‍➡️",
+  "e-man-with-white-cane": "👨‍🦯",
+  "e-man-with-white-cane-facing-right": "👨‍🦯‍➡️",
+  "e-woman-with-white-cane": "👩‍🦯",
+  "e-woman-with-white-cane-facing-right": "👩‍🦯‍➡️",
+  "e-person-in-motorized-wheelchair": "🧑‍🦼",
+  "e-person-in-motorized-wheelchair-facing-right": "🧑‍🦼‍➡️",
+  "e-man-in-motorized-wheelchair": "👨‍🦼",
+  "e-man-in-motorized-wheelchair-facing-right": "👨‍🦼‍➡️",
+  "e-woman-in-motorized-wheelchair": "👩‍🦼",
+  "e-woman-in-motorized-wheelchair-facing-right": "👩‍🦼‍➡️",
+  "e-person-in-manual-wheelchair": "🧑‍🦽",
+  "e-person-in-manual-wheelchair-facing-right": "🧑‍🦽‍➡️",
+  "e-man-in-manual-wheelchair": "👨‍🦽",
+  "e-man-in-manual-wheelchair-facing-right": "👨‍🦽‍➡️",
+  "e-woman-in-manual-wheelchair": "👩‍🦽",
+  "e-woman-in-manual-wheelchair-facing-right": "👩‍🦽‍➡️",
+  "e-person-running": "🏃",
+  "e-man-running": "🏃‍♂️",
+  "e-woman-running": "🏃‍♀️",
+  "e-person-running-facing-right": "🏃‍➡️",
+  "e-woman-running-facing-right": "🏃‍♀️‍➡️",
+  "e-man-running-facing-right": "🏃‍♂️‍➡️",
+  "e-woman-dancing": "💃",
+  "e-man-dancing": "🕺",
+  "e-person-in-suit-levitating": "🕴️",
+  "e-people-with-bunny-ears": "👯",
+  "e-men-with-bunny-ears": "👯‍♂️",
+  "e-women-with-bunny-ears": "👯‍♀️",
+  "e-person-in-steamy-room": "🧖",
+  "e-man-in-steamy-room": "🧖‍♂️",
+  "e-woman-in-steamy-room": "🧖‍♀️",
+  "e-person-climbing": "🧗",
+  "e-man-climbing": "🧗‍♂️",
+  "e-woman-climbing": "🧗‍♀️",
+  "e-person-fencing": "🤺",
+  "e-horse-racing": "🏇",
+  "e-skier": "⛷️",
+  "e-snowboarder": "🏂",
+  "e-person-golfing": "🏌️",
+  "e-man-golfing": "🏌️‍♂️",
+  "e-woman-golfing": "🏌️‍♀️",
+  "e-person-surfing": "🏄",
+  "e-man-surfing": "🏄‍♂️",
+  "e-woman-surfing": "🏄‍♀️",
+  "e-person-rowing-boat": "🚣",
+  "e-man-rowing-boat": "🚣‍♂️",
+  "e-woman-rowing-boat": "🚣‍♀️",
+  "e-person-swimming": "🏊",
+  "e-man-swimming": "🏊‍♂️",
+  "e-woman-swimming": "🏊‍♀️",
+  "e-person-bouncing-ball": "⛹️",
+  "e-man-bouncing-ball": "⛹️‍♂️",
+  "e-woman-bouncing-ball": "⛹️‍♀️",
+  "e-person-lifting-weights": "🏋️",
+  "e-man-lifting-weights": "🏋️‍♂️",
+  "e-woman-lifting-weights": "🏋️‍♀️",
+  "e-person-biking": "🚴",
+  "e-man-biking": "🚴‍♂️",
+  "e-woman-biking": "🚴‍♀️",
+  "e-person-mountain-biking": "🚵",
+  "e-man-mountain-biking": "🚵‍♂️",
+  "e-woman-mountain-biking": "🚵‍♀️",
+  "e-person-cartwheeling": "🤸",
+  "e-man-cartwheeling": "🤸‍♂️",
+  "e-woman-cartwheeling": "🤸‍♀️",
+  "e-people-wrestling": "🤼",
+  "e-men-wrestling": "🤼‍♂️",
+  "e-women-wrestling": "🤼‍♀️",
+  "e-person-playing-water-polo": "🤽",
+  "e-man-playing-water-polo": "🤽‍♂️",
+  "e-woman-playing-water-polo": "🤽‍♀️",
+  "e-person-playing-handball": "🤾",
+  "e-man-playing-handball": "🤾‍♂️",
+  "e-woman-playing-handball": "🤾‍♀️",
+  "e-person-juggling": "🤹",
+  "e-man-juggling": "🤹‍♂️",
+  "e-woman-juggling": "🤹‍♀️",
+  "e-person-in-lotus-position": "🧘",
+  "e-man-in-lotus-position": "🧘‍♂️",
+  "e-woman-in-lotus-position": "🧘‍♀️",
+  "e-person-taking-bath": "🛀",
+  "e-person-in-bed": "🛌",
+  "e-people-holding-hands": "🧑‍🤝‍🧑",
+  "e-women-holding-hands": "👭",
+  "e-woman-and-man-holding-hands": "👫",
+  "e-men-holding-hands": "👬",
+  "e-kiss": "💏",
+  "e-kiss-woman-man": "👩‍❤️‍💋‍👨",
+  "e-kiss-man-man": "👨‍❤️‍💋‍👨",
+  "e-kiss-woman-woman": "👩‍❤️‍💋‍👩",
+  "e-couple-with-heart": "💑",
+  "e-couple-with-heart-woman-man": "👩‍❤️‍👨",
+  "e-couple-with-heart-man-man": "👨‍❤️‍👨",
+  "e-couple-with-heart-woman-woman": "👩‍❤️‍👩",
+  "e-family-man-woman-boy": "👨‍👩‍👦",
+  "e-family-man-woman-girl": "👨‍👩‍👧",
+  "e-family-man-woman-girl-boy": "👨‍👩‍👧‍👦",
+  "e-family-man-woman-boy-boy": "👨‍👩‍👦‍👦",
+  "e-family-man-woman-girl-girl": "👨‍👩‍👧‍👧",
+  "e-family-man-man-boy": "👨‍👨‍👦",
+  "e-family-man-man-girl": "👨‍👨‍👧",
+  "e-family-man-man-girl-boy": "👨‍👨‍👧‍👦",
+  "e-family-man-man-boy-boy": "👨‍👨‍👦‍👦",
+  "e-family-man-man-girl-girl": "👨‍👨‍👧‍👧",
+  "e-family-woman-woman-boy": "👩‍👩‍👦",
+  "e-family-woman-woman-girl": "👩‍👩‍👧",
+  "e-family-woman-woman-girl-boy": "👩‍👩‍👧‍👦",
+  "e-family-woman-woman-boy-boy": "👩‍👩‍👦‍👦",
+  "e-family-woman-woman-girl-girl": "👩‍👩‍👧‍👧",
+  "e-family-man-boy": "👨‍👦",
+  "e-family-man-boy-boy": "👨‍👦‍👦",
+  "e-family-man-girl": "👨‍👧",
+  "e-family-man-girl-boy": "👨‍👧‍👦",
+  "e-family-man-girl-girl": "👨‍👧‍👧",
+  "e-family-woman-boy": "👩‍👦",
+  "e-family-woman-boy-boy": "👩‍👦‍👦",
+  "e-family-woman-girl": "👩‍👧",
+  "e-family-woman-girl-boy": "👩‍👧‍👦",
+  "e-family-woman-girl-girl": "👩‍👧‍👧",
+  "e-speaking-head": "🗣️",
+  "e-bust-in-silhouette": "👤",
+  "e-busts-in-silhouette": "👥",
+  "e-people-hugging": "🫂",
+  "e-family": "👪",
+  "e-family-adult-adult-child": "🧑‍🧑‍🧒",
+  "e-family-adult-adult-child-child": "🧑‍🧑‍🧒‍🧒",
+  "e-family-adult-child": "🧑‍🧒",
+  "e-family-adult-child-child": "🧑‍🧒‍🧒",
+  "e-footprints": "👣",
+  "e-fingerprint": "🫆",
+  "e-monkey-face": "🐵",
+  "e-monkey": "🐒",
+  "e-gorilla": "🦍",
+  "e-orangutan": "🦧",
+  "e-dog-face": "🐶",
+  "e-dog": "🐕",
+  "e-guide-dog": "🦮",
+  "e-service-dog": "🐕‍🦺",
+  "e-poodle": "🐩",
+  "e-wolf": "🐺",
+  "e-fox": "🦊",
+  "e-raccoon": "🦝",
+  "e-cat": "🐈",
+  "e-cat-face": "🐱",
+  "e-black-cat": "🐈‍⬛",
+  "e-lion": "🦁",
+  "e-tiger-face": "🐯",
+  "e-tiger": "🐅",
+  "e-leopard": "🐆",
+  "e-horse-face": "🐴",
+  "e-moose": "🫎",
+  "e-donkey": "🫏",
+  "e-horse": "🐎",
+  "e-unicorn": "🦄",
+  "e-zebra": "🦓",
+  "e-deer": "🦌",
+  "e-bison": "🦬",
+  "e-cow-face": "🐮",
+  "e-ox": "🐂",
+  "e-water-buffalo": "🐃",
+  "e-cow": "🐄",
+  "e-pig-face": "🐷",
+  "e-pig": "🐖",
+  "e-boar": "🐗",
+  "e-pig-nose": "🐽",
+  "e-ram": "🐏",
+  "e-ewe": "🐑",
+  "e-goat": "🐐",
+  "e-camel": "🐪",
+  "e-two-hump-camel": "🐫",
+  "e-llama": "🦙",
+  "e-giraffe": "🦒",
+  "e-elephant": "🐘",
+  "e-mammoth": "🦣",
+  "e-rhinoceros": "🦏",
+  "e-hippopotamus": "🦛",
+  "e-mouse-face": "🐭",
+  "e-mouse": "🐁",
   "e-rat": "🐀",
+  "e-hamster": "🐹",
+  "e-rabbit-face": "🐰",
+  "e-rabbit": "🐇",
+  "e-chipmunk": "🐿️",
+  "e-beaver": "🦫",
+  "e-hedgehog": "🦔",
+  "e-bat": "🦇",
+  "e-bear": "🐻",
+  "e-polar-bear": "🐻‍❄️",
+  "e-koala": "🐨",
+  "e-panda": "🐼",
+  "e-sloth": "🦥",
+  "e-otter": "🦦",
+  "e-skunk": "🦨",
+  "e-kangaroo": "🦘",
+  "e-badger": "🦡",
+  "e-paw-prints": "🐾",
+  "e-turkey": "🦃",
+  "e-chicken": "🐔",
+  "e-rooster": "🐓",
+  "e-hatching-chick": "🐣",
+  "e-baby-chick": "🐤",
+  "e-front-facing-baby-chick": "🐥",
+  "e-bird": "🐦",
+  "e-penguin": "🐧",
+  "e-dove": "🕊️",
+  "e-eagle": "🦅",
+  "e-duck": "🦆",
+  "e-swan": "🦢",
+  "e-owl": "🦉",
+  "e-dodo": "🦤",
+  "e-feather": "🪶",
+  "e-flamingo": "🦩",
+  "e-peacock": "🦚",
+  "e-parrot": "🦜",
+  "e-wing": "🪽",
+  "e-black-bird": "🐦‍⬛",
+  "e-goose": "🪿",
+  "e-phoenix": "🐦‍🔥",
+  "e-frog": "🐸",
+  "e-crocodile": "🐊",
+  "e-turtle": "🐢",
+  "e-lizard": "🦎",
   "e-snake": "🐍",
-  "e-crown": "👑",
-  "e-lock": "🔒",
-  "e-unlock": "🔓",
-  "e-camera": "📷",
-  "e-headphones": "🎧",
-  "e-books": "📚",
-  "e-card-box": "🗃️",
-  "e-battery-low": "🪫",
-  "e-flashlight": "🔦",
-  "e-soap": "🧼",
+  "e-dragon-face": "🐲",
+  "e-dragon": "🐉",
+  "e-sauropod": "🦕",
+  "e-t-rex": "🦖",
+  "e-spouting-whale": "🐳",
+  "e-whale": "🐋",
+  "e-dolphin": "🐬",
+  "e-seal": "🦭",
+  "e-fish": "🐟",
+  "e-tropical-fish": "🐠",
+  "e-blowfish": "🐡",
+  "e-shark": "🦈",
+  "e-octopus": "🐙",
+  "e-spiral-shell": "🐚",
+  "e-coral": "🪸",
+  "e-jellyfish": "🪼",
+  "e-crab": "🦀",
+  "e-lobster": "🦞",
+  "e-shrimp": "🦐",
+  "e-squid": "🦑",
+  "e-oyster": "🦪",
+  "e-snail": "🐌",
+  "e-butterfly": "🦋",
+  "e-bug": "🐛",
+  "e-ant": "🐜",
+  "e-honeybee": "🐝",
+  "e-beetle": "🪲",
+  "e-lady-beetle": "🐞",
+  "e-cricket": "🦗",
+  "e-cockroach": "🪳",
+  "e-spider": "🕷️",
+  "e-spider-web": "🕸️",
+  "e-scorpion": "🦂",
+  "e-mosquito": "🦟",
+  "e-fly": "🪰",
+  "e-worm": "🪱",
+  "e-microbe": "🦠",
+  "e-bouquet": "💐",
+  "e-cherry-blossom": "🌸",
+  "e-white-flower": "💮",
+  "e-lotus": "🪷",
+  "e-rosette": "🏵️",
+  "e-rose": "🌹",
+  "e-wilted-flower": "🥀",
+  "e-hibiscus": "🌺",
+  "e-sunflower": "🌻",
+  "e-blossom": "🌼",
+  "e-tulip": "🌷",
+  "e-hyacinth": "🪻",
+  "e-seedling": "🌱",
+  "e-potted-plant": "🪴",
+  "e-evergreen-tree": "🌲",
+  "e-deciduous-tree": "🌳",
+  "e-palm-tree": "🌴",
+  "e-cactus": "🌵",
+  "e-sheaf-of-rice": "🌾",
+  "e-herb": "🌿",
+  "e-shamrock": "☘️",
+  "e-four-leaf-clover": "🍀",
+  "e-maple-leaf": "🍁",
+  "e-fallen-leaf": "🍂",
+  "e-leaf-fluttering-in-wind": "🍃",
+  "e-empty-nest": "🪹",
+  "e-nest-with-eggs": "🪺",
+  "e-mushroom": "🍄",
+  "e-leafless-tree": "🪾",
+  "e-grapes": "🍇",
+  "e-melon": "🍈",
+  "e-watermelon": "🍉",
+  "e-tangerine": "🍊",
+  "e-lemon": "🍋",
+  "e-lime": "🍋‍🟩",
+  "e-banana": "🍌",
+  "e-pineapple": "🍍",
+  "e-mango": "🥭",
+  "e-apple": "🍎",
+  "e-red-apple": "🍎",
+  "e-green-apple": "🍏",
+  "e-pear": "🍐",
+  "e-peach": "🍑",
+  "e-cherries": "🍒",
+  "e-strawberry": "🍓",
+  "e-blueberries": "🫐",
+  "e-kiwi-fruit": "🥝",
+  "e-tomato": "🍅",
+  "e-olive": "🫒",
+  "e-coconut": "🥥",
+  "e-avocado": "🥑",
+  "e-eggplant": "🍆",
+  "e-potato": "🥔",
+  "e-carrot": "🥕",
+  "e-ear-of-corn": "🌽",
+  "e-pepper": "🌶️",
+  "e-hot-pepper": "🌶️",
+  "e-bell-pepper": "🫑",
+  "e-cucumber": "🥒",
+  "e-leafy-green": "🥬",
+  "e-broccoli": "🥦",
+  "e-garlic": "🧄",
+  "e-onion": "🧅",
+  "e-peanuts": "🥜",
+  "e-beans": "🫘",
+  "e-chestnut": "🌰",
+  "e-ginger-root": "🫚",
+  "e-pea-pod": "🫛",
+  "e-brown-mushroom": "🍄‍🟫",
+  "e-root-vegetable": "🫜",
+  "e-bread": "🍞",
+  "e-croissant": "🥐",
+  "e-baguette-bread": "🥖",
+  "e-flatbread": "🫓",
+  "e-pretzel": "🥨",
+  "e-bagel": "🥯",
+  "e-pancakes": "🥞",
+  "e-waffle": "🧇",
+  "e-cheese": "🧀",
+  "e-cheese-wedge": "🧀",
+  "e-meat-on-bone": "🍖",
+  "e-poultry-leg": "🍗",
+  "e-cut-of-meat": "🥩",
+  "e-bacon": "🥓",
+  "e-burger": "🍔",
+  "e-hamburger": "🍔",
+  "e-fries": "🍟",
+  "e-french-fries": "🍟",
+  "e-pizza": "🍕",
+  "e-hot-dog": "🌭",
+  "e-sandwich": "🥪",
+  "e-taco": "🌮",
+  "e-burrito": "🌯",
+  "e-tamale": "🫔",
+  "e-stuffed-flatbread": "🥙",
+  "e-falafel": "🧆",
+  "e-egg": "🥚",
+  "e-cooking": "🍳",
+  "e-shallow-pan-of-food": "🥘",
+  "e-pot-of-food": "🍲",
+  "e-fondue": "🫕",
+  "e-bowl-with-spoon": "🥣",
+  "e-green-salad": "🥗",
+  "e-popcorn": "🍿",
+  "e-butter": "🧈",
+  "e-salt": "🧂",
+  "e-canned-food": "🥫",
+  "e-bento-box": "🍱",
+  "e-rice-cracker": "🍘",
+  "e-rice-ball": "🍙",
+  "e-cooked-rice": "🍚",
+  "e-curry-rice": "🍛",
+  "e-ramen": "🍜",
+  "e-steaming-bowl": "🍜",
+  "e-spaghetti": "🍝",
+  "e-roasted-sweet-potato": "🍠",
+  "e-oden": "🍢",
+  "e-sushi": "🍣",
+  "e-fried-shrimp": "🍤",
+  "e-fish-cake-with-swirl": "🍥",
+  "e-moon-cake": "🥮",
+  "e-dango": "🍡",
+  "e-dumpling": "🥟",
+  "e-fortune-cookie": "🥠",
+  "e-takeout-box": "🥡",
+  "e-soft-ice-cream": "🍦",
+  "e-shaved-ice": "🍧",
+  "e-ice-cream": "🍨",
+  "e-doughnut": "🍩",
+  "e-cookie": "🍪",
+  "e-birthday-cake": "🎂",
+  "e-shortcake": "🍰",
+  "e-cupcake": "🧁",
+  "e-pie": "🥧",
+  "e-chocolate-bar": "🍫",
+  "e-candy": "🍬",
+  "e-lollipop": "🍭",
+  "e-custard": "🍮",
+  "e-honey-pot": "🍯",
+  "e-bottle": "🍼",
+  "e-baby-bottle": "🍼",
+  "e-milk": "🥛",
+  "e-glass-of-milk": "🥛",
+  "e-coffee": "☕",
+  "e-hot-beverage": "☕",
+  "e-teapot": "🫖",
+  "e-tea": "🍵",
+  "e-teacup-without-handle": "🍵",
+  "e-sake": "🍶",
+  "e-bottle-with-popping-cork": "🍾",
+  "e-wine": "🍷",
+  "e-wine-glass": "🍷",
+  "e-cocktail-glass": "🍸",
+  "e-tropical-drink": "🍹",
+  "e-beer": "🍺",
+  "e-beer-mug": "🍺",
+  "e-clinking-beer-mugs": "🍻",
+  "e-clinking-glasses": "🥂",
+  "e-tumbler-glass": "🥃",
+  "e-pouring-liquid": "🫗",
+  "e-soda": "🥤",
+  "e-cup-with-straw": "🥤",
+  "e-bubble-tea": "🧋",
+  "e-juice-box": "🧃",
+  "e-beverage-box": "🧃",
+  "e-mate": "🧉",
+  "e-ice": "🧊",
+  "e-chopsticks": "🥢",
+  "e-fork-and-knife-with-plate": "🍽️",
+  "e-fork-and-knife": "🍴",
+  "e-spoon": "🥄",
+  "e-kitchen-knife": "🔪",
+  "e-jar": "🫙",
+  "e-amphora": "🏺",
+  "e-globe-showing-europe-africa": "🌍",
+  "e-globe-showing-americas": "🌎",
+  "e-globe-showing-asia-australia": "🌏",
+  "e-globe-with-meridians": "🌐",
+  "e-world-map": "🗺️",
+  "e-map-of-japan": "🗾",
+  "e-compass": "🧭",
+  "e-snow-capped-mountain": "🏔️",
+  "e-mountain": "⛰️",
+  "e-volcano": "🌋",
+  "e-mount-fuji": "🗻",
+  "e-camping": "🏕️",
+  "e-beach-with-umbrella": "🏖️",
+  "e-desert": "🏜️",
+  "e-desert-island": "🏝️",
+  "e-national-park": "🏞️",
+  "e-stadium": "🏟️",
+  "e-classical-building": "🏛️",
+  "e-building-construction": "🏗️",
+  "e-brick": "🧱",
+  "e-rock": "🪨",
   "e-wood": "🪵",
-  "e-cart": "🛒",
-  "e-basket": "🧺",
-  "e-bucket": "🪣",
+  "e-hut": "🛖",
+  "e-houses": "🏘️",
+  "e-derelict-house": "🏚️",
+  "e-house": "🏠",
+  "e-house-with-garden": "🏡",
+  "e-office-building": "🏢",
+  "e-japanese-post-office": "🏣",
+  "e-post-office": "🏤",
+  "e-hospital": "🏥",
+  "e-bank": "🏦",
+  "e-hotel": "🏨",
+  "e-love-hotel": "🏩",
+  "e-convenience-store": "🏪",
+  "e-school": "🏫",
+  "e-department-store": "🏬",
+  "e-factory": "🏭",
+  "e-japanese-castle": "🏯",
+  "e-castle": "🏰",
+  "e-wedding": "💒",
+  "e-tokyo-tower": "🗼",
+  "e-statue-of-liberty": "🗽",
+  "e-church": "⛪",
+  "e-mosque": "🕌",
+  "e-hindu-temple": "🛕",
+  "e-synagogue": "🕍",
+  "e-shinto-shrine": "⛩️",
+  "e-kaaba": "🕋",
+  "e-fountain": "⛲",
+  "e-tent": "⛺",
+  "e-foggy": "🌁",
+  "e-night-with-stars": "🌃",
+  "e-cityscape": "🏙️",
+  "e-sunrise-over-mountains": "🌄",
+  "e-sunrise": "🌅",
+  "e-cityscape-at-dusk": "🌆",
+  "e-sunset": "🌇",
+  "e-bridge-at-night": "🌉",
+  "e-hot-springs": "♨️",
+  "e-carousel-horse": "🎠",
+  "e-playground-slide": "🛝",
+  "e-ferris-wheel": "🎡",
+  "e-roller-coaster": "🎢",
+  "e-barber-pole": "💈",
+  "e-circus-tent": "🎪",
+  "e-locomotive": "🚂",
+  "e-railway-car": "🚃",
+  "e-high-speed-train": "🚄",
+  "e-bullet-train": "🚅",
+  "e-train": "🚆",
+  "e-metro": "🚇",
+  "e-light-rail": "🚈",
+  "e-station": "🚉",
+  "e-tram": "🚊",
+  "e-monorail": "🚝",
+  "e-mountain-railway": "🚞",
+  "e-tram-car": "🚋",
+  "e-bus": "🚌",
+  "e-oncoming-bus": "🚍",
+  "e-trolleybus": "🚎",
+  "e-minibus": "🚐",
+  "e-ambulance": "🚑",
+  "e-fire-engine": "🚒",
+  "e-police-car": "🚓",
+  "e-oncoming-police-car": "🚔",
+  "e-taxi": "🚕",
+  "e-oncoming-taxi": "🚖",
+  "e-automobile": "🚗",
+  "e-oncoming-automobile": "🚘",
+  "e-sport-utility-vehicle": "🚙",
+  "e-pickup-truck": "🛻",
+  "e-delivery-truck": "🚚",
+  "e-articulated-lorry": "🚛",
+  "e-tractor": "🚜",
+  "e-racing-car": "🏎️",
+  "e-motorcycle": "🏍️",
+  "e-motor-scooter": "🛵",
+  "e-manual-wheelchair": "🦽",
+  "e-motorized-wheelchair": "🦼",
+  "e-auto-rickshaw": "🛺",
+  "e-bicycle": "🚲",
+  "e-kick-scooter": "🛴",
+  "e-skateboard": "🛹",
+  "e-roller-skate": "🛼",
+  "e-bus-stop": "🚏",
+  "e-motorway": "🛣️",
+  "e-railway-track": "🛤️",
+  "e-oil-drum": "🛢️",
+  "e-fuel-pump": "⛽",
+  "e-wheel": "🛞",
+  "e-police-car-light": "🚨",
+  "e-horizontal-traffic-light": "🚥",
+  "e-vertical-traffic-light": "🚦",
+  "e-stop-sign": "🛑",
+  "e-construction": "🚧",
+  "e-anchor": "⚓",
+  "e-ring-buoy": "🛟",
+  "e-sailboat": "⛵",
+  "e-canoe": "🛶",
+  "e-speedboat": "🚤",
+  "e-passenger-ship": "🛳️",
+  "e-ferry": "⛴️",
+  "e-motor-boat": "🛥️",
+  "e-ship": "🚢",
+  "e-airplane": "✈️",
+  "e-small-airplane": "🛩️",
+  "e-airplane-departure": "🛫",
+  "e-airplane-arrival": "🛬",
+  "e-parachute": "🪂",
+  "e-seat": "💺",
+  "e-helicopter": "🚁",
+  "e-suspension-railway": "🚟",
+  "e-mountain-cableway": "🚠",
+  "e-aerial-tramway": "🚡",
+  "e-satellite": "🛰️",
+  "e-rocket": "🚀",
+  "e-flying-saucer": "🛸",
+  "e-bellhop-bell": "🛎️",
+  "e-luggage": "🧳",
+  "e-hourglass-done": "⌛",
+  "e-hourglass": "⏳",
+  "e-hourglass-not-done": "⏳",
+  "e-watch": "⌚",
+  "e-alarm-clock": "⏰",
+  "e-stopwatch": "⏱️",
+  "e-timer-clock": "⏲️",
+  "e-mantelpiece-clock": "🕰️",
+  "e-twelve-o-clock": "🕛",
+  "e-twelve-thirty": "🕧",
+  "e-one-o-clock": "🕐",
+  "e-one-thirty": "🕜",
+  "e-two-o-clock": "🕑",
+  "e-two-thirty": "🕝",
+  "e-three-o-clock": "🕒",
+  "e-three-thirty": "🕞",
+  "e-four-o-clock": "🕓",
+  "e-four-thirty": "🕟",
+  "e-five-o-clock": "🕔",
+  "e-five-thirty": "🕠",
+  "e-six-o-clock": "🕕",
+  "e-six-thirty": "🕡",
+  "e-seven-o-clock": "🕖",
+  "e-seven-thirty": "🕢",
+  "e-eight-o-clock": "🕗",
+  "e-eight-thirty": "🕣",
+  "e-nine-o-clock": "🕘",
+  "e-nine-thirty": "🕤",
+  "e-ten-o-clock": "🕙",
+  "e-ten-thirty": "🕥",
+  "e-eleven-o-clock": "🕚",
+  "e-eleven-thirty": "🕦",
+  "e-new-moon": "🌑",
+  "e-waxing-crescent-moon": "🌒",
+  "e-first-quarter-moon": "🌓",
+  "e-waxing-gibbous-moon": "🌔",
+  "e-full-moon": "🌕",
+  "e-waning-gibbous-moon": "🌖",
+  "e-last-quarter-moon": "🌗",
+  "e-waning-crescent-moon": "🌘",
+  "e-moon": "🌙",
+  "e-crescent-moon": "🌙",
+  "e-new-moon-face": "🌚",
+  "e-first-quarter-moon-face": "🌛",
+  "e-last-quarter-moon-face": "🌜",
+  "e-thermometer": "🌡️",
+  "e-sun": "☀️",
+  "e-full-moon-face": "🌝",
+  "e-sun-with-face": "🌞",
+  "e-ringed-planet": "🪐",
+  "e-star": "⭐",
+  "e-glowing-star": "🌟",
+  "e-shooting-star": "🌠",
+  "e-milky-way": "🌌",
+  "e-cloud": "☁️",
+  "e-sun-behind-cloud": "⛅",
+  "e-cloud-with-lightning-and-rain": "⛈️",
+  "e-sun-behind-small-cloud": "🌤️",
+  "e-sun-behind-large-cloud": "🌥️",
+  "e-sun-behind-rain-cloud": "🌦️",
+  "e-cloud-with-rain": "🌧️",
+  "e-cloud-with-snow": "🌨️",
+  "e-cloud-with-lightning": "🌩️",
+  "e-tornado": "🌪️",
+  "e-fog": "🌫️",
+  "e-wind-face": "🌬️",
+  "e-cyclone": "🌀",
+  "e-rainbow": "🌈",
+  "e-closed-umbrella": "🌂",
+  "e-umbrella": "☂️",
+  "e-umbrella-with-rain-drops": "☔",
+  "e-umbrella-on-ground": "⛱️",
+  "e-lightning": "⚡",
+  "e-high-voltage": "⚡",
+  "e-snowflake": "❄️",
+  "e-snowman": "☃️",
+  "e-snowman-without-snow": "⛄",
+  "e-comet": "☄️",
+  "e-fire": "🔥",
+  "e-droplet": "💧",
+  "e-water-wave": "🌊",
+  "e-jack-o-lantern": "🎃",
+  "e-christmas-tree": "🎄",
+  "e-fireworks": "🎆",
+  "e-sparkler": "🎇",
+  "e-firecracker": "🧨",
+  "e-sparkles": "✨",
+  "e-balloon": "🎈",
+  "e-party-popper": "🎉",
+  "e-confetti-ball": "🎊",
+  "e-tanabata-tree": "🎋",
+  "e-pine-decoration": "🎍",
+  "e-japanese-dolls": "🎎",
+  "e-carp-streamer": "🎏",
+  "e-wind-chime": "🎐",
+  "e-moon-viewing-ceremony": "🎑",
+  "e-red-envelope": "🧧",
+  "e-ribbon": "🎀",
+  "e-wrapped-gift": "🎁",
+  "e-reminder-ribbon": "🎗️",
+  "e-admission-tickets": "🎟️",
+  "e-ticket": "🎫",
+  "e-military-medal": "🎖️",
+  "e-trophy": "🏆",
+  "e-medal": "🏅",
+  "e-sports-medal": "🏅",
+  "e-1st-place-medal": "🥇",
+  "e-2nd-place-medal": "🥈",
+  "e-3rd-place-medal": "🥉",
+  "e-soccer-ball": "⚽",
+  "e-baseball": "⚾",
+  "e-softball": "🥎",
+  "e-basketball": "🏀",
+  "e-volleyball": "🏐",
+  "e-american-football": "🏈",
+  "e-rugby-football": "🏉",
+  "e-tennis": "🎾",
+  "e-flying-disc": "🥏",
+  "e-bowling": "🎳",
+  "e-cricket-game": "🏏",
+  "e-field-hockey": "🏑",
+  "e-ice-hockey": "🏒",
+  "e-lacrosse": "🥍",
+  "e-ping-pong": "🏓",
+  "e-badminton": "🏸",
+  "e-boxing-glove": "🥊",
+  "e-martial-arts-uniform": "🥋",
+  "e-goal-net": "🥅",
+  "e-flag-in-hole": "⛳",
+  "e-ice-skate": "⛸️",
+  "e-fishing-pole": "🎣",
+  "e-diving-mask": "🤿",
+  "e-running-shirt": "🎽",
+  "e-skis": "🎿",
+  "e-sled": "🛷",
+  "e-curling-stone": "🥌",
+  "e-bullseye": "🎯",
+  "e-yo-yo": "🪀",
+  "e-kite": "🪁",
+  "e-water-pistol": "🔫",
+  "e-pool-8-ball": "🎱",
+  "e-crystal-ball": "🔮",
+  "e-magic-wand": "🪄",
+  "e-gamepad": "🎮",
+  "e-video-game": "🎮",
+  "e-joystick": "🕹️",
+  "e-slot-machine": "🎰",
+  "e-game-die": "🎲",
+  "e-puzzle-piece": "🧩",
+  "e-teddy-bear": "🧸",
+  "e-pinata": "🪅",
+  "e-mirror-ball": "🪩",
+  "e-nesting-dolls": "🪆",
+  "e-spade-suit": "♠️",
+  "e-heart-suit": "♥️",
+  "e-diamond-suit": "♦️",
+  "e-club-suit": "♣️",
+  "e-chess-pawn": "♟️",
+  "e-joker": "🃏",
+  "e-mahjong-red-dragon": "🀄",
+  "e-flower-playing-cards": "🎴",
+  "e-performing-arts": "🎭",
+  "e-framed-picture": "🖼️",
+  "e-artist-palette": "🎨",
+  "e-thread": "🧵",
+  "e-sewing-needle": "🪡",
+  "e-yarn": "🧶",
+  "e-knot": "🪢",
+  "e-glasses": "👓",
+  "e-sunglasses": "🕶️",
+  "e-goggles": "🥽",
+  "e-lab-coat": "🥼",
+  "e-safety-vest": "🦺",
+  "e-necktie": "👔",
+  "e-t-shirt": "👕",
+  "e-jeans": "👖",
+  "e-scarf": "🧣",
+  "e-gloves": "🧤",
+  "e-coat": "🧥",
+  "e-socks": "🧦",
+  "e-dress": "👗",
+  "e-kimono": "👘",
+  "e-sari": "🥻",
+  "e-one-piece-swimsuit": "🩱",
+  "e-briefs": "🩲",
+  "e-shorts": "🩳",
+  "e-bikini": "👙",
+  "e-woman-s-clothes": "👚",
+  "e-folding-hand-fan": "🪭",
+  "e-purse": "👛",
+  "e-handbag": "👜",
+  "e-clutch-bag": "👝",
+  "e-shopping-bags": "🛍️",
+  "e-backpack": "🎒",
+  "e-thong-sandal": "🩴",
+  "e-man-s-shoe": "👞",
+  "e-running-shoe": "👟",
+  "e-hiking-boot": "🥾",
+  "e-flat-shoe": "🥿",
+  "e-high-heeled-shoe": "👠",
+  "e-woman-s-sandal": "👡",
+  "e-ballet-shoes": "🩰",
+  "e-woman-s-boot": "👢",
+  "e-hair-pick": "🪮",
+  "e-crown": "👑",
+  "e-woman-s-hat": "👒",
+  "e-top-hat": "🎩",
+  "e-graduation-cap": "🎓",
+  "e-billed-cap": "🧢",
+  "e-military-helmet": "🪖",
+  "e-rescue-worker-s-helmet": "⛑️",
+  "e-prayer-beads": "📿",
+  "e-lipstick": "💄",
+  "e-ring": "💍",
+  "e-gem-stone": "💎",
+  "e-muted-speaker": "🔇",
+  "e-speaker-low-volume": "🔈",
+  "e-speaker-medium-volume": "🔉",
+  "e-speaker-high-volume": "🔊",
+  "e-loudspeaker": "📢",
+  "e-megaphone": "📣",
+  "e-postal-horn": "📯",
+  "e-bell": "🔔",
+  "e-bell-with-slash": "🔕",
+  "e-musical-score": "🎼",
+  "e-musical-note": "🎵",
+  "e-musical-notes": "🎶",
+  "e-studio-microphone": "🎙️",
+  "e-level-slider": "🎚️",
+  "e-control-knobs": "🎛️",
+  "e-microphone": "🎤",
+  "e-headphones": "🎧",
+  "e-headphone": "🎧",
+  "e-radio": "📻",
+  "e-saxophone": "🎷",
+  "e-accordion": "🪗",
+  "e-guitar": "🎸",
+  "e-musical-keyboard": "🎹",
+  "e-trumpet": "🎺",
+  "e-violin": "🎻",
+  "e-banjo": "🪕",
+  "e-drum": "🥁",
+  "e-long-drum": "🪘",
+  "e-maracas": "🪇",
+  "e-flute": "🪈",
+  "e-harp": "🪉",
+  "e-phone": "📱",
+  "e-mobile-phone": "📱",
+  "e-mobile-phone-with-arrow": "📲",
+  "e-telephone": "☎️",
+  "e-telephone-receiver": "📞",
+  "e-pager": "📟",
+  "e-fax-machine": "📠",
+  "e-battery": "🔋",
+  "e-battery-low": "🪫",
+  "e-low-battery": "🪫",
+  "e-plug": "🔌",
+  "e-electric-plug": "🔌",
+  "e-laptop": "💻",
+  "e-desktop-computer": "🖥️",
+  "e-printer": "🖨️",
+  "e-keyboard": "⌨️",
+  "e-computer-mouse": "🖱️",
+  "e-trackball": "🖲️",
+  "e-computer-disk": "💽",
+  "e-floppy-disk": "💾",
+  "e-optical-disk": "💿",
+  "e-dvd": "📀",
+  "e-abacus": "🧮",
+  "e-movie-camera": "🎥",
+  "e-film-frames": "🎞️",
+  "e-film-projector": "📽️",
+  "e-clapper-board": "🎬",
+  "e-tv": "📺",
+  "e-television": "📺",
+  "e-camera": "📷",
+  "e-camera-with-flash": "📸",
+  "e-video-camera": "📹",
+  "e-videocassette": "📼",
+  "e-magnifying-glass-tilted-left": "🔍",
+  "e-magnifying-glass-tilted-right": "🔎",
+  "e-candle": "🕯️",
+  "e-light-bulb": "💡",
+  "e-flashlight": "🔦",
+  "e-red-paper-lantern": "🏮",
+  "e-diya-lamp": "🪔",
+  "e-notebook-with-decorative-cover": "📔",
+  "e-closed-book": "📕",
+  "e-open-book": "📖",
+  "e-green-book": "📗",
+  "e-blue-book": "📘",
+  "e-orange-book": "📙",
+  "e-books": "📚",
+  "e-notebook": "📓",
+  "e-ledger": "📒",
+  "e-page-with-curl": "📃",
+  "e-scroll": "📜",
+  "e-page-facing-up": "📄",
+  "e-newspaper": "📰",
+  "e-rolled-up-newspaper": "🗞️",
+  "e-bookmark-tabs": "📑",
+  "e-bookmark": "🔖",
+  "e-label": "🏷️",
+  "e-money-bag": "💰",
+  "e-coin": "🪙",
+  "e-yen-banknote": "💴",
+  "e-dollar-banknote": "💵",
+  "e-euro-banknote": "💶",
+  "e-pound-banknote": "💷",
+  "e-money-with-wings": "💸",
+  "e-credit-card": "💳",
+  "e-receipt": "🧾",
+  "e-chart-increasing-with-yen": "💹",
+  "e-envelope": "✉️",
+  "e-e-mail": "📧",
+  "e-incoming-envelope": "📨",
+  "e-envelope-with-arrow": "📩",
+  "e-outbox-tray": "📤",
+  "e-inbox-tray": "📥",
+  "e-box": "📦",
+  "e-package": "📦",
+  "e-mailbox": "📫",
+  "e-closed-mailbox-with-raised-flag": "📫",
+  "e-closed-mailbox-with-lowered-flag": "📪",
+  "e-open-mailbox-with-raised-flag": "📬",
+  "e-open-mailbox-with-lowered-flag": "📭",
+  "e-postbox": "📮",
+  "e-ballot-box-with-ballot": "🗳️",
+  "e-pencil": "✏️",
+  "e-black-nib": "✒️",
+  "e-fountain-pen": "🖋️",
+  "e-pen": "🖊️",
+  "e-paintbrush": "🖌️",
+  "e-crayon": "🖍️",
+  "e-memo": "📝",
+  "e-briefcase": "💼",
+  "e-folder": "📁",
+  "e-file-folder": "📁",
+  "e-folder-open": "📂",
+  "e-open-file-folder": "📂",
+  "e-dividers": "🗂️",
+  "e-card-index-dividers": "🗂️",
+  "e-calendar": "📅",
+  "e-tear-off-calendar": "📆",
+  "e-spiral-notepad": "🗒️",
+  "e-spiral-calendar": "🗓️",
+  "e-card-index": "📇",
+  "e-chart-increasing": "📈",
+  "e-chart-decreasing": "📉",
+  "e-bar-chart": "📊",
+  "e-clipboard": "📋",
+  "e-pushpin": "📌",
+  "e-round-pushpin": "📍",
+  "e-paperclip": "📎",
+  "e-linked-paperclips": "🖇️",
+  "e-straight-ruler": "📏",
+  "e-triangular-ruler": "📐",
+  "e-scissors": "✂️",
+  "e-card-box": "🗃️",
+  "e-card-file-box": "🗃️",
+  "e-file-cabinet": "🗄️",
+  "e-wastebasket": "🗑️",
+  "e-lock": "🔒",
+  "e-locked": "🔒",
+  "e-unlock": "🔓",
+  "e-unlocked": "🔓",
+  "e-locked-with-pen": "🔏",
+  "e-locked-with-key": "🔐",
+  "e-key": "🔑",
+  "e-old-key": "🗝️",
+  "e-hammer": "🔨",
+  "e-axe": "🪓",
+  "e-pick": "⛏️",
+  "e-hammer-and-pick": "⚒️",
+  "e-hammer-and-wrench": "🛠️",
+  "e-dagger": "🗡️",
+  "e-crossed-swords": "⚔️",
+  "e-bomb": "💣",
+  "e-boomerang": "🪃",
+  "e-bow-and-arrow": "🏹",
+  "e-shield": "🛡️",
+  "e-carpentry-saw": "🪚",
+  "e-wrench": "🔧",
+  "e-screwdriver": "🪛",
+  "e-nut-and-bolt": "🔩",
+  "e-gear": "⚙️",
+  "e-clamp": "🗜️",
+  "e-balance-scale": "⚖️",
+  "e-white-cane": "🦯",
+  "e-link": "🔗",
+  "e-broken-chain": "⛓️‍💥",
+  "e-chains": "⛓️",
+  "e-hook": "🪝",
   "e-toolbox": "🧰",
   "e-magnet": "🧲",
-  "e-gamepad": "🎮",
-  "e-tv": "📺",
-  "e-printer": "🖨️",
-  "e-optical-disk": "💿",
-  "e-dna": "🧬",
-  "e-ghost": "👻",
-  "e-folder-open": "📂",
-  "e-receipt": "🧾",
-  "e-calendar": "📅",
-  "e-memo": "📝",
-  "e-pushpin": "📌",
-  "e-key": "🔑",
-  "e-shield": "🛡️",
-  "e-satellite": "🛰️",
-  "e-robot": "🤖",
-  "e-alien": "👽",
-  "e-cloud": "☁️",
-  "e-lightning": "⚡",
-  "e-droplet": "💧",
-  "e-poop": "💩",
-  "e-pill": "💊",
-  "e-syringe": "💉",
-  "e-microscope": "🔬",
+  "e-ladder": "🪜",
+  "e-shovel": "🪏",
+  "e-alembic": "⚗️",
+  "e-test-tube": "🧪",
   "e-petri-dish": "🧫",
-  "e-scissors": "✂️",
-  "e-paperclip": "📎",
-  "e-mailbox": "📫",
-  "e-cookie": "🍪",
-  "e-doughnut": "🍩",
-  "e-cheese": "🧀",
-  "e-egg": "🥚",
-  "e-mushroom": "🍄",
-  "e-banana": "🍌",
-  "e-pear": "🍐",
-  "e-watermelon": "🍉",
-  "e-avocado": "🥑",
-  "e-carrot": "🥕",
-  "e-tea": "🍵",
-  "e-beer": "🍺",
-  "e-wine": "🍷",
-  "e-medal": "🏅",
-  "e-star": "⭐",
-  "e-moon": "🌙",
-  "e-sun": "☀️",
-  "e-hourglass": "⏳"
+  "e-dna": "🧬",
+  "e-microscope": "🔬",
+  "e-telescope": "🔭",
+  "e-satellite-antenna": "📡",
+  "e-syringe": "💉",
+  "e-drop-of-blood": "🩸",
+  "e-pill": "💊",
+  "e-adhesive-bandage": "🩹",
+  "e-crutch": "🩼",
+  "e-stethoscope": "🩺",
+  "e-x-ray": "🩻",
+  "e-door": "🚪",
+  "e-elevator": "🛗",
+  "e-mirror": "🪞",
+  "e-window": "🪟",
+  "e-bed": "🛏️",
+  "e-couch-and-lamp": "🛋️",
+  "e-chair": "🪑",
+  "e-toilet": "🚽",
+  "e-plunger": "🪠",
+  "e-shower": "🚿",
+  "e-bathtub": "🛁",
+  "e-mouse-trap": "🪤",
+  "e-razor": "🪒",
+  "e-lotion": "🧴",
+  "e-lotion-bottle": "🧴",
+  "e-safety-pin": "🧷",
+  "e-broom": "🧹",
+  "e-basket": "🧺",
+  "e-roll-of-paper": "🧻",
+  "e-bucket": "🪣",
+  "e-soap": "🧼",
+  "e-bubbles": "🫧",
+  "e-toothbrush": "🪥",
+  "e-sponge": "🧽",
+  "e-fire-extinguisher": "🧯",
+  "e-cart": "🛒",
+  "e-shopping-cart": "🛒",
+  "e-cigarette": "🚬",
+  "e-coffin": "⚰️",
+  "e-headstone": "🪦",
+  "e-funeral-urn": "⚱️",
+  "e-nazar-amulet": "🧿",
+  "e-hamsa": "🪬",
+  "e-moai": "🗿",
+  "e-placard": "🪧",
+  "e-identification-card": "🪪",
+  "e-atm-sign": "🏧",
+  "e-litter-in-bin-sign": "🚮",
+  "e-potable-water": "🚰",
+  "e-wheelchair-symbol": "♿",
+  "e-men-s-room": "🚹",
+  "e-women-s-room": "🚺",
+  "e-restroom": "🚻",
+  "e-baby-symbol": "🚼",
+  "e-water-closet": "🚾",
+  "e-passport-control": "🛂",
+  "e-customs": "🛃",
+  "e-baggage-claim": "🛄",
+  "e-left-luggage": "🛅",
+  "e-warning": "⚠️",
+  "e-children-crossing": "🚸",
+  "e-no-entry": "⛔",
+  "e-prohibited": "🚫",
+  "e-no-bicycles": "🚳",
+  "e-no-smoking": "🚭",
+  "e-no-littering": "🚯",
+  "e-non-potable-water": "🚱",
+  "e-no-pedestrians": "🚷",
+  "e-no-mobile-phones": "📵",
+  "e-no-one-under-eighteen": "🔞",
+  "e-radioactive": "☢️",
+  "e-biohazard": "☣️",
+  "e-up-arrow": "⬆️",
+  "e-up-right-arrow": "↗️",
+  "e-right-arrow": "➡️",
+  "e-down-right-arrow": "↘️",
+  "e-down-arrow": "⬇️",
+  "e-down-left-arrow": "↙️",
+  "e-left-arrow": "⬅️",
+  "e-up-left-arrow": "↖️",
+  "e-up-down-arrow": "↕️",
+  "e-left-right-arrow": "↔️",
+  "e-right-arrow-curving-left": "↩️",
+  "e-left-arrow-curving-right": "↪️",
+  "e-right-arrow-curving-up": "⤴️",
+  "e-right-arrow-curving-down": "⤵️",
+  "e-clockwise-vertical-arrows": "🔃",
+  "e-counterclockwise-arrows-button": "🔄",
+  "e-back-arrow": "🔙",
+  "e-end-arrow": "🔚",
+  "e-on-arrow": "🔛",
+  "e-soon-arrow": "🔜",
+  "e-top-arrow": "🔝",
+  "e-place-of-worship": "🛐",
+  "e-atom-symbol": "⚛️",
+  "e-om": "🕉️",
+  "e-star-of-david": "✡️",
+  "e-wheel-of-dharma": "☸️",
+  "e-yin-yang": "☯️",
+  "e-latin-cross": "✝️",
+  "e-orthodox-cross": "☦️",
+  "e-star-and-crescent": "☪️",
+  "e-peace-symbol": "☮️",
+  "e-menorah": "🕎",
+  "e-dotted-six-pointed-star": "🔯",
+  "e-khanda": "🪯",
+  "e-aries": "♈",
+  "e-taurus": "♉",
+  "e-gemini": "♊",
+  "e-cancer": "♋",
+  "e-leo": "♌",
+  "e-virgo": "♍",
+  "e-libra": "♎",
+  "e-scorpio": "♏",
+  "e-sagittarius": "♐",
+  "e-capricorn": "♑",
+  "e-aquarius": "♒",
+  "e-pisces": "♓",
+  "e-ophiuchus": "⛎",
+  "e-shuffle-tracks-button": "🔀",
+  "e-repeat-button": "🔁",
+  "e-repeat-single-button": "🔂",
+  "e-play-button": "▶️",
+  "e-fast-forward-button": "⏩",
+  "e-next-track-button": "⏭️",
+  "e-play-or-pause-button": "⏯️",
+  "e-reverse-button": "◀️",
+  "e-fast-reverse-button": "⏪",
+  "e-last-track-button": "⏮️",
+  "e-upwards-button": "🔼",
+  "e-fast-up-button": "⏫",
+  "e-downwards-button": "🔽",
+  "e-fast-down-button": "⏬",
+  "e-pause-button": "⏸️",
+  "e-stop-button": "⏹️",
+  "e-record-button": "⏺️",
+  "e-eject-button": "⏏️",
+  "e-cinema": "🎦",
+  "e-dim-button": "🔅",
+  "e-bright-button": "🔆",
+  "e-antenna-bars": "📶",
+  "e-wireless": "🛜",
+  "e-vibration-mode": "📳",
+  "e-mobile-phone-off": "📴",
+  "e-female-sign": "♀️",
+  "e-male-sign": "♂️",
+  "e-transgender-symbol": "⚧️",
+  "e-multiply": "✖️",
+  "e-plus": "➕",
+  "e-minus": "➖",
+  "e-divide": "➗",
+  "e-heavy-equals-sign": "🟰",
+  "e-infinity": "♾️",
+  "e-double-exclamation-mark": "‼️",
+  "e-exclamation-question-mark": "⁉️",
+  "e-red-question-mark": "❓",
+  "e-white-question-mark": "❔",
+  "e-white-exclamation-mark": "❕",
+  "e-red-exclamation-mark": "❗",
+  "e-wavy-dash": "〰️",
+  "e-currency-exchange": "💱",
+  "e-heavy-dollar-sign": "💲",
+  "e-medical-symbol": "⚕️",
+  "e-recycling-symbol": "♻️",
+  "e-fleur-de-lis": "⚜️",
+  "e-trident-emblem": "🔱",
+  "e-name-badge": "📛",
+  "e-japanese-symbol-for-beginner": "🔰",
+  "e-hollow-red-circle": "⭕",
+  "e-check-mark-button": "✅",
+  "e-check-box-with-check": "☑️",
+  "e-check-mark": "✔️",
+  "e-cross-mark": "❌",
+  "e-cross-mark-button": "❎",
+  "e-curly-loop": "➰",
+  "e-double-curly-loop": "➿",
+  "e-part-alternation-mark": "〽️",
+  "e-eight-spoked-asterisk": "✳️",
+  "e-eight-pointed-star": "✴️",
+  "e-sparkle": "❇️",
+  "e-copyright": "©️",
+  "e-registered": "®️",
+  "e-trade-mark": "™️",
+  "e-splatter": "🫟",
+  "e-keycap-number-sign": "#️⃣",
+  "e-keycap-asterisk": "*️⃣",
+  "e-keycap-0": "0️⃣",
+  "e-keycap-1": "1️⃣",
+  "e-keycap-2": "2️⃣",
+  "e-keycap-3": "3️⃣",
+  "e-keycap-4": "4️⃣",
+  "e-keycap-5": "5️⃣",
+  "e-keycap-6": "6️⃣",
+  "e-keycap-7": "7️⃣",
+  "e-keycap-8": "8️⃣",
+  "e-keycap-9": "9️⃣",
+  "e-keycap-10": "🔟",
+  "e-input-latin-uppercase": "🔠",
+  "e-input-latin-lowercase": "🔡",
+  "e-input-numbers": "🔢",
+  "e-input-symbols": "🔣",
+  "e-input-latin-letters": "🔤",
+  "e-a-button": "🅰️",
+  "e-ab-button": "🆎",
+  "e-b-button": "🅱️",
+  "e-cl-button": "🆑",
+  "e-cool-button": "🆒",
+  "e-free-button": "🆓",
+  "e-information": "ℹ️",
+  "e-id-button": "🆔",
+  "e-circled-m": "Ⓜ️",
+  "e-new-button": "🆕",
+  "e-ng-button": "🆖",
+  "e-o-button": "🅾️",
+  "e-ok-button": "🆗",
+  "e-p-button": "🅿️",
+  "e-sos-button": "🆘",
+  "e-up-button": "🆙",
+  "e-vs-button": "🆚",
+  "e-japanese-here-button": "🈁",
+  "e-japanese-service-charge-button": "🈂️",
+  "e-japanese-monthly-amount-button": "🈷️",
+  "e-japanese-not-free-of-charge-button": "🈶",
+  "e-japanese-reserved-button": "🈯",
+  "e-japanese-bargain-button": "🉐",
+  "e-japanese-discount-button": "🈹",
+  "e-japanese-free-of-charge-button": "🈚",
+  "e-japanese-prohibited-button": "🈲",
+  "e-japanese-acceptable-button": "🉑",
+  "e-japanese-application-button": "🈸",
+  "e-japanese-passing-grade-button": "🈴",
+  "e-japanese-vacancy-button": "🈳",
+  "e-japanese-congratulations-button": "㊗️",
+  "e-japanese-secret-button": "㊙️",
+  "e-japanese-open-for-business-button": "🈺",
+  "e-japanese-no-vacancy-button": "🈵",
+  "e-red-circle": "🔴",
+  "e-orange-circle": "🟠",
+  "e-yellow-circle": "🟡",
+  "e-green-circle": "🟢",
+  "e-blue-circle": "🔵",
+  "e-purple-circle": "🟣",
+  "e-brown-circle": "🟤",
+  "e-black-circle": "⚫",
+  "e-white-circle": "⚪",
+  "e-red-square": "🟥",
+  "e-orange-square": "🟧",
+  "e-yellow-square": "🟨",
+  "e-green-square": "🟩",
+  "e-blue-square": "🟦",
+  "e-purple-square": "🟪",
+  "e-brown-square": "🟫",
+  "e-black-large-square": "⬛",
+  "e-white-large-square": "⬜",
+  "e-black-medium-square": "◼️",
+  "e-white-medium-square": "◻️",
+  "e-black-medium-small-square": "◾",
+  "e-white-medium-small-square": "◽",
+  "e-black-small-square": "▪️",
+  "e-white-small-square": "▫️",
+  "e-large-orange-diamond": "🔶",
+  "e-large-blue-diamond": "🔷",
+  "e-small-orange-diamond": "🔸",
+  "e-small-blue-diamond": "🔹",
+  "e-red-triangle-pointed-up": "🔺",
+  "e-red-triangle-pointed-down": "🔻",
+  "e-diamond-with-a-dot": "💠",
+  "e-radio-button": "🔘",
+  "e-white-square-button": "🔳",
+  "e-black-square-button": "🔲",
+  "e-chequered-flag": "🏁",
+  "e-triangular-flag": "🚩",
+  "e-crossed-flags": "🎌",
+  "e-black-flag": "🏴",
+  "e-white-flag": "🏳️",
+  "e-rainbow-flag": "🏳️‍🌈",
+  "e-transgender-flag": "🏳️‍⚧️",
+  "e-pirate-flag": "🏴‍☠️",
+  "e-flag-ascension-island": "🇦🇨",
+  "e-flag-andorra": "🇦🇩",
+  "e-flag-united-arab-emirates": "🇦🇪",
+  "e-flag-afghanistan": "🇦🇫",
+  "e-flag-antigua-barbuda": "🇦🇬",
+  "e-flag-anguilla": "🇦🇮",
+  "e-flag-albania": "🇦🇱",
+  "e-flag-armenia": "🇦🇲",
+  "e-flag-angola": "🇦🇴",
+  "e-flag-antarctica": "🇦🇶",
+  "e-flag-argentina": "🇦🇷",
+  "e-flag-american-samoa": "🇦🇸",
+  "e-flag-austria": "🇦🇹",
+  "e-flag-australia": "🇦🇺",
+  "e-flag-aruba": "🇦🇼",
+  "e-flag-aland-islands": "🇦🇽",
+  "e-flag-azerbaijan": "🇦🇿",
+  "e-flag-bosnia-herzegovina": "🇧🇦",
+  "e-flag-barbados": "🇧🇧",
+  "e-flag-bangladesh": "🇧🇩",
+  "e-flag-belgium": "🇧🇪",
+  "e-flag-burkina-faso": "🇧🇫",
+  "e-flag-bulgaria": "🇧🇬",
+  "e-flag-bahrain": "🇧🇭",
+  "e-flag-burundi": "🇧🇮",
+  "e-flag-benin": "🇧🇯",
+  "e-flag-st-barthelemy": "🇧🇱",
+  "e-flag-bermuda": "🇧🇲",
+  "e-flag-brunei": "🇧🇳",
+  "e-flag-bolivia": "🇧🇴",
+  "e-flag-caribbean-netherlands": "🇧🇶",
+  "e-flag-brazil": "🇧🇷",
+  "e-flag-bahamas": "🇧🇸",
+  "e-flag-bhutan": "🇧🇹",
+  "e-flag-bouvet-island": "🇧🇻",
+  "e-flag-botswana": "🇧🇼",
+  "e-flag-belarus": "🇧🇾",
+  "e-flag-belize": "🇧🇿",
+  "e-flag-canada": "🇨🇦",
+  "e-flag-cocos-islands": "🇨🇨",
+  "e-flag-congo-kinshasa": "🇨🇩",
+  "e-flag-central-african-republic": "🇨🇫",
+  "e-flag-congo-brazzaville": "🇨🇬",
+  "e-flag-switzerland": "🇨🇭",
+  "e-flag-cote-d-ivoire": "🇨🇮",
+  "e-flag-cook-islands": "🇨🇰",
+  "e-flag-chile": "🇨🇱",
+  "e-flag-cameroon": "🇨🇲",
+  "e-flag-china": "🇨🇳",
+  "e-flag-colombia": "🇨🇴",
+  "e-flag-clipperton-island": "🇨🇵",
+  "e-flag-sark": "🇨🇶",
+  "e-flag-costa-rica": "🇨🇷",
+  "e-flag-cuba": "🇨🇺",
+  "e-flag-cape-verde": "🇨🇻",
+  "e-flag-curacao": "🇨🇼",
+  "e-flag-christmas-island": "🇨🇽",
+  "e-flag-cyprus": "🇨🇾",
+  "e-flag-czechia": "🇨🇿",
+  "e-flag-germany": "🇩🇪",
+  "e-flag-diego-garcia": "🇩🇬",
+  "e-flag-djibouti": "🇩🇯",
+  "e-flag-denmark": "🇩🇰",
+  "e-flag-dominica": "🇩🇲",
+  "e-flag-dominican-republic": "🇩🇴",
+  "e-flag-algeria": "🇩🇿",
+  "e-flag-ceuta-melilla": "🇪🇦",
+  "e-flag-ecuador": "🇪🇨",
+  "e-flag-estonia": "🇪🇪",
+  "e-flag-egypt": "🇪🇬",
+  "e-flag-western-sahara": "🇪🇭",
+  "e-flag-eritrea": "🇪🇷",
+  "e-flag-spain": "🇪🇸",
+  "e-flag-ethiopia": "🇪🇹",
+  "e-flag-european-union": "🇪🇺",
+  "e-flag-finland": "🇫🇮",
+  "e-flag-fiji": "🇫🇯",
+  "e-flag-falkland-islands": "🇫🇰",
+  "e-flag-micronesia": "🇫🇲",
+  "e-flag-faroe-islands": "🇫🇴",
+  "e-flag-france": "🇫🇷",
+  "e-flag-gabon": "🇬🇦",
+  "e-flag-united-kingdom": "🇬🇧",
+  "e-flag-grenada": "🇬🇩",
+  "e-flag-georgia": "🇬🇪",
+  "e-flag-french-guiana": "🇬🇫",
+  "e-flag-guernsey": "🇬🇬",
+  "e-flag-ghana": "🇬🇭",
+  "e-flag-gibraltar": "🇬🇮",
+  "e-flag-greenland": "🇬🇱",
+  "e-flag-gambia": "🇬🇲",
+  "e-flag-guinea": "🇬🇳",
+  "e-flag-guadeloupe": "🇬🇵",
+  "e-flag-equatorial-guinea": "🇬🇶",
+  "e-flag-greece": "🇬🇷",
+  "e-flag-south-georgia-south-sandwich-islands": "🇬🇸",
+  "e-flag-guatemala": "🇬🇹",
+  "e-flag-guam": "🇬🇺",
+  "e-flag-guinea-bissau": "🇬🇼",
+  "e-flag-guyana": "🇬🇾",
+  "e-flag-hong-kong-sar-china": "🇭🇰",
+  "e-flag-heard-mcdonald-islands": "🇭🇲",
+  "e-flag-honduras": "🇭🇳",
+  "e-flag-croatia": "🇭🇷",
+  "e-flag-haiti": "🇭🇹",
+  "e-flag-hungary": "🇭🇺",
+  "e-flag-canary-islands": "🇮🇨",
+  "e-flag-indonesia": "🇮🇩",
+  "e-flag-ireland": "🇮🇪",
+  "e-flag-israel": "🇮🇱",
+  "e-flag-isle-of-man": "🇮🇲",
+  "e-flag-india": "🇮🇳",
+  "e-flag-british-indian-ocean-territory": "🇮🇴",
+  "e-flag-iraq": "🇮🇶",
+  "e-flag-iran": "🇮🇷",
+  "e-flag-iceland": "🇮🇸",
+  "e-flag-italy": "🇮🇹",
+  "e-flag-jersey": "🇯🇪",
+  "e-flag-jamaica": "🇯🇲",
+  "e-flag-jordan": "🇯🇴",
+  "e-flag-japan": "🇯🇵",
+  "e-flag-kenya": "🇰🇪",
+  "e-flag-kyrgyzstan": "🇰🇬",
+  "e-flag-cambodia": "🇰🇭",
+  "e-flag-kiribati": "🇰🇮",
+  "e-flag-comoros": "🇰🇲",
+  "e-flag-st-kitts-nevis": "🇰🇳",
+  "e-flag-north-korea": "🇰🇵",
+  "e-flag-south-korea": "🇰🇷",
+  "e-flag-kuwait": "🇰🇼",
+  "e-flag-cayman-islands": "🇰🇾",
+  "e-flag-kazakhstan": "🇰🇿",
+  "e-flag-laos": "🇱🇦",
+  "e-flag-lebanon": "🇱🇧",
+  "e-flag-st-lucia": "🇱🇨",
+  "e-flag-liechtenstein": "🇱🇮",
+  "e-flag-sri-lanka": "🇱🇰",
+  "e-flag-liberia": "🇱🇷",
+  "e-flag-lesotho": "🇱🇸",
+  "e-flag-lithuania": "🇱🇹",
+  "e-flag-luxembourg": "🇱🇺",
+  "e-flag-latvia": "🇱🇻",
+  "e-flag-libya": "🇱🇾",
+  "e-flag-morocco": "🇲🇦",
+  "e-flag-monaco": "🇲🇨",
+  "e-flag-moldova": "🇲🇩",
+  "e-flag-montenegro": "🇲🇪",
+  "e-flag-st-martin": "🇲🇫",
+  "e-flag-madagascar": "🇲🇬",
+  "e-flag-marshall-islands": "🇲🇭",
+  "e-flag-north-macedonia": "🇲🇰",
+  "e-flag-mali": "🇲🇱",
+  "e-flag-myanmar": "🇲🇲",
+  "e-flag-mongolia": "🇲🇳",
+  "e-flag-macao-sar-china": "🇲🇴",
+  "e-flag-northern-mariana-islands": "🇲🇵",
+  "e-flag-martinique": "🇲🇶",
+  "e-flag-mauritania": "🇲🇷",
+  "e-flag-montserrat": "🇲🇸",
+  "e-flag-malta": "🇲🇹",
+  "e-flag-mauritius": "🇲🇺",
+  "e-flag-maldives": "🇲🇻",
+  "e-flag-malawi": "🇲🇼",
+  "e-flag-mexico": "🇲🇽",
+  "e-flag-malaysia": "🇲🇾",
+  "e-flag-mozambique": "🇲🇿",
+  "e-flag-namibia": "🇳🇦",
+  "e-flag-new-caledonia": "🇳🇨",
+  "e-flag-niger": "🇳🇪",
+  "e-flag-norfolk-island": "🇳🇫",
+  "e-flag-nigeria": "🇳🇬",
+  "e-flag-nicaragua": "🇳🇮",
+  "e-flag-netherlands": "🇳🇱",
+  "e-flag-norway": "🇳🇴",
+  "e-flag-nepal": "🇳🇵",
+  "e-flag-nauru": "🇳🇷",
+  "e-flag-niue": "🇳🇺",
+  "e-flag-new-zealand": "🇳🇿",
+  "e-flag-oman": "🇴🇲",
+  "e-flag-panama": "🇵🇦",
+  "e-flag-peru": "🇵🇪",
+  "e-flag-french-polynesia": "🇵🇫",
+  "e-flag-papua-new-guinea": "🇵🇬",
+  "e-flag-philippines": "🇵🇭",
+  "e-flag-pakistan": "🇵🇰",
+  "e-flag-poland": "🇵🇱",
+  "e-flag-st-pierre-miquelon": "🇵🇲",
+  "e-flag-pitcairn-islands": "🇵🇳",
+  "e-flag-puerto-rico": "🇵🇷",
+  "e-flag-palestinian-territories": "🇵🇸",
+  "e-flag-portugal": "🇵🇹",
+  "e-flag-palau": "🇵🇼",
+  "e-flag-paraguay": "🇵🇾",
+  "e-flag-qatar": "🇶🇦",
+  "e-flag-reunion": "🇷🇪",
+  "e-flag-romania": "🇷🇴",
+  "e-flag-serbia": "🇷🇸",
+  "e-flag-russia": "🇷🇺",
+  "e-flag-rwanda": "🇷🇼",
+  "e-flag-saudi-arabia": "🇸🇦",
+  "e-flag-solomon-islands": "🇸🇧",
+  "e-flag-seychelles": "🇸🇨",
+  "e-flag-sudan": "🇸🇩",
+  "e-flag-sweden": "🇸🇪",
+  "e-flag-singapore": "🇸🇬",
+  "e-flag-st-helena": "🇸🇭",
+  "e-flag-slovenia": "🇸🇮",
+  "e-flag-svalbard-jan-mayen": "🇸🇯",
+  "e-flag-slovakia": "🇸🇰",
+  "e-flag-sierra-leone": "🇸🇱",
+  "e-flag-san-marino": "🇸🇲",
+  "e-flag-senegal": "🇸🇳",
+  "e-flag-somalia": "🇸🇴",
+  "e-flag-suriname": "🇸🇷",
+  "e-flag-south-sudan": "🇸🇸",
+  "e-flag-sao-tome-principe": "🇸🇹",
+  "e-flag-el-salvador": "🇸🇻",
+  "e-flag-sint-maarten": "🇸🇽",
+  "e-flag-syria": "🇸🇾",
+  "e-flag-eswatini": "🇸🇿",
+  "e-flag-tristan-da-cunha": "🇹🇦",
+  "e-flag-turks-caicos-islands": "🇹🇨",
+  "e-flag-chad": "🇹🇩",
+  "e-flag-french-southern-territories": "🇹🇫",
+  "e-flag-togo": "🇹🇬",
+  "e-flag-thailand": "🇹🇭",
+  "e-flag-tajikistan": "🇹🇯",
+  "e-flag-tokelau": "🇹🇰",
+  "e-flag-timor-leste": "🇹🇱",
+  "e-flag-turkmenistan": "🇹🇲",
+  "e-flag-tunisia": "🇹🇳",
+  "e-flag-tonga": "🇹🇴",
+  "e-flag-turkiye": "🇹🇷",
+  "e-flag-trinidad-tobago": "🇹🇹",
+  "e-flag-tuvalu": "🇹🇻",
+  "e-flag-taiwan": "🇹🇼",
+  "e-flag-tanzania": "🇹🇿",
+  "e-flag-ukraine": "🇺🇦",
+  "e-flag-uganda": "🇺🇬",
+  "e-flag-u-s-outlying-islands": "🇺🇲",
+  "e-flag-united-nations": "🇺🇳",
+  "e-flag-united-states": "🇺🇸",
+  "e-flag-uruguay": "🇺🇾",
+  "e-flag-uzbekistan": "🇺🇿",
+  "e-flag-vatican-city": "🇻🇦",
+  "e-flag-st-vincent-grenadines": "🇻🇨",
+  "e-flag-venezuela": "🇻🇪",
+  "e-flag-british-virgin-islands": "🇻🇬",
+  "e-flag-u-s-virgin-islands": "🇻🇮",
+  "e-flag-vietnam": "🇻🇳",
+  "e-flag-vanuatu": "🇻🇺",
+  "e-flag-wallis-futuna": "🇼🇫",
+  "e-flag-samoa": "🇼🇸",
+  "e-flag-kosovo": "🇽🇰",
+  "e-flag-yemen": "🇾🇪",
+  "e-flag-mayotte": "🇾🇹",
+  "e-flag-south-africa": "🇿🇦",
+  "e-flag-zambia": "🇿🇲",
+  "e-flag-zimbabwe": "🇿🇼",
+  "e-flag-england": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "e-flag-scotland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+  "e-flag-wales": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
 },
     literalToEmoji: {
-  "🍓": "🍓",
-  "🍼": "🍼",
-  "🥛": "🥛",
-  "☕": "☕",
-  "💀": "💀",
-  "🔥": "🔥",
-  "💻": "💻",
-  "📦": "📦",
-  "🍝": "🍝",
-  "🗂️": "🗂️",
+  "😀": "😀",
+  "😃": "😃",
+  "😄": "😄",
+  "😁": "😁",
+  "😆": "😆",
+  "😅": "😅",
+  "🤣": "🤣",
+  "😂": "😂",
+  "🙂": "🙂",
+  "🙃": "🙃",
+  "🫠": "🫠",
+  "😉": "😉",
+  "😊": "😊",
   "😇": "😇",
-  "🐱": "🐱",
+  "🥰": "🥰",
+  "😍": "😍",
+  "🤩": "🤩",
+  "😘": "😘",
+  "😗": "😗",
+  "☺️": "☺️",
+  "😚": "😚",
+  "😙": "😙",
+  "🥲": "🥲",
+  "😋": "😋",
+  "😛": "😛",
+  "😜": "😜",
+  "🤪": "🤪",
+  "😝": "😝",
+  "🤑": "🤑",
+  "🤗": "🤗",
+  "🤭": "🤭",
+  "🫢": "🫢",
+  "🫣": "🫣",
+  "🤫": "🤫",
+  "🤔": "🤔",
+  "🫡": "🫡",
+  "🤐": "🤐",
+  "🤨": "🤨",
+  "😐": "😐",
+  "😑": "😑",
+  "😶": "😶",
+  "🫥": "🫥",
+  "😶‍🌫️": "😶‍🌫️",
+  "😏": "😏",
+  "😒": "😒",
+  "🙄": "🙄",
+  "😬": "😬",
+  "😮‍💨": "😮‍💨",
+  "🤥": "🤥",
+  "🫨": "🫨",
+  "🙂‍↔️": "🙂‍↔️",
+  "🙂‍↕️": "🙂‍↕️",
+  "😌": "😌",
+  "😔": "😔",
+  "😪": "😪",
+  "🤤": "🤤",
+  "😴": "😴",
+  "🫩": "🫩",
+  "😷": "😷",
+  "🤒": "🤒",
+  "🤕": "🤕",
+  "🤢": "🤢",
+  "🤮": "🤮",
+  "🤧": "🤧",
+  "🥵": "🥵",
+  "🥶": "🥶",
+  "🥴": "🥴",
+  "😵": "😵",
+  "😵‍💫": "😵‍💫",
+  "🤯": "🤯",
+  "🤠": "🤠",
+  "🥳": "🥳",
+  "🥸": "🥸",
+  "😎": "😎",
+  "🤓": "🤓",
+  "🧐": "🧐",
+  "😕": "😕",
+  "🫤": "🫤",
+  "😟": "😟",
+  "🙁": "🙁",
+  "☹️": "☹️",
+  "😮": "😮",
+  "😯": "😯",
+  "😲": "😲",
+  "😳": "😳",
+  "🥺": "🥺",
+  "🥹": "🥹",
+  "😦": "😦",
+  "😧": "😧",
+  "😨": "😨",
+  "😰": "😰",
+  "😥": "😥",
+  "😢": "😢",
+  "😭": "😭",
+  "😱": "😱",
+  "😖": "😖",
+  "😣": "😣",
+  "😞": "😞",
+  "😓": "😓",
+  "😩": "😩",
+  "😫": "😫",
+  "🥱": "🥱",
+  "😤": "😤",
+  "😡": "😡",
+  "😠": "😠",
+  "🤬": "🤬",
+  "😈": "😈",
+  "👿": "👿",
+  "💀": "💀",
+  "☠️": "☠️",
+  "💩": "💩",
+  "🤡": "🤡",
+  "👹": "👹",
+  "👺": "👺",
+  "👻": "👻",
+  "👽": "👽",
+  "👾": "👾",
+  "🤖": "🤖",
+  "😺": "😺",
+  "😸": "😸",
+  "😹": "😹",
+  "😻": "😻",
+  "😼": "😼",
+  "😽": "😽",
+  "🙀": "🙀",
+  "😿": "😿",
+  "😾": "😾",
+  "🙈": "🙈",
+  "🙉": "🙉",
+  "🙊": "🙊",
+  "💌": "💌",
+  "💘": "💘",
+  "💝": "💝",
+  "💖": "💖",
+  "💗": "💗",
+  "💓": "💓",
+  "💞": "💞",
+  "💕": "💕",
+  "💟": "💟",
+  "❣️": "❣️",
+  "💔": "💔",
+  "❤️‍🔥": "❤️‍🔥",
+  "❤️‍🩹": "❤️‍🩹",
+  "❤️": "❤️",
+  "🩷": "🩷",
+  "🧡": "🧡",
+  "💛": "💛",
+  "💚": "💚",
+  "💙": "💙",
+  "🩵": "🩵",
+  "💜": "💜",
+  "🤎": "🤎",
+  "🖤": "🖤",
+  "🩶": "🩶",
+  "🤍": "🤍",
+  "💋": "💋",
+  "💯": "💯",
+  "💢": "💢",
+  "💥": "💥",
+  "💫": "💫",
+  "💦": "💦",
+  "💨": "💨",
+  "🕳️": "🕳️",
+  "💬": "💬",
+  "👁️‍🗨️": "👁️‍🗨️",
+  "🗨️": "🗨️",
+  "🗯️": "🗯️",
+  "💭": "💭",
+  "💤": "💤",
+  "👋": "👋",
+  "🤚": "🤚",
+  "🖐️": "🖐️",
+  "✋": "✋",
+  "🖖": "🖖",
+  "🫱": "🫱",
+  "🫲": "🫲",
+  "🫳": "🫳",
+  "🫴": "🫴",
+  "🫷": "🫷",
+  "🫸": "🫸",
+  "👌": "👌",
+  "🤌": "🤌",
+  "🤏": "🤏",
+  "✌️": "✌️",
+  "🤞": "🤞",
+  "🫰": "🫰",
+  "🤟": "🤟",
+  "🤘": "🤘",
+  "🤙": "🤙",
+  "👈": "👈",
+  "👉": "👉",
+  "👆": "👆",
+  "🖕": "🖕",
+  "👇": "👇",
+  "☝️": "☝️",
+  "🫵": "🫵",
+  "👍": "👍",
+  "👎": "👎",
+  "✊": "✊",
+  "👊": "👊",
+  "🤛": "🤛",
+  "🤜": "🤜",
+  "👏": "👏",
+  "🙌": "🙌",
+  "🫶": "🫶",
+  "👐": "👐",
+  "🤲": "🤲",
+  "🤝": "🤝",
+  "🙏": "🙏",
+  "✍️": "✍️",
+  "💅": "💅",
+  "🤳": "🤳",
+  "💪": "💪",
+  "🦾": "🦾",
+  "🦿": "🦿",
+  "🦵": "🦵",
+  "🦶": "🦶",
+  "👂": "👂",
+  "🦻": "🦻",
+  "👃": "👃",
   "🧠": "🧠",
-  "🔋": "🔋",
-  "🍜": "🍜",
-  "🌶️": "🌶️",
-  "☣️": "☣️",
-  "🧴": "🧴",
-  "🧃": "🧃",
-  "🫙": "🫙",
-  "📁": "📁",
-  "💾": "💾",
-  "🔌": "🔌",
-  "📱": "📱",
-  "🧪": "🧪",
+  "🫀": "🫀",
+  "🫁": "🫁",
+  "🦷": "🦷",
+  "🦴": "🦴",
+  "👀": "👀",
+  "👁️": "👁️",
+  "👅": "👅",
+  "👄": "👄",
+  "🫦": "🫦",
+  "👶": "👶",
+  "🧒": "🧒",
+  "👦": "👦",
+  "👧": "👧",
+  "🧑": "🧑",
+  "👱": "👱",
+  "👨": "👨",
+  "🧔": "🧔",
+  "🧔‍♂️": "🧔‍♂️",
+  "🧔‍♀️": "🧔‍♀️",
+  "👨‍🦰": "👨‍🦰",
+  "👨‍🦱": "👨‍🦱",
+  "👨‍🦳": "👨‍🦳",
+  "👨‍🦲": "👨‍🦲",
+  "👩": "👩",
+  "👩‍🦰": "👩‍🦰",
+  "🧑‍🦰": "🧑‍🦰",
+  "👩‍🦱": "👩‍🦱",
+  "🧑‍🦱": "🧑‍🦱",
+  "👩‍🦳": "👩‍🦳",
+  "🧑‍🦳": "🧑‍🦳",
+  "👩‍🦲": "👩‍🦲",
+  "🧑‍🦲": "🧑‍🦲",
+  "👱‍♀️": "👱‍♀️",
+  "👱‍♂️": "👱‍♂️",
+  "🧓": "🧓",
+  "👴": "👴",
+  "👵": "👵",
+  "🙍": "🙍",
+  "🙍‍♂️": "🙍‍♂️",
+  "🙍‍♀️": "🙍‍♀️",
+  "🙎": "🙎",
+  "🙎‍♂️": "🙎‍♂️",
+  "🙎‍♀️": "🙎‍♀️",
+  "🙅": "🙅",
+  "🙅‍♂️": "🙅‍♂️",
+  "🙅‍♀️": "🙅‍♀️",
+  "🙆": "🙆",
+  "🙆‍♂️": "🙆‍♂️",
+  "🙆‍♀️": "🙆‍♀️",
+  "💁": "💁",
+  "💁‍♂️": "💁‍♂️",
+  "💁‍♀️": "💁‍♀️",
+  "🙋": "🙋",
+  "🙋‍♂️": "🙋‍♂️",
+  "🙋‍♀️": "🙋‍♀️",
+  "🧏": "🧏",
+  "🧏‍♂️": "🧏‍♂️",
+  "🧏‍♀️": "🧏‍♀️",
+  "🙇": "🙇",
+  "🙇‍♂️": "🙇‍♂️",
+  "🙇‍♀️": "🙇‍♀️",
+  "🤦": "🤦",
+  "🤦‍♂️": "🤦‍♂️",
+  "🤦‍♀️": "🤦‍♀️",
+  "🤷": "🤷",
+  "🤷‍♂️": "🤷‍♂️",
+  "🤷‍♀️": "🤷‍♀️",
+  "🧑‍⚕️": "🧑‍⚕️",
+  "👨‍⚕️": "👨‍⚕️",
+  "👩‍⚕️": "👩‍⚕️",
+  "🧑‍🎓": "🧑‍🎓",
+  "👨‍🎓": "👨‍🎓",
+  "👩‍🎓": "👩‍🎓",
+  "🧑‍🏫": "🧑‍🏫",
+  "👨‍🏫": "👨‍🏫",
+  "👩‍🏫": "👩‍🏫",
+  "🧑‍⚖️": "🧑‍⚖️",
+  "👨‍⚖️": "👨‍⚖️",
+  "👩‍⚖️": "👩‍⚖️",
+  "🧑‍🌾": "🧑‍🌾",
+  "👨‍🌾": "👨‍🌾",
+  "👩‍🌾": "👩‍🌾",
+  "🧑‍🍳": "🧑‍🍳",
+  "👨‍🍳": "👨‍🍳",
+  "👩‍🍳": "👩‍🍳",
+  "🧑‍🔧": "🧑‍🔧",
+  "👨‍🔧": "👨‍🔧",
+  "👩‍🔧": "👩‍🔧",
+  "🧑‍🏭": "🧑‍🏭",
+  "👨‍🏭": "👨‍🏭",
+  "👩‍🏭": "👩‍🏭",
+  "🧑‍💼": "🧑‍💼",
+  "👨‍💼": "👨‍💼",
+  "👩‍💼": "👩‍💼",
+  "🧑‍🔬": "🧑‍🔬",
+  "👨‍🔬": "👨‍🔬",
+  "👩‍🔬": "👩‍🔬",
+  "🧑‍💻": "🧑‍💻",
+  "👨‍💻": "👨‍💻",
+  "👩‍💻": "👩‍💻",
+  "🧑‍🎤": "🧑‍🎤",
+  "👨‍🎤": "👨‍🎤",
+  "👩‍🎤": "👩‍🎤",
+  "🧑‍🎨": "🧑‍🎨",
+  "👨‍🎨": "👨‍🎨",
+  "👩‍🎨": "👩‍🎨",
+  "🧑‍✈️": "🧑‍✈️",
+  "👨‍✈️": "👨‍✈️",
+  "👩‍✈️": "👩‍✈️",
+  "🧑‍🚀": "🧑‍🚀",
+  "👨‍🚀": "👨‍🚀",
+  "👩‍🚀": "👩‍🚀",
+  "🧑‍🚒": "🧑‍🚒",
+  "👨‍🚒": "👨‍🚒",
+  "👩‍🚒": "👩‍🚒",
+  "👮": "👮",
+  "👮‍♂️": "👮‍♂️",
+  "👮‍♀️": "👮‍♀️",
+  "🕵️": "🕵️",
+  "🕵️‍♂️": "🕵️‍♂️",
+  "🕵️‍♀️": "🕵️‍♀️",
+  "💂": "💂",
+  "💂‍♂️": "💂‍♂️",
+  "💂‍♀️": "💂‍♀️",
+  "🥷": "🥷",
+  "👷": "👷",
+  "👷‍♂️": "👷‍♂️",
+  "👷‍♀️": "👷‍♀️",
+  "🫅": "🫅",
+  "🤴": "🤴",
+  "👸": "👸",
+  "👳": "👳",
+  "👳‍♂️": "👳‍♂️",
+  "👳‍♀️": "👳‍♀️",
+  "👲": "👲",
+  "🧕": "🧕",
+  "🤵": "🤵",
+  "🤵‍♂️": "🤵‍♂️",
+  "🤵‍♀️": "🤵‍♀️",
+  "👰": "👰",
+  "👰‍♂️": "👰‍♂️",
+  "👰‍♀️": "👰‍♀️",
+  "🤰": "🤰",
+  "🫃": "🫃",
+  "🫄": "🫄",
+  "🤱": "🤱",
+  "👩‍🍼": "👩‍🍼",
+  "👨‍🍼": "👨‍🍼",
+  "🧑‍🍼": "🧑‍🍼",
+  "👼": "👼",
+  "🎅": "🎅",
+  "🤶": "🤶",
+  "🧑‍🎄": "🧑‍🎄",
+  "🦸": "🦸",
+  "🦸‍♂️": "🦸‍♂️",
+  "🦸‍♀️": "🦸‍♀️",
+  "🦹": "🦹",
+  "🦹‍♂️": "🦹‍♂️",
+  "🦹‍♀️": "🦹‍♀️",
+  "🧙": "🧙",
+  "🧙‍♂️": "🧙‍♂️",
+  "🧙‍♀️": "🧙‍♀️",
+  "🧚": "🧚",
+  "🧚‍♂️": "🧚‍♂️",
+  "🧚‍♀️": "🧚‍♀️",
+  "🧛": "🧛",
+  "🧛‍♂️": "🧛‍♂️",
+  "🧛‍♀️": "🧛‍♀️",
+  "🧜": "🧜",
+  "🧜‍♂️": "🧜‍♂️",
+  "🧜‍♀️": "🧜‍♀️",
+  "🧝": "🧝",
+  "🧝‍♂️": "🧝‍♂️",
+  "🧝‍♀️": "🧝‍♀️",
+  "🧞": "🧞",
+  "🧞‍♂️": "🧞‍♂️",
+  "🧞‍♀️": "🧞‍♀️",
+  "🧟": "🧟",
+  "🧟‍♂️": "🧟‍♂️",
+  "🧟‍♀️": "🧟‍♀️",
+  "🧌": "🧌",
+  "💆": "💆",
+  "💆‍♂️": "💆‍♂️",
+  "💆‍♀️": "💆‍♀️",
+  "💇": "💇",
+  "💇‍♂️": "💇‍♂️",
+  "💇‍♀️": "💇‍♀️",
+  "🚶": "🚶",
+  "🚶‍♂️": "🚶‍♂️",
+  "🚶‍♀️": "🚶‍♀️",
+  "🚶‍➡️": "🚶‍➡️",
+  "🚶‍♀️‍➡️": "🚶‍♀️‍➡️",
+  "🚶‍♂️‍➡️": "🚶‍♂️‍➡️",
+  "🧍": "🧍",
+  "🧍‍♂️": "🧍‍♂️",
+  "🧍‍♀️": "🧍‍♀️",
+  "🧎": "🧎",
+  "🧎‍♂️": "🧎‍♂️",
+  "🧎‍♀️": "🧎‍♀️",
+  "🧎‍➡️": "🧎‍➡️",
+  "🧎‍♀️‍➡️": "🧎‍♀️‍➡️",
+  "🧎‍♂️‍➡️": "🧎‍♂️‍➡️",
+  "🧑‍🦯": "🧑‍🦯",
+  "🧑‍🦯‍➡️": "🧑‍🦯‍➡️",
+  "👨‍🦯": "👨‍🦯",
+  "👨‍🦯‍➡️": "👨‍🦯‍➡️",
+  "👩‍🦯": "👩‍🦯",
+  "👩‍🦯‍➡️": "👩‍🦯‍➡️",
+  "🧑‍🦼": "🧑‍🦼",
+  "🧑‍🦼‍➡️": "🧑‍🦼‍➡️",
+  "👨‍🦼": "👨‍🦼",
+  "👨‍🦼‍➡️": "👨‍🦼‍➡️",
+  "👩‍🦼": "👩‍🦼",
+  "👩‍🦼‍➡️": "👩‍🦼‍➡️",
+  "🧑‍🦽": "🧑‍🦽",
+  "🧑‍🦽‍➡️": "🧑‍🦽‍➡️",
+  "👨‍🦽": "👨‍🦽",
+  "👨‍🦽‍➡️": "👨‍🦽‍➡️",
+  "👩‍🦽": "👩‍🦽",
+  "👩‍🦽‍➡️": "👩‍🦽‍➡️",
+  "🏃": "🏃",
+  "🏃‍♂️": "🏃‍♂️",
+  "🏃‍♀️": "🏃‍♀️",
+  "🏃‍➡️": "🏃‍➡️",
+  "🏃‍♀️‍➡️": "🏃‍♀️‍➡️",
+  "🏃‍♂️‍➡️": "🏃‍♂️‍➡️",
+  "💃": "💃",
+  "🕺": "🕺",
+  "🕴️": "🕴️",
+  "👯": "👯",
+  "👯‍♂️": "👯‍♂️",
+  "👯‍♀️": "👯‍♀️",
+  "🧖": "🧖",
+  "🧖‍♂️": "🧖‍♂️",
+  "🧖‍♀️": "🧖‍♀️",
+  "🧗": "🧗",
+  "🧗‍♂️": "🧗‍♂️",
+  "🧗‍♀️": "🧗‍♀️",
+  "🤺": "🤺",
+  "🏇": "🏇",
+  "⛷️": "⛷️",
+  "🏂": "🏂",
+  "🏌️": "🏌️",
+  "🏌️‍♂️": "🏌️‍♂️",
+  "🏌️‍♀️": "🏌️‍♀️",
+  "🏄": "🏄",
+  "🏄‍♂️": "🏄‍♂️",
+  "🏄‍♀️": "🏄‍♀️",
+  "🚣": "🚣",
+  "🚣‍♂️": "🚣‍♂️",
+  "🚣‍♀️": "🚣‍♀️",
+  "🏊": "🏊",
+  "🏊‍♂️": "🏊‍♂️",
+  "🏊‍♀️": "🏊‍♀️",
+  "⛹️": "⛹️",
+  "⛹️‍♂️": "⛹️‍♂️",
+  "⛹️‍♀️": "⛹️‍♀️",
+  "🏋️": "🏋️",
+  "🏋️‍♂️": "🏋️‍♂️",
+  "🏋️‍♀️": "🏋️‍♀️",
+  "🚴": "🚴",
+  "🚴‍♂️": "🚴‍♂️",
+  "🚴‍♀️": "🚴‍♀️",
+  "🚵": "🚵",
+  "🚵‍♂️": "🚵‍♂️",
+  "🚵‍♀️": "🚵‍♀️",
+  "🤸": "🤸",
+  "🤸‍♂️": "🤸‍♂️",
+  "🤸‍♀️": "🤸‍♀️",
+  "🤼": "🤼",
+  "🤼‍♂️": "🤼‍♂️",
+  "🤼‍♀️": "🤼‍♀️",
+  "🤽": "🤽",
+  "🤽‍♂️": "🤽‍♂️",
+  "🤽‍♀️": "🤽‍♀️",
+  "🤾": "🤾",
+  "🤾‍♂️": "🤾‍♂️",
+  "🤾‍♀️": "🤾‍♀️",
+  "🤹": "🤹",
+  "🤹‍♂️": "🤹‍♂️",
+  "🤹‍♀️": "🤹‍♀️",
+  "🧘": "🧘",
+  "🧘‍♂️": "🧘‍♂️",
+  "🧘‍♀️": "🧘‍♀️",
+  "🛀": "🛀",
+  "🛌": "🛌",
+  "🧑‍🤝‍🧑": "🧑‍🤝‍🧑",
+  "👭": "👭",
+  "👫": "👫",
+  "👬": "👬",
+  "💏": "💏",
+  "👩‍❤️‍💋‍👨": "👩‍❤️‍💋‍👨",
+  "👨‍❤️‍💋‍👨": "👨‍❤️‍💋‍👨",
+  "👩‍❤️‍💋‍👩": "👩‍❤️‍💋‍👩",
+  "💑": "💑",
+  "👩‍❤️‍👨": "👩‍❤️‍👨",
+  "👨‍❤️‍👨": "👨‍❤️‍👨",
+  "👩‍❤️‍👩": "👩‍❤️‍👩",
+  "👨‍👩‍👦": "👨‍👩‍👦",
+  "👨‍👩‍👧": "👨‍👩‍👧",
+  "👨‍👩‍👧‍👦": "👨‍👩‍👧‍👦",
+  "👨‍👩‍👦‍👦": "👨‍👩‍👦‍👦",
+  "👨‍👩‍👧‍👧": "👨‍👩‍👧‍👧",
+  "👨‍👨‍👦": "👨‍👨‍👦",
+  "👨‍👨‍👧": "👨‍👨‍👧",
+  "👨‍👨‍👧‍👦": "👨‍👨‍👧‍👦",
+  "👨‍👨‍👦‍👦": "👨‍👨‍👦‍👦",
+  "👨‍👨‍👧‍👧": "👨‍👨‍👧‍👧",
+  "👩‍👩‍👦": "👩‍👩‍👦",
+  "👩‍👩‍👧": "👩‍👩‍👧",
+  "👩‍👩‍👧‍👦": "👩‍👩‍👧‍👦",
+  "👩‍👩‍👦‍👦": "👩‍👩‍👦‍👦",
+  "👩‍👩‍👧‍👧": "👩‍👩‍👧‍👧",
+  "👨‍👦": "👨‍👦",
+  "👨‍👦‍👦": "👨‍👦‍👦",
+  "👨‍👧": "👨‍👧",
+  "👨‍👧‍👦": "👨‍👧‍👦",
+  "👨‍👧‍👧": "👨‍👧‍👧",
+  "👩‍👦": "👩‍👦",
+  "👩‍👦‍👦": "👩‍👦‍👦",
+  "👩‍👧": "👩‍👧",
+  "👩‍👧‍👦": "👩‍👧‍👦",
+  "👩‍👧‍👧": "👩‍👧‍👧",
+  "🗣️": "🗣️",
+  "👤": "👤",
+  "👥": "👥",
+  "🫂": "🫂",
+  "👪": "👪",
+  "🧑‍🧑‍🧒": "🧑‍🧑‍🧒",
+  "🧑‍🧑‍🧒‍🧒": "🧑‍🧑‍🧒‍🧒",
+  "🧑‍🧒": "🧑‍🧒",
+  "🧑‍🧒‍🧒": "🧑‍🧒‍🧒",
+  "👣": "👣",
+  "🫆": "🫆",
+  "🐵": "🐵",
+  "🐒": "🐒",
+  "🦍": "🦍",
+  "🦧": "🦧",
+  "🐶": "🐶",
+  "🐕": "🐕",
+  "🦮": "🦮",
+  "🐕‍🦺": "🐕‍🦺",
+  "🐩": "🐩",
+  "🐺": "🐺",
+  "🦊": "🦊",
+  "🦝": "🦝",
+  "🐱": "🐱",
+  "🐈": "🐈",
+  "🐈‍⬛": "🐈‍⬛",
+  "🦁": "🦁",
+  "🐯": "🐯",
+  "🐅": "🐅",
+  "🐆": "🐆",
+  "🐴": "🐴",
+  "🫎": "🫎",
+  "🫏": "🫏",
+  "🐎": "🐎",
+  "🦄": "🦄",
+  "🦓": "🦓",
+  "🦌": "🦌",
+  "🦬": "🦬",
+  "🐮": "🐮",
+  "🐂": "🐂",
+  "🐃": "🐃",
+  "🐄": "🐄",
+  "🐷": "🐷",
+  "🐖": "🐖",
+  "🐗": "🐗",
+  "🐽": "🐽",
+  "🐏": "🐏",
+  "🐑": "🐑",
+  "🐐": "🐐",
+  "🐪": "🐪",
+  "🐫": "🐫",
+  "🦙": "🦙",
+  "🦒": "🦒",
+  "🐘": "🐘",
+  "🦣": "🦣",
+  "🦏": "🦏",
+  "🦛": "🦛",
+  "🐭": "🐭",
+  "🐁": "🐁",
+  "🐀": "🐀",
+  "🐹": "🐹",
+  "🐰": "🐰",
+  "🐇": "🐇",
+  "🐿️": "🐿️",
+  "🦫": "🦫",
+  "🦔": "🦔",
+  "🦇": "🦇",
+  "🐻": "🐻",
+  "🐻‍❄️": "🐻‍❄️",
+  "🐨": "🐨",
+  "🐼": "🐼",
+  "🦥": "🦥",
+  "🦦": "🦦",
+  "🦨": "🦨",
+  "🦘": "🦘",
+  "🦡": "🦡",
+  "🐾": "🐾",
+  "🦃": "🦃",
+  "🐔": "🐔",
+  "🐓": "🐓",
+  "🐣": "🐣",
+  "🐤": "🐤",
+  "🐥": "🐥",
+  "🐦": "🐦",
+  "🐧": "🐧",
+  "🕊️": "🕊️",
+  "🦅": "🦅",
+  "🦆": "🦆",
+  "🦢": "🦢",
+  "🦉": "🦉",
+  "🦤": "🦤",
+  "🪶": "🪶",
+  "🦩": "🦩",
+  "🦚": "🦚",
+  "🦜": "🦜",
+  "🪽": "🪽",
+  "🐦‍⬛": "🐦‍⬛",
+  "🪿": "🪿",
+  "🐦‍🔥": "🐦‍🔥",
+  "🐸": "🐸",
+  "🐊": "🐊",
+  "🐢": "🐢",
+  "🦎": "🦎",
+  "🐍": "🐍",
+  "🐲": "🐲",
+  "🐉": "🐉",
+  "🦕": "🦕",
+  "🦖": "🦖",
+  "🐳": "🐳",
+  "🐋": "🐋",
+  "🐬": "🐬",
+  "🦭": "🦭",
+  "🐟": "🐟",
+  "🐠": "🐠",
+  "🐡": "🐡",
+  "🦈": "🦈",
+  "🐙": "🐙",
+  "🐚": "🐚",
+  "🪸": "🪸",
+  "🪼": "🪼",
+  "🦀": "🦀",
+  "🦞": "🦞",
+  "🦐": "🦐",
+  "🦑": "🦑",
+  "🦪": "🦪",
+  "🐌": "🐌",
+  "🦋": "🦋",
+  "🐛": "🐛",
+  "🐜": "🐜",
+  "🐝": "🐝",
+  "🪲": "🪲",
+  "🐞": "🐞",
+  "🦗": "🦗",
+  "🪳": "🪳",
+  "🕷️": "🕷️",
+  "🕸️": "🕸️",
+  "🦂": "🦂",
+  "🦟": "🦟",
+  "🪰": "🪰",
+  "🪱": "🪱",
+  "🦠": "🦠",
+  "💐": "💐",
+  "🌸": "🌸",
+  "💮": "💮",
+  "🪷": "🪷",
+  "🏵️": "🏵️",
+  "🌹": "🌹",
+  "🥀": "🥀",
+  "🌺": "🌺",
+  "🌻": "🌻",
+  "🌼": "🌼",
+  "🌷": "🌷",
+  "🪻": "🪻",
+  "🌱": "🌱",
+  "🪴": "🪴",
+  "🌲": "🌲",
+  "🌳": "🌳",
+  "🌴": "🌴",
+  "🌵": "🌵",
+  "🌾": "🌾",
+  "🌿": "🌿",
+  "☘️": "☘️",
+  "🍀": "🍀",
+  "🍁": "🍁",
+  "🍂": "🍂",
+  "🍃": "🍃",
+  "🪹": "🪹",
+  "🪺": "🪺",
+  "🍄": "🍄",
+  "🪾": "🪾",
+  "🍇": "🍇",
+  "🍈": "🍈",
+  "🍉": "🍉",
+  "🍊": "🍊",
   "🍋": "🍋",
+  "🍋‍🟩": "🍋‍🟩",
+  "🍌": "🍌",
+  "🍍": "🍍",
+  "🥭": "🥭",
   "🍎": "🍎",
+  "🍏": "🍏",
+  "🍐": "🍐",
+  "🍑": "🍑",
   "🍒": "🍒",
+  "🍓": "🍓",
+  "🫐": "🫐",
+  "🥝": "🥝",
+  "🍅": "🍅",
+  "🫒": "🫒",
+  "🥥": "🥥",
+  "🥑": "🥑",
+  "🍆": "🍆",
+  "🥔": "🥔",
+  "🥕": "🥕",
+  "🌽": "🌽",
+  "🌶️": "🌶️",
+  "🫑": "🫑",
+  "🥒": "🥒",
+  "🥬": "🥬",
+  "🥦": "🥦",
+  "🧄": "🧄",
+  "🧅": "🧅",
+  "🥜": "🥜",
+  "🫘": "🫘",
+  "🌰": "🌰",
+  "🫚": "🫚",
+  "🫛": "🫛",
+  "🍄‍🟫": "🍄‍🟫",
+  "🫜": "🫜",
+  "🍞": "🍞",
+  "🥐": "🥐",
+  "🥖": "🥖",
+  "🫓": "🫓",
+  "🥨": "🥨",
+  "🥯": "🥯",
+  "🥞": "🥞",
+  "🧇": "🧇",
+  "🧀": "🧀",
+  "🍖": "🍖",
+  "🍗": "🍗",
+  "🥩": "🥩",
+  "🥓": "🥓",
   "🍔": "🍔",
   "🍟": "🍟",
   "🍕": "🍕",
+  "🌭": "🌭",
+  "🥪": "🥪",
   "🌮": "🌮",
+  "🌯": "🌯",
+  "🫔": "🫔",
+  "🥙": "🥙",
+  "🧆": "🧆",
+  "🥚": "🥚",
+  "🍳": "🍳",
+  "🥘": "🥘",
+  "🍲": "🍲",
+  "🫕": "🫕",
+  "🥣": "🥣",
+  "🥗": "🥗",
+  "🍿": "🍿",
+  "🧈": "🧈",
+  "🧂": "🧂",
+  "🥫": "🥫",
+  "🍱": "🍱",
+  "🍘": "🍘",
+  "🍙": "🍙",
+  "🍚": "🍚",
+  "🍛": "🍛",
+  "🍜": "🍜",
+  "🍝": "🍝",
+  "🍠": "🍠",
+  "🍢": "🍢",
   "🍣": "🍣",
-  "🧋": "🧋",
+  "🍤": "🍤",
+  "🍥": "🍥",
+  "🥮": "🥮",
+  "🍡": "🍡",
+  "🥟": "🥟",
+  "🥠": "🥠",
+  "🥡": "🥡",
+  "🍦": "🍦",
+  "🍧": "🍧",
+  "🍨": "🍨",
+  "🍩": "🍩",
+  "🍪": "🍪",
+  "🎂": "🎂",
+  "🍰": "🍰",
+  "🧁": "🧁",
+  "🥧": "🥧",
+  "🍫": "🍫",
+  "🍬": "🍬",
+  "🍭": "🍭",
+  "🍮": "🍮",
+  "🍯": "🍯",
+  "🍼": "🍼",
+  "🥛": "🥛",
+  "☕": "☕",
+  "🫖": "🫖",
+  "🍵": "🍵",
+  "🍶": "🍶",
+  "🍾": "🍾",
+  "🍷": "🍷",
+  "🍸": "🍸",
+  "🍹": "🍹",
+  "🍺": "🍺",
+  "🍻": "🍻",
+  "🥂": "🥂",
+  "🥃": "🥃",
+  "🫗": "🫗",
   "🥤": "🥤",
+  "🧋": "🧋",
+  "🧃": "🧃",
+  "🧉": "🧉",
   "🧊": "🧊",
-  "❤️": "❤️",
-  "⚠️": "⚠️",
+  "🥢": "🥢",
+  "🍽️": "🍽️",
+  "🍴": "🍴",
+  "🥄": "🥄",
+  "🔪": "🔪",
+  "🫙": "🫙",
+  "🏺": "🏺",
+  "🌍": "🌍",
+  "🌎": "🌎",
+  "🌏": "🌏",
+  "🌐": "🌐",
+  "🗺️": "🗺️",
+  "🗾": "🗾",
+  "🧭": "🧭",
+  "🏔️": "🏔️",
+  "⛰️": "⛰️",
+  "🌋": "🌋",
+  "🗻": "🗻",
+  "🏕️": "🏕️",
+  "🏖️": "🏖️",
+  "🏜️": "🏜️",
+  "🏝️": "🏝️",
+  "🏞️": "🏞️",
+  "🏟️": "🏟️",
+  "🏛️": "🏛️",
+  "🏗️": "🏗️",
+  "🧱": "🧱",
+  "🪨": "🪨",
+  "🪵": "🪵",
+  "🛖": "🛖",
+  "🏘️": "🏘️",
+  "🏚️": "🏚️",
+  "🏠": "🏠",
+  "🏡": "🏡",
+  "🏢": "🏢",
+  "🏣": "🏣",
+  "🏤": "🏤",
+  "🏥": "🏥",
+  "🏦": "🏦",
+  "🏨": "🏨",
+  "🏩": "🏩",
+  "🏪": "🏪",
+  "🏫": "🏫",
+  "🏬": "🏬",
+  "🏭": "🏭",
+  "🏯": "🏯",
+  "🏰": "🏰",
+  "💒": "💒",
+  "🗼": "🗼",
+  "🗽": "🗽",
+  "⛪": "⛪",
+  "🕌": "🕌",
+  "🛕": "🛕",
+  "🕍": "🕍",
+  "⛩️": "⛩️",
+  "🕋": "🕋",
+  "⛲": "⛲",
+  "⛺": "⛺",
+  "🌁": "🌁",
+  "🌃": "🌃",
+  "🏙️": "🏙️",
+  "🌄": "🌄",
+  "🌅": "🌅",
+  "🌆": "🌆",
+  "🌇": "🌇",
+  "🌉": "🌉",
+  "♨️": "♨️",
+  "🎠": "🎠",
+  "🛝": "🛝",
+  "🎡": "🎡",
+  "🎢": "🎢",
+  "💈": "💈",
+  "🎪": "🎪",
+  "🚂": "🚂",
+  "🚃": "🚃",
+  "🚄": "🚄",
+  "🚅": "🚅",
+  "🚆": "🚆",
+  "🚇": "🚇",
+  "🚈": "🚈",
+  "🚉": "🚉",
+  "🚊": "🚊",
+  "🚝": "🚝",
+  "🚞": "🚞",
+  "🚋": "🚋",
+  "🚌": "🚌",
+  "🚍": "🚍",
+  "🚎": "🚎",
+  "🚐": "🚐",
+  "🚑": "🚑",
+  "🚒": "🚒",
+  "🚓": "🚓",
+  "🚔": "🚔",
+  "🚕": "🚕",
+  "🚖": "🚖",
+  "🚗": "🚗",
+  "🚘": "🚘",
+  "🚙": "🚙",
+  "🛻": "🛻",
+  "🚚": "🚚",
+  "🚛": "🚛",
+  "🚜": "🚜",
+  "🏎️": "🏎️",
+  "🏍️": "🏍️",
+  "🛵": "🛵",
+  "🦽": "🦽",
+  "🦼": "🦼",
+  "🛺": "🛺",
+  "🚲": "🚲",
+  "🛴": "🛴",
+  "🛹": "🛹",
+  "🛼": "🛼",
+  "🚏": "🚏",
+  "🛣️": "🛣️",
+  "🛤️": "🛤️",
+  "🛢️": "🛢️",
+  "⛽": "⛽",
+  "🛞": "🛞",
+  "🚨": "🚨",
+  "🚥": "🚥",
+  "🚦": "🚦",
+  "🛑": "🛑",
+  "🚧": "🚧",
+  "⚓": "⚓",
+  "🛟": "🛟",
+  "⛵": "⛵",
+  "🛶": "🛶",
+  "🚤": "🚤",
+  "🛳️": "🛳️",
+  "⛴️": "⛴️",
+  "🛥️": "🛥️",
+  "🚢": "🚢",
+  "✈️": "✈️",
+  "🛩️": "🛩️",
+  "🛫": "🛫",
+  "🛬": "🛬",
+  "🪂": "🪂",
+  "💺": "💺",
+  "🚁": "🚁",
+  "🚟": "🚟",
+  "🚠": "🚠",
+  "🚡": "🚡",
+  "🛰️": "🛰️",
+  "🚀": "🚀",
+  "🛸": "🛸",
+  "🛎️": "🛎️",
+  "🧳": "🧳",
+  "⌛": "⌛",
+  "⏳": "⏳",
+  "⌚": "⌚",
+  "⏰": "⏰",
+  "⏱️": "⏱️",
+  "⏲️": "⏲️",
+  "🕰️": "🕰️",
+  "🕛": "🕛",
+  "🕧": "🕧",
+  "🕐": "🕐",
+  "🕜": "🕜",
+  "🕑": "🕑",
+  "🕝": "🕝",
+  "🕒": "🕒",
+  "🕞": "🕞",
+  "🕓": "🕓",
+  "🕟": "🕟",
+  "🕔": "🕔",
+  "🕠": "🕠",
+  "🕕": "🕕",
+  "🕡": "🕡",
+  "🕖": "🕖",
+  "🕢": "🕢",
+  "🕗": "🕗",
+  "🕣": "🕣",
+  "🕘": "🕘",
+  "🕤": "🕤",
+  "🕙": "🕙",
+  "🕥": "🕥",
+  "🕚": "🕚",
+  "🕦": "🕦",
+  "🌑": "🌑",
+  "🌒": "🌒",
+  "🌓": "🌓",
+  "🌔": "🌔",
+  "🌕": "🌕",
+  "🌖": "🌖",
+  "🌗": "🌗",
+  "🌘": "🌘",
+  "🌙": "🌙",
+  "🌚": "🌚",
+  "🌛": "🌛",
+  "🌜": "🌜",
+  "🌡️": "🌡️",
+  "☀️": "☀️",
+  "🌝": "🌝",
+  "🌞": "🌞",
+  "🪐": "🪐",
+  "⭐": "⭐",
+  "🌟": "🌟",
+  "🌠": "🌠",
+  "🌌": "🌌",
+  "☁️": "☁️",
+  "⛅": "⛅",
+  "⛈️": "⛈️",
+  "🌤️": "🌤️",
+  "🌥️": "🌥️",
+  "🌦️": "🌦️",
+  "🌧️": "🌧️",
+  "🌨️": "🌨️",
+  "🌩️": "🌩️",
+  "🌪️": "🌪️",
+  "🌫️": "🌫️",
+  "🌬️": "🌬️",
+  "🌀": "🌀",
+  "🌈": "🌈",
+  "🌂": "🌂",
+  "☂️": "☂️",
+  "☔": "☔",
+  "⛱️": "⛱️",
+  "⚡": "⚡",
+  "❄️": "❄️",
+  "☃️": "☃️",
+  "⛄": "⛄",
+  "☄️": "☄️",
+  "🔥": "🔥",
+  "💧": "💧",
+  "🌊": "🌊",
+  "🎃": "🎃",
+  "🎄": "🎄",
+  "🎆": "🎆",
+  "🎇": "🎇",
+  "🧨": "🧨",
   "✨": "✨",
-  "💣": "💣",
-  "👁️": "👁️",
-  "🦴": "🦴",
-  "🐸": "🐸",
-  "🐀": "🐀",
-  "🐍": "🐍",
+  "🎈": "🎈",
+  "🎉": "🎉",
+  "🎊": "🎊",
+  "🎋": "🎋",
+  "🎍": "🎍",
+  "🎎": "🎎",
+  "🎏": "🎏",
+  "🎐": "🎐",
+  "🎑": "🎑",
+  "🧧": "🧧",
+  "🎀": "🎀",
+  "🎁": "🎁",
+  "🎗️": "🎗️",
+  "🎟️": "🎟️",
+  "🎫": "🎫",
+  "🎖️": "🎖️",
+  "🏆": "🏆",
+  "🏅": "🏅",
+  "🥇": "🥇",
+  "🥈": "🥈",
+  "🥉": "🥉",
+  "⚽": "⚽",
+  "⚾": "⚾",
+  "🥎": "🥎",
+  "🏀": "🏀",
+  "🏐": "🏐",
+  "🏈": "🏈",
+  "🏉": "🏉",
+  "🎾": "🎾",
+  "🥏": "🥏",
+  "🎳": "🎳",
+  "🏏": "🏏",
+  "🏑": "🏑",
+  "🏒": "🏒",
+  "🥍": "🥍",
+  "🏓": "🏓",
+  "🏸": "🏸",
+  "🥊": "🥊",
+  "🥋": "🥋",
+  "🥅": "🥅",
+  "⛳": "⛳",
+  "⛸️": "⛸️",
+  "🎣": "🎣",
+  "🤿": "🤿",
+  "🎽": "🎽",
+  "🎿": "🎿",
+  "🛷": "🛷",
+  "🥌": "🥌",
+  "🎯": "🎯",
+  "🪀": "🪀",
+  "🪁": "🪁",
+  "🔫": "🔫",
+  "🎱": "🎱",
+  "🔮": "🔮",
+  "🪄": "🪄",
+  "🎮": "🎮",
+  "🕹️": "🕹️",
+  "🎰": "🎰",
+  "🎲": "🎲",
+  "🧩": "🧩",
+  "🧸": "🧸",
+  "🪅": "🪅",
+  "🪩": "🪩",
+  "🪆": "🪆",
+  "♠️": "♠️",
+  "♥️": "♥️",
+  "♦️": "♦️",
+  "♣️": "♣️",
+  "♟️": "♟️",
+  "🃏": "🃏",
+  "🀄": "🀄",
+  "🎴": "🎴",
+  "🎭": "🎭",
+  "🖼️": "🖼️",
+  "🎨": "🎨",
+  "🧵": "🧵",
+  "🪡": "🪡",
+  "🧶": "🧶",
+  "🪢": "🪢",
+  "👓": "👓",
+  "🕶️": "🕶️",
+  "🥽": "🥽",
+  "🥼": "🥼",
+  "🦺": "🦺",
+  "👔": "👔",
+  "👕": "👕",
+  "👖": "👖",
+  "🧣": "🧣",
+  "🧤": "🧤",
+  "🧥": "🧥",
+  "🧦": "🧦",
+  "👗": "👗",
+  "👘": "👘",
+  "🥻": "🥻",
+  "🩱": "🩱",
+  "🩲": "🩲",
+  "🩳": "🩳",
+  "👙": "👙",
+  "👚": "👚",
+  "🪭": "🪭",
+  "👛": "👛",
+  "👜": "👜",
+  "👝": "👝",
+  "🛍️": "🛍️",
+  "🎒": "🎒",
+  "🩴": "🩴",
+  "👞": "👞",
+  "👟": "👟",
+  "🥾": "🥾",
+  "🥿": "🥿",
+  "👠": "👠",
+  "👡": "👡",
+  "🩰": "🩰",
+  "👢": "👢",
+  "🪮": "🪮",
   "👑": "👑",
+  "👒": "👒",
+  "🎩": "🎩",
+  "🎓": "🎓",
+  "🧢": "🧢",
+  "🪖": "🪖",
+  "⛑️": "⛑️",
+  "📿": "📿",
+  "💄": "💄",
+  "💍": "💍",
+  "💎": "💎",
+  "🔇": "🔇",
+  "🔈": "🔈",
+  "🔉": "🔉",
+  "🔊": "🔊",
+  "📢": "📢",
+  "📣": "📣",
+  "📯": "📯",
+  "🔔": "🔔",
+  "🔕": "🔕",
+  "🎼": "🎼",
+  "🎵": "🎵",
+  "🎶": "🎶",
+  "🎙️": "🎙️",
+  "🎚️": "🎚️",
+  "🎛️": "🎛️",
+  "🎤": "🎤",
+  "🎧": "🎧",
+  "📻": "📻",
+  "🎷": "🎷",
+  "🪗": "🪗",
+  "🎸": "🎸",
+  "🎹": "🎹",
+  "🎺": "🎺",
+  "🎻": "🎻",
+  "🪕": "🪕",
+  "🥁": "🥁",
+  "🪘": "🪘",
+  "🪇": "🪇",
+  "🪈": "🪈",
+  "🪉": "🪉",
+  "📱": "📱",
+  "📲": "📲",
+  "☎️": "☎️",
+  "📞": "📞",
+  "📟": "📟",
+  "📠": "📠",
+  "🔋": "🔋",
+  "🪫": "🪫",
+  "🔌": "🔌",
+  "💻": "💻",
+  "🖥️": "🖥️",
+  "🖨️": "🖨️",
+  "⌨️": "⌨️",
+  "🖱️": "🖱️",
+  "🖲️": "🖲️",
+  "💽": "💽",
+  "💾": "💾",
+  "💿": "💿",
+  "📀": "📀",
+  "🧮": "🧮",
+  "🎥": "🎥",
+  "🎞️": "🎞️",
+  "📽️": "📽️",
+  "🎬": "🎬",
+  "📺": "📺",
+  "📷": "📷",
+  "📸": "📸",
+  "📹": "📹",
+  "📼": "📼",
+  "🔍": "🔍",
+  "🔎": "🔎",
+  "🕯️": "🕯️",
+  "💡": "💡",
+  "🔦": "🔦",
+  "🏮": "🏮",
+  "🪔": "🪔",
+  "📔": "📔",
+  "📕": "📕",
+  "📖": "📖",
+  "📗": "📗",
+  "📘": "📘",
+  "📙": "📙",
+  "📚": "📚",
+  "📓": "📓",
+  "📒": "📒",
+  "📃": "📃",
+  "📜": "📜",
+  "📄": "📄",
+  "📰": "📰",
+  "🗞️": "🗞️",
+  "📑": "📑",
+  "🔖": "🔖",
+  "🏷️": "🏷️",
+  "💰": "💰",
+  "🪙": "🪙",
+  "💴": "💴",
+  "💵": "💵",
+  "💶": "💶",
+  "💷": "💷",
+  "💸": "💸",
+  "💳": "💳",
+  "🧾": "🧾",
+  "💹": "💹",
+  "✉️": "✉️",
+  "📧": "📧",
+  "📨": "📨",
+  "📩": "📩",
+  "📤": "📤",
+  "📥": "📥",
+  "📦": "📦",
+  "📫": "📫",
+  "📪": "📪",
+  "📬": "📬",
+  "📭": "📭",
+  "📮": "📮",
+  "🗳️": "🗳️",
+  "✏️": "✏️",
+  "✒️": "✒️",
+  "🖋️": "🖋️",
+  "🖊️": "🖊️",
+  "🖌️": "🖌️",
+  "🖍️": "🖍️",
+  "📝": "📝",
+  "💼": "💼",
+  "📁": "📁",
+  "📂": "📂",
+  "🗂️": "🗂️",
+  "📅": "📅",
+  "📆": "📆",
+  "🗒️": "🗒️",
+  "🗓️": "🗓️",
+  "📇": "📇",
+  "📈": "📈",
+  "📉": "📉",
+  "📊": "📊",
+  "📋": "📋",
+  "📌": "📌",
+  "📍": "📍",
+  "📎": "📎",
+  "🖇️": "🖇️",
+  "📏": "📏",
+  "📐": "📐",
+  "✂️": "✂️",
+  "🗃️": "🗃️",
+  "🗄️": "🗄️",
+  "🗑️": "🗑️",
   "🔒": "🔒",
   "🔓": "🔓",
-  "📷": "📷",
-  "🎧": "🎧",
-  "📚": "📚",
-  "🗃️": "🗃️",
-  "🪫": "🪫",
-  "🔦": "🔦",
-  "🧼": "🧼",
-  "🪵": "🪵",
-  "🛒": "🛒",
-  "🧺": "🧺",
-  "🪣": "🪣",
+  "🔏": "🔏",
+  "🔐": "🔐",
+  "🔑": "🔑",
+  "🗝️": "🗝️",
+  "🔨": "🔨",
+  "🪓": "🪓",
+  "⛏️": "⛏️",
+  "⚒️": "⚒️",
+  "🛠️": "🛠️",
+  "🗡️": "🗡️",
+  "⚔️": "⚔️",
+  "💣": "💣",
+  "🪃": "🪃",
+  "🏹": "🏹",
+  "🛡️": "🛡️",
+  "🪚": "🪚",
+  "🔧": "🔧",
+  "🪛": "🪛",
+  "🔩": "🔩",
+  "⚙️": "⚙️",
+  "🗜️": "🗜️",
+  "⚖️": "⚖️",
+  "🦯": "🦯",
+  "🔗": "🔗",
+  "⛓️‍💥": "⛓️‍💥",
+  "⛓️": "⛓️",
+  "🪝": "🪝",
   "🧰": "🧰",
   "🧲": "🧲",
-  "🎮": "🎮",
-  "📺": "📺",
-  "🖨️": "🖨️",
-  "💿": "💿",
-  "🧬": "🧬",
-  "👻": "👻",
-  "📂": "📂",
-  "🧾": "🧾",
-  "📅": "📅",
-  "📝": "📝",
-  "📌": "📌",
-  "🔑": "🔑",
-  "🛡️": "🛡️",
-  "🛰️": "🛰️",
-  "🤖": "🤖",
-  "👽": "👽",
-  "☁️": "☁️",
-  "⚡": "⚡",
-  "💧": "💧",
-  "💩": "💩",
-  "💊": "💊",
-  "💉": "💉",
-  "🔬": "🔬",
+  "🪜": "🪜",
+  "🪏": "🪏",
+  "⚗️": "⚗️",
+  "🧪": "🧪",
   "🧫": "🧫",
-  "✂️": "✂️",
-  "📎": "📎",
-  "📫": "📫",
-  "🍪": "🍪",
-  "🍩": "🍩",
-  "🧀": "🧀",
-  "🥚": "🥚",
-  "🍄": "🍄",
-  "🍌": "🍌",
-  "🍐": "🍐",
-  "🍉": "🍉",
-  "🥑": "🥑",
-  "🥕": "🥕",
-  "🍵": "🍵",
-  "🍺": "🍺",
-  "🍷": "🍷",
-  "🏅": "🏅",
-  "⭐": "⭐",
-  "🌙": "🌙",
-  "☀️": "☀️",
-  "⏳": "⏳"
+  "🧬": "🧬",
+  "🔬": "🔬",
+  "🔭": "🔭",
+  "📡": "📡",
+  "💉": "💉",
+  "🩸": "🩸",
+  "💊": "💊",
+  "🩹": "🩹",
+  "🩼": "🩼",
+  "🩺": "🩺",
+  "🩻": "🩻",
+  "🚪": "🚪",
+  "🛗": "🛗",
+  "🪞": "🪞",
+  "🪟": "🪟",
+  "🛏️": "🛏️",
+  "🛋️": "🛋️",
+  "🪑": "🪑",
+  "🚽": "🚽",
+  "🪠": "🪠",
+  "🚿": "🚿",
+  "🛁": "🛁",
+  "🪤": "🪤",
+  "🪒": "🪒",
+  "🧴": "🧴",
+  "🧷": "🧷",
+  "🧹": "🧹",
+  "🧺": "🧺",
+  "🧻": "🧻",
+  "🪣": "🪣",
+  "🧼": "🧼",
+  "🫧": "🫧",
+  "🪥": "🪥",
+  "🧽": "🧽",
+  "🧯": "🧯",
+  "🛒": "🛒",
+  "🚬": "🚬",
+  "⚰️": "⚰️",
+  "🪦": "🪦",
+  "⚱️": "⚱️",
+  "🧿": "🧿",
+  "🪬": "🪬",
+  "🗿": "🗿",
+  "🪧": "🪧",
+  "🪪": "🪪",
+  "🏧": "🏧",
+  "🚮": "🚮",
+  "🚰": "🚰",
+  "♿": "♿",
+  "🚹": "🚹",
+  "🚺": "🚺",
+  "🚻": "🚻",
+  "🚼": "🚼",
+  "🚾": "🚾",
+  "🛂": "🛂",
+  "🛃": "🛃",
+  "🛄": "🛄",
+  "🛅": "🛅",
+  "⚠️": "⚠️",
+  "🚸": "🚸",
+  "⛔": "⛔",
+  "🚫": "🚫",
+  "🚳": "🚳",
+  "🚭": "🚭",
+  "🚯": "🚯",
+  "🚱": "🚱",
+  "🚷": "🚷",
+  "📵": "📵",
+  "🔞": "🔞",
+  "☢️": "☢️",
+  "☣️": "☣️",
+  "⬆️": "⬆️",
+  "↗️": "↗️",
+  "➡️": "➡️",
+  "↘️": "↘️",
+  "⬇️": "⬇️",
+  "↙️": "↙️",
+  "⬅️": "⬅️",
+  "↖️": "↖️",
+  "↕️": "↕️",
+  "↔️": "↔️",
+  "↩️": "↩️",
+  "↪️": "↪️",
+  "⤴️": "⤴️",
+  "⤵️": "⤵️",
+  "🔃": "🔃",
+  "🔄": "🔄",
+  "🔙": "🔙",
+  "🔚": "🔚",
+  "🔛": "🔛",
+  "🔜": "🔜",
+  "🔝": "🔝",
+  "🛐": "🛐",
+  "⚛️": "⚛️",
+  "🕉️": "🕉️",
+  "✡️": "✡️",
+  "☸️": "☸️",
+  "☯️": "☯️",
+  "✝️": "✝️",
+  "☦️": "☦️",
+  "☪️": "☪️",
+  "☮️": "☮️",
+  "🕎": "🕎",
+  "🔯": "🔯",
+  "🪯": "🪯",
+  "♈": "♈",
+  "♉": "♉",
+  "♊": "♊",
+  "♋": "♋",
+  "♌": "♌",
+  "♍": "♍",
+  "♎": "♎",
+  "♏": "♏",
+  "♐": "♐",
+  "♑": "♑",
+  "♒": "♒",
+  "♓": "♓",
+  "⛎": "⛎",
+  "🔀": "🔀",
+  "🔁": "🔁",
+  "🔂": "🔂",
+  "▶️": "▶️",
+  "⏩": "⏩",
+  "⏭️": "⏭️",
+  "⏯️": "⏯️",
+  "◀️": "◀️",
+  "⏪": "⏪",
+  "⏮️": "⏮️",
+  "🔼": "🔼",
+  "⏫": "⏫",
+  "🔽": "🔽",
+  "⏬": "⏬",
+  "⏸️": "⏸️",
+  "⏹️": "⏹️",
+  "⏺️": "⏺️",
+  "⏏️": "⏏️",
+  "🎦": "🎦",
+  "🔅": "🔅",
+  "🔆": "🔆",
+  "📶": "📶",
+  "🛜": "🛜",
+  "📳": "📳",
+  "📴": "📴",
+  "♀️": "♀️",
+  "♂️": "♂️",
+  "⚧️": "⚧️",
+  "✖️": "✖️",
+  "➕": "➕",
+  "➖": "➖",
+  "➗": "➗",
+  "🟰": "🟰",
+  "♾️": "♾️",
+  "‼️": "‼️",
+  "⁉️": "⁉️",
+  "❓": "❓",
+  "❔": "❔",
+  "❕": "❕",
+  "❗": "❗",
+  "〰️": "〰️",
+  "💱": "💱",
+  "💲": "💲",
+  "⚕️": "⚕️",
+  "♻️": "♻️",
+  "⚜️": "⚜️",
+  "🔱": "🔱",
+  "📛": "📛",
+  "🔰": "🔰",
+  "⭕": "⭕",
+  "✅": "✅",
+  "☑️": "☑️",
+  "✔️": "✔️",
+  "❌": "❌",
+  "❎": "❎",
+  "➰": "➰",
+  "➿": "➿",
+  "〽️": "〽️",
+  "✳️": "✳️",
+  "✴️": "✴️",
+  "❇️": "❇️",
+  "©️": "©️",
+  "®️": "®️",
+  "™️": "™️",
+  "🫟": "🫟",
+  "#️⃣": "#️⃣",
+  "*️⃣": "*️⃣",
+  "0️⃣": "0️⃣",
+  "1️⃣": "1️⃣",
+  "2️⃣": "2️⃣",
+  "3️⃣": "3️⃣",
+  "4️⃣": "4️⃣",
+  "5️⃣": "5️⃣",
+  "6️⃣": "6️⃣",
+  "7️⃣": "7️⃣",
+  "8️⃣": "8️⃣",
+  "9️⃣": "9️⃣",
+  "🔟": "🔟",
+  "🔠": "🔠",
+  "🔡": "🔡",
+  "🔢": "🔢",
+  "🔣": "🔣",
+  "🔤": "🔤",
+  "🅰️": "🅰️",
+  "🆎": "🆎",
+  "🅱️": "🅱️",
+  "🆑": "🆑",
+  "🆒": "🆒",
+  "🆓": "🆓",
+  "ℹ️": "ℹ️",
+  "🆔": "🆔",
+  "Ⓜ️": "Ⓜ️",
+  "🆕": "🆕",
+  "🆖": "🆖",
+  "🅾️": "🅾️",
+  "🆗": "🆗",
+  "🅿️": "🅿️",
+  "🆘": "🆘",
+  "🆙": "🆙",
+  "🆚": "🆚",
+  "🈁": "🈁",
+  "🈂️": "🈂️",
+  "🈷️": "🈷️",
+  "🈶": "🈶",
+  "🈯": "🈯",
+  "🉐": "🉐",
+  "🈹": "🈹",
+  "🈚": "🈚",
+  "🈲": "🈲",
+  "🉑": "🉑",
+  "🈸": "🈸",
+  "🈴": "🈴",
+  "🈳": "🈳",
+  "㊗️": "㊗️",
+  "㊙️": "㊙️",
+  "🈺": "🈺",
+  "🈵": "🈵",
+  "🔴": "🔴",
+  "🟠": "🟠",
+  "🟡": "🟡",
+  "🟢": "🟢",
+  "🔵": "🔵",
+  "🟣": "🟣",
+  "🟤": "🟤",
+  "⚫": "⚫",
+  "⚪": "⚪",
+  "🟥": "🟥",
+  "🟧": "🟧",
+  "🟨": "🟨",
+  "🟩": "🟩",
+  "🟦": "🟦",
+  "🟪": "🟪",
+  "🟫": "🟫",
+  "⬛": "⬛",
+  "⬜": "⬜",
+  "◼️": "◼️",
+  "◻️": "◻️",
+  "◾": "◾",
+  "◽": "◽",
+  "▪️": "▪️",
+  "▫️": "▫️",
+  "🔶": "🔶",
+  "🔷": "🔷",
+  "🔸": "🔸",
+  "🔹": "🔹",
+  "🔺": "🔺",
+  "🔻": "🔻",
+  "💠": "💠",
+  "🔘": "🔘",
+  "🔳": "🔳",
+  "🔲": "🔲",
+  "🏁": "🏁",
+  "🚩": "🚩",
+  "🎌": "🎌",
+  "🏴": "🏴",
+  "🏳️": "🏳️",
+  "🏳️‍🌈": "🏳️‍🌈",
+  "🏳️‍⚧️": "🏳️‍⚧️",
+  "🏴‍☠️": "🏴‍☠️",
+  "🇦🇨": "🇦🇨",
+  "🇦🇩": "🇦🇩",
+  "🇦🇪": "🇦🇪",
+  "🇦🇫": "🇦🇫",
+  "🇦🇬": "🇦🇬",
+  "🇦🇮": "🇦🇮",
+  "🇦🇱": "🇦🇱",
+  "🇦🇲": "🇦🇲",
+  "🇦🇴": "🇦🇴",
+  "🇦🇶": "🇦🇶",
+  "🇦🇷": "🇦🇷",
+  "🇦🇸": "🇦🇸",
+  "🇦🇹": "🇦🇹",
+  "🇦🇺": "🇦🇺",
+  "🇦🇼": "🇦🇼",
+  "🇦🇽": "🇦🇽",
+  "🇦🇿": "🇦🇿",
+  "🇧🇦": "🇧🇦",
+  "🇧🇧": "🇧🇧",
+  "🇧🇩": "🇧🇩",
+  "🇧🇪": "🇧🇪",
+  "🇧🇫": "🇧🇫",
+  "🇧🇬": "🇧🇬",
+  "🇧🇭": "🇧🇭",
+  "🇧🇮": "🇧🇮",
+  "🇧🇯": "🇧🇯",
+  "🇧🇱": "🇧🇱",
+  "🇧🇲": "🇧🇲",
+  "🇧🇳": "🇧🇳",
+  "🇧🇴": "🇧🇴",
+  "🇧🇶": "🇧🇶",
+  "🇧🇷": "🇧🇷",
+  "🇧🇸": "🇧🇸",
+  "🇧🇹": "🇧🇹",
+  "🇧🇻": "🇧🇻",
+  "🇧🇼": "🇧🇼",
+  "🇧🇾": "🇧🇾",
+  "🇧🇿": "🇧🇿",
+  "🇨🇦": "🇨🇦",
+  "🇨🇨": "🇨🇨",
+  "🇨🇩": "🇨🇩",
+  "🇨🇫": "🇨🇫",
+  "🇨🇬": "🇨🇬",
+  "🇨🇭": "🇨🇭",
+  "🇨🇮": "🇨🇮",
+  "🇨🇰": "🇨🇰",
+  "🇨🇱": "🇨🇱",
+  "🇨🇲": "🇨🇲",
+  "🇨🇳": "🇨🇳",
+  "🇨🇴": "🇨🇴",
+  "🇨🇵": "🇨🇵",
+  "🇨🇶": "🇨🇶",
+  "🇨🇷": "🇨🇷",
+  "🇨🇺": "🇨🇺",
+  "🇨🇻": "🇨🇻",
+  "🇨🇼": "🇨🇼",
+  "🇨🇽": "🇨🇽",
+  "🇨🇾": "🇨🇾",
+  "🇨🇿": "🇨🇿",
+  "🇩🇪": "🇩🇪",
+  "🇩🇬": "🇩🇬",
+  "🇩🇯": "🇩🇯",
+  "🇩🇰": "🇩🇰",
+  "🇩🇲": "🇩🇲",
+  "🇩🇴": "🇩🇴",
+  "🇩🇿": "🇩🇿",
+  "🇪🇦": "🇪🇦",
+  "🇪🇨": "🇪🇨",
+  "🇪🇪": "🇪🇪",
+  "🇪🇬": "🇪🇬",
+  "🇪🇭": "🇪🇭",
+  "🇪🇷": "🇪🇷",
+  "🇪🇸": "🇪🇸",
+  "🇪🇹": "🇪🇹",
+  "🇪🇺": "🇪🇺",
+  "🇫🇮": "🇫🇮",
+  "🇫🇯": "🇫🇯",
+  "🇫🇰": "🇫🇰",
+  "🇫🇲": "🇫🇲",
+  "🇫🇴": "🇫🇴",
+  "🇫🇷": "🇫🇷",
+  "🇬🇦": "🇬🇦",
+  "🇬🇧": "🇬🇧",
+  "🇬🇩": "🇬🇩",
+  "🇬🇪": "🇬🇪",
+  "🇬🇫": "🇬🇫",
+  "🇬🇬": "🇬🇬",
+  "🇬🇭": "🇬🇭",
+  "🇬🇮": "🇬🇮",
+  "🇬🇱": "🇬🇱",
+  "🇬🇲": "🇬🇲",
+  "🇬🇳": "🇬🇳",
+  "🇬🇵": "🇬🇵",
+  "🇬🇶": "🇬🇶",
+  "🇬🇷": "🇬🇷",
+  "🇬🇸": "🇬🇸",
+  "🇬🇹": "🇬🇹",
+  "🇬🇺": "🇬🇺",
+  "🇬🇼": "🇬🇼",
+  "🇬🇾": "🇬🇾",
+  "🇭🇰": "🇭🇰",
+  "🇭🇲": "🇭🇲",
+  "🇭🇳": "🇭🇳",
+  "🇭🇷": "🇭🇷",
+  "🇭🇹": "🇭🇹",
+  "🇭🇺": "🇭🇺",
+  "🇮🇨": "🇮🇨",
+  "🇮🇩": "🇮🇩",
+  "🇮🇪": "🇮🇪",
+  "🇮🇱": "🇮🇱",
+  "🇮🇲": "🇮🇲",
+  "🇮🇳": "🇮🇳",
+  "🇮🇴": "🇮🇴",
+  "🇮🇶": "🇮🇶",
+  "🇮🇷": "🇮🇷",
+  "🇮🇸": "🇮🇸",
+  "🇮🇹": "🇮🇹",
+  "🇯🇪": "🇯🇪",
+  "🇯🇲": "🇯🇲",
+  "🇯🇴": "🇯🇴",
+  "🇯🇵": "🇯🇵",
+  "🇰🇪": "🇰🇪",
+  "🇰🇬": "🇰🇬",
+  "🇰🇭": "🇰🇭",
+  "🇰🇮": "🇰🇮",
+  "🇰🇲": "🇰🇲",
+  "🇰🇳": "🇰🇳",
+  "🇰🇵": "🇰🇵",
+  "🇰🇷": "🇰🇷",
+  "🇰🇼": "🇰🇼",
+  "🇰🇾": "🇰🇾",
+  "🇰🇿": "🇰🇿",
+  "🇱🇦": "🇱🇦",
+  "🇱🇧": "🇱🇧",
+  "🇱🇨": "🇱🇨",
+  "🇱🇮": "🇱🇮",
+  "🇱🇰": "🇱🇰",
+  "🇱🇷": "🇱🇷",
+  "🇱🇸": "🇱🇸",
+  "🇱🇹": "🇱🇹",
+  "🇱🇺": "🇱🇺",
+  "🇱🇻": "🇱🇻",
+  "🇱🇾": "🇱🇾",
+  "🇲🇦": "🇲🇦",
+  "🇲🇨": "🇲🇨",
+  "🇲🇩": "🇲🇩",
+  "🇲🇪": "🇲🇪",
+  "🇲🇫": "🇲🇫",
+  "🇲🇬": "🇲🇬",
+  "🇲🇭": "🇲🇭",
+  "🇲🇰": "🇲🇰",
+  "🇲🇱": "🇲🇱",
+  "🇲🇲": "🇲🇲",
+  "🇲🇳": "🇲🇳",
+  "🇲🇴": "🇲🇴",
+  "🇲🇵": "🇲🇵",
+  "🇲🇶": "🇲🇶",
+  "🇲🇷": "🇲🇷",
+  "🇲🇸": "🇲🇸",
+  "🇲🇹": "🇲🇹",
+  "🇲🇺": "🇲🇺",
+  "🇲🇻": "🇲🇻",
+  "🇲🇼": "🇲🇼",
+  "🇲🇽": "🇲🇽",
+  "🇲🇾": "🇲🇾",
+  "🇲🇿": "🇲🇿",
+  "🇳🇦": "🇳🇦",
+  "🇳🇨": "🇳🇨",
+  "🇳🇪": "🇳🇪",
+  "🇳🇫": "🇳🇫",
+  "🇳🇬": "🇳🇬",
+  "🇳🇮": "🇳🇮",
+  "🇳🇱": "🇳🇱",
+  "🇳🇴": "🇳🇴",
+  "🇳🇵": "🇳🇵",
+  "🇳🇷": "🇳🇷",
+  "🇳🇺": "🇳🇺",
+  "🇳🇿": "🇳🇿",
+  "🇴🇲": "🇴🇲",
+  "🇵🇦": "🇵🇦",
+  "🇵🇪": "🇵🇪",
+  "🇵🇫": "🇵🇫",
+  "🇵🇬": "🇵🇬",
+  "🇵🇭": "🇵🇭",
+  "🇵🇰": "🇵🇰",
+  "🇵🇱": "🇵🇱",
+  "🇵🇲": "🇵🇲",
+  "🇵🇳": "🇵🇳",
+  "🇵🇷": "🇵🇷",
+  "🇵🇸": "🇵🇸",
+  "🇵🇹": "🇵🇹",
+  "🇵🇼": "🇵🇼",
+  "🇵🇾": "🇵🇾",
+  "🇶🇦": "🇶🇦",
+  "🇷🇪": "🇷🇪",
+  "🇷🇴": "🇷🇴",
+  "🇷🇸": "🇷🇸",
+  "🇷🇺": "🇷🇺",
+  "🇷🇼": "🇷🇼",
+  "🇸🇦": "🇸🇦",
+  "🇸🇧": "🇸🇧",
+  "🇸🇨": "🇸🇨",
+  "🇸🇩": "🇸🇩",
+  "🇸🇪": "🇸🇪",
+  "🇸🇬": "🇸🇬",
+  "🇸🇭": "🇸🇭",
+  "🇸🇮": "🇸🇮",
+  "🇸🇯": "🇸🇯",
+  "🇸🇰": "🇸🇰",
+  "🇸🇱": "🇸🇱",
+  "🇸🇲": "🇸🇲",
+  "🇸🇳": "🇸🇳",
+  "🇸🇴": "🇸🇴",
+  "🇸🇷": "🇸🇷",
+  "🇸🇸": "🇸🇸",
+  "🇸🇹": "🇸🇹",
+  "🇸🇻": "🇸🇻",
+  "🇸🇽": "🇸🇽",
+  "🇸🇾": "🇸🇾",
+  "🇸🇿": "🇸🇿",
+  "🇹🇦": "🇹🇦",
+  "🇹🇨": "🇹🇨",
+  "🇹🇩": "🇹🇩",
+  "🇹🇫": "🇹🇫",
+  "🇹🇬": "🇹🇬",
+  "🇹🇭": "🇹🇭",
+  "🇹🇯": "🇹🇯",
+  "🇹🇰": "🇹🇰",
+  "🇹🇱": "🇹🇱",
+  "🇹🇲": "🇹🇲",
+  "🇹🇳": "🇹🇳",
+  "🇹🇴": "🇹🇴",
+  "🇹🇷": "🇹🇷",
+  "🇹🇹": "🇹🇹",
+  "🇹🇻": "🇹🇻",
+  "🇹🇼": "🇹🇼",
+  "🇹🇿": "🇹🇿",
+  "🇺🇦": "🇺🇦",
+  "🇺🇬": "🇺🇬",
+  "🇺🇲": "🇺🇲",
+  "🇺🇳": "🇺🇳",
+  "🇺🇸": "🇺🇸",
+  "🇺🇾": "🇺🇾",
+  "🇺🇿": "🇺🇿",
+  "🇻🇦": "🇻🇦",
+  "🇻🇨": "🇻🇨",
+  "🇻🇪": "🇻🇪",
+  "🇻🇬": "🇻🇬",
+  "🇻🇮": "🇻🇮",
+  "🇻🇳": "🇻🇳",
+  "🇻🇺": "🇻🇺",
+  "🇼🇫": "🇼🇫",
+  "🇼🇸": "🇼🇸",
+  "🇽🇰": "🇽🇰",
+  "🇾🇪": "🇾🇪",
+  "🇾🇹": "🇾🇹",
+  "🇿🇦": "🇿🇦",
+  "🇿🇲": "🇿🇲",
+  "🇿🇼": "🇿🇼",
+  "🏴󠁧󠁢󠁥󠁮󠁧󠁿": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "🏴󠁧󠁢󠁳󠁣󠁴󠁿": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+  "🏴󠁧󠁢󠁷󠁬󠁳󠁿": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
 }
   };
 
@@ -1716,7 +29133,7 @@
     "category": "drinks",
     "base": "bottle",
     "overlay": "strawberry",
-    "position": "s-center",
+    "position": "s-44",
     "x": -0.03,
     "y": 0.11,
     "subSize": 0.37,
@@ -1724,7 +29141,7 @@
     "overlayEmoji": "🍓",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "poison-bottle",
@@ -1732,7 +29149,7 @@
     "category": "cursed",
     "base": "bottle",
     "overlay": "biohazard",
-    "position": "s-center",
+    "position": "s-44",
     "x": -0.03,
     "y": 0.05,
     "subSize": 0.41,
@@ -1740,7 +29157,7 @@
     "overlayEmoji": "☣️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "skull-coffee",
@@ -1748,7 +29165,7 @@
     "category": "drinks",
     "base": "coffee",
     "overlay": "skull",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.06,
     "y": -0.08,
     "subSize": 0.38,
@@ -1756,7 +29173,7 @@
     "overlayEmoji": "💀",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "fire-laptop",
@@ -1764,7 +29181,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.2,
     "y": -0.22,
     "subSize": 0.38,
@@ -1773,7 +29190,7 @@
     "overlayEmoji": "🔥",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "cable-box",
@@ -1781,7 +29198,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "plug",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.35,
@@ -1790,7 +29207,7 @@
     "overlayEmoji": "🔌",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "pasta-box",
@@ -1798,7 +29215,7 @@
     "category": "food",
     "base": "box",
     "overlay": "spaghetti",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.27,
     "y": 0.05,
     "subSize": 0.37,
@@ -1807,7 +29224,7 @@
     "overlayEmoji": "🍝",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "doom-folder",
@@ -1815,7 +29232,7 @@
     "category": "cursed",
     "base": "folder",
     "overlay": "skull",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.22,
     "y": -0.12,
     "subSize": 0.42,
@@ -1823,7 +29240,7 @@
     "overlayEmoji": "💀",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "cat-angel",
@@ -1831,7 +29248,7 @@
     "category": "creatures",
     "base": "angel",
     "overlay": "cat",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.01,
     "y": 0.09,
     "subSize": 0.92,
@@ -1839,7 +29256,7 @@
     "overlayEmoji": "🐱",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "brain-battery",
@@ -1847,7 +29264,7 @@
     "category": "tech",
     "base": "battery",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.02,
     "subSize": 0.48,
@@ -1855,7 +29272,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "spicy-ramen",
@@ -1863,16 +29280,16 @@
     "category": "food",
     "base": "ramen",
     "overlay": "pepper",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.44,
     "rotate": "-16deg",
     "baseEmoji": "🍜",
     "overlayEmoji": "🌶️",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "toxic-jar",
@@ -1880,7 +29297,7 @@
     "category": "cursed",
     "base": "jar",
     "overlay": "biohazard",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.46,
@@ -1888,7 +29305,7 @@
     "overlayEmoji": "☣️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "cherry-soda",
@@ -1896,7 +29313,7 @@
     "category": "drinks",
     "base": "soda",
     "overlay": "cherries",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.03,
     "y": 0.04,
     "subSize": 0.42,
@@ -1904,7 +29321,7 @@
     "overlayEmoji": "🍒",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "archive-disk",
@@ -1912,7 +29329,7 @@
     "category": "storage",
     "base": "floppy-disk",
     "overlay": "card-box",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.03,
     "y": 0.07,
     "subSize": 0.44,
@@ -1920,7 +29337,7 @@
     "overlayEmoji": "🗃️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "cursed-camera",
@@ -1928,7 +29345,7 @@
     "category": "cursed",
     "base": "camera",
     "overlay": "eye",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "📷",
     "overlayEmoji": "👁️",
@@ -1936,7 +29353,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "bomb-burger",
@@ -1944,16 +29361,16 @@
     "category": "food",
     "base": "burger",
     "overlay": "bomb",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.44,
     "rotate": "-12deg",
     "baseEmoji": "🍔",
     "overlayEmoji": "💣",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "sparkle-phone",
@@ -1961,7 +29378,7 @@
     "category": "tech",
     "base": "phone",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.2,
     "subSize": 0.36,
@@ -1969,7 +29386,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "warning-folder",
@@ -1977,7 +29394,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "warning",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.15,
     "subSize": 0.34,
@@ -1985,7 +29402,7 @@
     "overlayEmoji": "⚠️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "ghost-tv",
@@ -1993,7 +29410,7 @@
     "category": "cursed",
     "base": "tv",
     "overlay": "ghost",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.03,
     "subSize": 0.42,
@@ -2001,7 +29418,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "rat-bucket",
@@ -2009,7 +29426,7 @@
     "category": "cursed",
     "base": "bucket",
     "overlay": "rat",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.08,
     "subSize": 0.5,
@@ -2017,7 +29434,7 @@
     "overlayEmoji": "🐀",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "frog-crown",
@@ -2025,15 +29442,15 @@
     "category": "creatures",
     "base": "frog",
     "overlay": "crown",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.42,
     "baseEmoji": "🐸",
     "overlayEmoji": "👑",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "brain-juice",
@@ -2041,7 +29458,7 @@
     "category": "cursed",
     "base": "juice-box",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.46,
@@ -2049,7 +29466,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "soda-ice",
@@ -2057,15 +29474,15 @@
     "category": "drinks",
     "base": "soda",
     "overlay": "ice",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🧊",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "lemon-tea",
@@ -2073,7 +29490,7 @@
     "category": "drinks",
     "base": "tea",
     "overlay": "lemon",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.01,
     "subSize": 0.46,
@@ -2081,7 +29498,7 @@
     "overlayEmoji": "🍋",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "fire-cart",
@@ -2089,15 +29506,15 @@
     "category": "symbols",
     "base": "cart",
     "overlay": "fire",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.48,
     "baseEmoji": "🛒",
     "overlayEmoji": "🔥",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "bone-bucket",
@@ -2105,7 +29522,7 @@
     "category": "cursed",
     "base": "bucket",
     "overlay": "bone",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.54,
     "baseEmoji": "🪣",
     "overlayEmoji": "🦴",
@@ -2113,7 +29530,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "snake-toolbox",
@@ -2121,7 +29538,7 @@
     "category": "objects",
     "base": "toolbox",
     "overlay": "snake",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.54,
     "rotate": "-6deg",
     "baseEmoji": "🧰",
@@ -2130,7 +29547,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "robot-satellite",
@@ -2138,7 +29555,7 @@
     "category": "tech",
     "base": "satellite",
     "overlay": "robot",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🛰️",
     "overlayEmoji": "🤖",
@@ -2146,7 +29563,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "alien-laptop",
@@ -2154,7 +29571,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "alien",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "💻",
     "overlayEmoji": "👽",
@@ -2162,7 +29579,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "magnet-box",
@@ -2170,7 +29587,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "magnet",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.34,
@@ -2179,7 +29596,7 @@
     "overlayEmoji": "🧲",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "locked-folder",
@@ -2187,7 +29604,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "lock",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.22,
     "y": -0.12,
     "subSize": 0.38,
@@ -2195,7 +29612,7 @@
     "overlayEmoji": "🔒",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "unlock-phone",
@@ -2203,7 +29620,7 @@
     "category": "tech",
     "base": "phone",
     "overlay": "unlock",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "📱",
     "overlayEmoji": "🔓",
@@ -2211,7 +29628,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "camera-bomb",
@@ -2219,15 +29636,15 @@
     "category": "cursed",
     "base": "camera",
     "overlay": "bomb",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.44,
     "baseEmoji": "📷",
     "overlayEmoji": "💣",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "heart-mail",
@@ -2235,7 +29652,7 @@
     "category": "mood",
     "base": "mailbox",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "📫",
     "overlayEmoji": "❤️",
@@ -2243,7 +29660,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "warning-printer",
@@ -2251,7 +29668,7 @@
     "category": "tech",
     "base": "printer",
     "overlay": "warning",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.02,
     "subSize": 0.46,
@@ -2259,7 +29676,7 @@
     "overlayEmoji": "⚠️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-dna",
@@ -2267,7 +29684,7 @@
     "category": "symbols",
     "base": "dna",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.2,
     "subSize": 0.38,
@@ -2275,7 +29692,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "low-power-tv",
@@ -2283,7 +29700,7 @@
     "category": "tech",
     "base": "tv",
     "overlay": "battery-low",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.04,
     "subSize": 0.38,
@@ -2291,7 +29708,7 @@
     "overlayEmoji": "🪫",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "soap-bucket",
@@ -2299,7 +29716,7 @@
     "category": "objects",
     "base": "bucket",
     "overlay": "soap",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "🪣",
     "overlayEmoji": "🧼",
@@ -2307,7 +29724,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "wood-basket",
@@ -2315,7 +29732,7 @@
     "category": "storage",
     "base": "basket",
     "overlay": "wood",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🧺",
     "overlayEmoji": "🪵",
@@ -2323,7 +29740,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "moon-coffee",
@@ -2331,15 +29748,15 @@
     "category": "drinks",
     "base": "coffee",
     "overlay": "moon",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.42,
     "baseEmoji": "☕",
     "overlayEmoji": "🌙",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "sun-burger",
@@ -2347,15 +29764,15 @@
     "category": "food",
     "base": "burger",
     "overlay": "sun",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.44,
     "baseEmoji": "🍔",
     "overlayEmoji": "☀️",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "brain-jar",
@@ -2363,7 +29780,7 @@
     "category": "cursed",
     "base": "jar",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.46,
@@ -2371,7 +29788,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "microscope-pill",
@@ -2379,15 +29796,15 @@
     "category": "tech",
     "base": "microscope",
     "overlay": "pill",
-    "position": "s-br-nw",
+    "position": "s-33",
     "subSize": 0.42,
     "baseEmoji": "🔬",
     "overlayEmoji": "💊",
-    "x": 0.25,
-    "y": 0.25,
+    "x": -0.2,
+    "y": -0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Bottom Right NW"
+    "positionLabel": "Row 3 Col 3"
   },
   {
     "name": "petri-skull",
@@ -2395,7 +29812,7 @@
     "category": "cursed",
     "base": "petri-dish",
     "overlay": "skull",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🧫",
     "overlayEmoji": "💀",
@@ -2403,7 +29820,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "ghost-folder-open",
@@ -2411,7 +29828,7 @@
     "category": "office",
     "base": "folder-open",
     "overlay": "ghost",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.15,
     "subSize": 0.38,
@@ -2419,7 +29836,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "crown-burger",
@@ -2427,15 +29844,15 @@
     "category": "food",
     "base": "burger",
     "overlay": "crown",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.4,
     "baseEmoji": "🍔",
     "overlayEmoji": "👑",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "frog-soda",
@@ -2443,7 +29860,7 @@
     "category": "drinks",
     "base": "soda",
     "overlay": "frog",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🥤",
     "overlayEmoji": "🐸",
@@ -2451,7 +29868,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "poop-box",
@@ -2459,7 +29876,7 @@
     "category": "cursed",
     "base": "box",
     "overlay": "poop",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.27,
     "y": 0.05,
     "subSize": 0.36,
@@ -2467,7 +29884,7 @@
     "overlayEmoji": "💩",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "sparkle-camera",
@@ -2475,7 +29892,7 @@
     "category": "tech",
     "base": "camera",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.22,
     "y": -0.2,
     "subSize": 0.38,
@@ -2483,7 +29900,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "battery-heart",
@@ -2491,7 +29908,7 @@
     "category": "mood",
     "base": "battery",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🔋",
     "overlayEmoji": "❤️",
@@ -2499,7 +29916,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "lightning-cloud",
@@ -2507,7 +29924,7 @@
     "category": "symbols",
     "base": "cloud",
     "overlay": "lightning",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "☁️",
     "overlayEmoji": "⚡",
@@ -2515,7 +29932,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "ice-laptop",
@@ -2523,7 +29940,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "ice",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.44,
     "baseEmoji": "💻",
     "overlayEmoji": "🧊",
@@ -2531,7 +29948,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "gamepad-fire",
@@ -2539,15 +29956,15 @@
     "category": "tech",
     "base": "gamepad",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.44,
     "baseEmoji": "🎮",
     "overlayEmoji": "🔥",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "book-bomb",
@@ -2555,15 +29972,15 @@
     "category": "cursed",
     "base": "books",
     "overlay": "bomb",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.4,
     "baseEmoji": "📚",
     "overlayEmoji": "💣",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "printer-ghost",
@@ -2571,7 +29988,7 @@
     "category": "tech",
     "base": "printer",
     "overlay": "ghost",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.03,
     "subSize": 0.46,
@@ -2579,7 +29996,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "shield-phone",
@@ -2587,7 +30004,7 @@
     "category": "tech",
     "base": "phone",
     "overlay": "shield",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.01,
     "subSize": 0.48,
@@ -2595,7 +30012,7 @@
     "overlayEmoji": "🛡️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "robot-tv",
@@ -2603,7 +30020,7 @@
     "category": "tech",
     "base": "tv",
     "overlay": "robot",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.02,
     "subSize": 0.4,
@@ -2611,7 +30028,7 @@
     "overlayEmoji": "🤖",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "calendar-bomb",
@@ -2619,16 +30036,16 @@
     "category": "cursed",
     "base": "calendar",
     "overlay": "bomb",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.4,
     "rotate": "-12deg",
     "baseEmoji": "📅",
     "overlayEmoji": "💣",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "cheese-trap",
@@ -2636,15 +30053,15 @@
     "category": "cursed",
     "base": "rat",
     "overlay": "cheese",
-    "position": "s-br-nw",
+    "position": "s-33",
     "subSize": 0.36,
     "baseEmoji": "🐀",
     "overlayEmoji": "🧀",
-    "x": 0.25,
-    "y": 0.25,
+    "x": -0.2,
+    "y": -0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Bottom Right NW"
+    "positionLabel": "Row 3 Col 3"
   },
   {
     "name": "headphones-fire",
@@ -2652,16 +30069,16 @@
     "category": "tech",
     "base": "headphones",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.42,
     "rotate": "-12deg",
     "baseEmoji": "🎧",
     "overlayEmoji": "🔥",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "printer-dna",
@@ -2669,7 +30086,7 @@
     "category": "tech",
     "base": "printer",
     "overlay": "dna",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.02,
     "subSize": 0.44,
@@ -2677,7 +30094,7 @@
     "overlayEmoji": "🧬",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "floppy-ghost",
@@ -2685,7 +30102,7 @@
     "category": "tech",
     "base": "floppy-disk",
     "overlay": "ghost",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.01,
     "y": 0.06,
     "subSize": 0.42,
@@ -2693,7 +30110,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "mailbox-sparkles",
@@ -2701,7 +30118,7 @@
     "category": "mood",
     "base": "mailbox",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.18,
     "subSize": 0.38,
@@ -2709,7 +30126,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "satellite-eye",
@@ -2717,7 +30134,7 @@
     "category": "cursed",
     "base": "satellite",
     "overlay": "eye",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.02,
     "subSize": 0.42,
@@ -2725,7 +30142,7 @@
     "overlayEmoji": "👁️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "toolbox-magnet",
@@ -2733,7 +30150,7 @@
     "category": "objects",
     "base": "toolbox",
     "overlay": "magnet",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.42,
@@ -2742,7 +30159,7 @@
     "overlayEmoji": "🧲",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "coffee-heart",
@@ -2750,7 +30167,7 @@
     "category": "mood",
     "base": "coffee",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": -0.02,
     "subSize": 0.4,
@@ -2758,7 +30175,7 @@
     "overlayEmoji": "❤️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "syringe-skull",
@@ -2766,15 +30183,15 @@
     "category": "cursed",
     "base": "syringe",
     "overlay": "skull",
-    "position": "s-br-nw",
+    "position": "s-33",
     "subSize": 0.4,
     "baseEmoji": "💉",
     "overlayEmoji": "💀",
-    "x": 0.25,
-    "y": 0.25,
+    "x": -0.2,
+    "y": -0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Bottom Right NW"
+    "positionLabel": "Row 3 Col 3"
   },
   {
     "name": "lotion-biohazard",
@@ -2782,7 +30199,7 @@
     "category": "cursed",
     "base": "lotion",
     "overlay": "biohazard",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.06,
     "subSize": 0.42,
@@ -2790,7 +30207,7 @@
     "overlayEmoji": "☣️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "bubble-tea-brain",
@@ -2798,7 +30215,7 @@
     "category": "cursed",
     "base": "bubble-tea",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.05,
     "subSize": 0.42,
@@ -2806,7 +30223,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-folder",
@@ -2814,7 +30231,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.24,
     "y": -0.22,
     "subSize": 0.32,
@@ -2822,7 +30239,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "fire-folder",
@@ -2830,7 +30247,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.14,
     "subSize": 0.38,
@@ -2839,7 +30256,7 @@
     "overlayEmoji": "🔥",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "warning-box",
@@ -2847,7 +30264,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "warning",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.34,
@@ -2855,7 +30272,7 @@
     "overlayEmoji": "⚠️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "ghost-box",
@@ -2863,7 +30280,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "ghost",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.36,
@@ -2871,7 +30288,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "star-bottle",
@@ -2879,7 +30296,7 @@
     "category": "drinks",
     "base": "bottle",
     "overlay": "star",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.1,
     "subSize": 0.38,
@@ -2887,7 +30304,7 @@
     "overlayEmoji": "⭐",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "heart-bottle",
@@ -2895,7 +30312,7 @@
     "category": "drinks",
     "base": "bottle",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.1,
     "subSize": 0.38,
@@ -2903,7 +30320,7 @@
     "overlayEmoji": "❤️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-laptop",
@@ -2911,7 +30328,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.24,
     "y": -0.22,
     "subSize": 0.32,
@@ -2919,7 +30336,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "alien-tv",
@@ -2927,7 +30344,7 @@
     "category": "tech",
     "base": "tv",
     "overlay": "alien",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.03,
     "subSize": 0.38,
@@ -2935,7 +30352,7 @@
     "overlayEmoji": "👽",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "key-folder",
@@ -2943,7 +30360,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "key",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.15,
     "subSize": 0.34,
@@ -2951,7 +30368,7 @@
     "overlayEmoji": "🔑",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "crown-box",
@@ -2959,7 +30376,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "crown",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.04,
     "subSize": 0.31,
@@ -2967,7 +30384,7 @@
     "overlayEmoji": "👑",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "brain-bottle",
@@ -2975,7 +30392,7 @@
     "category": "cursed",
     "base": "bottle",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.1,
     "subSize": 0.4,
@@ -2983,7 +30400,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-bucket",
@@ -2991,7 +30408,7 @@
     "category": "objects",
     "base": "bucket",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.18,
     "subSize": 0.36,
@@ -2999,7 +30416,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   }
 ];
   global.EmojiStackPrefabs = prefabs;

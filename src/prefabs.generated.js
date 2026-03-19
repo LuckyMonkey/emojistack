@@ -7,7 +7,7 @@
     "category": "drinks",
     "base": "bottle",
     "overlay": "strawberry",
-    "position": "s-center",
+    "position": "s-44",
     "x": -0.03,
     "y": 0.11,
     "subSize": 0.37,
@@ -15,7 +15,7 @@
     "overlayEmoji": "🍓",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "poison-bottle",
@@ -23,7 +23,7 @@
     "category": "cursed",
     "base": "bottle",
     "overlay": "biohazard",
-    "position": "s-center",
+    "position": "s-44",
     "x": -0.03,
     "y": 0.05,
     "subSize": 0.41,
@@ -31,7 +31,7 @@
     "overlayEmoji": "☣️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "skull-coffee",
@@ -39,7 +39,7 @@
     "category": "drinks",
     "base": "coffee",
     "overlay": "skull",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.06,
     "y": -0.08,
     "subSize": 0.38,
@@ -47,7 +47,7 @@
     "overlayEmoji": "💀",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "fire-laptop",
@@ -55,7 +55,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.2,
     "y": -0.22,
     "subSize": 0.38,
@@ -64,7 +64,7 @@
     "overlayEmoji": "🔥",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "cable-box",
@@ -72,7 +72,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "plug",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.35,
@@ -81,7 +81,7 @@
     "overlayEmoji": "🔌",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "pasta-box",
@@ -89,7 +89,7 @@
     "category": "food",
     "base": "box",
     "overlay": "spaghetti",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.27,
     "y": 0.05,
     "subSize": 0.37,
@@ -98,7 +98,7 @@
     "overlayEmoji": "🍝",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "doom-folder",
@@ -106,7 +106,7 @@
     "category": "cursed",
     "base": "folder",
     "overlay": "skull",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.22,
     "y": -0.12,
     "subSize": 0.42,
@@ -114,7 +114,7 @@
     "overlayEmoji": "💀",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "cat-angel",
@@ -122,7 +122,7 @@
     "category": "creatures",
     "base": "angel",
     "overlay": "cat",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.01,
     "y": 0.09,
     "subSize": 0.92,
@@ -130,7 +130,7 @@
     "overlayEmoji": "🐱",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "brain-battery",
@@ -138,7 +138,7 @@
     "category": "tech",
     "base": "battery",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.02,
     "subSize": 0.48,
@@ -146,7 +146,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "spicy-ramen",
@@ -154,16 +154,16 @@
     "category": "food",
     "base": "ramen",
     "overlay": "pepper",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.44,
     "rotate": "-16deg",
     "baseEmoji": "🍜",
     "overlayEmoji": "🌶️",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "toxic-jar",
@@ -171,7 +171,7 @@
     "category": "cursed",
     "base": "jar",
     "overlay": "biohazard",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.46,
@@ -179,7 +179,7 @@
     "overlayEmoji": "☣️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "cherry-soda",
@@ -187,7 +187,7 @@
     "category": "drinks",
     "base": "soda",
     "overlay": "cherries",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.03,
     "y": 0.04,
     "subSize": 0.42,
@@ -195,7 +195,7 @@
     "overlayEmoji": "🍒",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "archive-disk",
@@ -203,7 +203,7 @@
     "category": "storage",
     "base": "floppy-disk",
     "overlay": "card-box",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.03,
     "y": 0.07,
     "subSize": 0.44,
@@ -211,7 +211,7 @@
     "overlayEmoji": "🗃️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "cursed-camera",
@@ -219,7 +219,7 @@
     "category": "cursed",
     "base": "camera",
     "overlay": "eye",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "📷",
     "overlayEmoji": "👁️",
@@ -227,7 +227,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "bomb-burger",
@@ -235,16 +235,16 @@
     "category": "food",
     "base": "burger",
     "overlay": "bomb",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.44,
     "rotate": "-12deg",
     "baseEmoji": "🍔",
     "overlayEmoji": "💣",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "sparkle-phone",
@@ -252,7 +252,7 @@
     "category": "tech",
     "base": "phone",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.2,
     "subSize": 0.36,
@@ -260,7 +260,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "warning-folder",
@@ -268,7 +268,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "warning",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.15,
     "subSize": 0.34,
@@ -276,7 +276,7 @@
     "overlayEmoji": "⚠️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "ghost-tv",
@@ -284,7 +284,7 @@
     "category": "cursed",
     "base": "tv",
     "overlay": "ghost",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.03,
     "subSize": 0.42,
@@ -292,7 +292,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "rat-bucket",
@@ -300,7 +300,7 @@
     "category": "cursed",
     "base": "bucket",
     "overlay": "rat",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.08,
     "subSize": 0.5,
@@ -308,7 +308,7 @@
     "overlayEmoji": "🐀",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "frog-crown",
@@ -316,15 +316,15 @@
     "category": "creatures",
     "base": "frog",
     "overlay": "crown",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.42,
     "baseEmoji": "🐸",
     "overlayEmoji": "👑",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "brain-juice",
@@ -332,7 +332,7 @@
     "category": "cursed",
     "base": "juice-box",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.46,
@@ -340,7 +340,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "soda-ice",
@@ -348,15 +348,15 @@
     "category": "drinks",
     "base": "soda",
     "overlay": "ice",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.42,
     "baseEmoji": "🥤",
     "overlayEmoji": "🧊",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "lemon-tea",
@@ -364,7 +364,7 @@
     "category": "drinks",
     "base": "tea",
     "overlay": "lemon",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.01,
     "subSize": 0.46,
@@ -372,7 +372,7 @@
     "overlayEmoji": "🍋",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "fire-cart",
@@ -380,15 +380,15 @@
     "category": "symbols",
     "base": "cart",
     "overlay": "fire",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.48,
     "baseEmoji": "🛒",
     "overlayEmoji": "🔥",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "bone-bucket",
@@ -396,7 +396,7 @@
     "category": "cursed",
     "base": "bucket",
     "overlay": "bone",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.54,
     "baseEmoji": "🪣",
     "overlayEmoji": "🦴",
@@ -404,7 +404,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "snake-toolbox",
@@ -412,7 +412,7 @@
     "category": "objects",
     "base": "toolbox",
     "overlay": "snake",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.54,
     "rotate": "-6deg",
     "baseEmoji": "🧰",
@@ -421,7 +421,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "robot-satellite",
@@ -429,7 +429,7 @@
     "category": "tech",
     "base": "satellite",
     "overlay": "robot",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🛰️",
     "overlayEmoji": "🤖",
@@ -437,7 +437,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "alien-laptop",
@@ -445,7 +445,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "alien",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "💻",
     "overlayEmoji": "👽",
@@ -453,7 +453,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "magnet-box",
@@ -461,7 +461,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "magnet",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.34,
@@ -470,7 +470,7 @@
     "overlayEmoji": "🧲",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "locked-folder",
@@ -478,7 +478,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "lock",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.22,
     "y": -0.12,
     "subSize": 0.38,
@@ -486,7 +486,7 @@
     "overlayEmoji": "🔒",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "unlock-phone",
@@ -494,7 +494,7 @@
     "category": "tech",
     "base": "phone",
     "overlay": "unlock",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "📱",
     "overlayEmoji": "🔓",
@@ -502,7 +502,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "camera-bomb",
@@ -510,15 +510,15 @@
     "category": "cursed",
     "base": "camera",
     "overlay": "bomb",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.44,
     "baseEmoji": "📷",
     "overlayEmoji": "💣",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "heart-mail",
@@ -526,7 +526,7 @@
     "category": "mood",
     "base": "mailbox",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "📫",
     "overlayEmoji": "❤️",
@@ -534,7 +534,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "warning-printer",
@@ -542,7 +542,7 @@
     "category": "tech",
     "base": "printer",
     "overlay": "warning",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.02,
     "subSize": 0.46,
@@ -550,7 +550,7 @@
     "overlayEmoji": "⚠️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-dna",
@@ -558,7 +558,7 @@
     "category": "symbols",
     "base": "dna",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.2,
     "subSize": 0.38,
@@ -566,7 +566,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "low-power-tv",
@@ -574,7 +574,7 @@
     "category": "tech",
     "base": "tv",
     "overlay": "battery-low",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.04,
     "subSize": 0.38,
@@ -582,7 +582,7 @@
     "overlayEmoji": "🪫",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "soap-bucket",
@@ -590,7 +590,7 @@
     "category": "objects",
     "base": "bucket",
     "overlay": "soap",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "🪣",
     "overlayEmoji": "🧼",
@@ -598,7 +598,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "wood-basket",
@@ -606,7 +606,7 @@
     "category": "storage",
     "base": "basket",
     "overlay": "wood",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🧺",
     "overlayEmoji": "🪵",
@@ -614,7 +614,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "moon-coffee",
@@ -622,15 +622,15 @@
     "category": "drinks",
     "base": "coffee",
     "overlay": "moon",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.42,
     "baseEmoji": "☕",
     "overlayEmoji": "🌙",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "sun-burger",
@@ -638,15 +638,15 @@
     "category": "food",
     "base": "burger",
     "overlay": "sun",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.44,
     "baseEmoji": "🍔",
     "overlayEmoji": "☀️",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "brain-jar",
@@ -654,7 +654,7 @@
     "category": "cursed",
     "base": "jar",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.46,
@@ -662,7 +662,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "microscope-pill",
@@ -670,15 +670,15 @@
     "category": "tech",
     "base": "microscope",
     "overlay": "pill",
-    "position": "s-br-nw",
+    "position": "s-33",
     "subSize": 0.42,
     "baseEmoji": "🔬",
     "overlayEmoji": "💊",
-    "x": 0.25,
-    "y": 0.25,
+    "x": -0.2,
+    "y": -0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Bottom Right NW"
+    "positionLabel": "Row 3 Col 3"
   },
   {
     "name": "petri-skull",
@@ -686,7 +686,7 @@
     "category": "cursed",
     "base": "petri-dish",
     "overlay": "skull",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🧫",
     "overlayEmoji": "💀",
@@ -694,7 +694,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "ghost-folder-open",
@@ -702,7 +702,7 @@
     "category": "office",
     "base": "folder-open",
     "overlay": "ghost",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.15,
     "subSize": 0.38,
@@ -710,7 +710,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "crown-burger",
@@ -718,15 +718,15 @@
     "category": "food",
     "base": "burger",
     "overlay": "crown",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.4,
     "baseEmoji": "🍔",
     "overlayEmoji": "👑",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "frog-soda",
@@ -734,7 +734,7 @@
     "category": "drinks",
     "base": "soda",
     "overlay": "frog",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🥤",
     "overlayEmoji": "🐸",
@@ -742,7 +742,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "poop-box",
@@ -750,7 +750,7 @@
     "category": "cursed",
     "base": "box",
     "overlay": "poop",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.27,
     "y": 0.05,
     "subSize": 0.36,
@@ -758,7 +758,7 @@
     "overlayEmoji": "💩",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "sparkle-camera",
@@ -766,7 +766,7 @@
     "category": "tech",
     "base": "camera",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.22,
     "y": -0.2,
     "subSize": 0.38,
@@ -774,7 +774,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "battery-heart",
@@ -782,7 +782,7 @@
     "category": "mood",
     "base": "battery",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.48,
     "baseEmoji": "🔋",
     "overlayEmoji": "❤️",
@@ -790,7 +790,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "lightning-cloud",
@@ -798,7 +798,7 @@
     "category": "symbols",
     "base": "cloud",
     "overlay": "lightning",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.5,
     "baseEmoji": "☁️",
     "overlayEmoji": "⚡",
@@ -806,7 +806,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "ice-laptop",
@@ -814,7 +814,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "ice",
-    "position": "s-center",
+    "position": "s-44",
     "subSize": 0.44,
     "baseEmoji": "💻",
     "overlayEmoji": "🧊",
@@ -822,7 +822,7 @@
     "y": 0,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "gamepad-fire",
@@ -830,15 +830,15 @@
     "category": "tech",
     "base": "gamepad",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.44,
     "baseEmoji": "🎮",
     "overlayEmoji": "🔥",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "book-bomb",
@@ -846,15 +846,15 @@
     "category": "cursed",
     "base": "books",
     "overlay": "bomb",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.4,
     "baseEmoji": "📚",
     "overlayEmoji": "💣",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "printer-ghost",
@@ -862,7 +862,7 @@
     "category": "tech",
     "base": "printer",
     "overlay": "ghost",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.03,
     "subSize": 0.46,
@@ -870,7 +870,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "shield-phone",
@@ -878,7 +878,7 @@
     "category": "tech",
     "base": "phone",
     "overlay": "shield",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.01,
     "subSize": 0.48,
@@ -886,7 +886,7 @@
     "overlayEmoji": "🛡️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "robot-tv",
@@ -894,7 +894,7 @@
     "category": "tech",
     "base": "tv",
     "overlay": "robot",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.02,
     "subSize": 0.4,
@@ -902,7 +902,7 @@
     "overlayEmoji": "🤖",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "calendar-bomb",
@@ -910,16 +910,16 @@
     "category": "cursed",
     "base": "calendar",
     "overlay": "bomb",
-    "position": "s-tc-se",
+    "position": "s-56",
     "subSize": 0.4,
     "rotate": "-12deg",
     "baseEmoji": "📅",
     "overlayEmoji": "💣",
-    "x": 0.08,
-    "y": -0.25,
+    "x": 0.4,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Center SE"
+    "positionLabel": "Row 5 Col 6"
   },
   {
     "name": "cheese-trap",
@@ -927,15 +927,15 @@
     "category": "cursed",
     "base": "rat",
     "overlay": "cheese",
-    "position": "s-br-nw",
+    "position": "s-33",
     "subSize": 0.36,
     "baseEmoji": "🐀",
     "overlayEmoji": "🧀",
-    "x": 0.25,
-    "y": 0.25,
+    "x": -0.2,
+    "y": -0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Bottom Right NW"
+    "positionLabel": "Row 3 Col 3"
   },
   {
     "name": "headphones-fire",
@@ -943,16 +943,16 @@
     "category": "tech",
     "base": "headphones",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "subSize": 0.42,
     "rotate": "-12deg",
     "baseEmoji": "🎧",
     "overlayEmoji": "🔥",
-    "x": 0.25,
-    "y": -0.25,
+    "x": -0.2,
+    "y": 0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "printer-dna",
@@ -960,7 +960,7 @@
     "category": "tech",
     "base": "printer",
     "overlay": "dna",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.02,
     "subSize": 0.44,
@@ -968,7 +968,7 @@
     "overlayEmoji": "🧬",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "floppy-ghost",
@@ -976,7 +976,7 @@
     "category": "tech",
     "base": "floppy-disk",
     "overlay": "ghost",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.01,
     "y": 0.06,
     "subSize": 0.42,
@@ -984,7 +984,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "mailbox-sparkles",
@@ -992,7 +992,7 @@
     "category": "mood",
     "base": "mailbox",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.18,
     "subSize": 0.38,
@@ -1000,7 +1000,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "satellite-eye",
@@ -1008,7 +1008,7 @@
     "category": "cursed",
     "base": "satellite",
     "overlay": "eye",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": -0.02,
     "subSize": 0.42,
@@ -1016,7 +1016,7 @@
     "overlayEmoji": "👁️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "toolbox-magnet",
@@ -1024,7 +1024,7 @@
     "category": "objects",
     "base": "toolbox",
     "overlay": "magnet",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.04,
     "subSize": 0.42,
@@ -1033,7 +1033,7 @@
     "overlayEmoji": "🧲",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "coffee-heart",
@@ -1041,7 +1041,7 @@
     "category": "mood",
     "base": "coffee",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": -0.02,
     "subSize": 0.4,
@@ -1049,7 +1049,7 @@
     "overlayEmoji": "❤️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "syringe-skull",
@@ -1057,15 +1057,15 @@
     "category": "cursed",
     "base": "syringe",
     "overlay": "skull",
-    "position": "s-br-nw",
+    "position": "s-33",
     "subSize": 0.4,
     "baseEmoji": "💉",
     "overlayEmoji": "💀",
-    "x": 0.25,
-    "y": 0.25,
+    "x": -0.2,
+    "y": -0.2,
     "xUnit": "%",
     "yUnit": "%",
-    "positionLabel": "Bottom Right NW"
+    "positionLabel": "Row 3 Col 3"
   },
   {
     "name": "lotion-biohazard",
@@ -1073,7 +1073,7 @@
     "category": "cursed",
     "base": "lotion",
     "overlay": "biohazard",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.06,
     "subSize": 0.42,
@@ -1081,7 +1081,7 @@
     "overlayEmoji": "☣️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "bubble-tea-brain",
@@ -1089,7 +1089,7 @@
     "category": "cursed",
     "base": "bubble-tea",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.05,
     "subSize": 0.42,
@@ -1097,7 +1097,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-folder",
@@ -1105,7 +1105,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.24,
     "y": -0.22,
     "subSize": 0.32,
@@ -1113,7 +1113,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "fire-folder",
@@ -1121,7 +1121,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "fire",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.14,
     "subSize": 0.38,
@@ -1130,7 +1130,7 @@
     "overlayEmoji": "🔥",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "warning-box",
@@ -1138,7 +1138,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "warning",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.34,
@@ -1146,7 +1146,7 @@
     "overlayEmoji": "⚠️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "ghost-box",
@@ -1154,7 +1154,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "ghost",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.05,
     "subSize": 0.36,
@@ -1162,7 +1162,7 @@
     "overlayEmoji": "👻",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "star-bottle",
@@ -1170,7 +1170,7 @@
     "category": "drinks",
     "base": "bottle",
     "overlay": "star",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.1,
     "subSize": 0.38,
@@ -1178,7 +1178,7 @@
     "overlayEmoji": "⭐",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "heart-bottle",
@@ -1186,7 +1186,7 @@
     "category": "drinks",
     "base": "bottle",
     "overlay": "heart",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.1,
     "subSize": 0.38,
@@ -1194,7 +1194,7 @@
     "overlayEmoji": "❤️",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-laptop",
@@ -1202,7 +1202,7 @@
     "category": "tech",
     "base": "laptop",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.24,
     "y": -0.22,
     "subSize": 0.32,
@@ -1210,7 +1210,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   },
   {
     "name": "alien-tv",
@@ -1218,7 +1218,7 @@
     "category": "tech",
     "base": "tv",
     "overlay": "alien",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0.02,
     "y": 0.03,
     "subSize": 0.38,
@@ -1226,7 +1226,7 @@
     "overlayEmoji": "👽",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "key-folder",
@@ -1234,7 +1234,7 @@
     "category": "office",
     "base": "folder",
     "overlay": "key",
-    "position": "s-tr-sw",
+    "position": "s-53",
     "x": 0.24,
     "y": -0.15,
     "subSize": 0.34,
@@ -1242,7 +1242,7 @@
     "overlayEmoji": "🔑",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Row 5 Col 3"
   },
   {
     "name": "crown-box",
@@ -1250,7 +1250,7 @@
     "category": "storage",
     "base": "box",
     "overlay": "crown",
-    "position": "s-mr-se",
+    "position": "s-67",
     "x": 0.28,
     "y": 0.04,
     "subSize": 0.31,
@@ -1258,7 +1258,7 @@
     "overlayEmoji": "👑",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Middle Right SE"
+    "positionLabel": "Row 6 Col 7"
   },
   {
     "name": "brain-bottle",
@@ -1266,7 +1266,7 @@
     "category": "cursed",
     "base": "bottle",
     "overlay": "brain",
-    "position": "s-center",
+    "position": "s-44",
     "x": 0,
     "y": 0.1,
     "subSize": 0.4,
@@ -1274,7 +1274,7 @@
     "overlayEmoji": "🧠",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Direct Center"
+    "positionLabel": "Center"
   },
   {
     "name": "sparkle-bucket",
@@ -1282,7 +1282,7 @@
     "category": "objects",
     "base": "bucket",
     "overlay": "sparkles",
-    "position": "s-tl-se",
+    "position": "s-55",
     "x": -0.2,
     "y": -0.18,
     "subSize": 0.36,
@@ -1290,7 +1290,7 @@
     "overlayEmoji": "✨",
     "xUnit": "em",
     "yUnit": "em",
-    "positionLabel": "Top Left SE"
+    "positionLabel": "Row 5 Col 5"
   }
 ];
   global.EmojiStackPrefabs = prefabs;

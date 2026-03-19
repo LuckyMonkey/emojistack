@@ -18,7 +18,7 @@ function read(relativePath) {
 }
 
 function testCounts() {
-  assert(positions.length === 46, `Expected 46 positions, found ${positions.length}`);
+  assert(positions.length === 49, `Expected 49 positions, found ${positions.length}`);
   assert(emojis.length >= 80, `Expected at least 80 emojis, found ${emojis.length}`);
   assert(prefabs.length >= 40, `Expected at least 40 prefabs, found ${prefabs.length}`);
 }
@@ -34,38 +34,37 @@ function testGeneratedFiles() {
   positions.forEach((entry) => {
     assert(positionsCss.includes(`.${entry.id}`), `Missing position selector ${entry.id}`);
   });
+  assert(positionsCss.includes(".es-s { --es-sub-size: 0.32; }"), "Missing small size class");
+  assert(positionsCss.includes(".es-m { --es-sub-size: 0.58; }"), "Missing medium size class");
+  assert(positionsCss.includes(".es-l { --es-sub-size: 0.82; }"), "Missing large size class");
+  assert(!positionsCss.includes(".s-tl"), "Old split placement selectors should be gone");
   assert((prefabCss.match(/\.p-/g) || []).length >= 40, "Expected prefab CSS rules");
   assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");
 }
 
 function testPositionGeometry() {
-  const micro = positions.filter((entry) => entry.kind === "micro");
-  const xs = [...new Set(micro.map((entry) => entry.x))].sort((a, b) => a - b);
-  const ys = [...new Set(micro.map((entry) => entry.y))].sort((a, b) => a - b);
+  const xs = [...new Set(positions.map((entry) => entry.x))].sort((a, b) => a - b);
+  const ys = [...new Set(positions.map((entry) => entry.y))].sort((a, b) => a - b);
 
-  assert(xs.length === 6, `Expected 6 micro x columns, found ${xs.length}`);
-  assert(ys.length === 6, `Expected 6 micro y rows, found ${ys.length}`);
-  assert(xs[0] <= -0.41 && xs[xs.length - 1] >= 0.41, "Micro columns should reach the edges");
-  assert(ys[0] <= -0.41 && ys[ys.length - 1] >= 0.41, "Micro rows should reach the edges");
+  assert(xs.length === 7, `Expected 7 grid x columns, found ${xs.length}`);
+  assert(ys.length === 7, `Expected 7 grid y rows, found ${ys.length}`);
+  assert(xs[3] === 0, "Expected a true center column");
+  assert(ys[3] === 0, "Expected a true center row");
+  assert(xs[0] <= -0.6 && xs[xs.length - 1] >= 0.6, "Grid columns should reach the edges");
+  assert(ys[0] <= -0.6 && ys[ys.length - 1] >= 0.6, "Grid rows should reach the edges");
 
-  const mcSw = positions.find((entry) => entry.id === "s-mc-sw");
-  const mlSw = positions.find((entry) => entry.id === "s-ml-sw");
-  const mrSw = positions.find((entry) => entry.id === "s-mr-sw");
-  assert(mcSw.y === mlSw.y && mcSw.y === mrSw.y, "Middle SW row should share one y value");
+  for (let row = 1; row <= 7; row += 1) {
+    const rowCells = positions.filter((entry) => entry.id.startsWith(`s-${row}`));
+    const firstY = rowCells[0].y;
+    assert(rowCells.length === 7, `Expected 7 cells in row ${row}`);
+    assert(rowCells.every((entry) => entry.y === firstY), `Grid row ${row} should share one y value`);
+  }
 
-  const microBoardOrder = [
-    "s-tl-nw", "s-tl-ne", "s-tc-nw", "s-tc-ne", "s-tr-nw", "s-tr-ne",
-    "s-tl-sw", "s-tl-se", "s-tc-sw", "s-tc-se", "s-tr-sw", "s-tr-se",
-    "s-ml-nw", "s-ml-ne", "s-mc-nw", "s-mc-ne", "s-mr-nw", "s-mr-ne",
-    "s-ml-sw", "s-ml-se", "s-mc-sw", "s-mc-se", "s-mr-sw", "s-mr-se",
-    "s-bl-nw", "s-bl-ne", "s-bc-nw", "s-bc-ne", "s-br-nw", "s-br-ne",
-    "s-bl-sw", "s-bl-se", "s-bc-sw", "s-bc-se", "s-br-sw", "s-br-se"
-  ];
-
-  for (let index = 0; index < microBoardOrder.length; index += 6) {
-    const row = microBoardOrder.slice(index, index + 6).map((id) => positions.find((entry) => entry.id === id));
-    const firstY = row[0].y;
-    assert(row.every((entry) => entry.y === firstY), `Micro board row ${index / 6} should share one y value`);
+  for (let col = 1; col <= 7; col += 1) {
+    const colCells = positions.filter((entry) => entry.id.endsWith(`${col}`));
+    const firstX = colCells[0].x;
+    assert(colCells.length === 7, `Expected 7 cells in column ${col}`);
+    assert(colCells.every((entry) => entry.x === firstX), `Grid column ${col} should share one x value`);
   }
 }
 
@@ -188,19 +187,19 @@ function testRuntime() {
   vm.createContext(context);
   vm.runInContext(bundle, context);
 
-  const cursed = makeStubNode("es 🍼 🍓 s-center");
+  const cursed = makeStubNode("es 🍼 🍓 s-44");
   context.window.EmojiStack.apply(cursed);
   assert(cursed._styleMap.get("--es-base") === '"🍼"', "Cursed base token failed");
   assert(cursed._styleMap.get("--es-sub") === '"🍓"', "Cursed overlay token failed");
   assert(cursed._styleMap.get("--es-sub-ox") === "-0.01em", "Optical x offset failed");
   assert(cursed._styleMap.get("--es-sub-oy") === "0.01em", "Optical y offset failed");
 
-  const alias = makeStubNode("es e-bottle e-strawberry s-center");
+  const alias = makeStubNode("es e-bottle e-strawberry s-44");
   context.window.EmojiStack.apply(alias);
   assert(alias._styleMap.get("--es-base") === '"🍼"', "Alias base token failed");
   assert(alias._styleMap.get("--es-sub") === '"🍓"', "Alias overlay token failed");
 
-  const mixed = makeStubNode("es 🍼 e-strawberry s-center");
+  const mixed = makeStubNode("es 🍼 e-strawberry s-44");
   context.window.EmojiStack.apply(mixed);
   assert(mixed._styleMap.get("--es-base") === '"🍼"', "Mixed base token failed");
   assert(mixed._styleMap.get("--es-sub") === '"🍓"', "Mixed overlay token failed");

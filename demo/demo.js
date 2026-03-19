@@ -34,8 +34,8 @@
       title: "Alias Pair Syntax",
       kicker: "Alias classes",
       note: "Same visual result, safer class names, same runtime ordering.",
-      snippet: '<i class="es e-bottle e-strawberry s-center"></i>',
-      className: "es e-bottle e-strawberry s-center",
+      snippet: '<i class="es es-l e-bottle e-strawberry s-44"></i>',
+      className: "es es-l e-bottle e-strawberry s-44",
       tone: "mint",
       search: ["alias", "safe", "bottle", "strawberry"]
     },
