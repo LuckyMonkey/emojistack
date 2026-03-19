@@ -127,6 +127,29 @@
     return prefabs.slice();
   }
 
+  function describeEndpointFailure(response, bodyText) {
+    const location = response?.url || "";
+    const contentType = response?.headers?.get?.("content-type") || "";
+    const text = String(bodyText || "");
+
+    if (
+      response?.redirected &&
+      (location.includes("accounts.google.com") || location.includes("ServiceLogin"))
+    ) {
+      return "The Google Apps Script endpoint is still private. Redeploy it as a public web app so anonymous visitors can load prefabs.";
+    }
+
+    if (location.includes("accounts.google.com") || text.includes("ServiceLogin")) {
+      return "The Google Apps Script endpoint is redirecting to Google sign-in instead of returning JSON.";
+    }
+
+    if (contentType.includes("text/html")) {
+      return "The prefab endpoint returned HTML instead of JSON. The Apps Script deployment is likely not public yet.";
+    }
+
+    return null;
+  }
+
   async function fetchJson(url, options) {
     const controller = typeof AbortController === "function" ? new AbortController() : null;
     const timeout = controller
@@ -134,12 +157,35 @@
       : null;
 
     try {
-      const response = await fetch(url, {
-        method: "GET",
-        ...options,
-        signal: controller ? controller.signal : undefined
-      });
-      const payload = await response.json();
+      let response;
+
+      try {
+        response = await fetch(url, {
+          method: "GET",
+          ...options,
+          signal: controller ? controller.signal : undefined
+        });
+      } catch (error) {
+        if (String(error?.message || "").toLowerCase().includes("failed to fetch")) {
+          throw new Error(
+            "The prefab API could not be reached from this page. The Apps Script web app is likely private or missing CORS access."
+          );
+        }
+        throw error;
+      }
+
+      const rawText = await response.text();
+      const endpointFailure = describeEndpointFailure(response, rawText);
+      if (endpointFailure) {
+        throw new Error(endpointFailure);
+      }
+
+      let payload;
+      try {
+        payload = rawText ? JSON.parse(rawText) : null;
+      } catch (error) {
+        throw new Error("The prefab endpoint did not return valid JSON.");
+      }
 
       if (!response.ok || (payload && payload.ok === false)) {
         throw new Error(payload?.error || `Request failed with ${response.status}`);

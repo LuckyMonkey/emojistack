@@ -106,7 +106,8 @@
     copyText(value);
   });
 
-  boot().catch(() => {
-    grid.innerHTML = '<article class="prefab-card prefab-empty"><strong>Prefab list could not load.</strong><span>Check the configured sheet endpoint.</span></article>';
+  boot().catch((error) => {
+    grid.innerHTML =
+      `<article class="prefab-card prefab-empty"><strong>Prefab list could not load.</strong><span>${error.message || "Check the configured sheet endpoint."}</span></article>`;
   });
 })();

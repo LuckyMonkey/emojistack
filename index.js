@@ -250,7 +250,7 @@
     }
   }
 
-  boot().catch(() => {
-    rouletteNote.textContent = "Prefab feed could not load.";
+  boot().catch((error) => {
+    rouletteNote.textContent = error.message || "Prefab feed could not load.";
   });
 })();
