@@ -161,6 +161,8 @@ function testRuntime() {
   context.window.EmojiStack.apply(cursed);
   assert(cursed._styleMap.get("--es-base") === '"🍼"', "Cursed base token failed");
   assert(cursed._styleMap.get("--es-sub") === '"🍓"', "Cursed overlay token failed");
+  assert(cursed._styleMap.get("--es-sub-ox") === "-0.01em", "Optical x offset failed");
+  assert(cursed._styleMap.get("--es-sub-oy") === "0.01em", "Optical y offset failed");
 
   const alias = makeStubNode("es e-bottle e-strawberry s-center");
   context.window.EmojiStack.apply(alias);

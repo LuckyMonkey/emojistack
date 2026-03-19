@@ -8,6 +8,8 @@
   --es-x: 0em;
   --es-y: 0em;
   --es-sub-size: 0.56;
+  --es-sub-ox: 0em;
+  --es-sub-oy: 0em;
   --es-rotate: 0deg;
   --es-opacity: 1;
   --es-base-shadow: none;
@@ -53,7 +55,10 @@
   text-shadow: var(--es-overlay-shadow);
   filter: var(--es-overlay-filter);
   transform:
-    translate(calc(-50% + var(--es-x)), calc(-50% + var(--es-y)))
+    translate(
+      calc(-50% + var(--es-x) - var(--es-sub-ox)),
+      calc(-50% + var(--es-y) - var(--es-sub-oy))
+    )
     rotate(var(--es-rotate))
     translateZ(var(--es-shift-z));
   transform-origin: center;

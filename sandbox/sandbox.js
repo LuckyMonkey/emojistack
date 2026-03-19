@@ -31,7 +31,6 @@
     positionSelect: document.getElementById("position-select"),
     positionNote: document.getElementById("position-note"),
     pickerModeToggle: document.getElementById("picker-mode-toggle"),
-    sizeModeNote: document.getElementById("size-mode-note"),
     iconSize: document.getElementById("icon-size"),
     iconSizeValue: document.getElementById("icon-size-value"),
     prefabName: document.getElementById("prefab-name"),
@@ -71,6 +70,7 @@
   let subDefaults = loadJson(STORAGE_SUB_DEFAULTS, {});
   let editingSource = "starter";
   let dragPointerId = null;
+  let dragOffset = { x: 0, y: 0 };
 
   function loadJson(key, fallback) {
     try {
@@ -123,17 +123,6 @@
       return 0.58;
     }
     return 0.36;
-  }
-
-  function sizeLabelForPosition(positionId) {
-    const mode = guessPickerMode(positionId);
-    if (mode === "direct") {
-      return "Direct overlay";
-    }
-    if (mode === "macro") {
-      return "3x3 badge";
-    }
-    return "6x6 micro badge";
   }
 
   function currentBaseDefault() {
@@ -345,9 +334,11 @@
     icon.style.setProperty("--es-x", `${def.position.x}em`);
     icon.style.setProperty("--es-y", `${def.position.y}em`);
     icon.style.setProperty("--es-sub-size", `${def.subSize}`);
+    icon.style.setProperty("--es-sub-ox", `${def.overlay.ox || 0}em`);
+    icon.style.setProperty("--es-sub-oy", `${def.overlay.oy || 0}em`);
 
     elements.previewTitle.textContent = `${def.base.label} + ${def.overlay.label}`;
-    elements.previewSubtitle.textContent = `${def.position.label} · ${sizeLabelForPosition(def.position.id)}`;
+    elements.previewSubtitle.textContent = def.position.label;
     elements.previewHero.title = `${def.base.label} + ${def.overlay.label} · drag to place`;
 
     elements.previewStage.classList.toggle("preview-dark", state.theme === "dark");
@@ -401,7 +392,6 @@
 
     elements.iconSize.value = state.iconSize;
     elements.iconSizeValue.textContent = `${state.iconSize}px`;
-    elements.sizeModeNote.textContent = sizeLabelForPosition(state.position);
     elements.prefabName.value = state.prefabName;
     elements.themeToggle.textContent = state.theme === "dark" ? "Light" : "Dark";
     elements.savePrefab.textContent = editingSource === "local" ? "Save" : "Save";
@@ -548,8 +538,8 @@
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
     const scale = rect.width || 1;
-    const dx = (clientX - centerX) / scale;
-    const dy = (clientY - centerY) / scale;
+    const dx = ((clientX - centerX) / scale) - dragOffset.x;
+    const dy = ((clientY - centerY) / scale) - dragOffset.y;
 
     let next = candidatePositions()[0];
     let bestDistance = Infinity;
@@ -698,7 +688,16 @@
     elements.importJson.addEventListener("click", importLocalJson);
 
     elements.previewHero.addEventListener("pointerdown", (event) => {
+      const current = currentDefinition();
+      const rect = elements.previewMain.getBoundingClientRect();
+      const centerX = rect.left + rect.width / 2;
+      const centerY = rect.top + rect.height / 2;
+      const scale = rect.width || 1;
       dragPointerId = event.pointerId;
+      dragOffset = {
+        x: ((event.clientX - centerX) / scale) - current.position.x,
+        y: ((event.clientY - centerY) / scale) - current.position.y
+      };
       elements.previewHero.classList.add("is-dragging");
       elements.previewHero.setPointerCapture(event.pointerId);
       dragToPosition(event.clientX, event.clientY);

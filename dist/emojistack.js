@@ -2383,6 +2383,7 @@
   const data = global.EmojiStackData || { emojis: [], aliasToEmoji: {} };
   const prefabs = global.EmojiStackPrefabs || [];
   const emojiToAlias = Object.fromEntries((data.emojis || []).map((entry) => [entry.emoji, entry.alias]));
+  const emojiMeta = Object.fromEntries((data.emojis || []).map((entry) => [entry.emoji, entry]));
   const literalEmojiList = (data.emojis || [])
     .map((entry) => entry.emoji)
     .sort((left, right) => right.length - left.length);
@@ -2532,9 +2533,13 @@
 
     if (sub) {
       node.style.setProperty("--es-sub", JSON.stringify(sub));
+      node.style.setProperty("--es-sub-ox", `${emojiMeta[sub]?.ox || 0}em`);
+      node.style.setProperty("--es-sub-oy", `${emojiMeta[sub]?.oy || 0}em`);
       node.dataset.esSub = sub;
     } else {
       node.style.removeProperty("--es-sub");
+      node.style.removeProperty("--es-sub-ox");
+      node.style.removeProperty("--es-sub-oy");
       delete node.dataset.esSub;
     }
 
