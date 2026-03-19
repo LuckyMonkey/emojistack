@@ -218,15 +218,12 @@
   }
 
   function positionCellText(positionId) {
-    return positionId === "s-44" ? "C" : "·";
+    return positionId === "s-44" ? "C" : positionId.slice(2);
   }
 
   function renderGrid() {
     el.positionGrid.innerHTML = positions
-      .map((item) => {
-        const disabled = state.sizeMode === "large" && item.id !== "s-44";
-        return `<button type="button" class="position-cell${item.id === state.position ? " active" : ""}" data-position="${item.id}" title="${item.label}"${disabled ? " disabled" : ""}>${positionCellText(item.id)}</button>`;
-      })
+      .map((item) => `<button type="button" class="position-cell${item.id === state.position ? " active" : ""}" data-position="${item.id}" title="${item.label}">${positionCellText(item.id)}</button>`)
       .join("");
   }
 
@@ -269,7 +266,7 @@
     el.previewSubtitle.textContent = `${def.position.label} · ${titleize(state.sizeMode)}`;
     el.positionNote.textContent = def.position.label;
     el.previewHero.title = state.sizeMode === "large"
-      ? "Large size stays centered"
+      ? "Use the grid to place the top emoji"
       : "Drag the top emoji to place it";
     el.previewHero.classList.toggle("is-static", state.sizeMode === "large");
   }
@@ -380,9 +377,6 @@
         return;
       }
       state.sizeMode = button.dataset.sizeMode;
-      if (state.sizeMode === "large") {
-        state.position = "s-44";
-      }
       source = "custom";
       redraw();
     });

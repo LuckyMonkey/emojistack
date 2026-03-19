@@ -1,4 +1,4 @@
-const lanes = [-0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6];
+const lanes = [-0.66, -0.44, -0.22, 0, 0.22, 0.44, 0.66];
 
 function laneLabel(index) {
   return index === 4 ? "Center" : `Row ${index} Col ${index}`;
