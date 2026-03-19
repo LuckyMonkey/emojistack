@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const emojiMeta = require("unicode-emoji-json/data-by-emoji.json");
-const emojis = require("../data/emojis");
+const emojiOverrides = require("../data/emojis");
 const positions = require("../data/positions");
 
 const ROOT = path.resolve(__dirname, "..");
@@ -18,6 +18,7 @@ function cssVar(emoji) {
 function slugify(value) {
   return String(value || "")
     .toLowerCase()
+    .replace(/_/g, "-")
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
@@ -31,15 +32,23 @@ function titleCase(value) {
     .join(" ");
 }
 
-function enrichEmoji(entry) {
-  const meta = emojiMeta[entry.emoji];
+function enrichEmoji(emoji, override = {}) {
+  const meta = emojiMeta[emoji];
 
   if (!meta) {
-    throw new Error(`Missing unicode-emoji-json metadata for "${entry.emoji}" (${entry.alias})`);
+    throw new Error(`Missing unicode-emoji-json metadata for "${emoji}" (${override.alias || "unknown"})`);
   }
 
+  const unicodeAlias = slugify(meta.slug || meta.name);
+  const alias = override.alias || unicodeAlias;
+  const aliases = [...new Set([alias, unicodeAlias].filter(Boolean))];
+
   return {
-    ...entry,
+    emoji,
+    alias,
+    aliases,
+    ox: override.ox,
+    oy: override.oy,
     label: titleCase(meta.name),
     group: meta.group,
     category: slugify(meta.group),
@@ -67,7 +76,9 @@ function generateAliasCss(list) {
   ];
 
   for (const entry of list) {
-    lines.push(`.e-${entry.alias} { --es-token: ${cssVar(entry.emoji)}; }`);
+    for (const alias of entry.aliases || [entry.alias]) {
+      lines.push(`.e-${alias} { --es-token: ${cssVar(entry.emoji)}; }`);
+    }
   }
 
   return `${lines.join("\n")}\n`;
@@ -78,7 +89,9 @@ function generateRegistry(list) {
   const literalToEmoji = {};
 
   for (const entry of list) {
-    aliasToEmoji[`e-${entry.alias}`] = entry.emoji;
+    for (const alias of entry.aliases || [entry.alias]) {
+      aliasToEmoji[`e-${alias}`] = entry.emoji;
+    }
     literalToEmoji[entry.emoji] = entry.emoji;
   }
 
@@ -102,7 +115,8 @@ function generateRegistry(list) {
 }
 
 function generateEmojis() {
-  const enriched = emojis.map(enrichEmoji);
+  const overrideByEmoji = new Map(emojiOverrides.map((entry) => [entry.emoji, entry]));
+  const enriched = Object.keys(emojiMeta).map((emoji) => enrichEmoji(emoji, overrideByEmoji.get(emoji)));
   writeFile("emojis.generated.css", generateEmojiCss(enriched));
   writeFile("aliases.generated.css", generateAliasCss(enriched));
   writeFile("registry.js", generateRegistry(enriched));
