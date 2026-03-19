@@ -44,7 +44,9 @@ function testGeneratedFiles() {
   assert((prefabCss.match(/\.p-/g) || []).length >= 40, "Expected prefab CSS rules");
   assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");
   assert(sandboxHtml.includes('id="prefab-name"'), "Missing sandbox prefab name input");
+  assert(sandboxHtml.includes('autocomplete="off"'), "Sandbox prefab search should not restore stale browser queries");
   assert(sandboxJs.includes("defaultPrefabName"), "Missing sandbox default prefab naming");
+  assert(sandboxJs.includes('No matches for "${el.prefabSearch.value.trim()}"'), "Sandbox should distinguish empty search results from empty prefab feeds");
   assert(storeJs.includes("localStorage"), "Prefab store should cache prefabs locally");
   assert(storeJs.includes("cacheVersion"), "Prefab store cache key should be versioned");
   assert(storeJs.includes('params.set("action", "save")'), "Prefab store should support query-string saves");

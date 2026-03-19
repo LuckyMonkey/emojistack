@@ -334,12 +334,15 @@
 
   function renderPrefabJump() {
     const items = filteredPrefabs();
+    const query = normalizeText(el.prefabSearch.value);
     el.prefabJump.innerHTML = "";
 
     const placeholder = document.createElement("option");
     placeholder.value = "";
     placeholder.textContent = items.length
       ? "Pick a prefab to edit"
+      : query
+        ? `No matches for "${el.prefabSearch.value.trim()}"`
       : catalogLoaded
         ? "No prefabs found"
         : "Loading prefabs...";
@@ -663,6 +666,7 @@
 
   async function boot() {
     bind();
+    el.prefabSearch.value = "";
     redraw();
 
     try {
