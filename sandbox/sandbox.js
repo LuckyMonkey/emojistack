@@ -47,7 +47,7 @@
     overlay: "strawberry",
     position: "s-44",
     sizeMode: "large",
-    prefabName: "strawberry-milk"
+    prefabName: ""
   };
 
   let localPrefabs = loadJson(STORAGE_PREFABS, []);
@@ -57,6 +57,7 @@
   let source = "starter";
   let dragPointerId = null;
   let dragAnchor = { x: 0, y: 0 };
+  const params = new URLSearchParams(window.location.search);
 
   function loadJson(key, fallback) {
     try {
@@ -172,13 +173,21 @@
     };
   }
 
-  function currentClassString() {
-    const shippedPrefab = starters.find((entry) => entry.name === sanitizeName(state.prefabName));
+  function selectedPrefab() {
+    if (source === "custom" || !state.prefabName) {
+      return null;
+    }
+    const list = source === "local" ? localPrefabs : starters;
+    return list.find((entry) => entry.name === sanitizeName(state.prefabName)) || null;
+  }
 
-    if (shippedPrefab && state.base === shippedPrefab.base && state.overlay === shippedPrefab.overlay && state.position === shippedPrefab.position) {
-      const prefabSize = shippedPrefab.sizeMode || inferSizeMode(shippedPrefab.subSize || SIZE_MAP.medium);
+  function currentClassString() {
+    const prefab = selectedPrefab();
+
+    if (prefab && state.base === prefab.base && state.overlay === prefab.overlay && state.position === prefab.position) {
+      const prefabSize = prefab.sizeMode || inferSizeMode(prefab.subSize || SIZE_MAP.medium);
       if (prefabSize === state.sizeMode) {
-        return `es p-${shippedPrefab.name}`;
+        return `es p-${prefab.name}`;
       }
     }
 
@@ -249,8 +258,13 @@
     const items = filteredPrefabs();
     el.prefabJump.innerHTML = "";
 
+    const placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "Pick a prefab to edit";
+    placeholder.selected = source === "custom" || !state.prefabName;
+    el.prefabJump.appendChild(placeholder);
+
     if (!items.length) {
-      el.prefabJump.innerHTML = '<option value="">No prefab match</option>';
       return;
     }
 
@@ -265,11 +279,16 @@
         const option = document.createElement("option");
         option.value = `${kind}:${prefab.name}`;
         option.textContent = `${prefab.label || titleize(prefab.name)} · ${prefab.name}`;
-        option.selected = prefab.name === sanitizeName(state.prefabName) && source === kind;
+        option.selected = source === kind && prefab.name === sanitizeName(state.prefabName);
         group.appendChild(option);
       });
       el.prefabJump.appendChild(group);
     });
+  }
+
+  function setCustomState() {
+    source = "custom";
+    state.prefabName = "";
   }
 
   function positionCellText(positionId) {
@@ -317,8 +336,11 @@
     icon.style.setProperty("--es-sub-ox", `${def.overlay.ox || 0}em`);
     icon.style.setProperty("--es-sub-oy", `${def.overlay.oy || 0}em`);
 
-    el.previewTitle.textContent = `${def.base.label} + ${def.overlay.label}`;
-    el.previewSubtitle.textContent = `${def.position.label} · ${titleize(state.sizeMode)}`;
+    const prefab = selectedPrefab();
+    el.previewTitle.textContent = prefab ? `p-${prefab.name}` : `${def.base.label} + ${def.overlay.label}`;
+    el.previewSubtitle.textContent = prefab
+      ? `${prefab.label || titleize(prefab.name)} · ${def.position.label} · ${titleize(state.sizeMode)}`
+      : `${def.position.label} · ${titleize(state.sizeMode)}`;
     el.positionNote.textContent = def.position.label;
     el.previewHero.title = state.sizeMode === "large"
       ? "Use the grid to place the top emoji"
@@ -395,6 +417,11 @@
   function bind() {
     el.prefabSearch.addEventListener("input", renderPrefabJump);
     el.prefabJump.addEventListener("change", (event) => {
+      if (!event.target.value) {
+        setCustomState();
+        redraw();
+        return;
+      }
       const [kind, name] = String(event.target.value).split(":");
       const list = kind === "local" ? localPrefabs : starters;
       const prefab = list.find((entry) => entry.name === name);
@@ -405,17 +432,15 @@
 
     el.base.addEventListener("change", (event) => {
       state.base = event.target.value;
-      state.prefabName = `${state.base}-${state.overlay}`;
+      setCustomState();
       applySavedDefault();
-      source = "custom";
       redraw();
     });
 
     el.overlay.addEventListener("change", (event) => {
       state.overlay = event.target.value;
-      state.prefabName = `${state.base}-${state.overlay}`;
+      setCustomState();
       applySavedDefault();
-      source = "custom";
       redraw();
     });
 
@@ -425,7 +450,6 @@
         return;
       }
       state.position = button.dataset.position;
-      source = "custom";
       redraw();
     });
 
@@ -435,7 +459,6 @@
         return;
       }
       state.sizeMode = button.dataset.sizeMode;
-      source = "custom";
       redraw();
     });
 
@@ -464,7 +487,6 @@
       const next = nearestPosition(event.clientX, event.clientY);
       if (next.id !== state.position) {
         state.position = next.id;
-        source = "custom";
         redraw();
       }
     });
@@ -508,14 +530,15 @@
     el.save.addEventListener("click", savePrefab);
     el.remove.addEventListener("click", removePrefab);
     el.duplicate.addEventListener("click", () => {
-      state.prefabName = `${sanitizeName(state.prefabName)}-copy`;
+      const name = sanitizeName(state.prefabName || `${state.base}-${state.overlay}`);
+      state.prefabName = `${name}-copy`;
       source = "custom";
       setStatus("Duplicated.");
       redraw();
     });
     el.reset.addEventListener("click", () => {
       state = { ...defaults };
-      source = "starter";
+      source = "custom";
       setStatus("Reset.");
       redraw();
     });
@@ -532,10 +555,16 @@
 
   bind();
   syncRuntimeDefaults();
-  const initialPrefab = starters.find((entry) => entry.name === defaults.prefabName);
-  if (initialPrefab) {
-    loadPrefab(initialPrefab, "starter", false);
+  const requestedPrefab = sanitizeName(params.get("prefab") || "");
+  if (requestedPrefab) {
+    const initialPrefab = starters.find((entry) => entry.name === requestedPrefab) || localPrefabs.find((entry) => entry.name === requestedPrefab);
+    if (initialPrefab) {
+      loadPrefab(initialPrefab, starters.some((entry) => entry.name === requestedPrefab) ? "starter" : "local", false);
+    } else {
+      redraw();
+    }
   } else {
+    source = "custom";
     redraw();
   }
 
