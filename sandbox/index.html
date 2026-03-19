@@ -52,12 +52,23 @@
               <label for="overlay-select">Top</label>
               <select id="overlay-select"></select>
             </div>
+
+            <div class="field span-two">
+              <div class="label-row">
+                <label>Size</label>
+                <span id="position-note" class="chip">Center</span>
+              </div>
+              <div class="picker-toggle" id="picker-mode-toggle">
+                <button type="button" data-size-mode="small" title="Small">S</button>
+                <button type="button" data-size-mode="medium" title="Medium">M</button>
+                <button type="button" data-size-mode="large" title="Large">L</button>
+              </div>
+            </div>
           </div>
 
           <div class="field">
             <div class="label-row">
               <label>Position</label>
-              <span id="position-note" class="chip">Center</span>
             </div>
             <div class="picker-shell">
               <div id="position-grid" class="position-board position-grid"></div>

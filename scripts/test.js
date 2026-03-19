@@ -34,9 +34,9 @@ function testGeneratedFiles() {
   positions.forEach((entry) => {
     assert(positionsCss.includes(`.${entry.id}`), `Missing position selector ${entry.id}`);
   });
-  assert(positionsCss.includes(".es-s { --es-sub-size: 0.32; }"), "Missing small size class");
-  assert(positionsCss.includes(".es-m { --es-sub-size: 0.58; }"), "Missing medium size class");
-  assert(positionsCss.includes(".es-l { --es-sub-size: 0.82; }"), "Missing large size class");
+  assert(positionsCss.includes(".es-s, .sm { --es-sub-size: 0.32; }"), "Missing small size class");
+  assert(positionsCss.includes(".es-m, .md { --es-sub-size: 0.58; }"), "Missing medium size class");
+  assert(positionsCss.includes(".es-l, .lg { --es-sub-size: 0.82; }"), "Missing large size class");
   assert(!positionsCss.includes(".s-tl"), "Old split placement selectors should be gone");
   assert((prefabCss.match(/\.p-/g) || []).length >= 40, "Expected prefab CSS rules");
   assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");

@@ -32,6 +32,7 @@
     base: document.getElementById("base-select"),
     overlay: document.getElementById("overlay-select"),
     positionNote: document.getElementById("position-note"),
+    sizeMode: document.getElementById("picker-mode-toggle"),
     positionGrid: document.getElementById("position-grid"),
     makeBaseDefault: document.getElementById("make-base-default"),
     makeSubDefault: document.getElementById("make-sub-default"),
@@ -57,6 +58,19 @@
   let dragPointerId = null;
   let dragAnchor = { x: 0, y: 0 };
   const params = new URLSearchParams(window.location.search);
+  const PREVIEW_VAR_KEYS = [
+    "--es-base",
+    "--es-sub",
+    "--es-base-ox",
+    "--es-base-oy",
+    "--es-x",
+    "--es-y",
+    "--es-sub-size",
+    "--es-sub-ox",
+    "--es-sub-oy",
+    "--es-rotate",
+    "--es-opacity"
+  ];
 
   function loadJson(key, fallback) {
     try {
@@ -113,6 +127,7 @@
       return;
     }
     state.position = preset.position;
+    state.sizeMode = preset.sizeMode || inferSizeMode(preset.subSize);
   }
 
   function ensureValidState() {
@@ -165,7 +180,7 @@
       x: position.x,
       y: position.y,
       unit: position.unit || "%",
-      subSize: SIZE_MAP.medium,
+      subSize: SIZE_MAP[state.sizeMode],
       rotate: "0deg",
       opacity: 1
     };
@@ -213,7 +228,8 @@
 
     const base = emojiByAlias[state.base];
     const overlay = emojiByAlias[state.overlay];
-    return `es ${base.emoji}${overlay.emoji} ${state.position}`;
+    const sizeClass = state.sizeMode === "small" ? " sm" : state.sizeMode === "large" ? " lg" : "";
+    return `es ${base.emoji}${overlay.emoji} ${state.position}${sizeClass}`;
   }
 
   function setStatus(text) {
@@ -309,7 +325,6 @@
   function setCustomState() {
     source = "custom";
     state.prefabName = "";
-    state.sizeMode = "medium";
   }
 
   function positionCellText(positionId) {
@@ -344,22 +359,27 @@
       ? Math.max(220, Math.floor(window.innerWidth * 0.27))
       : Math.max(220, Math.floor(window.innerWidth * 0.6));
     const size = Math.min(320, heightSize, widthSize);
-
-    icon.className = "es";
-    icon.style.fontSize = `${size}px`;
-    icon.style.setProperty("--es-base", JSON.stringify(def.base.emoji));
-    icon.style.setProperty("--es-sub", JSON.stringify(def.overlay.emoji));
-    icon.style.setProperty("--es-base-ox", `${def.base.ox || 0}em`);
-    icon.style.setProperty("--es-base-oy", `${def.base.oy || 0}em`);
-    icon.style.setProperty("--es-x", formatCoord(def.x, def.unit));
-    icon.style.setProperty("--es-y", formatCoord(def.y, def.unit));
-    icon.style.setProperty("--es-sub-size", `${def.subSize}`);
-    icon.style.setProperty("--es-sub-ox", `${def.overlay.ox || 0}em`);
-    icon.style.setProperty("--es-sub-oy", `${def.overlay.oy || 0}em`);
-    icon.style.setProperty("--es-rotate", def.rotate);
-    icon.style.setProperty("--es-opacity", `${def.opacity}`);
-
     const prefab = selectedPrefab();
+
+    PREVIEW_VAR_KEYS.forEach((key) => icon.style.removeProperty(key));
+    icon.style.fontSize = `${size}px`;
+    if (prefab) {
+      icon.className = `es p-${prefab.name}`;
+    } else {
+      icon.className = "es";
+      icon.style.setProperty("--es-base", JSON.stringify(def.base.emoji));
+      icon.style.setProperty("--es-sub", JSON.stringify(def.overlay.emoji));
+      icon.style.setProperty("--es-base-ox", `${def.base.ox || 0}em`);
+      icon.style.setProperty("--es-base-oy", `${def.base.oy || 0}em`);
+      icon.style.setProperty("--es-x", formatCoord(def.x, def.unit));
+      icon.style.setProperty("--es-y", formatCoord(def.y, def.unit));
+      icon.style.setProperty("--es-sub-size", `${def.subSize}`);
+      icon.style.setProperty("--es-sub-ox", `${def.overlay.ox || 0}em`);
+      icon.style.setProperty("--es-sub-oy", `${def.overlay.oy || 0}em`);
+      icon.style.setProperty("--es-rotate", def.rotate);
+      icon.style.setProperty("--es-opacity", `${def.opacity}`);
+    }
+
     el.previewTitle.textContent = prefab ? `p-${prefab.name}` : `${def.base.label} + ${def.overlay.label}`;
     el.previewSubtitle.textContent = prefab
       ? `${prefab.label || titleize(prefab.name)} · ${def.position.label}`
@@ -374,6 +394,10 @@
     populateEmojiSelect(el.overlay, state.overlay);
     renderPrefabJump();
     renderGrid();
+
+    el.sizeMode.querySelectorAll("button").forEach((button) => {
+      button.classList.toggle("active", button.dataset.sizeMode === state.sizeMode);
+    });
 
     const baseDefault = currentBaseDefault();
     const subDefault = currentSubDefault();
@@ -468,6 +492,16 @@
       }
       setCustomState();
       state.position = button.dataset.position;
+      redraw();
+    });
+
+    el.sizeMode.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-size-mode]");
+      if (!button) {
+        return;
+      }
+      setCustomState();
+      state.sizeMode = button.dataset.sizeMode;
       redraw();
     });
 
