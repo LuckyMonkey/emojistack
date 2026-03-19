@@ -32,7 +32,18 @@ body {
 .page {
   width: min(1320px, calc(100vw - 28px));
   margin: 0 auto;
-  padding: 24px 0 44px;
+  padding: 84px 0 44px;
+}
+
+.floating-nav {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 20;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .masthead,
@@ -41,7 +52,6 @@ body {
   border-radius: 30px;
   border: 1px solid var(--line);
   background: var(--paper);
-  box-shadow: 0 22px 64px rgb(82 52 27 / 0.08);
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
@@ -66,8 +76,7 @@ body {
 
 h1 {
   margin: 0;
-  max-width: 11ch;
-  font-family: "Rockwell", "Aptos Display", serif;
+  max-width: 12ch;
   font-size: clamp(2.8rem, 7vw, 5.8rem);
   line-height: 0.92;
 }
@@ -79,20 +88,13 @@ h1 {
   color: var(--muted);
 }
 
-.actions {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: flex-end;
-}
-
-.actions a,
+.floating-nav a,
 button,
 input {
   font: inherit;
 }
 
-.actions a,
+.floating-nav a,
 button {
   padding: 0.82rem 1.05rem;
   border-radius: 999px;
@@ -162,7 +164,6 @@ button {
   padding: 34px;
   border-radius: 32px;
   border: 1px solid var(--line);
-  box-shadow: 0 24px 70px rgb(77 48 26 / 0.08);
   scroll-snap-align: start;
   position: relative;
   overflow: hidden;
@@ -218,7 +219,6 @@ button {
 
 .showcase-title {
   margin: 10px 0 8px;
-  font-family: "Rockwell", serif;
   font-size: clamp(2.1rem, 4vw, 4rem);
 }
 
@@ -312,8 +312,9 @@ button {
     grid-template-columns: 1fr;
   }
 
-  .actions {
-    align-items: flex-start;
+  .floating-nav {
+    left: 18px;
+    right: 18px;
   }
 
   .position-gallery,

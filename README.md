@@ -2,7 +2,7 @@
 
 Tiny CSS-first emoji stacking with literal emoji classes, safe aliases, and prefab presets.
 
-EmojiStack lets you render one emoji as a base, place another emoji on top of it, and control the overlay position with a small set of stack classes. The core renderer is CSS. The only runtime job is the cursed one: reading the first two emoji-like classes on `.es` and assigning them to `--es-base` and `--es-sub`.
+EmojiStack lets you render one emoji as a base, place another emoji on top of it, and control the overlay position with a small set of stack classes. The core renderer is CSS. The runtime stays small and focused on shorthand parsing and refresh hooks.
 
 ## Why This Exists
 
@@ -13,7 +13,7 @@ It is intentionally:
 - small
 - CSS-first
 - framework-free
-- honest about what requires JavaScript
+- light on JavaScript
 - willing to expose literal emoji classes as public API
 
 It is intentionally not:
@@ -21,7 +21,7 @@ It is intentionally not:
 - a giant icon framework
 - a monorepo
 - React-heavy
-- trying to pretend pure CSS can infer ordered class pairs when it cannot
+- a JavaScript-heavy icon framework
 
 ## Install
 
@@ -43,7 +43,7 @@ Then include the dist assets from your bundler or static pipeline.
 
 ## Quick Start
 
-### Cursed literal emoji mode
+### Literal emoji mode
 
 ```html
 <i class="es 🍼 🍓 s-center"></i>
@@ -91,7 +91,7 @@ Core variables:
 - `--es-rotate`
 - `--es-opacity`
 
-## CSS-Only vs Runtime-Enhanced
+## CSS-Only vs Optional Runtime
 
 EmojiStack has two behavior layers.
 
@@ -104,7 +104,7 @@ These work without JavaScript:
 - placement classes
 - overlay size and rotation variables
 
-### Runtime-enhanced
+### Optional runtime
 
 These require `dist/emojistack.js`:
 
@@ -112,7 +112,7 @@ These require `dist/emojistack.js`:
 - alias pair syntax like `.e-bottle .e-strawberry`
 - mixed pair syntax like `.🍼 .e-strawberry`
 
-Why: CSS can store a single token per class, but it cannot reliably infer ordered “first emoji class” and “second emoji class” from the same element. The runtime scans `.es`, reads class order, resolves the first emoji-like token as base, resolves the second as overlay, and writes the corresponding CSS variables inline.
+The runtime scans `.es`, reads class order, resolves the first emoji-like token as base, resolves the second as overlay, and writes the corresponding CSS variables inline. It also exposes `init()` and `refresh()` for dynamically inserted nodes.
 
 ## Placement Classes
 
@@ -154,7 +154,7 @@ The sandbox includes a selector for all 46 positions, and the demo renders every
 
 ## Alias System
 
-Literal emoji classes are the cursed public API. Aliases exist because real tooling, HTML serializers, CSS pipelines, and code formatters are not always thrilled about emoji selectors.
+Literal emoji classes are part of the public API. Aliases exist because some tooling, serializers, CSS pipelines, and formatters behave better with readable ASCII class names.
 
 Examples:
 

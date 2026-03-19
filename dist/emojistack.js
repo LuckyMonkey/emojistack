@@ -1199,9 +1199,9 @@
     "base": "bottle",
     "overlay": "strawberry",
     "position": "s-center",
-    "x": 0,
-    "y": 0.12,
-    "subSize": 0.42,
+    "x": -0.03,
+    "y": 0.11,
+    "subSize": 0.37,
     "baseEmoji": "🍼",
     "overlayEmoji": "🍓",
     "positionLabel": "Direct Center"
@@ -1213,9 +1213,9 @@
     "base": "bottle",
     "overlay": "biohazard",
     "position": "s-center",
-    "x": 0.01,
-    "y": 0.03,
-    "subSize": 0.48,
+    "x": -0.03,
+    "y": 0.05,
+    "subSize": 0.41,
     "baseEmoji": "🍼",
     "overlayEmoji": "☣️",
     "positionLabel": "Direct Center"
@@ -1227,9 +1227,9 @@
     "base": "coffee",
     "overlay": "skull",
     "position": "s-center",
-    "x": 0,
-    "y": -0.02,
-    "subSize": 0.46,
+    "x": 0.06,
+    "y": -0.08,
+    "subSize": 0.38,
     "baseEmoji": "☕",
     "overlayEmoji": "💀",
     "positionLabel": "Direct Center"
@@ -1241,12 +1241,12 @@
     "base": "laptop",
     "overlay": "fire",
     "position": "s-tr-sw",
-    "subSize": 0.5,
+    "x": 0.2,
+    "y": -0.22,
+    "subSize": 0.38,
     "rotate": "-10deg",
     "baseEmoji": "💻",
     "overlayEmoji": "🔥",
-    "x": 0.23,
-    "y": -0.23,
     "positionLabel": "Top Right SW"
   },
   {
@@ -1255,14 +1255,14 @@
     "category": "storage",
     "base": "box",
     "overlay": "plug",
-    "position": "s-tr-sw",
-    "x": 0.24,
-    "y": -0.16,
-    "subSize": 0.4,
-    "rotate": "-15deg",
+    "position": "s-mr-se",
+    "x": 0.28,
+    "y": 0.05,
+    "subSize": 0.35,
+    "rotate": "-12deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🔌",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Middle Right SE"
   },
   {
     "name": "pasta-box",
@@ -1270,14 +1270,14 @@
     "category": "food",
     "base": "box",
     "overlay": "spaghetti",
-    "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.14,
-    "subSize": 0.42,
-    "rotate": "-10deg",
+    "position": "s-mr-se",
+    "x": 0.27,
+    "y": 0.05,
+    "subSize": 0.37,
+    "rotate": "-8deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🍝",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Middle Right SE"
   },
   {
     "name": "doom-folder",
@@ -1297,15 +1297,15 @@
     "name": "cat-angel",
     "label": "Cat Angel",
     "category": "creatures",
-    "base": "cat",
-    "overlay": "angel",
-    "position": "s-tc-se",
-    "subSize": 0.48,
-    "baseEmoji": "🐱",
-    "overlayEmoji": "😇",
-    "x": 0.11,
-    "y": -0.23,
-    "positionLabel": "Top Center SE"
+    "base": "angel",
+    "overlay": "cat",
+    "position": "s-center",
+    "x": 0.01,
+    "y": 0.09,
+    "subSize": 0.92,
+    "baseEmoji": "😇",
+    "overlayEmoji": "🐱",
+    "positionLabel": "Direct Center"
   },
   {
     "name": "brain-battery",
@@ -1371,11 +1371,11 @@
     "base": "floppy-disk",
     "overlay": "card-box",
     "position": "s-center",
-    "subSize": 0.5,
+    "x": 0.03,
+    "y": 0.07,
+    "subSize": 0.44,
     "baseEmoji": "💾",
     "overlayEmoji": "🗃️",
-    "x": 0,
-    "y": 0,
     "positionLabel": "Direct Center"
   },
   {
@@ -1428,9 +1428,9 @@
     "base": "folder",
     "overlay": "warning",
     "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.12,
-    "subSize": 0.38,
+    "x": 0.24,
+    "y": -0.15,
+    "subSize": 0.34,
     "baseEmoji": "📁",
     "overlayEmoji": "⚠️",
     "positionLabel": "Top Right SW"
@@ -1442,11 +1442,11 @@
     "base": "tv",
     "overlay": "ghost",
     "position": "s-center",
-    "subSize": 0.54,
+    "x": 0.02,
+    "y": 0.03,
+    "subSize": 0.42,
     "baseEmoji": "📺",
     "overlayEmoji": "👻",
-    "x": 0,
-    "y": 0,
     "positionLabel": "Direct Center"
   },
   {
@@ -1596,14 +1596,14 @@
     "category": "storage",
     "base": "box",
     "overlay": "magnet",
-    "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.14,
-    "subSize": 0.36,
+    "position": "s-mr-se",
+    "x": 0.28,
+    "y": 0.05,
+    "subSize": 0.34,
     "rotate": "-18deg",
     "baseEmoji": "📦",
     "overlayEmoji": "🧲",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Middle Right SE"
   },
   {
     "name": "locked-folder",
@@ -1696,11 +1696,11 @@
     "base": "tv",
     "overlay": "battery-low",
     "position": "s-center",
-    "subSize": 0.48,
+    "x": 0.02,
+    "y": 0.04,
+    "subSize": 0.38,
     "baseEmoji": "📺",
     "overlayEmoji": "🪫",
-    "x": 0,
-    "y": 0,
     "positionLabel": "Direct Center"
   },
   {
@@ -1808,9 +1808,9 @@
     "base": "folder-open",
     "overlay": "ghost",
     "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.12,
-    "subSize": 0.42,
+    "x": 0.24,
+    "y": -0.15,
+    "subSize": 0.38,
     "baseEmoji": "📂",
     "overlayEmoji": "👻",
     "positionLabel": "Top Right SW"
@@ -1849,13 +1849,13 @@
     "category": "cursed",
     "base": "box",
     "overlay": "poop",
-    "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.12,
-    "subSize": 0.4,
+    "position": "s-mr-se",
+    "x": 0.27,
+    "y": 0.05,
+    "subSize": 0.36,
     "baseEmoji": "📦",
     "overlayEmoji": "💩",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Middle Right SE"
   },
   {
     "name": "sparkle-camera",
@@ -1976,9 +1976,9 @@
     "base": "tv",
     "overlay": "robot",
     "position": "s-center",
-    "x": 0,
-    "y": -0.02,
-    "subSize": 0.46,
+    "x": 0.02,
+    "y": 0.02,
+    "subSize": 0.4,
     "baseEmoji": "📺",
     "overlayEmoji": "🤖",
     "positionLabel": "Direct Center"
@@ -2049,8 +2049,8 @@
     "overlay": "ghost",
     "position": "s-center",
     "x": 0.01,
-    "y": 0.01,
-    "subSize": 0.46,
+    "y": 0.06,
+    "subSize": 0.42,
     "baseEmoji": "💾",
     "overlayEmoji": "👻",
     "positionLabel": "Direct Center"
@@ -2161,9 +2161,9 @@
     "base": "folder",
     "overlay": "sparkles",
     "position": "s-tl-se",
-    "x": -0.2,
-    "y": -0.18,
-    "subSize": 0.36,
+    "x": -0.24,
+    "y": -0.22,
+    "subSize": 0.32,
     "baseEmoji": "📁",
     "overlayEmoji": "✨",
     "positionLabel": "Top Left SE"
@@ -2189,13 +2189,13 @@
     "category": "storage",
     "base": "box",
     "overlay": "warning",
-    "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.12,
-    "subSize": 0.38,
+    "position": "s-mr-se",
+    "x": 0.28,
+    "y": 0.05,
+    "subSize": 0.34,
     "baseEmoji": "📦",
     "overlayEmoji": "⚠️",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Middle Right SE"
   },
   {
     "name": "ghost-box",
@@ -2203,13 +2203,13 @@
     "category": "storage",
     "base": "box",
     "overlay": "ghost",
-    "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.12,
-    "subSize": 0.4,
+    "position": "s-mr-se",
+    "x": 0.28,
+    "y": 0.05,
+    "subSize": 0.36,
     "baseEmoji": "📦",
     "overlayEmoji": "👻",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Middle Right SE"
   },
   {
     "name": "star-bottle",
@@ -2246,9 +2246,9 @@
     "base": "laptop",
     "overlay": "sparkles",
     "position": "s-tl-se",
-    "x": -0.2,
-    "y": -0.18,
-    "subSize": 0.36,
+    "x": -0.24,
+    "y": -0.22,
+    "subSize": 0.32,
     "baseEmoji": "💻",
     "overlayEmoji": "✨",
     "positionLabel": "Top Left SE"
@@ -2260,9 +2260,9 @@
     "base": "tv",
     "overlay": "alien",
     "position": "s-center",
-    "x": 0,
-    "y": -0.02,
-    "subSize": 0.42,
+    "x": 0.02,
+    "y": 0.03,
+    "subSize": 0.38,
     "baseEmoji": "📺",
     "overlayEmoji": "👽",
     "positionLabel": "Direct Center"
@@ -2274,9 +2274,9 @@
     "base": "folder",
     "overlay": "key",
     "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.12,
-    "subSize": 0.36,
+    "x": 0.24,
+    "y": -0.15,
+    "subSize": 0.34,
     "baseEmoji": "📁",
     "overlayEmoji": "🔑",
     "positionLabel": "Top Right SW"
@@ -2287,13 +2287,13 @@
     "category": "storage",
     "base": "box",
     "overlay": "crown",
-    "position": "s-tr-sw",
-    "x": 0.22,
-    "y": -0.14,
-    "subSize": 0.34,
+    "position": "s-mr-se",
+    "x": 0.28,
+    "y": 0.04,
+    "subSize": 0.31,
     "baseEmoji": "📦",
     "overlayEmoji": "👑",
-    "positionLabel": "Top Right SW"
+    "positionLabel": "Middle Right SE"
   },
   {
     "name": "brain-bottle",
@@ -2409,7 +2409,7 @@
   }
 
   function apply(node) {
-    if (!node || !node.classList) {
+    if (!node || !node.classList || !node.classList.contains("es")) {
       return;
     }
 
@@ -2443,10 +2443,6 @@
       return;
     }
 
-    if (!node.classList.contains("es")) {
-      node.classList.add("es");
-    }
-
     if (base) {
       node.style.setProperty("--es-base", JSON.stringify(base));
       node.dataset.esBase = base;
@@ -2472,15 +2468,12 @@
       return [];
     }
 
-    if (root.nodeType === 1) {
-      const nested = typeof root.querySelectorAll === "function"
-        ? Array.from(root.querySelectorAll("[class]"))
-        : [];
-      return [root].concat(nested);
+    if (root.nodeType === 1 && root.matches(".es")) {
+      return [root].concat(Array.from(root.querySelectorAll(".es")));
     }
 
     if (typeof root.querySelectorAll === "function") {
-      return Array.from(root.querySelectorAll("[class]"));
+      return Array.from(root.querySelectorAll(".es"));
     }
 
     return [];

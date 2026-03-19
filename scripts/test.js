@@ -33,6 +33,78 @@ function testGeneratedFiles() {
   assert(aliasCss.includes('.e-strawberry { --es-token: "🍓"; }'), "Missing alias selector");
   assert((positionsCss.match(/\.s-/g) || []).length === 46, "Expected 46 position CSS rules");
   assert((prefabCss.match(/\.p-/g) || []).length >= 40, "Expected prefab CSS rules");
+  assert(/\.🍼🍓\s*\{/.test(prefabCss), "Missing pair shorthand selector");
+}
+
+function findPrefab(name) {
+  const prefab = prefabs.find((entry) => entry.name === name);
+  assert(prefab, `Missing prefab "${name}"`);
+  return prefab;
+}
+
+function testPrefabPlacementIntent() {
+  const strawberryMilk = findPrefab("strawberry-milk");
+  assert(strawberryMilk.x < 0, "Strawberry milk should lean left");
+  assert(strawberryMilk.y > 0, "Strawberry milk should sit on the bottle body");
+  assert(strawberryMilk.subSize < 0.4, "Strawberry milk should be slightly smaller");
+
+  const poisonBottle = findPrefab("poison-bottle");
+  assert(poisonBottle.x < 0, "Poison bottle should lean left");
+  assert(poisonBottle.y > 0, "Poison bottle should sit on the bottle body");
+
+  const skullCoffee = findPrefab("skull-coffee");
+  assert(skullCoffee.x > 0, "Skull coffee should float a little right");
+  assert(skullCoffee.y < 0, "Skull coffee should float above center");
+
+  const fireLaptop = findPrefab("fire-laptop");
+  assert(fireLaptop.x > 0, "Fire laptop should sit on the upper right");
+  assert(fireLaptop.y < 0, "Fire laptop should sit on the upper right");
+  assert(fireLaptop.subSize < 0.4, "Fire laptop should be smaller than before");
+
+  const warningBox = findPrefab("warning-box");
+  assert(warningBox.x > 0.2, "Box badges should sit on the side");
+  assert(warningBox.y > 0, "Box badges should sit lower on the side");
+
+  const sparkleFolder = findPrefab("sparkle-folder");
+  assert(sparkleFolder.x < 0, "Sparkles should stay on the top left");
+  assert(sparkleFolder.y < 0, "Sparkles should stay on the top left");
+
+  const catAngel = findPrefab("cat-angel");
+  assert(catAngel.base === "angel", "Cat angel should use angel as the base");
+  assert(catAngel.overlay === "cat", "Cat angel should layer the cat over the angel");
+  assert(catAngel.subSize > 0.85, "Cat angel should keep most of the cat face visible");
+
+  const archiveDisk = findPrefab("archive-disk");
+  assert(archiveDisk.y > 0.05, "Archive disk should sit lower on the floppy");
+
+  const ghostTv = findPrefab("ghost-tv");
+  assert(ghostTv.subSize < 0.5, "Ghost TV should use a smaller ghost");
+
+  const buckets = {
+    upperLeft: 0,
+    upperRight: 0,
+    lowerRight: 0,
+    centerish: 0
+  };
+
+  prefabs.forEach((prefab) => {
+    const x = typeof prefab.x === "number" ? prefab.x : 0;
+    const y = typeof prefab.y === "number" ? prefab.y : 0;
+
+    if (x < -0.12 && y < -0.12) {
+      buckets.upperLeft += 1;
+    } else if (x > 0.12 && y < -0.08) {
+      buckets.upperRight += 1;
+    } else if (x > 0.18 && y > 0.02) {
+      buckets.lowerRight += 1;
+    } else {
+      buckets.centerish += 1;
+    }
+  });
+
+  assert(buckets.upperLeft >= 4, "Expected several upper-left prefabs");
+  assert(buckets.upperRight >= 6, "Expected several upper-right prefabs");
+  assert(buckets.lowerRight >= 6, "Expected several lower-right prefabs");
 }
 
 function makeStubDocument() {
@@ -98,13 +170,12 @@ function testRuntime() {
   assert(mixed._styleMap.get("--es-base") === '"🍼"', "Mixed base token failed");
   assert(mixed._styleMap.get("--es-sub") === '"🍓"', "Mixed overlay token failed");
 
-  const paired = makeStubNode("🍼🍓");
+  const paired = makeStubNode("es 🍼🍓");
   context.window.EmojiStack.apply(paired);
-  assert(paired.classList.contains("es"), "Paired token should auto-add .es");
   assert(paired._styleMap.get("--es-base") === '"🍼"', "Paired base token failed");
   assert(paired._styleMap.get("--es-sub") === '"🍓"', "Paired overlay token failed");
-  assert(paired._styleMap.get("--es-x") === "0em", "Paired prefab x tuning failed");
-  assert(paired._styleMap.get("--es-y") === "0.12em", "Paired prefab y tuning failed");
+  assert(paired._styleMap.get("--es-x") === "-0.03em", "Paired prefab x tuning failed");
+  assert(paired._styleMap.get("--es-y") === "0.11em", "Paired prefab y tuning failed");
 
   const prefabOnly = makeStubNode("es p-strawberry-milk");
   context.window.EmojiStack.apply(prefabOnly);
@@ -114,6 +185,7 @@ function testRuntime() {
 function main() {
   testCounts();
   testGeneratedFiles();
+  testPrefabPlacementIntent();
   testRuntime();
   console.log("EmojiStack tests passed.");
 }

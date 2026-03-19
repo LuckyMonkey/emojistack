@@ -4,31 +4,8 @@
   const searchInput = document.getElementById("prefab-search");
   const outputInput = document.getElementById("prefab-copy-output");
   const copyButton = document.getElementById("prefab-copy-button");
-  const positions = (window.EmojiStack && window.EmojiStack.data && window.EmojiStack.data.positions) || [];
-  const positionDefaults = Object.fromEntries(positions.map((entry) => [entry.id, entry]));
-
-  function styleString(prefab) {
-    const rules = [];
-    const position = positionDefaults[prefab.position];
-    if (typeof prefab.subSize === "number") {
-      rules.push(`--es-sub-size: ${prefab.subSize};`);
-    }
-    if (prefab.rotate && prefab.rotate !== "0deg") {
-      rules.push(`--es-rotate: ${prefab.rotate};`);
-    }
-    if (position && typeof prefab.x === "number" && typeof prefab.y === "number") {
-      if (prefab.x !== position.x) {
-        rules.push(`--es-x: ${prefab.x}em;`);
-      }
-      if (prefab.y !== position.y) {
-        rules.push(`--es-y: ${prefab.y}em;`);
-      }
-    }
-    return rules.length ? ` style="${rules.join(" ")}"` : "";
-  }
-
   function snippet(prefab) {
-    return `<i class="es ${prefab.baseEmoji} ${prefab.overlayEmoji} ${prefab.position}"${styleString(prefab)}></i>`;
+    return `<i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i>`;
   }
 
   function render() {
@@ -39,7 +16,7 @@
       card.dataset.search = `${prefab.name} ${prefab.label || ""} ${prefab.base} ${prefab.overlay} ${prefab.baseEmoji} ${prefab.overlayEmoji} ${prefab.category || ""}`.toLowerCase();
       const copy = snippet(prefab);
       card.innerHTML =
-        `<i class="es ${prefab.baseEmoji} ${prefab.overlayEmoji} ${prefab.position}"${styleString(prefab)}></i>` +
+        `<i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i>` +
         `<strong>p-${prefab.name}</strong>` +
         `<span>${prefab.positionLabel || prefab.position}</span>` +
         `<code data-copy="${copy.replace(/"/g, "&quot;")}">${copy.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code>`;

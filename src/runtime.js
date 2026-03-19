@@ -76,7 +76,7 @@
   }
 
   function apply(node) {
-    if (!node || !node.classList) {
+    if (!node || !node.classList || !node.classList.contains("es")) {
       return;
     }
 
@@ -110,10 +110,6 @@
       return;
     }
 
-    if (!node.classList.contains("es")) {
-      node.classList.add("es");
-    }
-
     if (base) {
       node.style.setProperty("--es-base", JSON.stringify(base));
       node.dataset.esBase = base;
@@ -139,15 +135,12 @@
       return [];
     }
 
-    if (root.nodeType === 1) {
-      const nested = typeof root.querySelectorAll === "function"
-        ? Array.from(root.querySelectorAll("[class]"))
-        : [];
-      return [root].concat(nested);
+    if (root.nodeType === 1 && root.matches(".es")) {
+      return [root].concat(Array.from(root.querySelectorAll(".es")));
     }
 
     if (typeof root.querySelectorAll === "function") {
-      return Array.from(root.querySelectorAll("[class]"));
+      return Array.from(root.querySelectorAll(".es"));
     }
 
     return [];

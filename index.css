@@ -74,7 +74,6 @@ input {
 .readme-panel {
   border-radius: 30px;
   border: 1px solid var(--line);
-  box-shadow: 0 26px 68px rgb(84 54 28 / 0.08);
 }
 
 .topbar {
@@ -151,6 +150,84 @@ input {
   background: rgb(255 255 255 / 0.8);
 }
 
+#random-showcases {
+  display: grid;
+  gap: 18px;
+}
+
+.showcase-panel {
+  min-height: 100svh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: grid;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.showcase-card {
+  min-height: calc(100svh - 44px);
+  border-radius: 32px;
+  border: 1px solid var(--line);
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  text-align: center;
+}
+
+.showcase-card[data-tone="peach"] { background: linear-gradient(180deg, #fff9f6, var(--peach)); }
+.showcase-card[data-tone="mint"] { background: linear-gradient(180deg, #fcfff9, var(--mint)); }
+.showcase-card[data-tone="butter"] { background: linear-gradient(180deg, #fffef6, var(--butter)); }
+.showcase-card[data-tone="sky"] { background: linear-gradient(180deg, #f8fbff, var(--sky)); }
+.showcase-card[data-tone="rose"] { background: linear-gradient(180deg, #fff8fb, var(--rose)); }
+.showcase-card[data-tone="lavender"] { background: linear-gradient(180deg, #fbf9ff, var(--lavender)); }
+
+.showcase-inner {
+  width: min(100%, 980px);
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+}
+
+.showcase-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.76rem;
+  color: #8f3957;
+}
+
+.showcase-title {
+  margin: 0;
+  font-size: clamp(2.8rem, 8vw, 6.8rem);
+  line-height: 0.9;
+}
+
+.showcase-note {
+  margin: 0;
+  max-width: 44rem;
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
+.showcase-icon {
+  min-height: 48svh;
+  display: grid;
+  place-items: center;
+}
+
+.showcase-icon .es {
+  font-size: clamp(220px, 34vw, 520px);
+}
+
+.showcase-code {
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.76);
+  font-family: "IBM Plex Mono", "Cascadia Mono", monospace;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
 @media (max-width: 980px) {
   .topbar {
     flex-direction: column;
@@ -166,5 +243,9 @@ input {
 @media (max-width: 700px) {
   .page {
     width: min(100vw - 18px, 100%);
+  }
+
+  .showcase-card {
+    padding: 24px 18px;
   }
 }

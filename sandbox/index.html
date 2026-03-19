@@ -11,6 +11,7 @@
   <body>
     <nav class="floating-nav" aria-label="Site">
       <a class="ghost-link" href="../">Home</a>
+      <a class="ghost-link" href="../demo/">Demo</a>
       <a class="ghost-link" href="../prefabs/">All Prefabs</a>
       <a class="ghost-link" href="https://github.com/LuckyMonkey/emojistack" target="_blank" rel="noreferrer">GitHub</a>
     </nav>
@@ -37,7 +38,7 @@
           <div class="field">
             <label>Output mode</label>
             <div class="mode-toggle" id="mode-toggle">
-              <label><input type="radio" name="mode" value="cursed" checked> Cursed</label>
+              <label><input type="radio" name="mode" value="cursed" checked> Literal</label>
               <label><input type="radio" name="mode" value="alias"> Alias</label>
               <label><input type="radio" name="mode" value="prefab"> Prefab</label>
             </div>
@@ -102,7 +103,7 @@
         <section class="panel preview-panel">
           <div class="panel-head">
             <h2>Giant preview</h2>
-            <p id="status-line" class="status-line">Runtime-enhanced pair syntax active.</p>
+            <p id="status-line" class="status-line">Pair shorthand active.</p>
           </div>
 
           <div id="preview-stage" class="preview-stage preview-light">
@@ -116,7 +117,7 @@
 
             <div class="compare-row">
               <article class="compare-card" data-preview="cursed">
-                <span>Cursed</span>
+                <span>Literal</span>
                 <i id="preview-cursed" class="es"></i>
               </article>
               <article class="compare-card" data-preview="alias">
@@ -133,7 +134,7 @@
           <div class="snippet-grid">
             <article class="snippet-card">
               <div class="snippet-head">
-                <h3>Cursed HTML</h3>
+                <h3>Literal HTML</h3>
                 <button data-copy-target="cursed-html" type="button">Copy</button>
               </div>
               <pre id="cursed-html"></pre>

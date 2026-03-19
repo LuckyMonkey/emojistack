@@ -8,7 +8,7 @@
     {
       title: "Strawberry Milk",
       kicker: "Starter prefab",
-      note: "The strawberry sits on the bottle body and the copied snippet uses literal emoji classes.",
+      note: "The strawberry sits on the bottle body and the copied snippet stays short.",
       prefab: "strawberry-milk",
       tone: "peach",
       search: ["strawberry", "milk", "bottle", "prefab", "literal"]
@@ -22,19 +22,19 @@
       search: ["fire", "laptop", "tech", "prefab", "literal"]
     },
     {
-      title: "Cursed Pair Syntax",
+      title: "Literal Pair Syntax",
       kicker: "Literal classes",
       note: "Actual emoji classes. First emoji becomes the base, second becomes the overlay.",
-      snippet: '<i class="es 🍼 🍓 s-center" style="--es-sub-size: 0.5;"></i>',
-      className: "es 🍼 🍓 s-center",
+      snippet: '<i class="🍼🍓"></i>',
+      className: "🍼🍓",
       tone: "rose",
-      search: ["cursed", "literal", "emoji class", "strawberry", "bottle"]
+      search: ["literal", "emoji class", "strawberry", "bottle"]
     },
     {
       title: "Alias Pair Syntax",
       kicker: "Alias classes",
       note: "Same visual result, safer class names, same runtime ordering.",
-      snippet: '<i class="es e-bottle e-strawberry s-center" style="--es-sub-size: 0.5;"></i>',
+      snippet: '<i class="es e-bottle e-strawberry s-center"></i>',
       className: "es e-bottle e-strawberry s-center",
       tone: "mint",
       search: ["alias", "safe", "bottle", "strawberry"]
@@ -122,11 +122,11 @@
   }
 
   function snippetFromPrefab(prefab) {
-    return `<i class="es ${prefab.baseEmoji} ${prefab.overlayEmoji} ${prefab.position}"${styleString(prefab)}></i>`;
+    return `<i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i>`;
   }
 
   function classNameFromPrefab(prefab) {
-    return `es ${prefab.baseEmoji} ${prefab.overlayEmoji} ${prefab.position}`;
+    return `${prefab.baseEmoji}${prefab.overlayEmoji}`;
   }
 
   function renderShowcases() {
@@ -135,7 +135,7 @@
       const prefab = entry.prefab ? prefabByName[entry.prefab] : null;
       const snippet = prefab ? snippetFromPrefab(prefab) : entry.snippet;
       const className = prefab ? classNameFromPrefab(prefab) : entry.className;
-      const inlineStyle = prefab ? styleString(prefab) : "";
+      const inlineStyle = "";
       const section = document.createElement("section");
       section.className = "showcase-panel";
       section.dataset.tone = entry.tone;
@@ -171,7 +171,7 @@
       tile.className = "prefab-tile";
       const snippet = snippetFromPrefab(prefab);
       tile.innerHTML =
-        `<i class="${classNameFromPrefab(prefab)}"${styleString(prefab)}></i>` +
+        `<i class="${classNameFromPrefab(prefab)}"></i>` +
         `<strong data-copy="${escapeHtml(snippet)}">p-${prefab.name}</strong>` +
         `<span>${prefab.positionLabel || prefab.position}</span>`;
       prefabGallery.appendChild(tile);
