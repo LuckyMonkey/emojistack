@@ -1,0 +1,49 @@
+{
+  "name": "emojistack",
+  "version": "0.1.0",
+  "description": "A tiny CSS-first library for stacking one emoji on top of another with cursed literal emoji classes, safe aliases, and prefab presets.",
+  "main": "dist/emojistack.js",
+  "style": "dist/emojistack.css",
+  "files": [
+    "dist",
+    "src",
+    "data",
+    "sandbox",
+    "demo",
+    "README.md",
+    "LICENSE",
+    "index.html"
+  ],
+  "exports": {
+    ".": "./dist/emojistack.js",
+    "./dist/emojistack.css": "./dist/emojistack.css",
+    "./dist/emojistack-prefabs.css": "./dist/emojistack-prefabs.css",
+    "./dist/emojistack.min.css": "./dist/emojistack.min.css"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuckyMonkey/emojistack.git"
+  },
+  "homepage": "https://github.com/LuckyMonkey/emojistack",
+  "bugs": {
+    "url": "https://github.com/LuckyMonkey/emojistack/issues"
+  },
+  "keywords": [
+    "emoji",
+    "css",
+    "utility",
+    "icons",
+    "prefabs",
+    "vanilla-js",
+    "sandbox",
+    "cursed"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate-emojis.js && node scripts/generate-prefabs.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "dev": "node scripts/build.js && node scripts/serve.js --root . --port 4173",
+    "preview": "node scripts/build.js && node scripts/serve.js --root . --port 4174"
+  }
+}

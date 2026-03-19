@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EmojiStack Demo</title>
+    <link rel="stylesheet" href="../dist/emojistack.css">
+    <link rel="stylesheet" href="../dist/emojistack-prefabs.css">
+    <link rel="stylesheet" href="./demo.css">
+  </head>
+  <body>
+    <div class="page">
+      <header class="masthead">
+        <div class="masthead-copy">
+          <p class="tag">EmojiStack Demo</p>
+          <h1>Browse the stacks, inspect the classes, and copy the exact snippet.</h1>
+          <p class="summary">
+            This demo is a visual gallery of literal emoji-class stacks, tuned prefabs, and placement examples,
+            with copy-ready snippets under each example.
+          </p>
+        </div>
+        <div class="actions">
+          <a href="../">Home</a>
+          <a href="../prefabs/">All Prefabs</a>
+          <a href="../sandbox/">Open Sandbox</a>
+          <a href="../README.md">Read Docs</a>
+        </div>
+      </header>
+
+      <section class="search-panel">
+        <div class="search-copy">
+          <h2>Find a stack fast</h2>
+          <p>Search examples by name, emoji, or keyword like `strawberry`, `fire`, or `folder`.</p>
+        </div>
+        <div class="search-ui">
+          <input id="quick-search" type="search" placeholder="Search prefabs, demos, or keywords">
+          <div id="search-results" class="search-results"></div>
+          <div class="copy-row">
+            <input id="quick-output" type="text" readonly>
+            <button id="copy-output" type="button">Copy</button>
+          </div>
+        </div>
+      </section>
+
+      <main id="showcase-stack" class="showcase-stack"></main>
+
+      <section class="card positions-card">
+        <div class="section-head">
+          <h2>All 46 public placement classes</h2>
+          <p>Base `📦`, overlay `🔌`, each class shown exactly as shipped.</p>
+        </div>
+        <div id="position-gallery" class="position-gallery"></div>
+      </section>
+
+      <section class="card prefab-card-wall">
+        <div class="section-head">
+          <h2>More prefabs, cleaner tuning</h2>
+          <p>Starter prefabs now include tighter offset tuning for bottle, jar, folder, printer, and phone combinations.</p>
+        </div>
+        <div id="prefab-gallery" class="prefab-gallery"></div>
+      </section>
+    </div>
+
+    <script src="../dist/emojistack.js"></script>
+    <script src="./demo.js"></script>
+  </body>
+  </html>

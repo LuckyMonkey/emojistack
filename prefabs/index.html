@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EmojiStack Prefabs</title>
+    <link rel="stylesheet" href="../dist/emojistack.css">
+    <link rel="stylesheet" href="../dist/emojistack-prefabs.css">
+    <link rel="stylesheet" href="./prefabs.css">
+  </head>
+  <body>
+    <nav class="floating-nav" aria-label="Site">
+      <a href="../">Home</a>
+      <a href="../sandbox/">Sandbox</a>
+      <a href="https://github.com/LuckyMonkey/emojistack" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+    <main class="page">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">All Prefabs</p>
+          <h1>Every shipped prefab in one place.</h1>
+          <p class="lede">Search, inspect, and click the snippet to copy it.</p>
+        </div>
+      </header>
+
+      <section class="toolbar">
+        <input id="prefab-search" type="search" placeholder="Search prefabs, bases, overlays, categories">
+        <div class="copy-row">
+          <input id="prefab-copy-output" type="text" readonly>
+          <button id="prefab-copy-button" type="button">Copy</button>
+        </div>
+      </section>
+
+      <section id="prefab-grid" class="prefab-grid"></section>
+    </main>
+
+    <script src="../dist/emojistack.js"></script>
+    <script src="./prefabs.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,59 @@
+/* direct center */
+.s-center { --es-x: 0em; --es-y: 0em; }
+
+/* macro grid */
+.s-tl { --es-x: -0.34em; --es-y: -0.34em; }
+.s-tc { --es-x: 0em; --es-y: -0.34em; }
+.s-tr { --es-x: 0.34em; --es-y: -0.34em; }
+.s-ml { --es-x: -0.34em; --es-y: 0em; }
+.s-mc { --es-x: 0em; --es-y: 0em; }
+.s-mr { --es-x: 0.34em; --es-y: 0em; }
+.s-bl { --es-x: -0.34em; --es-y: 0.34em; }
+.s-bc { --es-x: 0em; --es-y: 0.34em; }
+.s-br { --es-x: 0.34em; --es-y: 0.34em; }
+
+/* micro grid */
+.s-tl-nw { --es-x: -0.45em; --es-y: -0.45em; }
+.s-tl-ne { --es-x: -0.23em; --es-y: -0.45em; }
+.s-tl-sw { --es-x: -0.45em; --es-y: -0.23em; }
+.s-tl-se { --es-x: -0.23em; --es-y: -0.23em; }
+
+.s-tc-nw { --es-x: -0.11em; --es-y: -0.45em; }
+.s-tc-ne { --es-x: 0.11em; --es-y: -0.45em; }
+.s-tc-sw { --es-x: -0.11em; --es-y: -0.23em; }
+.s-tc-se { --es-x: 0.11em; --es-y: -0.23em; }
+
+.s-tr-nw { --es-x: 0.23em; --es-y: -0.45em; }
+.s-tr-ne { --es-x: 0.45em; --es-y: -0.45em; }
+.s-tr-sw { --es-x: 0.23em; --es-y: -0.23em; }
+.s-tr-se { --es-x: 0.45em; --es-y: -0.23em; }
+
+.s-ml-nw { --es-x: -0.45em; --es-y: -0.11em; }
+.s-ml-ne { --es-x: -0.23em; --es-y: -0.11em; }
+.s-ml-sw { --es-x: -0.45em; --es-y: 0.11em; }
+.s-ml-se { --es-x: -0.23em; --es-y: 0.11em; }
+
+.s-mc-nw { --es-x: -0.11em; --es-y: -0.11em; }
+.s-mc-ne { --es-x: 0.11em; --es-y: -0.11em; }
+.s-mc-sw { --es-x: -0.11em; --es-y: 0.11em; }
+.s-mc-se { --es-x: 0.11em; --es-y: 0.11em; }
+
+.s-mr-nw { --es-x: 0.23em; --es-y: -0.11em; }
+.s-mr-ne { --es-x: 0.45em; --es-y: -0.11em; }
+.s-mr-sw { --es-x: 0.23em; --es-y: 0.11em; }
+.s-mr-se { --es-x: 0.45em; --es-y: 0.11em; }
+
+.s-bl-nw { --es-x: -0.45em; --es-y: 0.23em; }
+.s-bl-ne { --es-x: -0.23em; --es-y: 0.23em; }
+.s-bl-sw { --es-x: -0.45em; --es-y: 0.45em; }
+.s-bl-se { --es-x: -0.23em; --es-y: 0.45em; }
+
+.s-bc-nw { --es-x: -0.11em; --es-y: 0.23em; }
+.s-bc-ne { --es-x: 0.11em; --es-y: 0.23em; }
+.s-bc-sw { --es-x: -0.11em; --es-y: 0.45em; }
+.s-bc-se { --es-x: 0.11em; --es-y: 0.45em; }
+
+.s-br-nw { --es-x: 0.23em; --es-y: 0.23em; }
+.s-br-ne { --es-x: 0.45em; --es-y: 0.23em; }
+.s-br-sw { --es-x: 0.23em; --es-y: 0.45em; }
+.s-br-se { --es-x: 0.45em; --es-y: 0.45em; }

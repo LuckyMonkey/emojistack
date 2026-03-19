@@ -1,0 +1,190 @@
+:root {
+  color-scheme: light;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --ink: #181411;
+  --muted: #655d56;
+  --line: rgb(24 20 17 / 0.12);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgb(255 216 207 / 0.36), transparent 28%),
+    radial-gradient(circle at top right, rgb(214 236 255 / 0.3), transparent 26%),
+    linear-gradient(180deg, #fffaf5, #f4ece4);
+}
+
+a,
+button,
+input {
+  font: inherit;
+}
+
+.floating-nav {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 20;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.floating-nav a {
+  display: inline-block;
+  padding: 0.74rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.82);
+  color: inherit;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+}
+
+.page {
+  width: min(1380px, calc(100vw - 28px));
+  margin: 0 auto;
+  padding: 88px 0 36px;
+}
+
+.masthead,
+.toolbar,
+.prefab-card {
+  border-radius: 28px;
+  border: 1px solid var(--line);
+  background: rgb(255 252 247 / 0.86);
+  box-shadow: 0 22px 60px rgb(83 53 28 / 0.08);
+}
+
+.masthead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  padding: 26px;
+  background:
+    linear-gradient(135deg, rgb(255 255 255 / 0.84), rgb(255 242 234 / 0.9)),
+    linear-gradient(135deg, #ffd7ca, #d8f1e2);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.76rem;
+  color: #8f3957;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.6rem, 6vw, 5.2rem);
+  line-height: 0.92;
+}
+
+.lede {
+  color: var(--muted);
+}
+
+button {
+  display: inline-block;
+  padding: 0.74rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.84);
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.toolbar {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+  margin: 18px 0;
+}
+
+.toolbar input {
+  width: 100%;
+  padding: 0.88rem 0.94rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgb(255 255 255 / 0.92);
+}
+
+.copy-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+}
+
+#prefab-copy-output {
+  font-family: "IBM Plex Mono", "Cascadia Mono", monospace;
+}
+
+.prefab-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.prefab-card {
+  display: grid;
+  gap: 12px;
+  place-items: center;
+  padding: 18px;
+  text-align: center;
+}
+
+.prefab-card .es {
+  font-size: 108px;
+}
+
+.prefab-card strong {
+  font-family: "IBM Plex Mono", "Cascadia Mono", monospace;
+  font-size: 0.84rem;
+}
+
+.prefab-card span {
+  color: var(--muted);
+}
+
+.prefab-card code {
+  display: inline-block;
+  padding: 0.85rem 0.95rem;
+  border-radius: 16px;
+  background: rgb(255 255 255 / 0.84);
+  border: 1px solid var(--line);
+  font-family: "IBM Plex Mono", "Cascadia Mono", monospace;
+  font-size: 0.84rem;
+  cursor: pointer;
+}
+
+.prefab-card.is-hidden {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .prefab-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .page {
+    width: min(100vw - 18px, 100%);
+  }
+
+  .floating-nav {
+    left: 18px;
+    right: 18px;
+  }
+
+  .masthead,
+  .copy-row,
+  .prefab-grid {
+    grid-template-columns: 1fr;
+  }
+}
