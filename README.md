@@ -8,6 +8,37 @@ Live demo: https://luckymonkey.github.io/emojistack/
 
 Third-party notice: Emoji names and group metadata are generated from [`unicode-emoji-json`](https://github.com/muan/unicode-emoji-json) by Mu-An Chiou. See [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md).
 
+## Use On Your Site
+
+Install it as a normal frontend package:
+
+```bash
+npm install emojistack
+```
+
+Then ship the bundled assets from your app or static pipeline:
+
+```html
+<link rel="stylesheet" href="/node_modules/emojistack/dist/emojistack.css">
+<link rel="stylesheet" href="/node_modules/emojistack/dist/emojistack-prefabs.css">
+<script src="/node_modules/emojistack/dist/emojistack.js"></script>
+```
+
+If your bundler supports CSS imports, you can also pull the files in directly:
+
+```js
+import "emojistack/dist/emojistack.css";
+import "emojistack/dist/emojistack-prefabs.css";
+import "emojistack/dist/emojistack.js";
+```
+
+Stacks built in the sandbox copy out as normal classes, so you can paste them straight into your site:
+
+```html
+<i class="es p-strawberry-milk"></i>
+<i class="es 🍼🍓 s-44 sm"></i>
+```
+
 ## Why This Exists
 
 Sometimes the right icon is not a single icon. Sometimes it is a bottle with a strawberry on it, a laptop on fire, or a folder with a skull stamped onto it. EmojiStack exists for that very specific, slightly unreasonable, but actually useful case.

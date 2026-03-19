@@ -17,13 +17,24 @@
 
   function renderReadme(md) {
     const lines = md.split(/\r?\n/);
-    const stopHeadings = new Set(["## Usage", "## Install", "## Development", "## File Structure"]);
+    const stopHeadings = new Set([
+      "## Placement Classes",
+      "## Alias System",
+      "## Prefabs",
+      "## Remote Prefab Feed",
+      "## Sandbox Guide",
+      "## Prefab Creation Guide",
+      "## Extending The Emoji Registry",
+      "## Extending The Prefab Library",
+      "## Browser Compatibility",
+      "## Development Setup",
+      "## File Structure"
+    ]);
     const chunks = [];
     let inList = false;
     let inCode = false;
     let codeLines = [];
     let paragraph = [];
-    let paragraphCount = 0;
 
     function closeList() {
       if (inList) {
@@ -44,7 +55,6 @@
       if (paragraph.length) {
         chunks.push(`<p>${escapeHtml(paragraph.join(" "))}</p>`);
         paragraph = [];
-        paragraphCount += 1;
       }
     }
 
@@ -82,9 +92,6 @@
       }
 
       if (line.startsWith("## ")) {
-        if (paragraphCount >= 3) {
-          break;
-        }
         closeParagraph();
         closeList();
         chunks.push(`<h3>${escapeHtml(line.slice(3))}</h3>`);
