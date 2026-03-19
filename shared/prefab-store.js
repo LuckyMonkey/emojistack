@@ -16,6 +16,8 @@
   };
   const CACHE_KEY = `emojistack:prefabs:${config.endpoint || "built-in"}`;
   const CACHE_TTL_MS = Number(config.cacheTtlMs) > 0 ? Number(config.cacheTtlMs) : 1000 * 60 * 60 * 12;
+  const SAVE_RETRY_DELAY_MS = Number(config.saveRetryDelayMs) > 0 ? Number(config.saveRetryDelayMs) : 900;
+  const SAVE_RETRY_COUNT = Number(config.saveRetryCount) > 0 ? Number(config.saveRetryCount) : 3;
 
   let prefabs = builtIns.slice();
   let loadPromise = null;
@@ -281,6 +283,25 @@
     return loadPromise;
   }
 
+  function delay(ms) {
+    return new Promise((resolve) => {
+      global.setTimeout(resolve, ms);
+    });
+  }
+
+  async function refreshUntilVisible(name) {
+    for (let attempt = 0; attempt < SAVE_RETRY_COUNT; attempt += 1) {
+      const list = await loadPrefabs({ force: true });
+      const hit = list.find((entry) => entry.name === name);
+      if (hit) {
+        return hit;
+      }
+      await delay(SAVE_RETRY_DELAY_MS);
+    }
+
+    throw new Error("The prefab save request was sent, but the updated sheet row did not appear yet.");
+  }
+
   async function savePrefab(prefab) {
     if (!config.endpoint) {
       throw new Error("Prefab API endpoint is not configured.");
@@ -301,16 +322,22 @@
       opacity: typeof prefab.opacity === "number" ? prefab.opacity : 1
     };
 
-    const response = await fetchJson(config.endpoint, {
-      method: "POST",
-      headers: {
-        "Content-Type": "text/plain;charset=utf-8"
-      },
-      body: JSON.stringify(payload)
-    });
+    try {
+      await global.fetch(config.endpoint, {
+        method: "POST",
+        mode: "no-cors",
+        redirect: "follow",
+        body: JSON.stringify(payload)
+      });
+    } catch (error) {
+      // Even if the browser cannot read the POST response, the write may still land.
+    }
 
-    await loadPrefabs({ force: true });
-    return response;
+    const saved = await refreshUntilVisible(payload.name);
+    return {
+      ok: true,
+      prefab: saved
+    };
   }
 
   function getPrefabs() {

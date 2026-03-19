@@ -45,8 +45,9 @@ function testGeneratedFiles() {
   assert(/\[class~="🍼🍓"\]\s*\{/.test(prefabCss), "Missing pair shorthand selector");
   assert(sandboxHtml.includes('id="prefab-name"'), "Missing sandbox prefab name input");
   assert(sandboxJs.includes("defaultPrefabName"), "Missing sandbox default prefab naming");
-  assert(storeJs.includes("text/plain;charset=utf-8"), "Prefab store should use simple POST content type");
   assert(storeJs.includes("localStorage"), "Prefab store should cache prefabs locally");
+  assert(storeJs.includes('mode: "no-cors"'), "Prefab store should use no-cors save flow");
+  assert(storeJs.includes("refreshUntilVisible"), "Prefab store should verify saves with a follow-up GET");
 }
 
 function testPositionGeometry() {
