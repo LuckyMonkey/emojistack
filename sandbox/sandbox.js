@@ -435,10 +435,10 @@
       source = "remote";
       state.prefabName = record.name;
       el.prefabName.value = record.name;
-      if (response?.transport === "query") {
+      if (response?.transport === "query-iframe") {
         setStatus(`Saved ${record.name} to the sheet.`);
       } else {
-        setStatus(`Saved ${record.name} to the sheet. Query save is not live yet, so the editor used the POST fallback.`);
+        setStatus(`Saved ${record.name} to the sheet. Browser navigation save failed, so the editor used the POST fallback.`);
       }
       redraw();
     } catch (error) {

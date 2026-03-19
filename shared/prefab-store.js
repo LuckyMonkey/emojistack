@@ -323,13 +323,53 @@
     return `${config.endpoint}?${params.toString()}`;
   }
 
-  async function saveViaGet(payload) {
-    const response = await fetchJson(buildSaveUrl(payload));
-    if (response && response.ok && response.prefab) {
-      clearCache();
-      return response;
+  async function saveViaIframe(payload) {
+    if (typeof document === "undefined" || !document.body) {
+      throw new Error("Iframe save is not available in this environment.");
     }
-    throw new Error("The sheet save endpoint did not confirm the prefab write.");
+
+    const iframe = document.createElement("iframe");
+    iframe.hidden = true;
+    iframe.setAttribute("aria-hidden", "true");
+    iframe.style.display = "none";
+
+    const cleanup = () => {
+      iframe.onload = null;
+      iframe.onerror = null;
+      if (iframe.parentNode) {
+        iframe.parentNode.removeChild(iframe);
+      }
+    };
+
+    const completion = new Promise((resolve, reject) => {
+      const timer = global.setTimeout(() => {
+        cleanup();
+        reject(new Error("The browser could not complete the Google Sheets save navigation."));
+      }, config.requestTimeoutMs || 10000);
+
+      iframe.onload = () => {
+        global.clearTimeout(timer);
+        cleanup();
+        resolve();
+      };
+
+      iframe.onerror = () => {
+        global.clearTimeout(timer);
+        cleanup();
+        reject(new Error("The browser blocked the Google Sheets save navigation."));
+      };
+    });
+
+    document.body.appendChild(iframe);
+    iframe.src = buildSaveUrl(payload);
+    await completion;
+
+    const saved = await refreshUntilVisible(payload.name);
+    return {
+      ok: true,
+      prefab: saved,
+      transport: "query-iframe"
+    };
   }
 
   async function saveViaPostFallback(payload) {
@@ -373,8 +413,7 @@
     };
 
     try {
-      const result = await saveViaGet(payload);
-      return Object.assign({ transport: "query" }, result);
+      return await saveViaIframe(payload);
     } catch (error) {
       return saveViaPostFallback(payload);
     }
