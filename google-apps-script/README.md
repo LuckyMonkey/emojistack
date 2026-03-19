@@ -33,8 +33,10 @@ Setup:
 
 Notes:
 - `doGet` returns `{ ok, prefabs, count }`.
-- `doPost` upserts by `name`.
+- `doGet?action=save&...` upserts by `name`.
+- `doPost` still works as a fallback.
 - There is no delete route.
 - The script enforces a global daily submission cap with `DAILY_SUBMISSION_LIMIT`.
 - The script validates alias names, 7x7 grid positions, numeric bounds, and rotate/unit values before writing.
-- The frontend saves with a simple text payload to avoid CORS preflight issues from GitHub Pages.
+- The preferred save path is now query-string based because it is more reliable from GitHub Pages.
+- After changing `Code.gs`, redeploy the Apps Script web app so the new `doGet?action=save` path is live.

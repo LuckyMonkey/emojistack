@@ -46,7 +46,8 @@ function testGeneratedFiles() {
   assert(sandboxHtml.includes('id="prefab-name"'), "Missing sandbox prefab name input");
   assert(sandboxJs.includes("defaultPrefabName"), "Missing sandbox default prefab naming");
   assert(storeJs.includes("localStorage"), "Prefab store should cache prefabs locally");
-  assert(storeJs.includes('mode: "no-cors"'), "Prefab store should use no-cors save flow");
+  assert(storeJs.includes('params.set("action", "save")'), "Prefab store should support query-string saves");
+  assert(storeJs.includes('mode: "no-cors"'), "Prefab store should keep the POST fallback");
   assert(storeJs.includes("refreshUntilVisible"), "Prefab store should verify saves with a follow-up GET");
 }
 

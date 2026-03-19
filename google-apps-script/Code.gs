@@ -22,7 +22,11 @@ const HEADERS = [
   "updatedAt"
 ];
 
-function doGet() {
+function doGet(event) {
+  if (isSaveRequest_(event)) {
+    return savePrefab_(event.parameter || {});
+  }
+
   const rows = readPrefabs_();
   return json_({
     ok: true,
@@ -33,12 +37,16 @@ function doGet() {
 
 function doPost(event) {
   const payload = parsePayload_(event);
+  return savePrefab_(payload);
+}
+
+function savePrefab_(input) {
   const lock = LockService.getScriptLock();
   lock.waitLock(5000);
 
   try {
     enforceDailyLimit_();
-    const prefab = normalizePrefab_(payload);
+    const prefab = normalizePrefab_(input);
     upsertPrefab_(prefab);
     incrementDailyCount_();
 
@@ -50,6 +58,11 @@ function doPost(event) {
   } finally {
     lock.releaseLock();
   }
+}
+
+function isSaveRequest_(event) {
+  const action = String(event && event.parameter && event.parameter.action || "");
+  return action.toLowerCase() === "save";
 }
 
 function readPrefabs_() {

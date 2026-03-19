@@ -172,6 +172,18 @@
     }
   }
 
+  function clearCache() {
+    if (typeof localStorage === "undefined") {
+      return;
+    }
+
+    try {
+      localStorage.removeItem(CACHE_KEY);
+    } catch (error) {
+      // Ignore storage failures.
+    }
+  }
+
   function describeEndpointFailure(response, bodyText) {
     const location = response?.url || "";
     const contentType = response?.headers?.get?.("content-type") || "";
@@ -302,6 +314,44 @@
     throw new Error("The prefab save request was sent, but the updated sheet row did not appear yet.");
   }
 
+  function buildSaveUrl(payload) {
+    const params = new URLSearchParams();
+    params.set("action", "save");
+    Object.entries(payload).forEach(([key, value]) => {
+      params.set(key, String(value));
+    });
+    return `${config.endpoint}?${params.toString()}`;
+  }
+
+  async function saveViaGet(payload) {
+    const response = await fetchJson(buildSaveUrl(payload));
+    if (response && response.ok && response.prefab) {
+      clearCache();
+      return response;
+    }
+    throw new Error("The sheet save endpoint did not confirm the prefab write.");
+  }
+
+  async function saveViaPostFallback(payload) {
+    try {
+      await global.fetch(config.endpoint, {
+        method: "POST",
+        mode: "no-cors",
+        redirect: "follow",
+        body: JSON.stringify(payload)
+      });
+    } catch (error) {
+      // Even if the browser cannot read the POST response, the write may still land.
+    }
+
+    const saved = await refreshUntilVisible(payload.name);
+    return {
+      ok: true,
+      prefab: saved,
+      transport: "post-fallback"
+    };
+  }
+
   async function savePrefab(prefab) {
     if (!config.endpoint) {
       throw new Error("Prefab API endpoint is not configured.");
@@ -323,21 +373,11 @@
     };
 
     try {
-      await global.fetch(config.endpoint, {
-        method: "POST",
-        mode: "no-cors",
-        redirect: "follow",
-        body: JSON.stringify(payload)
-      });
+      const result = await saveViaGet(payload);
+      return Object.assign({ transport: "query" }, result);
     } catch (error) {
-      // Even if the browser cannot read the POST response, the write may still land.
+      return saveViaPostFallback(payload);
     }
-
-    const saved = await refreshUntilVisible(payload.name);
-    return {
-      ok: true,
-      prefab: saved
-    };
   }
 
   function getPrefabs() {

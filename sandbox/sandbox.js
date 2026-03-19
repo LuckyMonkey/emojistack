@@ -428,16 +428,21 @@
     }
 
     const record = currentRecord();
+    setStatus("Saving to the Google sheet...");
     try {
-      await store.savePrefab(record);
+      const response = await store.savePrefab(record);
       await loadCatalog({ force: true });
       source = "remote";
       state.prefabName = record.name;
       el.prefabName.value = record.name;
-      setStatus(`Saved ${record.name} to the sheet.`);
+      if (response?.transport === "query") {
+        setStatus(`Saved ${record.name} to the sheet.`);
+      } else {
+        setStatus(`Saved ${record.name} to the sheet. Query save is not live yet, so the editor used the POST fallback.`);
+      }
       redraw();
     } catch (error) {
-      setStatus(error.message || "Could not save prefab.");
+      setStatus(`${error.message || "Could not save prefab."} If you just changed Code.gs, redeploy the Apps Script web app and use the new /exec URL.`);
     }
   }
 
