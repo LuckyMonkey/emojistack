@@ -163,7 +163,7 @@ Alias classes map to the same emoji registry used by the runtime, the sandbox, a
 
 ## Prefabs
 
-EmojiStack ships with 68 starter prefabs across drinks, food, storage, cursed/funny, tech, and mood/symbol categories.
+EmojiStack ships with 80 starter prefabs across drinks, food, storage, cursed/funny, tech, and mood/symbol categories.
 
 Examples:
 
@@ -188,7 +188,21 @@ Examples:
 - `p-rat-bucket`
 - `p-frog-crown`
 
-Prefab classes are pure CSS. They set base, overlay, position, scale, opacity, and rotation variables directly.
+Prefab classes are pure CSS for the bundled starter set, and the runtime can also resolve `p-*` classes from a configured remote prefab feed.
+
+## Remote Prefab Feed
+
+EmojiStack now includes a Google Sheets + Apps Script handoff for prefab loading and saving.
+
+Files included for that flow:
+
+- [`config/prefab-api.js`](./config/prefab-api.js)
+- [`google-apps-script/Code.gs`](./google-apps-script/Code.gs)
+- [`google-apps-script/prefabs-seed.csv`](./google-apps-script/prefabs-seed.csv)
+- [`google-apps-script/prefabs-seed.json`](./google-apps-script/prefabs-seed.json)
+- [`google-apps-script/README.md`](./google-apps-script/README.md)
+
+When `endpoint` is configured in `config/prefab-api.js`, the homepage spinner, prefab browser, sandbox loader, and sandbox save button all use that remote feed.
 
 ## Sandbox Guide
 
@@ -201,11 +215,9 @@ The sandbox supports:
 - full 7x7 placement board
 - separate `S`, `M`, and `L` size controls
 - drag placement for movable sizes
-- starter prefab browser
-- local prefab library
-- localStorage persistence
-
-Local prefabs are not magically bundled into `dist/emojistack-prefabs.css`. Save the layout you want in the editor, then add it back into the prefab source list if you want it shipped.
+- remote prefab browser
+- save-to-sheet workflow
+- local base/sub default placement memory
 
 ## Prefab Creation Guide
 
@@ -214,10 +226,9 @@ You can create prefabs in two ways.
 ### In the sandbox
 
 1. Pick base emoji, overlay emoji, position, and size.
-2. Enter a prefab name.
-3. Save it locally.
-4. Copy the generated CSS class.
-5. Use it as `<i class="es p-your-name"></i>`.
+2. Save it to the configured prefab feed.
+3. Copy the generated class.
+4. Use it as `<i class="es p-your-name"></i>`.
 
 ### In source
 
@@ -334,6 +345,8 @@ What each script does:
 
 ```text
 .
+├── config
+│   └── prefab-api.js
 ├── data
 │   ├── emojis.js
 │   ├── positions.js
@@ -347,16 +360,25 @@ What each script does:
 │   ├── emojistack.css
 │   ├── emojistack.js
 │   └── emojistack.min.css
+├── google-apps-script
+│   ├── Code.gs
+│   ├── README.md
+│   ├── prefabs-seed.csv
+│   └── prefabs-seed.json
 ├── sandbox
 │   ├── index.html
 │   ├── sandbox.css
 │   └── sandbox.js
 ├── scripts
 │   ├── build.js
+│   ├── export-prefab-seed.js
 │   ├── generate-emojis.js
 │   ├── generate-prefabs.js
-│   ├── test.js
-│   └── serve.js
+│   ├── generate-positions.js
+│   ├── serve.js
+│   └── test.js
+├── shared
+│   └── prefab-store.js
 ├── src
 │   ├── aliases.generated.css
 │   ├── base.css

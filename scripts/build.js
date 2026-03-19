@@ -3,6 +3,7 @@ const path = require("path");
 const generateEmojis = require("./generate-emojis");
 const generatePositions = require("./generate-positions");
 const generatePrefabs = require("./generate-prefabs");
+const exportPrefabSeed = require("./export-prefab-seed");
 
 const ROOT = path.resolve(__dirname, "..");
 const SRC = path.join(ROOT, "src");
@@ -29,6 +30,7 @@ function build() {
   generateEmojis();
   generatePositions();
   generatePrefabs();
+  exportPrefabSeed();
   ensureDist();
 
   const coreCss = [

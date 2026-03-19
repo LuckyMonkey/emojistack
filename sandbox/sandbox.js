@@ -1,12 +1,9 @@
 (function () {
-  const STORAGE_PREFABS = "emojistack:local-prefabs";
   const STORAGE_BASE_DEFAULTS = "emojistack:base-defaults";
   const STORAGE_SUB_DEFAULTS = "emojistack:sub-defaults";
-
+  const store = window.EmojiStackPrefabStore;
   const emojis = window.EmojiStack?.data?.emojis || [];
   const positions = (window.EmojiStack?.data?.positions || []).slice().sort((left, right) => left.id.localeCompare(right.id));
-  const starters = window.EmojiStack?.prefabs || [];
-
   const emojiByAlias = Object.fromEntries(emojis.map((entry) => [entry.alias, entry]));
   const positionById = Object.fromEntries(positions.map((entry) => [entry.id, entry]));
   const SIZE_MAP = {
@@ -14,13 +11,26 @@
     medium: 0.58,
     large: 0.82
   };
+  const params = new URLSearchParams(window.location.search);
+  const PREVIEW_VAR_KEYS = [
+    "--es-base",
+    "--es-sub",
+    "--es-base-ox",
+    "--es-base-oy",
+    "--es-x",
+    "--es-y",
+    "--es-sub-size",
+    "--es-sub-ox",
+    "--es-sub-oy",
+    "--es-rotate",
+    "--es-opacity"
+  ];
 
   const el = {
     prefabSearch: document.getElementById("prefab-search"),
     prefabJump: document.getElementById("prefab-jump"),
     duplicate: document.getElementById("duplicate-prefab"),
     save: document.getElementById("save-prefab"),
-    remove: document.getElementById("delete-prefab"),
     reset: document.getElementById("reset-button"),
     status: document.getElementById("status-line"),
     previewHero: document.getElementById("preview-hero"),
@@ -50,27 +60,13 @@
     prefabName: ""
   };
 
-  let localPrefabs = loadJson(STORAGE_PREFABS, []);
   let baseDefaults = loadJson(STORAGE_BASE_DEFAULTS, {});
   let subDefaults = loadJson(STORAGE_SUB_DEFAULTS, {});
+  let catalogPrefabs = [];
   let state = { ...defaults };
-  let source = "starter";
+  let source = "custom";
   let dragPointerId = null;
   let dragAnchor = { x: 0, y: 0 };
-  const params = new URLSearchParams(window.location.search);
-  const PREVIEW_VAR_KEYS = [
-    "--es-base",
-    "--es-sub",
-    "--es-base-ox",
-    "--es-base-oy",
-    "--es-x",
-    "--es-y",
-    "--es-sub-size",
-    "--es-sub-ox",
-    "--es-sub-oy",
-    "--es-rotate",
-    "--es-opacity"
-  ];
 
   function loadJson(key, fallback) {
     try {
@@ -81,8 +77,7 @@
     }
   }
 
-  function persist() {
-    localStorage.setItem(STORAGE_PREFABS, JSON.stringify(localPrefabs));
+  function persistDefaults() {
     localStorage.setItem(STORAGE_BASE_DEFAULTS, JSON.stringify(baseDefaults));
     localStorage.setItem(STORAGE_SUB_DEFAULTS, JSON.stringify(subDefaults));
   }
@@ -95,22 +90,21 @@
       .join(" ");
   }
 
-  function sanitizeName(value) {
-    const cleaned = String(value || "custom-stack")
+  function normalizeText(value) {
+    return String(value || "")
       .toLowerCase()
-      .replace(/[^a-z0-9-]+/g, "-")
-      .replace(/^-+|-+$/g, "");
-    return cleaned || "custom-stack";
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  }
+
+  function sanitizeName(value) {
+    return store ? store.sanitizeName(value) : String(value || "").toLowerCase();
   }
 
   function inferSizeMode(subSize) {
-    if (subSize >= 0.72) {
-      return "large";
-    }
-    if (subSize <= 0.4) {
-      return "small";
-    }
-    return "medium";
+    return store ? store.inferSizeMode(subSize) : "medium";
   }
 
   function currentBaseDefault() {
@@ -151,6 +145,13 @@
     }
   }
 
+  function selectedPrefab() {
+    if (source !== "remote" || !state.prefabName) {
+      return null;
+    }
+    return catalogPrefabs.find((entry) => entry.name === sanitizeName(state.prefabName)) || null;
+  }
+
   function currentDefinition() {
     const base = emojiByAlias[state.base];
     const overlay = emojiByAlias[state.overlay];
@@ -165,10 +166,10 @@
         position,
         x: typeof prefab.x === "number" ? prefab.x : position.x,
         y: typeof prefab.y === "number" ? prefab.y : position.y,
-        unit: prefab.xUnit || prefab.unit || position.unit || "%",
+        unit: prefab.unit || prefab.xUnit || position.unit || "%",
         subSize: prefab.subSize || SIZE_MAP[state.sizeMode],
         rotate: prefab.rotate || "0deg",
-        opacity: prefab.opacity || 1
+        opacity: typeof prefab.opacity === "number" ? prefab.opacity : 1
       };
     }
 
@@ -191,7 +192,6 @@
     return {
       name: def.name,
       label: titleize(def.name),
-      category: "custom",
       base: def.base.alias,
       overlay: def.overlay.alias,
       position: def.position.id,
@@ -201,29 +201,17 @@
       x: def.x,
       y: def.y,
       unit: def.unit,
-      sizeMode: inferSizeMode(def.subSize),
+      sizeMode: state.sizeMode,
       subSize: def.subSize,
       opacity: def.opacity,
       rotate: def.rotate
     };
   }
 
-  function selectedPrefab() {
-    if (source === "custom" || !state.prefabName) {
-      return null;
-    }
-    const list = source === "local" ? localPrefabs : starters;
-    return list.find((entry) => entry.name === sanitizeName(state.prefabName)) || null;
-  }
-
   function currentClassString() {
     const prefab = selectedPrefab();
-
-    if (prefab && state.base === prefab.base && state.overlay === prefab.overlay && state.position === prefab.position) {
-      const prefabSize = prefab.sizeMode || inferSizeMode(prefab.subSize || SIZE_MAP.medium);
-      if (prefabSize === state.sizeMode) {
-        return `es p-${prefab.name}`;
-      }
+    if (prefab) {
+      return `es p-${prefab.name}`;
     }
 
     const base = emojiByAlias[state.base];
@@ -234,6 +222,11 @@
 
   function setStatus(text) {
     el.status.textContent = text;
+  }
+
+  function setCustomState() {
+    source = "custom";
+    state.prefabName = "";
   }
 
   function copyText(value) {
@@ -277,17 +270,11 @@
   }
 
   function filteredPrefabs() {
-    const query = el.prefabSearch.value.trim().toLowerCase();
-    return starters
-      .map((prefab) => ({ prefab, source: "starter" }))
-      .concat(localPrefabs.map((prefab) => ({ prefab, source: "local" })))
-      .filter(({ prefab, source: kind }) => {
-        if (!query) {
-          return true;
-        }
-        const text = `${prefab.name} ${prefab.label || ""} ${prefab.base} ${prefab.overlay} ${kind}`.toLowerCase();
-        return text.includes(query);
-      });
+    const query = normalizeText(el.prefabSearch.value);
+    if (!query) {
+      return catalogPrefabs;
+    }
+    return catalogPrefabs.filter((prefab) => prefab.searchText.includes(query));
   }
 
   function renderPrefabJump() {
@@ -296,35 +283,17 @@
 
     const placeholder = document.createElement("option");
     placeholder.value = "";
-    placeholder.textContent = "Pick a prefab to edit";
+    placeholder.textContent = items.length ? "Pick a prefab to edit" : "No prefabs found";
     placeholder.selected = source === "custom" || !state.prefabName;
     el.prefabJump.appendChild(placeholder);
 
-    if (!items.length) {
-      return;
-    }
-
-    ["starter", "local"].forEach((kind) => {
-      const matches = items.filter((item) => item.source === kind);
-      if (!matches.length) {
-        return;
-      }
-      const group = document.createElement("optgroup");
-      group.label = kind === "starter" ? "Starter prefabs" : "Local prefabs";
-      matches.forEach(({ prefab }) => {
-        const option = document.createElement("option");
-        option.value = `${kind}:${prefab.name}`;
-        option.textContent = `${prefab.label || titleize(prefab.name)} · ${prefab.name}`;
-        option.selected = source === kind && prefab.name === sanitizeName(state.prefabName);
-        group.appendChild(option);
-      });
-      el.prefabJump.appendChild(group);
+    items.forEach((prefab) => {
+      const option = document.createElement("option");
+      option.value = prefab.name;
+      option.textContent = `${prefab.label} · ${prefab.name}`;
+      option.selected = source === "remote" && prefab.name === sanitizeName(state.prefabName);
+      el.prefabJump.appendChild(option);
     });
-  }
-
-  function setCustomState() {
-    source = "custom";
-    state.prefabName = "";
   }
 
   function positionCellText(positionId) {
@@ -353,18 +322,22 @@
 
   function applyPreview() {
     const def = currentDefinition();
+    const prefab = selectedPrefab();
     const icon = el.previewMain;
     const heightSize = Math.max(180, Math.floor(window.innerHeight * 0.44));
     const widthSize = window.innerWidth > 1220
       ? Math.max(220, Math.floor(window.innerWidth * 0.27))
       : Math.max(220, Math.floor(window.innerWidth * 0.6));
     const size = Math.min(320, heightSize, widthSize);
-    const prefab = selectedPrefab();
 
     PREVIEW_VAR_KEYS.forEach((key) => icon.style.removeProperty(key));
     icon.style.fontSize = `${size}px`;
+
     if (prefab) {
       icon.className = `es p-${prefab.name}`;
+      if (window.EmojiStack) {
+        window.EmojiStack.refresh(icon);
+      }
     } else {
       icon.className = "es";
       icon.style.setProperty("--es-base", JSON.stringify(def.base.emoji));
@@ -382,11 +355,10 @@
 
     el.previewTitle.textContent = prefab ? `p-${prefab.name}` : `${def.base.label} + ${def.overlay.label}`;
     el.previewSubtitle.textContent = prefab
-      ? `${prefab.label || titleize(prefab.name)} · ${def.position.label}`
-      : `${def.position.label}`;
+      ? `${prefab.label} · ${def.position.label} · ${titleize(state.sizeMode)}`
+      : `${def.position.label} · ${titleize(state.sizeMode)}`;
     el.positionNote.textContent = def.position.label;
     el.previewHero.title = "Drag the top emoji to place it";
-    el.previewHero.classList.remove("is-static");
   }
 
   function syncUi() {
@@ -405,70 +377,67 @@
     el.subDefaultNote.textContent = subDefault ? `Sub default: ${positionById[subDefault.position].label}` : "No sub default.";
     el.clearBaseDefault.disabled = !baseDefault;
     el.clearSubDefault.disabled = !subDefault;
-    el.remove.disabled = source !== "local";
     el.classOutput.textContent = currentClassString();
     el.copyClass.title = `Click to copy ${currentClassString()}`;
   }
 
   function redraw() {
     ensureValidState();
-    persist();
+    persistDefaults();
     syncRuntimeDefaults();
     syncUi();
     applyPreview();
   }
 
-  function loadPrefab(prefab, kind, duplicate) {
+  function loadPrefab(prefab) {
     state.base = prefab.base;
     state.overlay = prefab.overlay;
     state.position = positionById[prefab.position] ? prefab.position : "s-44";
     state.sizeMode = prefab.sizeMode || inferSizeMode(prefab.subSize || SIZE_MAP.medium);
-    state.prefabName = duplicate ? `${prefab.name}-copy` : prefab.name;
-    source = duplicate ? "custom" : kind;
-    setStatus(duplicate ? "Duplicated." : `Loaded ${prefab.label || titleize(prefab.name)}.`);
+    state.prefabName = prefab.name;
+    source = "remote";
+    setStatus(`Loaded ${prefab.label}.`);
     redraw();
   }
 
-  function savePrefab() {
-    const record = currentRecord();
-    const index = localPrefabs.findIndex((entry) => entry.name === record.name);
-    if (index >= 0) {
-      localPrefabs.splice(index, 1, record);
-    } else {
-      localPrefabs.unshift(record);
-    }
-    source = "local";
-    state.prefabName = record.name;
-    setStatus(`Saved ${record.name}.`);
-    redraw();
-  }
-
-  function removePrefab() {
-    const name = sanitizeName(state.prefabName);
-    const index = localPrefabs.findIndex((entry) => entry.name === name);
-    if (index < 0) {
+  async function loadCatalog(options = {}) {
+    if (!store) {
+      catalogPrefabs = window.EmojiStack?.prefabs || [];
       return;
     }
-    localPrefabs.splice(index, 1);
-    source = "starter";
-    setStatus(`Deleted ${name}.`);
-    redraw();
+
+    catalogPrefabs = await store.loadPrefabs(options);
+  }
+
+  async function savePrefab() {
+    if (!store) {
+      setStatus("Prefab store is not available.");
+      return;
+    }
+
+    const record = currentRecord();
+    try {
+      await store.savePrefab(record);
+      await loadCatalog({ force: true });
+      source = "remote";
+      state.prefabName = record.name;
+      setStatus(`Saved ${record.name} to the sheet.`);
+      redraw();
+    } catch (error) {
+      setStatus(error.message || "Could not save prefab.");
+    }
   }
 
   function bind() {
     el.prefabSearch.addEventListener("input", renderPrefabJump);
     el.prefabJump.addEventListener("change", (event) => {
-      if (!event.target.value) {
-        setCustomState();
-        redraw();
+      const prefab = catalogPrefabs.find((entry) => entry.name === event.target.value);
+      if (prefab) {
+        loadPrefab(prefab);
         return;
       }
-      const [kind, name] = String(event.target.value).split(":");
-      const list = kind === "local" ? localPrefabs : starters;
-      const prefab = list.find((entry) => entry.name === name);
-      if (prefab) {
-        loadPrefab(prefab, kind, false);
-      }
+      setCustomState();
+      redraw();
     });
 
     el.base.addEventListener("change", (event) => {
@@ -544,14 +513,32 @@
 
     el.makeBaseDefault.addEventListener("click", () => {
       const record = currentRecord();
-      baseDefaults[state.base] = { position: record.position, x: record.x, y: record.y, unit: record.unit, sizeMode: record.sizeMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
+      baseDefaults[state.base] = {
+        position: record.position,
+        x: record.x,
+        y: record.y,
+        unit: record.unit,
+        sizeMode: record.sizeMode,
+        subSize: record.subSize,
+        opacity: record.opacity,
+        rotate: record.rotate
+      };
       setStatus(`Saved base default for ${state.base}.`);
       redraw();
     });
 
     el.makeSubDefault.addEventListener("click", () => {
       const record = currentRecord();
-      subDefaults[state.overlay] = { position: record.position, x: record.x, y: record.y, unit: record.unit, sizeMode: record.sizeMode, subSize: record.subSize, opacity: 1, rotate: "0deg" };
+      subDefaults[state.overlay] = {
+        position: record.position,
+        x: record.x,
+        y: record.y,
+        unit: record.unit,
+        sizeMode: record.sizeMode,
+        subSize: record.subSize,
+        opacity: record.opacity,
+        rotate: record.rotate
+      };
       setStatus(`Saved sub default for ${state.overlay}.`);
       redraw();
     });
@@ -569,14 +556,14 @@
     });
 
     el.save.addEventListener("click", savePrefab);
-    el.remove.addEventListener("click", removePrefab);
     el.duplicate.addEventListener("click", () => {
       const name = sanitizeName(state.prefabName || `${state.base}-${state.overlay}`);
+      setCustomState();
       state.prefabName = `${name}-copy`;
-      source = "custom";
-      setStatus("Duplicated.");
+      setStatus("Duplicated into the editor.");
       redraw();
     });
+
     el.reset.addEventListener("click", () => {
       state = { ...defaults };
       source = "custom";
@@ -594,18 +581,28 @@
     window.addEventListener("resize", redraw);
   }
 
-  bind();
-  syncRuntimeDefaults();
-  const requestedPrefab = sanitizeName(params.get("prefab") || "");
-  if (requestedPrefab) {
-    const initialPrefab = starters.find((entry) => entry.name === requestedPrefab) || localPrefabs.find((entry) => entry.name === requestedPrefab);
-    if (initialPrefab) {
-      loadPrefab(initialPrefab, starters.some((entry) => entry.name === requestedPrefab) ? "starter" : "local", false);
-    } else {
+  async function boot() {
+    bind();
+    redraw();
+
+    try {
+      await loadCatalog();
+    } catch (error) {
+      setStatus(error.message || "Prefab feed could not load.");
       redraw();
+      return;
     }
-  } else {
-    source = "custom";
+
+    const requestedPrefab = sanitizeName(params.get("prefab") || "");
+    if (requestedPrefab) {
+      const prefab = catalogPrefabs.find((entry) => entry.name === requestedPrefab);
+      if (prefab) {
+        loadPrefab(prefab);
+        return;
+      }
+    }
+
+    setStatus(store?.config?.endpoint ? "Sheet prefabs loaded." : "Using the built-in prefab list until the sheet endpoint is configured.");
     redraw();
   }
 
@@ -615,4 +612,6 @@
     }
     return `${value}em`;
   }
+
+  boot();
 })();

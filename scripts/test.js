@@ -213,7 +213,9 @@ function testRuntime() {
 
   const prefabOnly = makeStubNode("es p-strawberry-milk");
   context.window.EmojiStack.apply(prefabOnly);
-  assert(!prefabOnly._styleMap.has("--es-base"), "Prefab-only element should not be runtime-mutated");
+  assert(prefabOnly._styleMap.get("--es-base") === '"🍼"', "Prefab-only base token failed");
+  assert(prefabOnly._styleMap.get("--es-sub") === '"🍓"', "Prefab-only overlay token failed");
+  assert(prefabOnly._styleMap.get("--es-y") === "0.11em", "Prefab-only prefab y tuning failed");
 }
 
 function main() {

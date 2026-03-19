@@ -9,12 +9,10 @@
     <link rel="stylesheet" href="./demo.css">
   </head>
   <body>
-    <nav class="floating-nav" aria-label="Site">
-      <a href="../">Home</a>
-      <a href="../sandbox/">Sandbox</a>
-      <a href="../prefabs/">All Prefabs</a>
-      <a href="https://github.com/LuckyMonkey/emojistack" target="_blank" rel="noreferrer">GitHub</a>
-    </nav>
+    <div class="topbar">
+      <a class="home-link" href="../" title="Back to home" aria-label="Back to home">⌂</a>
+      <div class="topbar-title">EmojiStack</div>
+    </div>
     <div class="page">
       <header class="masthead">
         <div class="masthead-copy">
@@ -61,6 +59,8 @@
     </div>
 
     <script src="../dist/emojistack.js"></script>
+    <script src="../config/prefab-api.js"></script>
+    <script src="../shared/prefab-store.js"></script>
     <script src="./demo.js"></script>
   </body>
   </html>

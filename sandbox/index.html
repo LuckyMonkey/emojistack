@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="./sandbox.css">
   </head>
   <body>
-    <a class="home-link" href="../" title="Return to home" aria-label="Return to home">⌂</a>
+    <div class="topbar">
+      <a class="home-link topbar-link" href="../" title="Return to home" aria-label="Return to home">⌂</a>
+      <div class="topbar-title">EmojiStack</div>
+    </div>
 
     <div class="shell">
       <main class="workspace">
         <section class="panel picker-panel">
           <div class="picker-head">
-            <input id="prefab-search" type="search" placeholder="Search prefabs" title="Search starter and local prefabs">
+            <input id="prefab-search" type="search" placeholder="Search prefabs" title="Search saved prefabs">
             <select id="prefab-jump" title="Pick a prefab to load"></select>
             <button id="duplicate-prefab" class="quiet-button" type="button" title="Duplicate the current prefab">Duplicate</button>
-            <button id="save-prefab" type="button" title="Save this prefab locally">Save</button>
-            <button id="delete-prefab" class="quiet-button" type="button" title="Delete the current local prefab">Delete</button>
+            <button id="save-prefab" type="button" title="Save this prefab to the sheet">Save</button>
             <button id="reset-button" class="quiet-button" type="button" title="Reset the current editor state">Reset</button>
           </div>
           <p id="status-line" class="status-line">Pick a prefab or build one.</p>
@@ -88,6 +90,8 @@
     </div>
 
     <script src="../dist/emojistack.js"></script>
+    <script src="../config/prefab-api.js"></script>
+    <script src="../shared/prefab-store.js"></script>
     <script src="./sandbox.js"></script>
   </body>
 </html>

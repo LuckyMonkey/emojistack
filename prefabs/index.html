@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="./prefabs.css">
   </head>
   <body>
-    <a class="home-link" href="../" title="Back to home" aria-label="Back to home">⌂</a>
+    <div class="topbar">
+      <a class="home-link topbar-link" href="../" title="Back to home" aria-label="Back to home">⌂</a>
+      <div class="topbar-title">EmojiStack</div>
+    </div>
     <main class="page">
       <section class="toolbar">
         <input id="prefab-search" type="search" placeholder="Search prefabs, bases, overlays">
@@ -23,6 +26,8 @@
     </main>
 
     <script src="../dist/emojistack.js"></script>
+    <script src="../config/prefab-api.js"></script>
+    <script src="../shared/prefab-store.js"></script>
     <script src="./prefabs.js"></script>
   </body>
   </html>

@@ -1,0 +1,38 @@
+# Google Sheets Prefab Feed
+
+Files here are the handoff for moving prefab storage into Google Sheets + Apps Script.
+
+What to copy:
+- `Code.gs`: the web app backend
+- `prefabs-seed.csv`: paste into the `Prefabs` sheet as the initial catalog
+- `prefabs-seed.json`: same data in JSON if you prefer to script the import
+
+Expected sheet columns:
+- `name`
+- `label`
+- `base`
+- `overlay`
+- `position`
+- `sizeMode`
+- `x`
+- `y`
+- `unit`
+- `subSize`
+- `rotate`
+- `opacity`
+- `updatedAt`
+
+Setup:
+1. Create a new Google Sheet.
+2. Add a sheet named `Prefabs`.
+3. Paste `prefabs-seed.csv` into cell `A1`.
+4. Open `Extensions -> Apps Script`.
+5. Replace the default script with `Code.gs`.
+6. Deploy as a web app with access for anyone who should load/save prefabs.
+7. Copy the web app URL into [`config/prefab-api.js`](../config/prefab-api.js) as `endpoint`.
+
+Notes:
+- `doGet` returns `{ ok, prefabs, count }`.
+- `doPost` upserts by `name`.
+- There is no delete route.
+- The script enforces a global daily submission cap with `DAILY_SUBMISSION_LIMIT`.

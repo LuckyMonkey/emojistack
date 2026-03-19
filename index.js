@@ -1,18 +1,18 @@
 (function () {
+  const store = window.EmojiStackPrefabStore;
   const readmeContent = document.getElementById("readme-content");
   const showcaseRoot = document.getElementById("random-showcases");
   const rouletteIcon = document.getElementById("roulette-icon");
   const rouletteNote = document.getElementById("roulette-note");
   const rouletteStage = document.getElementById("roulette-stage");
   const rouletteCopy = document.getElementById("roulette-copy");
-  const prefabs = (window.EmojiStack && window.EmojiStack.prefabs) || [];
   const tones = ["peach", "mint", "butter", "sky", "rose", "lavender"];
+  let prefabs = [];
   let rouletteTimer = null;
   let rouletteActive = false;
-  let rouletteCurrent = null;
 
   function escapeHtml(value) {
-    return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
+    return String(value || "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
   }
 
   function renderReadme(md) {
@@ -120,10 +120,6 @@
     return copy;
   }
 
-  function pairSnippet(prefab) {
-    return `<i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i>`;
-  }
-
   function prefabSnippet(prefab) {
     return `<i class="es p-${prefab.name}"></i>`;
   }
@@ -137,7 +133,6 @@
       return;
     }
 
-    rouletteCurrent = prefab;
     rouletteIcon.className = `es p-${prefab.name}`;
     rouletteIcon.title = prefab.label || prefab.name;
     rouletteStage.title = `${prefab.label || prefab.name} · click to stop and copy`;
@@ -191,12 +186,12 @@
     picked.forEach((prefab, index) => {
       const section = document.createElement("section");
       const tone = tones[index % tones.length];
-      const snippet = pairSnippet(prefab);
+      const snippet = prefabSnippet(prefab);
       section.className = "showcase-panel";
       section.innerHTML =
         `<article class="showcase-card" data-tone="${tone}">` +
         `<div class="showcase-inner">` +
-        `<div class="showcase-icon"><i class="${prefab.baseEmoji}${prefab.overlayEmoji}" title="${escapeHtml(prefab.label || prefab.name)}"></i></div>` +
+        `<div class="showcase-icon"><i class="es p-${prefab.name}" title="${escapeHtml(prefab.label || prefab.name)}"></i></div>` +
         `<code class="showcase-code" title="Click to copy" data-copy="${snippet.replace(/"/g, "&quot;")}">${escapeHtml(snippet)}</code>` +
         `</div>` +
         `</article>`;
@@ -246,9 +241,16 @@
       readmeContent.innerHTML = "<p>README could not be loaded here. Use the GitHub button for the full file.</p>";
     });
 
-  renderShowcases();
-  if (prefabs.length) {
-    renderRoulette(prefabs[0]);
-    startRoulette();
+  async function boot() {
+    prefabs = store ? await store.loadPrefabs() : (window.EmojiStack?.prefabs || []);
+    renderShowcases();
+    if (prefabs.length) {
+      renderRoulette(prefabs[0]);
+      startRoulette();
+    }
   }
+
+  boot().catch(() => {
+    rouletteNote.textContent = "Prefab feed could not load.";
+  });
 })();

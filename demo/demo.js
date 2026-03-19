@@ -1,7 +1,8 @@
 (function () {
+  const store = window.EmojiStackPrefabStore;
   const positions = (window.EmojiStack && window.EmojiStack.data && window.EmojiStack.data.positions) || [];
-  const prefabs = (window.EmojiStack && window.EmojiStack.prefabs) || [];
-  const prefabByName = Object.fromEntries(prefabs.map((prefab) => [prefab.name, prefab]));
+  let prefabs = [];
+  let prefabByName = {};
   const positionDefaults = Object.fromEntries(positions.map((entry) => [entry.id, entry]));
 
   const showcaseEntries = [
@@ -122,11 +123,11 @@
   }
 
   function snippetFromPrefab(prefab) {
-    return `<i class="${prefab.baseEmoji}${prefab.overlayEmoji}"></i>`;
+    return `<i class="es p-${prefab.name}"></i>`;
   }
 
   function classNameFromPrefab(prefab) {
-    return `${prefab.baseEmoji}${prefab.overlayEmoji}`;
+    return `es p-${prefab.name}`;
   }
 
   function renderShowcases() {
@@ -233,15 +234,6 @@
     await copyOutput();
   }
 
-  renderShowcases();
-  renderPositions();
-  renderPrefabs();
-  updateSearch();
-
-  if (window.EmojiStack) {
-    window.EmojiStack.refresh(document);
-  }
-
   searchInput.addEventListener("input", updateSearch);
   copyButton.addEventListener("click", copyOutput);
   document.addEventListener("click", (event) => {
@@ -251,4 +243,19 @@
     }
     copyText(copyNode.dataset.copy);
   });
+
+  async function boot() {
+    prefabs = store ? await store.loadPrefabs() : ((window.EmojiStack && window.EmojiStack.prefabs) || []);
+    prefabByName = Object.fromEntries(prefabs.map((prefab) => [prefab.name, prefab]));
+    renderShowcases();
+    renderPositions();
+    renderPrefabs();
+    updateSearch();
+
+    if (window.EmojiStack) {
+      window.EmojiStack.refresh(document);
+    }
+  }
+
+  boot();
 })();
